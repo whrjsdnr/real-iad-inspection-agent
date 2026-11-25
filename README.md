@@ -161,13 +161,19 @@ final_performance_minmax 타임스탬프(2026-11-24)·FINAL_GUI_VALIDATION/ZIP �
 
 ## 7. GUI 시각 자료
 
-브라우저 스크린샷은 샌드박스 제약으로 미촬영했습니다. 대신 실제 데이터 검증 산출물(소프트웨어 오버레이)을 인용합니다.
+실제 브라우저(Chromium headless)로 촬영한 최신 화면이다(2026-11-25, 개발 게이트웨이 :18080 + Vite :15173 연결, 캡처 18장 오류 0).
 
-- ROI 육안 검증: `reports/part_heatmap/native-roi-review.jpg`, `verify-multi-region.jpg`, `verify-multi-polygon.jpg`
-- 5시점 원본: `reports/part_heatmap/toothbrush-five-views.jpg`
-- 마스크/모델 격자 비교: `reports/gui_validation/spatial-urgent/mv-mask-native-grid-model-comparison.jpg`
-- 지퍼 실제 박스 증거: `reports/gui_validation/spatial-urgent/native-roi-box-proof.png`
-- 카테고리 3D 참조: `reports/gui_validation/category_references.jpg`
+| 화면 | 이미지 |
+|---|---|
+| 인트로 | `docs/images/gui-intro.png` |
+| 대시보드(퓨전 성능 카드·실데이터) | `docs/images/gui-dashboard.png` |
+| 칫솔 3D 표면 히트맵(실제 마스크 N=335·핫스팟) | `docs/images/gui-toothbrush-3d-heatmap.png` |
+| 지퍼 3D 표면 히트맵 | `docs/images/gui-zipper-3d.png` |
+| 개별 제품 근거(C1~C5) | `docs/images/gui-c1-c5-evidence.png` |
+| AI 에이전트 챗봇 | `docs/images/gui-chat.png` |
+
+추가 실데이터 검증 오버레이(소프트웨어 렌더): `reports/part_heatmap/*.jpg`, `reports/gui_validation/spatial-urgent/*.jpg|png`.
+3D 표면 투영은 시각화용 근사 투영이며 실측 물리 좌표 복원이 아니다.
 
 ## 8. 실행 및 재현
 

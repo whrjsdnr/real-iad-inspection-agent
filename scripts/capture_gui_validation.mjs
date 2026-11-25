@@ -38,9 +38,19 @@ try{
  }else await page.getByRole('button',{name:/02.*카메라|카메라 C1/}).first().click().catch(()=>result.skipped.push('Camera-stage step selector unavailable'))
  await shot('five-camera-scene')
  await page.getByRole('button',{name:/대시보드 시작하기/}).click();await page.waitForTimeout(1400);await shot('dashboard')
- const displayModes=page.getByRole('group',{name:'3D 표시 모드'})
- if(await displayModes.count()){for(const mode of ['재질','겹쳐 보기','히트맵']){await displayModes.getByRole('button',{name:mode,exact:true}).click();await page.waitForTimeout(400);await shot(`3d-${mode==='재질'?'material':mode==='히트맵'?'heatmap':'overlay'}`)}await displayModes.getByRole('button',{name:'겹쳐 보기',exact:true}).click()}
- const selector=page.getByRole('combobox').first();const available=await selector.locator('option').evaluateAll(nodes=>nodes.map(n=>n.value))
+ const surface=page.getByRole('group',{name:'3D 표면 히트맵 제어'})
+ if(await surface.count()){
+  const sourceSel=surface.getByRole('combobox',{name:'3D 표면 데이터'})
+  if(await sourceSel.count()){
+   const opts=await sourceSel.locator('option').evaluateAll(nodes=>nodes.map(n=>({v:n.value,d:n.disabled})))
+   for(const o of opts.filter(o=>!o.d)){await sourceSel.selectOption(o.v);await page.waitForTimeout(700);await shot(`3d-surface-${o.v}`)}
+  }
+  const opacity=surface.getByRole('slider',{name:'3D 표면 투명도'})
+  if(await opacity.count()){await opacity.fill('0.5');await page.waitForTimeout(400);await shot('3d-opacity-50')}
+  const viewSel=surface.getByRole('combobox',{name:'3D 표면 데이터 시점'})
+  if(await viewSel.count()){await viewSel.selectOption('C2');await page.waitForTimeout(700);await shot('3d-view-C2')}
+ }
+ const selector=page.getByRole('combobox',{name:'품목'});const available=await selector.locator('option').evaluateAll(nodes=>nodes.map(n=>n.value))
  const categories=['toothbrush','usb','bottle_cap','pcb','button_battery','zipper','wooden_beads'].filter(c=>available.includes(c))
  for(const category of categories){const t=performance.now();await selector.selectOption(category);await page.waitForTimeout(650);await shot(`template-${category}`);result.measurements.push({name:'category_ui_settle_ms',category,value:performance.now()-t})}
  const parts=page.getByRole('group',{name:'부위 선택'}).getByRole('button')
