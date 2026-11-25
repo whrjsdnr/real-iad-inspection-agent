@@ -108,10 +108,10 @@
     "final_fp": 432,
     "final_fn": 291,
     "decided_f1": 0.9708784790752004,
-    "single_model_hvq_f1": 0.0,
+    "single_model_hvq_f1": 0.7063297203425355,
     "single_model_rtdetr_f1": 0.9036065093094854,
     "verified": false,
-    "timestamp": "2026-11-24T08:38:53.347383+00:00"
+    "timestamp": "2026-11-25T05:19:29.105948+00:00"
   },
   "model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d"
 }

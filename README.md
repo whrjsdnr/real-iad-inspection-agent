@@ -175,6 +175,19 @@ final_performance_minmax 타임스탬프(2026-11-24)·FINAL_GUI_VALIDATION/ZIP �
 추가 실데이터 검증 오버레이(소프트웨어 렌더): `reports/part_heatmap/*.jpg`, `reports/gui_validation/spatial-urgent/*.jpg|png`.
 3D 표면 투영은 시각화용 근사 투영이며 실측 물리 좌표 복원이 아니다.
 
+## 7-1. 연구 시각화(실제 데이터 기반)
+
+HVQ 미탐 감사·후속 어블레이션의 실제 그래프(상세: `reports/hvq_fn_audit/`, 최종 선정: `FINAL_MODEL_SELECTION_REPORT.md`).
+
+| 그래프 | 이미지 |
+|---|---|
+| HVQ 혼동행렬 — 임계값 척도 오류 전/후 | ![혼동행렬](docs/images/research-confusion-matrix.png) |
+| 정상·불량 점수 분포(81.0 오류 임계값 위치 표기) | ![점수 분포](docs/images/research-score-distributions.png) |
+| ROC·PR 곡선 — Mean vs Max16 | ![ROC PR](docs/images/research-roc-pr.png) |
+| 모델 상호 보완성 교차 집계(All/Test) | ![상호보완성](docs/images/research-complementarity.png) |
+| 퓨전 후볳 비교(Test F1·Recall·FPR) | ![어블레이션](docs/images/research-ablation.png) |
+| HVQ 임계값-Recall/FPR/F1 스윕 | ![임계값 스윕](docs/images/research-threshold-sweep.png) |
+
 ## 8. 실행 및 재현
 
 ```bash
