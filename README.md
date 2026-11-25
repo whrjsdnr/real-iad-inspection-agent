@@ -165,12 +165,12 @@ final_performance_minmax 타임스탬프(2026-11-24)·FINAL_GUI_VALIDATION/ZIP �
 
 | 화면 | 이미지 |
 |---|---|
-| 인트로 | `docs/images/gui-intro.png` |
-| 대시보드(퓨전 성능 카드·실데이터) | `docs/images/gui-dashboard.png` |
-| 칫솔 3D 표면 히트맵(실제 마스크 N=335·핫스팟) | `docs/images/gui-toothbrush-3d-heatmap.png` |
-| 지퍼 3D 표면 히트맵 | `docs/images/gui-zipper-3d.png` |
-| 개별 제품 근거(C1~C5) | `docs/images/gui-c1-c5-evidence.png` |
-| AI 에이전트 챗봇 | `docs/images/gui-chat.png` |
+| 인트로 | ![인트로](docs/images/gui-intro.png) |
+| 대시보드(퓨전 성능 카드·실데이터) | ![대시보드](docs/images/gui-dashboard.png) |
+| 칫솔 3D 표면 히트맵(실제 마스크 N=335·핫스팟) | ![칫솔 3D 표면 히트맵](docs/images/gui-toothbrush-3d-heatmap.png) |
+| 지퍼 3D 표면 히트맵 | ![지퍼 3D 표면 히트맵](docs/images/gui-zipper-3d.png) |
+| 개별 제품 근거(C1~C5) | ![개별 제품 근거](docs/images/gui-c1-c5-evidence.png) |
+| AI 에이전트 챗봇 | ![에이전트 챗봇](docs/images/gui-chat.png) |
 
 추가 실데이터 검증 오버레이(소프트웨어 렌더): `reports/part_heatmap/*.jpg`, `reports/gui_validation/spatial-urgent/*.jpg|png`.
 3D 표면 투영은 시각화용 근사 투영이며 실측 물리 좌표 복원이 아니다.
