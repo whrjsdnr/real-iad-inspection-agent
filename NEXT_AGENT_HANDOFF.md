@@ -1,4 +1,20 @@
-# 최신 상태 — 2026-11-25(정정): 데이터 분할 해석 정정 — 통합 추론 코호트는 두 모델 학습 미사용
+# 최신 상태 — 2026-11-25(정정2): HVQ 단독 미탐 100% 표기 = 평가 오류(수정 완료)
+
+이 절이 아래 모든 기록보다 우선한다.
+
+## 원인과 정정(커밋 c53c222, push 완료)
+- **현상**: HVQ 단독 지표가 FN 12,408(FNR 100%)/F1 0.0으로 표시.
+- **원인**: `report_minmax_fusion.py` 단독모델 참고 판정이 max16 전용 임계값 81.0을 heatmap_mean(범위 29.9~67.0)에 적용 → 전수 정상 판정. 퓨전 지표·DB·GUI 대시보드는 무관(정상).
+- **수정**: `fit_single_model_reference()`(Validation 적합, 원척도 36.0244)로 교정 → HVQ 단독 참고 FN 613(Recall 95.06%)/Test 82(95.54%). `model_version` 해시·퓨전 혼동행렬 동일(전수 대조), `check_final_sync` VERIFIED, pytest 134 passed/4 skipped, 회귀 테스트 추가.
+- **감사 산출물**: `reports/hvq_fn_audit/` — HVQ_FALSE_NEGATIVE_AUDIT.md, EVALUATION_LINEAGE.md, ROOT_CAUSE_REPORT.md, CORRECTION_REPORT.md + 혼동행렬/품목/유형/시점/사례/임계값 스윕 CSV + figures(분포·ROC·스윕·품목 FNR·사례 그리드). 맵 보유 결함 51개 중 FN 3건(약한 신호 경계 — 모델 한계 부분). 결함 면적 구간 미탐률은 Real-IAD 미주석 마스크로 분모 불완전해 미산출.
+
+## 판정
+EVALUATION_ERROR(수정 완료) + SCORE_AGGREGATION_LIMITATION(heatmap_mean 희석) + MODEL_LIMITATION(보조) + INSUFFICIENT_EVIDENCE(면적 구간).
+
+---
+이하 2026-11-25 정정1(데이터 분할 해석) 기록
+
+# 2026-11-25(정정): 데이터 분할 해석 정정 — 통합 추론 코호트는 두 모델 학습 미사용
 
 이 절이 아래 모든 기록보다 우선한다. 성능 수치는 일절 변경 없이 해석만 정정했다.
 
