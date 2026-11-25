@@ -1,0 +1,11 @@
+{
+  "version": "mv-presence-v2-adapter-v1",
+  "source_run": "/home/geonug/MV/outputs/windows_preserved_20261111_v1",
+  "dataset_root": "/home/geonug/MV/dataset",
+  "coarse_occupancy_source": "/home/geonug/MV/legacy/windows_snapshot/RealIAD_OpenCV_Analysis_Assignment_v2/RealIAD_OpenCV/coursework.py",
+  "split": "train",
+  "grid": 64,
+  "status": "NG",
+  "representative_products": ["toothbrush/NG/CH/S0001", "zipper/NG/BX/S0002"],
+  "cache_directory": "reports/ground_truth_heatmaps"
+}

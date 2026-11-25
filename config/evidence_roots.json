@@ -1,0 +1,16 @@
+{
+  "allowed_roots": [
+    "/home/geonug/MV/dataset",
+    "/home/geonug/agent/gui_evidence"
+  ],
+  "note": "\uc6b4\uc601 \uc11c\ubc84\uc758 \uc77d\uae30 \uc804\uc6a9 \ub370\uc774\ud130 \ub8e8\ud2b8\ub85c \uc124\uc815",
+  "allowed_map_roots": [
+    "/home/geonug/MV/outputs/agent_integration_20261123_v1/score_run_batch5_v1/maps",
+    "/home/geonug/agent/gui_evidence"
+  ],
+  "map_display": {
+    "lower_percentile": 1,
+    "upper_percentile": 99,
+    "heat_alpha": 0.45
+  }
+}

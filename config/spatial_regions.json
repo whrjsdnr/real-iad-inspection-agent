@@ -1,0 +1,1009 @@
+{
+  "version": "hierarchical-native-roi-v1",
+  "description": "Image-space semantic subdivisions. No physical camera/UV registration is claimed.",
+  "nodes": [
+    {
+      "category": "toothbrush",
+      "region_id": "bristle",
+      "parent_region_id": null,
+      "display_name": "헤드 / 칫솔모",
+      "mesh_part_id": "bristle",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only"
+    },
+    {
+      "category": "toothbrush",
+      "region_id": "bristle_tip",
+      "parent_region_id": "bristle",
+      "display_name": "헤드 끝",
+      "mesh_part_id": "bristle",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              140,
+              55
+            ],
+            [
+              300,
+              55
+            ],
+            [
+              300,
+              700
+            ],
+            [
+              140,
+              700
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "toothbrush",
+      "region_id": "bristle_center",
+      "parent_region_id": "bristle",
+      "display_name": "칫솔모 중앙",
+      "mesh_part_id": "bristle",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              300,
+              55
+            ],
+            [
+              650,
+              55
+            ],
+            [
+              650,
+              700
+            ],
+            [
+              300,
+              700
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "toothbrush",
+      "region_id": "bristle_base",
+      "parent_region_id": "bristle",
+      "display_name": "헤드 연결부 쪽",
+      "mesh_part_id": "bristle",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              650,
+              55
+            ],
+            [
+              825,
+              55
+            ],
+            [
+              825,
+              700
+            ],
+            [
+              650,
+              700
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "teeth",
+      "parent_region_id": null,
+      "display_name": "코일 체인",
+      "mesh_part_id": "teeth",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              390
+            ],
+            [
+              1024,
+              390
+            ],
+            [
+              1024,
+              605
+            ],
+            [
+              0,
+              605
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              450
+            ],
+            [
+              1024,
+              450
+            ],
+            [
+              1024,
+              675
+            ],
+            [
+              0,
+              675
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              420
+            ],
+            [
+              1024,
+              420
+            ],
+            [
+              1024,
+              615
+            ],
+            [
+              0,
+              615
+            ]
+          ]
+        ],
+        "C3": [
+          [
+            [
+              395,
+              0
+            ],
+            [
+              655,
+              0
+            ],
+            [
+              610,
+              1024
+            ],
+            [
+              340,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              390,
+              0
+            ],
+            [
+              635,
+              0
+            ],
+            [
+              615,
+              1024
+            ],
+            [
+              365,
+              1024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "teeth_upper_row",
+      "parent_region_id": "teeth",
+      "display_name": "영상 위쪽 체인열",
+      "mesh_part_id": "teeth",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              390
+            ],
+            [
+              1024,
+              390
+            ],
+            [
+              1024,
+              495
+            ],
+            [
+              0,
+              495
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              450
+            ],
+            [
+              1024,
+              450
+            ],
+            [
+              1024,
+              562.5
+            ],
+            [
+              0,
+              562.5
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              420
+            ],
+            [
+              1024,
+              420
+            ],
+            [
+              1024,
+              517.5
+            ],
+            [
+              0,
+              517.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "teeth_lower_row",
+      "parent_region_id": "teeth",
+      "display_name": "영상 아래쪽 체인열",
+      "mesh_part_id": "teeth",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              495
+            ],
+            [
+              1024,
+              495
+            ],
+            [
+              1024,
+              605
+            ],
+            [
+              0,
+              605
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              562.5
+            ],
+            [
+              1024,
+              562.5
+            ],
+            [
+              1024,
+              675
+            ],
+            [
+              0,
+              675
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              517.5
+            ],
+            [
+              1024,
+              517.5
+            ],
+            [
+              1024,
+              615
+            ],
+            [
+              0,
+              615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "tape",
+      "parent_region_id": null,
+      "display_name": "직물 테이프",
+      "mesh_part_id": "tape",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              390
+            ],
+            [
+              0,
+              390
+            ]
+          ],
+          [
+            [
+              0,
+              605
+            ],
+            [
+              1024,
+              605
+            ],
+            [
+              1024,
+              940
+            ],
+            [
+              0,
+              940
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              450
+            ],
+            [
+              0,
+              450
+            ]
+          ],
+          [
+            [
+              0,
+              675
+            ],
+            [
+              1024,
+              675
+            ],
+            [
+              1024,
+              950
+            ],
+            [
+              0,
+              950
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              420
+            ],
+            [
+              0,
+              420
+            ]
+          ],
+          [
+            [
+              0,
+              615
+            ],
+            [
+              1024,
+              615
+            ],
+            [
+              1024,
+              950
+            ],
+            [
+              0,
+              950
+            ]
+          ]
+        ],
+        "C3": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              395,
+              0
+            ],
+            [
+              340,
+              1024
+            ],
+            [
+              0,
+              1024
+            ]
+          ],
+          [
+            [
+              655,
+              0
+            ],
+            [
+              1024,
+              0
+            ],
+            [
+              1024,
+              1024
+            ],
+            [
+              610,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              390,
+              0
+            ],
+            [
+              365,
+              1024
+            ],
+            [
+              0,
+              1024
+            ]
+          ],
+          [
+            [
+              635,
+              0
+            ],
+            [
+              1024,
+              0
+            ],
+            [
+              1024,
+              1024
+            ],
+            [
+              615,
+              1024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "tape_upper_panel",
+      "parent_region_id": "tape",
+      "display_name": "영상 위쪽 직물",
+      "mesh_part_id": "tape",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              390
+            ],
+            [
+              0,
+              390
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              450
+            ],
+            [
+              0,
+              450
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              40
+            ],
+            [
+              1024,
+              40
+            ],
+            [
+              1024,
+              420
+            ],
+            [
+              0,
+              420
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "tape_lower_panel",
+      "parent_region_id": "tape",
+      "display_name": "영상 아래쪽 직물",
+      "mesh_part_id": "tape",
+      "supported_views": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C1": [
+          [
+            [
+              0,
+              605
+            ],
+            [
+              1024,
+              605
+            ],
+            [
+              1024,
+              940
+            ],
+            [
+              0,
+              940
+            ]
+          ]
+        ],
+        "C2": [
+          [
+            [
+              0,
+              675
+            ],
+            [
+              1024,
+              675
+            ],
+            [
+              1024,
+              950
+            ],
+            [
+              0,
+              950
+            ]
+          ]
+        ],
+        "C4": [
+          [
+            [
+              0,
+              615
+            ],
+            [
+              1024,
+              615
+            ],
+            [
+              1024,
+              950
+            ],
+            [
+              0,
+              950
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "teeth_view_left",
+      "parent_region_id": "teeth",
+      "display_name": "영상 기준 왼쪽 체인열",
+      "mesh_part_id": "teeth",
+      "supported_views": [
+        "C3",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C3": [
+          [
+            [
+              395,
+              0
+            ],
+            [
+              525.0,
+              0
+            ],
+            [
+              475.0,
+              1024
+            ],
+            [
+              340,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              390,
+              0
+            ],
+            [
+              512.5,
+              0
+            ],
+            [
+              490.0,
+              1024
+            ],
+            [
+              365,
+              1024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "teeth_view_right",
+      "parent_region_id": "teeth",
+      "display_name": "영상 기준 오른쪽 체인열",
+      "mesh_part_id": "teeth",
+      "supported_views": [
+        "C3",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C3": [
+          [
+            [
+              525.0,
+              0
+            ],
+            [
+              655,
+              0
+            ],
+            [
+              610,
+              1024
+            ],
+            [
+              475.0,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              512.5,
+              0
+            ],
+            [
+              635,
+              0
+            ],
+            [
+              615,
+              1024
+            ],
+            [
+              490.0,
+              1024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "tape_view_left",
+      "parent_region_id": "tape",
+      "display_name": "영상 기준 왼쪽 직물",
+      "mesh_part_id": "tape",
+      "supported_views": [
+        "C3",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C3": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              395,
+              0
+            ],
+            [
+              340,
+              1024
+            ],
+            [
+              0,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              390,
+              0
+            ],
+            [
+              365,
+              1024
+            ],
+            [
+              0,
+              1024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "category": "zipper",
+      "region_id": "tape_view_right",
+      "parent_region_id": "tape",
+      "display_name": "영상 기준 오른쪽 직물",
+      "mesh_part_id": "tape",
+      "supported_views": [
+        "C3",
+        "C5"
+      ],
+      "mapping_status": "image_roi_only",
+      "camera_rois": {
+        "C3": [
+          [
+            [
+              655,
+              0
+            ],
+            [
+              1024,
+              0
+            ],
+            [
+              1024,
+              1024
+            ],
+            [
+              610,
+              1024
+            ]
+          ]
+        ],
+        "C5": [
+          [
+            [
+              635,
+              0
+            ],
+            [
+              1024,
+              0
+            ],
+            [
+              1024,
+              1024
+            ],
+            [
+              615,
+              1024
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "native_references": {
+    "zipper": {
+      "C1": {
+        "image_path": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C1_20231007161245.jpg:Zone.Identifier",
+        "image_size": [
+          1024,
+          1024
+        ],
+        "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
+        "review": "assistant_visual_checked_image_space_only"
+      },
+      "C2": {
+        "image_path": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C2_20231007161245.jpg",
+        "image_size": [
+          1024,
+          1024
+        ],
+        "sha256": "1204c8d349ac9da65c6276f0758b8ef7d6a1e1b2ffc5408e7f0d4fa106082519",
+        "review": "assistant_visual_checked_image_space_only"
+      },
+      "C3": {
+        "image_path": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C3_20231007161245.jpg",
+        "image_size": [
+          1024,
+          1024
+        ],
+        "sha256": "e7d5bb218f20d0e1d1822c714c406855882d1176c9bd8e43b1a312062b9efde0",
+        "review": "assistant_visual_checked_image_space_only"
+      },
+      "C4": {
+        "image_path": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C4_20231007161245.jpg",
+        "image_size": [
+          1024,
+          1024
+        ],
+        "sha256": "c5112eb68cb0d7feaece4f268b984e4247c4f58bc6d1133a52ff7941ea30999b",
+        "review": "assistant_visual_checked_image_space_only"
+      },
+      "C5": {
+        "image_path": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C5_20231007161245.jpg",
+        "image_size": [
+          1024,
+          1024
+        ],
+        "sha256": "c09d2d23394011095b3306e2244e40f6e592b0fd10978fe0e3fb49316c982b23",
+        "review": "assistant_visual_checked_image_space_only"
+      }
+    }
+  }
+}

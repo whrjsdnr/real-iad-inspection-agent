@@ -1,0 +1,15 @@
+{
+  "version": "spatial-evidence-v1",
+  "resolutions": [16, 32, 64, 128],
+  "candidate_resolution": 64,
+  "minimum_denominator": 10,
+  "gaussian_sigma_roi_fraction": 0.04,
+  "gaussian_support_sigma": 3,
+  "percentile": 95,
+  "minimum_native_bin_coverage": 0.8,
+  "cross_camera_registration": "unverified_keep_separate",
+  "cross_product_registration": "unverified_individual_products_only",
+  "physical_surface_mapping": "unverified_use_2d_fallback",
+  "source_score_cache": "/home/geonug/MV/outputs/agent_integration_20261123_v1/score_run_batch5_v1/scores.sqlite",
+  "dataset_root": "/home/geonug/MV/dataset"
+}

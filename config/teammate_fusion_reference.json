@@ -1,0 +1,103 @@
+{
+  "provenance": "teammate_reported_user_message_20261123",
+  "reproduction_status": "NOT_REPRODUCED",
+  "default_policy_confirmed_by_user": {
+    "hvq": 0.3,
+    "rtdetr": 0.7,
+    "threshold_mode": "baseline_category_validation_f1_max"
+  },
+  "f1_aggregation": "unweighted_mean_of_30_category_F1",
+  "auroc_aggregation": "unweighted_mean_of_30_category_AUROC",
+  "percentile_is_defect_probability": false,
+  "reported_dataset_descriptions": {
+    "validation_images": 1200,
+    "validation_products": 1200,
+    "test_images": 2400,
+    "test_products": 1200,
+    "note": "Separate image/product evaluation cohorts; image counts do not cover all five views of these products. Exact identities missing."
+  },
+  "training_test_overlap": "RT_DETR_UNVERIFIED_AS_REPORTED",
+  "results": [
+    {
+      "unit": "product",
+      "weights": {
+        "hvq": 0.3,
+        "rtdetr": 0.7
+      },
+      "threshold_mode": "baseline",
+      "ng": 600,
+      "ok": 600,
+      "fn": 37,
+      "fp": 46,
+      "recall_reported": 0.938,
+      "macro_f1": 0.9314,
+      "macro_auroc": null,
+      "selected_by_validation": false,
+      "chosen_by_user": true
+    },
+    {
+      "unit": "product",
+      "weights": {
+        "hvq": 0.1,
+        "rtdetr": 0.9
+      },
+      "threshold_mode": "baseline",
+      "ng": 600,
+      "ok": 600,
+      "fn": 46,
+      "fp": 23,
+      "recall_reported": 0.923,
+      "macro_f1": 0.9401,
+      "macro_auroc": 0.9823,
+      "selected_by_validation": true
+    },
+    {
+      "unit": "product",
+      "weights": {
+        "hvq": 0.3,
+        "rtdetr": 0.7
+      },
+      "threshold_mode": "recall_priority",
+      "ng": 600,
+      "ok": 600,
+      "fn": 15,
+      "fp": 136,
+      "recall_reported": 0.975,
+      "macro_f1": 0.8953,
+      "macro_auroc": 0.9756,
+      "selected_by_validation": true
+    },
+    {
+      "unit": "image",
+      "weights": {
+        "hvq": 0.2,
+        "rtdetr": 0.8
+      },
+      "threshold_mode": "baseline",
+      "ng": 1200,
+      "ok": 1200,
+      "fn": 277,
+      "fp": 277,
+      "recall_reported": 0.769,
+      "macro_f1": 0.7711,
+      "macro_auroc": 0.8653,
+      "selected_by_validation": true
+    },
+    {
+      "unit": "image",
+      "weights": {
+        "hvq": 0.6,
+        "rtdetr": 0.4
+      },
+      "threshold_mode": "recall_priority",
+      "ng": 1200,
+      "ok": 1200,
+      "fn": 57,
+      "fp": 841,
+      "recall_reported": 0.952,
+      "macro_f1": 0.7245,
+      "macro_auroc": 0.8408,
+      "selected_by_validation": true
+    }
+  ]
+}

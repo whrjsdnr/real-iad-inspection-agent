@@ -1,0 +1,125 @@
+{
+  "version": "fusion-reconstruction-v1",
+  "rtdetr": {
+    "conf_threshold": 0.4,
+    "iou": 0.5,
+    "imgsz": 640,
+    "onnx": "rtdetr_outputs/epoch_0015_640.onnx",
+    "model_version": "rtdetr-epoch15-onnx-fp32",
+    "score_floor": 0.05
+  },
+  "hvq": {
+    "threshold_source": "checkpoint_validation",
+    "threshold_default": 81.0,
+    "imgsz": 224,
+    "onnx_fp32": "hvq_outputs/hvq_best.onnx",
+    "onnx_fp16": "hvq_outputs/hvq_best.fp16io.onnx",
+    "use_fp16": true,
+    "model_version_fp32": "hvq-best-onnx-fp32",
+    "model_version_fp16": "hvq-best-onnx-fp16",
+    "score_variant": "heatmap_mean"
+  },
+  "fusion": {
+    "both_positive": "defect",
+    "both_negative": "normal",
+    "disagree": "hold",
+    "hvq_positive_only": "hold",
+    "rtdetr_positive_only": "hold"
+  },
+  "capture": {
+    "blur_laplacian_var_min": 30.0,
+    "expected_views": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "blur_resize": [
+      512,
+      512
+    ]
+  },
+  "evidence": {
+    "save_heatmap_for_verdicts": [
+      "defect",
+      "hold"
+    ],
+    "heatmap_dir": "evidence"
+  },
+  "runner": {
+    "batch_views": 16,
+    "rtdetr_threads": 4,
+    "hvq_threads": 2,
+    "progress_every": 25,
+    "hold_warning_fraction": 0.2,
+    "model_tag": "fusion-v3:rtdetr-epoch15-fp32+hvq-best-fp16",
+    "score_inference_batch": 5,
+    "score_batch_reason": "USER_REQUIRED_SAME_PRODUCT_C1_C5_SINGLE_MODEL_BATCH"
+  },
+  "weights": {
+    "rtdetr": 0.7,
+    "hvq": 0.3
+  },
+  "calibration_status": "pending_original_validation_manifest",
+  "score_norm": null,
+  "derived": null,
+  "model_versions": {
+    "rtdetr": "RT-DETRv2-15ep-EMA-111classes-ONNX-FP32",
+    "hvq": "HVQ-Trans79ep-ONNX-FP16IO"
+  },
+  "score_definition": {
+    "product_agg": "max",
+    "hvq": "heatmap_mean",
+    "rtdetr": "max_postprocessed_conf",
+    "normalize": "validation_category_empirical_midrank"
+  },
+  "target": {
+    "recall": 0.938,
+    "f1": 0.9314,
+    "miss": 37,
+    "false_alarm": 46,
+    "tolerance": 0.02,
+    "denominator_note": "teammate_reported Test1200 products: NG600 + OK600; not measured here"
+  },
+  "calibration": {
+    "f1_drop_tolerance": 0.005,
+    "expected_products": null,
+    "expected_views": null,
+    "minimum_validation_products": 20,
+    "minimum_per_class": 5,
+    "minimum_support_status": "provisional_statistical_guard_not_original_experiment"
+  },
+  "provenance": {
+    "teammate_reported": {
+      "weights": {
+        "hvq": 0.3,
+        "rtdetr": 0.7
+      },
+      "test_products": 1200,
+      "ng": 600,
+      "ok": 600,
+      "fn": 37,
+      "fp": 46,
+      "recall": 0.938,
+      "f1": 0.9314,
+      "f1_aggregation": "category_macro_30_not_pooled"
+    },
+    "recovered_original": {},
+    "newly_derived": {},
+    "status": "original_split_unverified",
+    "policy_choice": "user_confirmed_keep_30_70_baseline_20261123"
+  },
+  "aggregation": "model_view_max_then_percentile_then_weighted_sum",
+  "normalization_method": "validation_category_empirical_midrank",
+  "normalization_lookup_reference": null,
+  "category_thresholds": {},
+  "category_margins": {},
+  "calibrated_parameters": null,
+  "threshold_mode": "baseline",
+  "threshold_selection_rule": "highest_optimal_interval_midpoint",
+  "validation_manifest_reference": null,
+  "reproduction_status": "NOT_REPRODUCED",
+  "experiment_date": null,
+  "reference_baseline_reference": "config/teammate_fusion_reference.json"
+}

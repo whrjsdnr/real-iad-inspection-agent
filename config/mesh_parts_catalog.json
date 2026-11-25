@@ -1,0 +1,871 @@
+{
+  "version": "mesh-parts-from-source-v1",
+  "source": "inspection-gui/src/three/parts.ts",
+  "parts": [
+    {
+      "item": "audiojack",
+      "region_id": "housing",
+      "part_id": "housing",
+      "display_name": "커넥터 하우징",
+      "material": "rubber",
+      "detail_ids": [
+        "housing-parting-line",
+        "mould-grip-ribs"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "audiojack",
+      "region_id": "interface",
+      "part_id": "interface",
+      "display_name": "체결 / 인터페이스",
+      "material": "rubber",
+      "detail_ids": [
+        "socket-retention-ring",
+        "socket-inner-sleeve"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "audiojack",
+      "region_id": "pins",
+      "part_id": "pins",
+      "display_name": "전기 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-solder-shoulders"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "bottle_cap",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "plastic",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "inner-lip",
+        "upper-concentric-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "bottle_cap",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "bottle_cap",
+      "region_id": "ribs",
+      "part_id": "ribs",
+      "display_name": "리브 / 돌출부",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "button_battery",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "metal",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "positive-terminal",
+        "terminal-isolator",
+        "positive-engraving"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "button_battery",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "metal",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "end_cap",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "프레임",
+      "material": "rubber",
+      "detail_ids": [
+        "aperture-collar",
+        "fastener-heads",
+        "fastener-slots"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "eraser",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "rubber",
+      "detail_ids": [
+        "mould-edge-seam",
+        "eraser-mould-strip"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "fire_hood",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "wood",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "wood-growth-rings"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "fire_hood",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "wood",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "mint",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "ceramic",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "mint",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "리브 / 테두리",
+      "material": "ceramic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "mounts",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "프레임",
+      "material": "plastic",
+      "detail_ids": [
+        "aperture-collar",
+        "fastener-heads",
+        "fastener-slots"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "mounts",
+      "region_id": "rails",
+      "part_id": "rails",
+      "display_name": "측면 레일",
+      "material": "plastic",
+      "detail_ids": [
+        "rail-end-stops"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "pcb",
+      "region_id": "substrate",
+      "part_id": "substrate",
+      "display_name": "기판 / 패키지",
+      "material": "board",
+      "detail_ids": [
+        "board-edge-laminate",
+        "mounting-eyelets",
+        "copper-traces",
+        "smd-passives"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "pcb",
+      "region_id": "contacts",
+      "part_id": "contacts",
+      "display_name": "핀 / 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-knees"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "pcb",
+      "region_id": "components",
+      "part_id": "components",
+      "display_name": "실장 부품",
+      "material": "rubber",
+      "detail_ids": [
+        "chip-contact-legs",
+        "capacitor-cap",
+        "port-socket"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "phone_battery",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "rubber",
+      "detail_ids": [
+        "mould-edge-seam",
+        "battery-pouch-seal",
+        "battery-contact-recess"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "phone_battery",
+      "region_id": "contacts",
+      "part_id": "contacts",
+      "display_name": "접점",
+      "material": "contact",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "plastic_nut",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "rubber",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief",
+        "nut-face-inset"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "plastic_nut",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "리브 / 테두리",
+      "material": "rubber",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "plastic_plug",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "plastic",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "plastic_plug",
+      "region_id": "collar",
+      "part_id": "collar",
+      "display_name": "돌출 칼라",
+      "material": "plastic",
+      "detail_ids": [
+        "collar-ribbing"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "porcelain_doll",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "ceramic",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "regulator",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "plastic",
+      "detail_ids": [
+        "sidewall-turning-grooves"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "regulator",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "regulator",
+      "region_id": "ribs",
+      "part_id": "ribs",
+      "display_name": "리브 / 돌출부",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "regulator",
+      "region_id": "hub",
+      "part_id": "hub",
+      "display_name": "중심 허브",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "rolled_strip_base",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "프레임",
+      "material": "plastic",
+      "detail_ids": [
+        "aperture-collar",
+        "fastener-heads",
+        "fastener-slots"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "rolled_strip_base",
+      "region_id": "ribs",
+      "part_id": "ribs",
+      "display_name": "보강 대각 리브",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "sim_card_set",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "프레임",
+      "material": "contact",
+      "detail_ids": [
+        "tray-edge-lip",
+        "sim-stamped-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "sim_card_set",
+      "region_id": "tab",
+      "part_id": "tab",
+      "display_name": "연결 탭",
+      "material": "contact",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "switch",
+      "region_id": "housing",
+      "part_id": "housing",
+      "display_name": "커넥터 하우징",
+      "material": "rubber",
+      "detail_ids": [
+        "housing-parting-line",
+        "mould-grip-ribs"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "switch",
+      "region_id": "interface",
+      "part_id": "interface",
+      "display_name": "체결 / 인터페이스",
+      "material": "metal",
+      "detail_ids": [
+        "rocker-face",
+        "power-marking"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "switch",
+      "region_id": "pins",
+      "part_id": "pins",
+      "display_name": "전기 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-solder-shoulders"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "tape",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "wood",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief",
+        "paper-core",
+        "winding-layers"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "terminalblock",
+      "region_id": "housing",
+      "part_id": "housing",
+      "display_name": "커넥터 하우징",
+      "material": "plastic",
+      "detail_ids": [
+        "housing-parting-line",
+        "mould-grip-ribs"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "terminalblock",
+      "region_id": "interface",
+      "part_id": "interface",
+      "display_name": "체결 / 인터페이스",
+      "material": "metal",
+      "detail_ids": [
+        "cross-screw-slots",
+        "wire-entry-bores",
+        "terminal-separators"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "terminalblock",
+      "region_id": "pins",
+      "part_id": "pins",
+      "display_name": "전기 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-solder-shoulders"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "neck",
+      "part_id": "neck",
+      "display_name": "목",
+      "material": "plastic",
+      "detail_ids": [
+        "neck-collar",
+        "neck-ridge"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "bristle",
+      "part_id": "bristle",
+      "display_name": "헤드 / 칫솔모",
+      "material": "plastic",
+      "detail_ids": [
+        "head-inlay",
+        "bristle-filaments",
+        "head-back-seam"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toy",
+      "region_id": "surface",
+      "part_id": "surface",
+      "display_name": "본체",
+      "material": "plastic",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "bun-seam",
+        "top-seed-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toy",
+      "region_id": "edge",
+      "part_id": "edge",
+      "display_name": "외곽 테두리",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toy",
+      "region_id": "joint",
+      "part_id": "joint",
+      "display_name": "리브 / 돌출부",
+      "material": "plastic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toy_brick",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "wood",
+      "detail_ids": [
+        "mould-edge-seam",
+        "wood-grain"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toy_brick",
+      "region_id": "grooves",
+      "part_id": "grooves",
+      "display_name": "표면 홈",
+      "material": "wood",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "transistor1",
+      "region_id": "substrate",
+      "part_id": "substrate",
+      "display_name": "기판 / 패키지",
+      "material": "rubber",
+      "detail_ids": [
+        "board-edge-laminate",
+        "pin-one-dimple"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "transistor1",
+      "region_id": "contacts",
+      "part_id": "contacts",
+      "display_name": "핀 / 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-knees"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "u_block",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "환형 본체",
+      "material": "ceramic",
+      "detail_ids": [
+        "bore-lip",
+        "outer-rim-relief"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb",
+      "region_id": "housing",
+      "part_id": "housing",
+      "display_name": "커넥터 하우징",
+      "material": "metal",
+      "detail_ids": [
+        "housing-parting-line",
+        "mould-grip-ribs"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb",
+      "region_id": "interface",
+      "part_id": "interface",
+      "display_name": "체결 / 인터페이스",
+      "material": "metal",
+      "detail_ids": [
+        "connector-tongue",
+        "gold-contact-fingers",
+        "shell-retention-slots"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb",
+      "region_id": "pins",
+      "part_id": "pins",
+      "display_name": "전기 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-solder-shoulders"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb_adaptor",
+      "region_id": "housing",
+      "part_id": "housing",
+      "display_name": "커넥터 하우징",
+      "material": "rubber",
+      "detail_ids": [
+        "housing-parting-line",
+        "mould-grip-ribs"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb_adaptor",
+      "region_id": "interface",
+      "part_id": "interface",
+      "display_name": "체결 / 인터페이스",
+      "material": "metal",
+      "detail_ids": [
+        "connector-tongue",
+        "gold-contact-fingers",
+        "shell-retention-slots"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "usb_adaptor",
+      "region_id": "pins",
+      "part_id": "pins",
+      "display_name": "전기 접점",
+      "material": "contact",
+      "detail_ids": [
+        "pin-solder-shoulders"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "vcpill",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "ceramic",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "pill-score-line"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "vcpill",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "ceramic",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "wooden_beads",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "구슬 본체",
+      "material": "wood",
+      "detail_ids": [
+        "bore-rims"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "woodstick",
+      "region_id": "body",
+      "part_id": "body",
+      "display_name": "본체",
+      "material": "wood",
+      "detail_ids": [
+        "sidewall-turning-grooves",
+        "wood-growth-rings"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "woodstick",
+      "region_id": "rim",
+      "part_id": "rim",
+      "display_name": "외곽 테두리",
+      "material": "wood",
+      "detail_ids": [],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "zipper",
+      "region_id": "tape",
+      "part_id": "tape",
+      "display_name": "양측 테이프",
+      "material": "rubber",
+      "detail_ids": [
+        "tape-edge-stitching"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "zipper",
+      "region_id": "teeth",
+      "part_id": "teeth",
+      "display_name": "교차 체인",
+      "material": "metal",
+      "detail_ids": [
+        "interlocking-tooth-crowns"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "zipper",
+      "region_id": "slider",
+      "part_id": "slider",
+      "display_name": "슬라이더",
+      "material": "metal",
+      "detail_ids": [
+        "slider-top-yoke",
+        "zipper-pull-tab"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    }
+  ],
+  "physical_surface_uv_verified": false
+}
