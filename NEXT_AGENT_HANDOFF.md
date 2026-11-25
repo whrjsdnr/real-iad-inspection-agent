@@ -1,4 +1,38 @@
-# 최신 상태 — 2026-11-25(최종): 통합·팀 공유·Git 정리 완료
+# 최신 상태 — 2026-11-25(2차): 배포·공유 준비 완료(승인 4건 대기)
+
+이 절이 아래 모든 기록보다 우선한다. 목표: 실제 팀 사용 가능 상태 + GitHub 안전 업로드 준비.
+
+## Phase 1 Git 보안(완료 — 재작성은 승인 대기)
+- 이력 검사: 실제 토큰(43자)+DB 읽기 비밀번호(13자)는 `config/team-share.env` 경로로 **6856e64~4fe4643 등 7개 커밋**에 존재. HEAD 트리·ZIP·MV 추적 파일은 깨끗(placeholder만).
+- 백업: ~/backups/agent-git-history-20261125.tgz(31M)·agent-repo-20261125.bundle(29M)·team-share.env.local-backup.
+- 재발 방지: config/team-share.env.example(placeholder)·scripts/scan_secrets.py(pre-commit 설치, HEAD 통과)·--all-history 모드로 7커밋 검출 확인.
+- 외부 노출 경로 없음(원격 없음·미푸시·ZIP 무결). **승인 요청 A: filter-repo/filter-branch로 team-share.env 전 이력 제거 + 토큰/DB 비밀번호 교체.**
+
+## Phase 2/3 운영 배포·팀 공유(준비 완료 — 기동 승인 대기)
+- 운영 :8000(PID 35145, 11-24 10:07 기동, .env 로딩) 기록. migrate()는 가산·멱등. **승인 요청 B: 재시작.** 절차·검증 17엔드포인트·롤백은 docs/DEPLOYMENT.md.
+- 18081 team_api 부트 자가테스트 통과(127.0.0.1:18099, 인증 200/미인증 401, 이후 종료). 사전조건(env·dist) 충족. **승인 요청 C: TEAM_BIND_HOST=0.0.0.0로 기동.**
+
+## Phase 4 Windows LAN(확정)
+- LAN IP **192.168.20.164**(이더넷), WSL 172.24.157.10. portproxy 164:8000→WSL:8000 이미 존재.
+- 방화벽 기존 정책: 8000번 원격 {192.168.20.170, .209, .168}. 18081 추가용 PowerShell 명령은 docs/DEPLOYMENT.md(관리자 권한). 5432는 비공개 원칙 유지.
+
+## Phase 5 GUI 스크린샷(완료)
+- Chromium headless(샌드박스 유지) 캡처 18장 오류 0: 인트로·대시보드·5칩첩 시연·7개 품목 3D·개별제품·챗봇·모바일·연결실패.
+- 대표 6종을 docs/images/에 등록·README 반영. 칫솔 3D 표면 히트맵은 실제 마스크 N=335·HR 핫스팟·범례 확인. 지퍼 3D·챗봇·C1~C5 근거 확인.
+- 미커버: HVQ 맵 근거 패널·RT 분포 단독 화면·투명도 조절 장면(셀렉터 미매칭 — 스크립트는 최신 표면 제어 UI로 일부 수정함).
+
+## Phase 6/7 GitHub·Release 준비
+- gh 인증 확인(whrjsdnr, repo scope). MV는 origin 대비 9커밋 앞서 있음(미푸시). agent 원격 없음.
+- README 교차 링크 완료. agent는 **Private**(real-iad-inspection-agent) 기본 제안. **승인 요청 D: MV push + agent Private 생성/push + tag v1.0.0 + ZIP Release(실데이터 재배포 권한 확인 후).**
+- ZIP 최종 검증: 649파일·unzip -t OK·sha256 동봉·secret scan 통과·python_client 실실행(manifest 30/24000/120000, 32² 그리드 19종 값)·verify_surface_sdk(30품목/134 overlay/118 hotspot)·킷 OpenAPI 35경로 전부 라이브 게이트웨이와 일치.
+
+## 커밋
+- agent: 60627f9(총 16커밋), MV: README 교차링크 커밋 후 클린.
+
+---
+이하 2026-11-25 1차 기록
+
+# 2026-11-25(1차): 통합·팀 공유·Git 정리 완료
 
 이 절이 아래 모든 이전 기록보다 우선한다. 작업: 최종 인계·팀원 공유·Git 저장소 정리(신규 기능 개발 아님).
 
