@@ -1,4 +1,33 @@
-# 최신 상태 — 2026-11-25: 30품목 표면 표시 및 HVQ 저장 맵 복구
+# 최신 상태 — 2026-11-25(최종): 통합·팀 공유·Git 정리 완료
+
+이 절이 아래 모든 이전 기록보다 우선한다. 작업: 최종 인계·팀원 공유·Git 저장소 정리(신규 기능 개발 아님).
+
+## Git(로컬 커밋 완료, push는 사용자 승인 대기)
+- **~/agent 는 이번에 Git 저장소로 초기화**(기존에 .git 없음). main 브랜치, 커밋 12개: chore 기반설정 → feat(api/pipeline/config/gui/sdk) → test → docs → fix(security). remote 없음.
+- **~/MV**: 기존 원격 github.com/whrjsdnr/MV(미푸시). 미커밋 130건을 8개 논리 커밋으로 정리. .gitignore에 /inference(2G)·/hvq_outputs(682M)·/rtdetr_outputs(570M)·/real-iad-backup(382G)·/environments(1.3G)·*Zone.Identifier 추가. 작업 트리 클린.
+- **보안**: `config/team-share.env`(실제 TEAM_ACCESS_TOKEN·DATABASE_URL_READ)가 feat(config) 커밋에 포함됐다가 추적 제외됨(파일은 디스크 유지, .gitignore 등록). repo는 로컬 전용·미푸시이나 원격 공개 전 이력 재초기화/정리를 사용자 승인 하에 결정할 것. .env·*.pt·DB·node_modules·.venv 추적 0 확인.
+
+## 검증(이번 세션 실행)
+- 백엔드 pytest **133 passed/4 skipped**(116초), 프런트 vitest **135 passed/23파일**, ESLint 통과, tsc+production build 13.18s(500KB 청크 경고만).
+- 보고 수치 재확인: 24,000제품/120,000시점/30품목, 계약 v2 Test F1 0.953210·Recall 95.3210%, 전체 참고 0.968780, all_predictions 24,001행, HVQ 실제 맵 500개/100제품, ZIP **649파일**/sha256 5005866e…/secret scan 통과/unzip -t OK.
+- README(양 저장소) 재작성: 아키텍처·실날짜 간트(mermaid)·성능·문제-해결·실행법·한계. docs/ 9종 신규(ARCHITECTURE·DEVELOPMENT_HISTORY·FUSION_EVALUATION·HEATMAP_PIPELINE·AGENT_DESIGN·TEAM_INTEGRATION·TROUBLESHOOTING·REPRODUCIBILITY·LIMITATIONS). README 이미지 상대경로 7건 존재 확인.
+
+## 서버/공유 현황(중요)
+- 운영 중앙 :8000(PID 35145) = **구 코드**. /products·/fusion/runs·/heatmaps/*·/sharing/kit 전부 404. 신코드 배포 재시작은 **사용자 승인 대기**.
+- 개발 읽기전용 게이트웨이 :18080 = 신 코드로 **재기동 완료**(이번 세션, 기존 8000/15173/배치 무관). 공유 API 전부 실응답 확인: /sharing/manifest·/catalog/parts·/roi/templates·/products(views/findings/anomaly-map/fusion)·/heatmaps(catalog/ground-truth/metadata/evidence/surface/surface-layout)·/parts/heatmap·/fusion/runs·/sharing/kit.
+- Vite :15173(127.0.0.1) 유지. 팀 공유 :18081 인증 서비스는 미기동(TEAM_SHARING_GUIDE.md 명령, 승인 후 실행). 호스트 LAN IP 172.24.157.10 — 192.168.20.164는 구 기록과 다름.
+- **import_score_batch.py 배치 완료**(프로세스 종료 확인, 이번 세션 중). report_fusion_performance --wait 미기동.
+
+## 다음 에이전트가 할 일
+1. 운영 :8000 신코드 재배포 승인 요청 및 수행 후 /fusion/runs·/heatmaps 실주소 검증.
+2. 18081 팀 공유 서비스 기동·팀원 PC 외부 접근 검증(verify_team_data.py, PowerShell/curl 예시는 킷 QUICKSTART).
+3. GUI 추론 v2 계약 E2E 재검증(기존 기대값은 구 계약 기준), 실브라우저 스크린샷.
+4. Git push/Release는 사용자 승인 후. MV 이력의 6.4MB PDF(기존)는 보고만 — 재작성 금지 원칙.
+
+---
+이하 2026-11-25 이전 기록(참고용)
+
+# 2026-11-25: 30품목 표면 표시 및 HVQ 저장 맵 복구
 
 실행한 최종 회귀: Python133 passed/4 skipped(186.77초), 프런트135 passed/23파일(5.90초), ESLint 통과, TypeScript+Production Build 통과(1분58초), 보호 자산 해시 동일/하드코딩 색상 위반0. 번들500KB 경고는 남아 있다. source ASGI/Three 객체 검증이며 운영TCP·실브라우저 렌더링 완료 판정은 아니다.
 
