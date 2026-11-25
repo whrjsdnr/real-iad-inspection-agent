@@ -1,0 +1,41 @@
+group,definition,products,share_of_group_base
+A_both,defect products,11720,0.9445519019987105
+B_rt_only,defect products,607,0.04892005157962605
+C_hvq_only,defect products,75,0.0060444874274661504
+D_neither,defect products,6,0.00048355899419729207
+N_both_fp,normal products,2219,0.19142512077294685
+N_rt_only,normal products,330,0.028467908902691512
+N_hvq_only,normal products,6976,0.6017943409247757
+N_none,normal products,2067,0.17831262939958592
+
+category,A_both,B_rt_only,N_none,N_hvq_only,N_both_fp,N_rt_only,C_hvq_only,D_neither
+audiojack,315,78,346,10,0,38,11,2
+bottle_cap,161,248,304,27,6,53,0,1
+button_battery,425,0,0,295,79,0,1,0
+end_cap,386,25,70,202,79,34,3,1
+eraser,421,0,0,294,84,0,1,0
+fire_hood,395,0,0,284,118,0,3,0
+mint,528,0,0,174,85,0,13,0
+mounts,407,0,24,162,181,26,0,0
+pcb,396,0,0,313,86,0,5,0
+phone_battery,393,0,0,255,146,0,6,0
+plastic_nut,400,0,3,303,94,0,0,0
+plastic_plug,410,0,0,251,137,0,2,0
+porcelain_doll,413,1,13,280,87,4,2,0
+regulator,412,0,0,316,70,0,2,0
+rolled_strip_base,410,0,252,102,14,21,1,0
+sim_card_set,401,0,0,305,91,0,3,0
+switch,303,103,279,75,13,27,0,0
+tape,389,22,253,79,12,45,0,0
+terminalblock,294,123,294,54,2,32,0,1
+toothbrush,422,0,0,206,172,0,0,0
+toy,396,0,0,295,109,0,0,0
+toy_brick,399,0,0,243,156,0,2,0
+transistor1,397,0,5,366,31,1,0,0
+u_block,398,4,95,200,75,27,1,0
+usb,402,2,85,262,41,6,2,0
+usb_adaptor,422,1,44,229,85,16,2,1
+vcpill,396,0,0,357,47,0,0,0
+wooden_beads,448,0,0,288,54,0,10,0
+woodstick,382,0,0,350,63,0,5,0
+zipper,399,0,0,399,2,0,0,0

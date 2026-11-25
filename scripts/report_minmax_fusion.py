@@ -16,6 +16,36 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = Path('/home/geonug/MV/outputs/fusion_agent_validation_20261124_v1')
 
 
+def fit_single_model_reference(rows, profile):
+    """Reference-only HVQ standalone threshold fitted on validation products only.
+
+    threshold_and_margin operates on [0,1] scores, so fit on validation min-max normalized
+    heatmap_mean (same minmax semantics as the fusion normalization). The root
+    hvq.threshold_default belongs to the legacy max16 score scale and must never be
+    applied to continuous heatmap_mean.
+    """
+    val_hv = [row['hvq_mean'] for row in rows if row['split'] == 'validation']
+    hv_lo, hv_hi = min(val_hv), max(val_hv)
+    if not math.isfinite(hv_lo+hv_hi) or hv_lo == hv_hi:
+        raise ValueError('Degenerate validation hvq minmax range')
+    val_norm = [(x-hv_lo)/(hv_hi-hv_lo) for x in val_hv]
+    fit = threshold_and_margin(val_norm,
+                               [row['truth'] == 'defect' for row in rows if row['split'] == 'validation'],
+                               drop_tolerance=profile['margin_f1_drop_tolerance'])
+    info = {
+        'score_variant': 'product_max_view_heatmap_mean',
+        'normalization': f'validation minmax [{hv_lo:.6f}, {hv_hi:.6f}]',
+        'threshold_source': 'validation_split_max_f1_interval_midpoint',
+        'threshold_normalized': fit['threshold'],
+        'threshold_raw_heatmap_mean': hv_lo + fit['threshold']*(hv_hi-hv_lo),
+        'margin_normalized': fit['margin'],
+        'validation_best_f1': fit['f1'],
+        'note': ('HVQ 단독 참고 판정. 운영 퓨전 규칙과 무관. '
+                 'fusion.json의 hvq.threshold_default는 max16 점수 척도 전용이며 heatmap_mean에 적용 금지.'),
+    }
+    return hv_lo, hv_hi, fit['threshold'], info
+
+
 def evaluate(rows, profile, base_config):
     if profile['weights'] != base_config['weights']:
         raise ValueError('Root/contract weights mismatch')
@@ -24,10 +54,13 @@ def evaluate(rows, profile, base_config):
         raise ValueError('Root score definition mismatch')
     if len({row['product_id'] for row in rows}) != len(rows):
         raise ValueError('Duplicate product')
-    parameters = {}
     for row in rows:
         row['rt_input'] = row['rtdetr_raw'] if row['rtdetr_raw'] >= profile['rtdetr_conf_threshold'] else 0.
         row['hv_input'] = row['hvq_mean']
+    hv_lo, hv_hi, reference_threshold, _ = fit_single_model_reference(rows, profile)
+    parameters = {}
+    for row in rows:
+        row['hvq_positive'] = (row['hvq_mean']-hv_lo)/(hv_hi-hv_lo) >= reference_threshold
     for category in sorted({row['category'] for row in rows}):
         validation = [row for row in rows if row['category'] == category and row['split'] == 'validation']
         if not validation or {row['truth'] for row in validation} != {'normal', 'defect'}:
@@ -55,8 +88,7 @@ def evaluate(rows, profile, base_config):
             row['binary_verdict'] = 'defect' if row['fusion_score'] >= fit['threshold'] else 'normal'
             row['verdict'] = 'hold' if abs(row['fusion_score']-fit['threshold']) <= fit['margin'] else row['binary_verdict']
             row['rtdetr_positive'] = row['rtdetr_raw'] >= profile['rtdetr_conf_threshold']
-            # Supplemental single-model reference only; never gates the fused HVQ score.
-            row['hvq_positive'] = row['hvq_mean'] >= base_config['hvq']['threshold_default']
+            # hvq_positive is set globally before the loop (validation-fitted reference).
     return parameters
 
 
@@ -87,6 +119,7 @@ def main():
         if not math.isclose(row['hvq_mean'], row['product_hvq_mean'], rel_tol=1e-10, abs_tol=1e-10):
             raise ValueError('Saved heatmap_mean max inconsistency')
     fitted = evaluate(rows, profile, config)
+    _,_,_, reference_info = fit_single_model_reference(rows, profile)
     test = [row for row in rows if row['split'] == 'test']
     validation_ids = [row['product_id'] for row in rows if row['split'] == 'validation']
     assert not set(validation_ids) & {row['product_id'] for row in test}
@@ -105,11 +138,13 @@ def main():
               'root_config_sha256': sha256(ROOT/'config/fusion.json'),
               'evaluation_config_sha256': sha256(ROOT/'config/fusion_evaluation.json'),
               'source_models': config['model_versions'],
+              'single_model_reference': reference_info,
               'notes': ['Continuous heatmap_mean is not gated by max16 thresholds.',
                         'RT product score is zero if no saved box reaches 0.4.',
                         'Minmax stats, TH and margin are fitted only on validation products.',
                         'No clipping beyond validation range; these scores are not probabilities.',
-                        'All-product reference includes validation; original training overlap remains unknown.',
+                        'All-product reference includes validation; the inference cohort was not used to train either vision model (owner-confirmed).',
+                        'HVQ standalone single-model block is a validation-fitted reference only and never gates the fused score.',
                         'No operating configuration, DB verdict or model inference was changed.']}
     macro = {}
     for key in ('f1', 'auroc'):

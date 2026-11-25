@@ -33,3 +33,9 @@
 재생성: `/home/geonug/agent/.venv/bin/python /home/geonug/agent/scripts/report_minmax_fusion.py`. 기존 `start_final_performance_report.sh`도 이 새 명령으로 변경했다. 외부MV의 `report_fusion_performance.py --wait`는 이전max16보고서용이므로 새 계약 재생성에 사용하지 않는다.
 
 현재 코드 `app.status`는 명시적 FINAL_PERFORMANCE_DIR가 없으면 이 새 보고서를 우선 선택하고 설정 해시를 검사한다. GUI/도구 로컬 로더에서 실제24,000제품 새 값을 확인했다. 운영DB의 활성 run은 여전히 이전max16이며 `source_model_version`/`database_run_activated=false`로 구분했다. 운영 서버 재시작·배포는 하지 않아 실제 호스트API/브라우저 자동 반영은 미검증이다.
+
+## 정정(2026-11-25)
+
+HVQ 단독 참고 지표(single_model_hvq)의 FN 100% 표기는 max16 임계값(81.0)의 점수 척도
+오류로, Validation 적합 임계값(원척도 36.0244) 교정 후 FN 613(전체)/82(Test).
+퓨전 계약·수치·판정은 불변. 상세는 `reports/hvq_fn_audit/` 참조.

@@ -51,3 +51,22 @@ def test_wrong_weights_and_constant_validation_range_are_rejected():
         row['hvq_mean'] = 10.
     with pytest.raises(ValueError, match='minmax range'):
         evaluate(rows, profile, root)
+
+
+def test_single_model_hvq_reference_is_validation_fitted_not_max16_default():
+    """hvq_positive must not use the legacy max16-scale threshold_default (81) on heatmap_mean."""
+    import scripts.report_minmax_fusion as rep
+    rows, profile, root = inputs()
+    hv_lo, hv_hi, th_norm, info = rep.fit_single_model_reference(rows, profile)
+    raw_default = root['hvq']['threshold_default']
+    assert raw_default != info['threshold_raw_heatmap_mean']
+    assert info['threshold_source'] == 'validation_split_max_f1_interval_midpoint'
+    evaluate(rows, profile, root)
+    defects = [r for r in rows if r['truth'] == 'defect']
+    detected = sum(1 for r in defects if r['hvq_positive'])
+    # reference sanity: a validation-fitted threshold must catch most defect products
+    assert detected / len(defects) > 0.5
+    # the max16-scale default applied to heatmap_mean is a different (wrong-scale) verdict
+    ref_verdicts = {r['hvq_positive'] for r in rows}
+    max16_verdicts = {r['hvq_mean'] >= raw_default for r in rows}
+    assert ref_verdicts != max16_verdicts or raw_default <= max(r['hvq_mean'] for r in rows)

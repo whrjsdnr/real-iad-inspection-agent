@@ -1,6 +1,6 @@
 {
   "status": "FINAL_COMPLETE",
-  "timestamp": "2026-11-24T08:38:53.347383+00:00",
+  "timestamp": "2026-11-25T05:19:29.105948+00:00",
   "model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d",
   "source_model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
   "database_run_activated": false,
@@ -4250,29 +4250,29 @@
       }
     },
     "single_model_hvq": {
-      "tp": 0,
-      "fn": 12408,
-      "fp": 0,
-      "tn": 11592,
+      "tp": 11795,
+      "fn": 613,
+      "fp": 9195,
+      "tn": 2397,
       "recall": {
-        "num": 0,
+        "num": 11795,
         "den": 12408,
-        "rate": 0.0
+        "rate": 0.9505963894261766
       },
       "fpr": {
-        "num": 0,
+        "num": 9195,
         "den": 11592,
-        "rate": 0.0
+        "rate": 0.7932194616977226
       },
       "f1": {
-        "num": 0,
-        "den": 12408,
-        "rate": 0.0
+        "num": 23590,
+        "den": 33398,
+        "rate": 0.7063297203425355
       },
       "precision": {
-        "num": 0,
-        "den": 0,
-        "rate": null
+        "num": 11795,
+        "den": 20990,
+        "rate": 0.5619342544068604
       }
     },
     "single_model_rtdetr": {
@@ -4365,29 +4365,29 @@
       }
     },
     "single_model_hvq": {
-      "tp": 0,
-      "fn": 1838,
-      "fp": 0,
-      "tn": 1755,
+      "tp": 1756,
+      "fn": 82,
+      "fp": 1427,
+      "tn": 328,
       "recall": {
-        "num": 0,
+        "num": 1756,
         "den": 1838,
-        "rate": 0.0
+        "rate": 0.955386289445049
       },
       "fpr": {
-        "num": 0,
+        "num": 1427,
         "den": 1755,
-        "rate": 0.0
+        "rate": 0.8131054131054131
       },
       "f1": {
-        "num": 0,
-        "den": 1838,
-        "rate": 0.0
+        "num": 3512,
+        "den": 5021,
+        "rate": 0.6994622585142402
       },
       "precision": {
-        "num": 0,
-        "den": 0,
-        "rate": null
+        "num": 1756,
+        "den": 3183,
+        "rate": 0.5516808042726987
       }
     },
     "single_model_rtdetr": {
@@ -4481,29 +4481,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 406,
-        "fp": 0,
-        "tn": 394,
+        "tp": 326,
+        "fn": 80,
+        "fp": 10,
+        "tn": 384,
         "recall": {
-          "num": 0,
+          "num": 326,
           "den": 406,
-          "rate": 0.0
+          "rate": 0.8029556650246306
         },
         "fpr": {
-          "num": 0,
+          "num": 10,
           "den": 394,
-          "rate": 0.0
+          "rate": 0.025380710659898477
         },
         "f1": {
-          "num": 0,
-          "den": 406,
-          "rate": 0.0
+          "num": 652,
+          "den": 742,
+          "rate": 0.8787061994609164
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 326,
+          "den": 336,
+          "rate": 0.9702380952380952
         }
       },
       "single_model_rtdetr": {
@@ -4596,29 +4596,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 410,
-        "fp": 0,
-        "tn": 390,
+        "tp": 161,
+        "fn": 249,
+        "fp": 33,
+        "tn": 357,
         "recall": {
-          "num": 0,
+          "num": 161,
           "den": 410,
-          "rate": 0.0
+          "rate": 0.3926829268292683
         },
         "fpr": {
-          "num": 0,
+          "num": 33,
           "den": 390,
-          "rate": 0.0
+          "rate": 0.08461538461538462
         },
         "f1": {
-          "num": 0,
-          "den": 410,
-          "rate": 0.0
+          "num": 322,
+          "den": 604,
+          "rate": 0.5331125827814569
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 161,
+          "den": 194,
+          "rate": 0.8298969072164949
         }
       },
       "single_model_rtdetr": {
@@ -4711,29 +4711,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 426,
-        "fp": 0,
-        "tn": 374,
+        "tp": 426,
+        "fn": 0,
+        "fp": 374,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 426,
           "den": 426,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 374,
           "den": 374,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 426,
-          "rate": 0.0
+          "num": 852,
+          "den": 1226,
+          "rate": 0.6949429037520392
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 426,
+          "den": 800,
+          "rate": 0.5325
         }
       },
       "single_model_rtdetr": {
@@ -4826,29 +4826,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 415,
-        "fp": 0,
-        "tn": 385,
+        "tp": 389,
+        "fn": 26,
+        "fp": 281,
+        "tn": 104,
         "recall": {
-          "num": 0,
+          "num": 389,
           "den": 415,
-          "rate": 0.0
+          "rate": 0.9373493975903614
         },
         "fpr": {
-          "num": 0,
+          "num": 281,
           "den": 385,
-          "rate": 0.0
+          "rate": 0.7298701298701299
         },
         "f1": {
-          "num": 0,
-          "den": 415,
-          "rate": 0.0
+          "num": 778,
+          "den": 1085,
+          "rate": 0.7170506912442396
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 389,
+          "den": 670,
+          "rate": 0.5805970149253732
         }
       },
       "single_model_rtdetr": {
@@ -4941,29 +4941,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 422,
-        "fp": 0,
-        "tn": 378,
+        "tp": 422,
+        "fn": 0,
+        "fp": 378,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 422,
           "den": 422,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 378,
           "den": 378,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 422,
-          "rate": 0.0
+          "num": 844,
+          "den": 1222,
+          "rate": 0.690671031096563
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 422,
+          "den": 800,
+          "rate": 0.5275
         }
       },
       "single_model_rtdetr": {
@@ -5056,29 +5056,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 398,
-        "fp": 0,
-        "tn": 402,
+        "tp": 398,
+        "fn": 0,
+        "fp": 402,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 398,
           "den": 398,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 402,
           "den": 402,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 398,
-          "rate": 0.0
+          "num": 796,
+          "den": 1198,
+          "rate": 0.664440734557596
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 398,
+          "den": 800,
+          "rate": 0.4975
         }
       },
       "single_model_rtdetr": {
@@ -5171,29 +5171,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 541,
-        "fp": 0,
-        "tn": 259,
+        "tp": 541,
+        "fn": 0,
+        "fp": 259,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 541,
           "den": 541,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 259,
           "den": 259,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 541,
-          "rate": 0.0
+          "num": 1082,
+          "den": 1341,
+          "rate": 0.8068605518269948
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 541,
+          "den": 800,
+          "rate": 0.67625
         }
       },
       "single_model_rtdetr": {
@@ -5286,29 +5286,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 407,
-        "fp": 0,
-        "tn": 393,
+        "tp": 407,
+        "fn": 0,
+        "fp": 343,
+        "tn": 50,
         "recall": {
-          "num": 0,
+          "num": 407,
           "den": 407,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 343,
           "den": 393,
-          "rate": 0.0
+          "rate": 0.8727735368956743
         },
         "f1": {
-          "num": 0,
-          "den": 407,
-          "rate": 0.0
+          "num": 814,
+          "den": 1157,
+          "rate": 0.7035436473638721
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 407,
+          "den": 750,
+          "rate": 0.5426666666666666
         }
       },
       "single_model_rtdetr": {
@@ -5401,29 +5401,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 401,
-        "fp": 0,
-        "tn": 399,
+        "tp": 401,
+        "fn": 0,
+        "fp": 399,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 401,
           "den": 401,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 399,
           "den": 399,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 401,
-          "rate": 0.0
+          "num": 802,
+          "den": 1201,
+          "rate": 0.6677768526228143
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 401,
+          "den": 800,
+          "rate": 0.50125
         }
       },
       "single_model_rtdetr": {
@@ -5516,29 +5516,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 399,
-        "fp": 0,
-        "tn": 401,
+        "tp": 399,
+        "fn": 0,
+        "fp": 401,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 399,
           "den": 399,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 401,
           "den": 401,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 399,
-          "rate": 0.0
+          "num": 798,
+          "den": 1199,
+          "rate": 0.6655546288573811
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 399,
+          "den": 800,
+          "rate": 0.49875
         }
       },
       "single_model_rtdetr": {
@@ -5631,29 +5631,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 400,
-        "fp": 0,
-        "tn": 400,
+        "tp": 400,
+        "fn": 0,
+        "fp": 397,
+        "tn": 3,
         "recall": {
-          "num": 0,
+          "num": 400,
           "den": 400,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 397,
           "den": 400,
-          "rate": 0.0
+          "rate": 0.9925
         },
         "f1": {
-          "num": 0,
-          "den": 400,
-          "rate": 0.0
+          "num": 800,
+          "den": 1197,
+          "rate": 0.6683375104427736
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 400,
+          "den": 797,
+          "rate": 0.5018820577164367
         }
       },
       "single_model_rtdetr": {
@@ -5746,29 +5746,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 412,
-        "fp": 0,
-        "tn": 388,
+        "tp": 412,
+        "fn": 0,
+        "fp": 388,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 412,
           "den": 412,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 388,
           "den": 388,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 412,
-          "rate": 0.0
+          "num": 824,
+          "den": 1212,
+          "rate": 0.6798679867986799
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 412,
+          "den": 800,
+          "rate": 0.515
         }
       },
       "single_model_rtdetr": {
@@ -5861,29 +5861,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 416,
-        "fp": 0,
-        "tn": 384,
+        "tp": 415,
+        "fn": 1,
+        "fp": 367,
+        "tn": 17,
         "recall": {
-          "num": 0,
+          "num": 415,
           "den": 416,
-          "rate": 0.0
+          "rate": 0.9975961538461539
         },
         "fpr": {
-          "num": 0,
+          "num": 367,
           "den": 384,
-          "rate": 0.0
+          "rate": 0.9557291666666666
         },
         "f1": {
-          "num": 0,
-          "den": 416,
-          "rate": 0.0
+          "num": 830,
+          "den": 1198,
+          "rate": 0.6928213689482471
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 415,
+          "den": 782,
+          "rate": 0.530690537084399
         }
       },
       "single_model_rtdetr": {
@@ -5976,29 +5976,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 414,
-        "fp": 0,
-        "tn": 386,
+        "tp": 414,
+        "fn": 0,
+        "fp": 386,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 414,
           "den": 414,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 386,
           "den": 386,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 414,
-          "rate": 0.0
+          "num": 828,
+          "den": 1214,
+          "rate": 0.6820428336079077
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 414,
+          "den": 800,
+          "rate": 0.5175
         }
       },
       "single_model_rtdetr": {
@@ -6091,29 +6091,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 411,
-        "fp": 0,
-        "tn": 389,
+        "tp": 411,
+        "fn": 0,
+        "fp": 116,
+        "tn": 273,
         "recall": {
-          "num": 0,
+          "num": 411,
           "den": 411,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 116,
           "den": 389,
-          "rate": 0.0
+          "rate": 0.2982005141388175
         },
         "f1": {
-          "num": 0,
-          "den": 411,
-          "rate": 0.0
+          "num": 822,
+          "den": 938,
+          "rate": 0.8763326226012793
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 411,
+          "den": 527,
+          "rate": 0.7798861480075902
         }
       },
       "single_model_rtdetr": {
@@ -6206,29 +6206,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 404,
-        "fp": 0,
-        "tn": 396,
+        "tp": 404,
+        "fn": 0,
+        "fp": 396,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 404,
           "den": 404,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 396,
           "den": 396,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 404,
-          "rate": 0.0
+          "num": 808,
+          "den": 1204,
+          "rate": 0.6710963455149501
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 404,
+          "den": 800,
+          "rate": 0.505
         }
       },
       "single_model_rtdetr": {
@@ -6321,29 +6321,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 406,
-        "fp": 0,
-        "tn": 394,
+        "tp": 303,
+        "fn": 103,
+        "fp": 88,
+        "tn": 306,
         "recall": {
-          "num": 0,
+          "num": 303,
           "den": 406,
-          "rate": 0.0
+          "rate": 0.7463054187192119
         },
         "fpr": {
-          "num": 0,
+          "num": 88,
           "den": 394,
-          "rate": 0.0
+          "rate": 0.2233502538071066
         },
         "f1": {
-          "num": 0,
-          "den": 406,
-          "rate": 0.0
+          "num": 606,
+          "den": 797,
+          "rate": 0.7603513174404015
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 303,
+          "den": 391,
+          "rate": 0.7749360613810742
         }
       },
       "single_model_rtdetr": {
@@ -6436,29 +6436,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 411,
-        "fp": 0,
-        "tn": 389,
+        "tp": 389,
+        "fn": 22,
+        "fp": 91,
+        "tn": 298,
         "recall": {
-          "num": 0,
+          "num": 389,
           "den": 411,
-          "rate": 0.0
+          "rate": 0.9464720194647201
         },
         "fpr": {
-          "num": 0,
+          "num": 91,
           "den": 389,
-          "rate": 0.0
+          "rate": 0.23393316195372751
         },
         "f1": {
-          "num": 0,
-          "den": 411,
-          "rate": 0.0
+          "num": 778,
+          "den": 891,
+          "rate": 0.8731762065095399
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 389,
+          "den": 480,
+          "rate": 0.8104166666666667
         }
       },
       "single_model_rtdetr": {
@@ -6551,29 +6551,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 418,
-        "fp": 0,
-        "tn": 382,
+        "tp": 294,
+        "fn": 124,
+        "fp": 56,
+        "tn": 326,
         "recall": {
-          "num": 0,
+          "num": 294,
           "den": 418,
-          "rate": 0.0
+          "rate": 0.7033492822966507
         },
         "fpr": {
-          "num": 0,
+          "num": 56,
           "den": 382,
-          "rate": 0.0
+          "rate": 0.14659685863874344
         },
         "f1": {
-          "num": 0,
-          "den": 418,
-          "rate": 0.0
+          "num": 588,
+          "den": 768,
+          "rate": 0.765625
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 294,
+          "den": 350,
+          "rate": 0.84
         }
       },
       "single_model_rtdetr": {
@@ -6666,29 +6666,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 422,
-        "fp": 0,
-        "tn": 378,
+        "tp": 422,
+        "fn": 0,
+        "fp": 378,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 422,
           "den": 422,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 378,
           "den": 378,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 422,
-          "rate": 0.0
+          "num": 844,
+          "den": 1222,
+          "rate": 0.690671031096563
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 422,
+          "den": 800,
+          "rate": 0.5275
         }
       },
       "single_model_rtdetr": {
@@ -6781,29 +6781,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 396,
-        "fp": 0,
-        "tn": 404,
+        "tp": 396,
+        "fn": 0,
+        "fp": 404,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 396,
           "den": 396,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 404,
           "den": 404,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 396,
-          "rate": 0.0
+          "num": 792,
+          "den": 1196,
+          "rate": 0.6622073578595318
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 396,
+          "den": 800,
+          "rate": 0.495
         }
       },
       "single_model_rtdetr": {
@@ -6896,29 +6896,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 401,
-        "fp": 0,
-        "tn": 399,
+        "tp": 401,
+        "fn": 0,
+        "fp": 399,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 401,
           "den": 401,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 399,
           "den": 399,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 401,
-          "rate": 0.0
+          "num": 802,
+          "den": 1201,
+          "rate": 0.6677768526228143
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 401,
+          "den": 800,
+          "rate": 0.50125
         }
       },
       "single_model_rtdetr": {
@@ -7011,29 +7011,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 397,
-        "fp": 0,
-        "tn": 403,
+        "tp": 397,
+        "fn": 0,
+        "fp": 397,
+        "tn": 6,
         "recall": {
-          "num": 0,
+          "num": 397,
           "den": 397,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 397,
           "den": 403,
-          "rate": 0.0
+          "rate": 0.9851116625310173
         },
         "f1": {
-          "num": 0,
-          "den": 397,
-          "rate": 0.0
+          "num": 794,
+          "den": 1191,
+          "rate": 0.6666666666666666
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 397,
+          "den": 794,
+          "rate": 0.5
         }
       },
       "single_model_rtdetr": {
@@ -7126,29 +7126,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 403,
-        "fp": 0,
-        "tn": 397,
+        "tp": 399,
+        "fn": 4,
+        "fp": 275,
+        "tn": 122,
         "recall": {
-          "num": 0,
+          "num": 399,
           "den": 403,
-          "rate": 0.0
+          "rate": 0.9900744416873449
         },
         "fpr": {
-          "num": 0,
+          "num": 275,
           "den": 397,
-          "rate": 0.0
+          "rate": 0.6926952141057935
         },
         "f1": {
-          "num": 0,
-          "den": 403,
-          "rate": 0.0
+          "num": 798,
+          "den": 1077,
+          "rate": 0.7409470752089137
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 399,
+          "den": 674,
+          "rate": 0.5919881305637982
         }
       },
       "single_model_rtdetr": {
@@ -7241,29 +7241,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 406,
-        "fp": 0,
-        "tn": 394,
+        "tp": 404,
+        "fn": 2,
+        "fp": 303,
+        "tn": 91,
         "recall": {
-          "num": 0,
+          "num": 404,
           "den": 406,
-          "rate": 0.0
+          "rate": 0.9950738916256158
         },
         "fpr": {
-          "num": 0,
+          "num": 303,
           "den": 394,
-          "rate": 0.0
+          "rate": 0.7690355329949239
         },
         "f1": {
-          "num": 0,
-          "den": 406,
-          "rate": 0.0
+          "num": 808,
+          "den": 1113,
+          "rate": 0.7259658580413297
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 404,
+          "den": 707,
+          "rate": 0.5714285714285714
         }
       },
       "single_model_rtdetr": {
@@ -7356,29 +7356,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 426,
-        "fp": 0,
-        "tn": 374,
+        "tp": 424,
+        "fn": 2,
+        "fp": 314,
+        "tn": 60,
         "recall": {
-          "num": 0,
+          "num": 424,
           "den": 426,
-          "rate": 0.0
+          "rate": 0.9953051643192489
         },
         "fpr": {
-          "num": 0,
+          "num": 314,
           "den": 374,
-          "rate": 0.0
+          "rate": 0.839572192513369
         },
         "f1": {
-          "num": 0,
-          "den": 426,
-          "rate": 0.0
+          "num": 848,
+          "den": 1164,
+          "rate": 0.7285223367697594
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 424,
+          "den": 738,
+          "rate": 0.5745257452574526
         }
       },
       "single_model_rtdetr": {
@@ -7471,29 +7471,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 396,
-        "fp": 0,
-        "tn": 404,
+        "tp": 396,
+        "fn": 0,
+        "fp": 404,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 396,
           "den": 396,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 404,
           "den": 404,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 396,
-          "rate": 0.0
+          "num": 792,
+          "den": 1196,
+          "rate": 0.6622073578595318
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 396,
+          "den": 800,
+          "rate": 0.495
         }
       },
       "single_model_rtdetr": {
@@ -7586,29 +7586,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 458,
-        "fp": 0,
-        "tn": 342,
+        "tp": 458,
+        "fn": 0,
+        "fp": 342,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 458,
           "den": 458,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 342,
           "den": 342,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 458,
-          "rate": 0.0
+          "num": 916,
+          "den": 1258,
+          "rate": 0.7281399046104928
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 458,
+          "den": 800,
+          "rate": 0.5725
         }
       },
       "single_model_rtdetr": {
@@ -7701,29 +7701,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 387,
-        "fp": 0,
-        "tn": 413,
+        "tp": 387,
+        "fn": 0,
+        "fp": 413,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 387,
           "den": 387,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 413,
           "den": 413,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 387,
-          "rate": 0.0
+          "num": 774,
+          "den": 1187,
+          "rate": 0.6520640269587195
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 387,
+          "den": 800,
+          "rate": 0.48375
         }
       },
       "single_model_rtdetr": {
@@ -7816,29 +7816,29 @@
         }
       },
       "single_model_hvq": {
-        "tp": 0,
-        "fn": 399,
-        "fp": 0,
-        "tn": 401,
+        "tp": 399,
+        "fn": 0,
+        "fp": 401,
+        "tn": 0,
         "recall": {
-          "num": 0,
+          "num": 399,
           "den": 399,
-          "rate": 0.0
+          "rate": 1.0
         },
         "fpr": {
-          "num": 0,
+          "num": 401,
           "den": 401,
-          "rate": 0.0
+          "rate": 1.0
         },
         "f1": {
-          "num": 0,
-          "den": 399,
-          "rate": 0.0
+          "num": 798,
+          "den": 1199,
+          "rate": 0.6655546288573811
         },
         "precision": {
-          "num": 0,
-          "den": 0,
-          "rate": null
+          "num": 399,
+          "den": 800,
+          "rate": 0.49875
         }
       },
       "single_model_rtdetr": {
@@ -7882,12 +7882,23 @@
     "rtdetr": "RT-DETRv2-15ep-EMA-111classes-ONNX-FP32",
     "hvq": "HVQ-Trans79ep-ONNX-FP16IO"
   },
+  "single_model_reference": {
+    "score_variant": "product_max_view_heatmap_mean",
+    "normalization": "validation minmax [29.917410, 66.962830]",
+    "threshold_source": "validation_split_max_f1_interval_midpoint",
+    "threshold_normalized": 0.16485030816627896,
+    "threshold_raw_heatmap_mean": 36.02435874938965,
+    "margin_normalized": 0.01568065316515629,
+    "validation_best_f1": 0.7101363366923533,
+    "note": "HVQ 단독 참고 판정. 운영 퓨전 규칙과 무관. fusion.json의 hvq.threshold_default는 max16 점수 척도 전용이며 heatmap_mean에 적용 금지."
+  },
   "notes": [
     "Continuous heatmap_mean is not gated by max16 thresholds.",
     "RT product score is zero if no saved box reaches 0.4.",
     "Minmax stats, TH and margin are fitted only on validation products.",
     "No clipping beyond validation range; these scores are not probabilities.",
-    "All-product reference includes validation; original training overlap remains unknown.",
+    "All-product reference includes validation; the inference cohort was not used to train either vision model (owner-confirmed).",
+    "HVQ standalone single-model block is a validation-fitted reference only and never gates the fused score.",
     "No operating configuration, DB verdict or model inference was changed."
   ],
   "overall_category_macro": {

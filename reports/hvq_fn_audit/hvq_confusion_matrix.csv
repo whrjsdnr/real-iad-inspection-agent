@@ -1,0 +1,4 @@
+variant,scope,threshold_source,threshold,tp,fn,fp,tn,recall,fnr,fpr,precision,f1,specificity,note
+hvq_mean_max>=81 (current reference),all_24000,fusion.json hvq.threshold_default (max16-scale),81.0,0,12408,0,11592,0.0,1.0,0.0,,0.0,1.0,max16 시대 임계값을 heatmap_mean 척도에 적용해 전수 정상 판정
+hvq_mean_max>=Val-fitted TH (corrected reference),all_24000,"validation split, max-F1 threshold",36.02463150024414,11795,613,9195,2397,0.9505963894261766,0.049403610573823364,0.7932194616977226,0.5619342544068604,0.7063297203425355,0.20678053830227744,참고 지표. 운영 퓨전 규칙과 무관
+hvq_mean_max>=Val-fitted TH (corrected reference),test_3593,"validation split, max-F1 threshold (test 고정 적용)",36.02463150024414,1756,82,1427,328,0.955386289445049,0.044613710554951,0.8131054131054131,0.5516808042726987,0.6994622585142402,0.1868945868945869,

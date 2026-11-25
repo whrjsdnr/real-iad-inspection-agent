@@ -1,0 +1,34 @@
+{
+  "mapped_defect_products": 51,
+  "mapped_normal_products": 49,
+  "fn_mapped": 3,
+  "tp_mapped": 48,
+  "tp_avg_map_max": 119.75,
+  "cause": {
+    "weak_signal(map max < TP 평균 map max)": 3,
+    "signal_ok_but_score_below_th": 0
+  },
+  "details": [
+    {
+      "pid": "audiojack/NG/QS/S0006",
+      "score": 34.077,
+      "map_max": 103.188,
+      "weak_signal": true,
+      "split": "validation"
+    },
+    {
+      "pid": "bottle_cap/NG/AK/S0022",
+      "score": 33.625,
+      "map_max": 91.188,
+      "weak_signal": true,
+      "split": "train"
+    },
+    {
+      "pid": "audiojack/NG/QS/S0054",
+      "score": 34.772,
+      "map_max": 95.562,
+      "weak_signal": true,
+      "split": "validation"
+    }
+  ]
+}

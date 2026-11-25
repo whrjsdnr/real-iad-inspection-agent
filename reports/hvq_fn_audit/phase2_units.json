@@ -1,0 +1,17 @@
+{
+  "products": 24000,
+  "views": 120000,
+  "views_per_product_distribution": {
+    "5": 24000
+  },
+  "all_products_have_exactly_5_views": true,
+  "camera_set_ok_all_products": true,
+  "duplicate_product_camera_rows": 0,
+  "truth_labels": {
+    "defect": 12408,
+    "normal": 11592
+  },
+  "truth_value_invalid": 0,
+  "pred_products_match_score_products": true,
+  "note": "제품 단위 정답(truth)만 존재. 시점 단위 결함 가시성 라벨은 없어 시점별 미탐은 산출하지 않음."
+}

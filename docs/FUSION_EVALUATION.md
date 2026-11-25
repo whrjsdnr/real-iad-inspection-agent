@@ -30,3 +30,11 @@
 - 평가 산출물(`reports/final_performance_minmax/performance.json`)의 `activation` 필드는 `report_only`로 기록돼 있다(평가 시점 기준). DB 활성화는 별도 배치로 이행됐다.
 - 전체 24,000은 두 비전 모델의 학습에 사용되지 않은 데이터(훈련 담당자 확인). 단 Validation이 포함돼 있어, 퓨전 규칙(정규화·TH·margin) 보정에 사용된 데이터가 전체 지표에 섞여 있다 — Test 대비 다소 낙관적일 수 있다.
 - 상세: `FINAL_FUSION_CONTRACT_REPORT.md`, `FUSION_POLICY_COMPARISON.md`, `FUSION_RECOVERY_REPORT.md`.
+
+## 정정(2026-11-25) — HVQ 단독 참고 지표
+
+이전 `single_model_hvq`가 FN 12,408(FNR 100%)으로 표시되던 것은 평가 오류다.
+max16 전용 임계값 81.0을 heatmap_mean에 적용해 전수 정상 판정된 것. 
+`fit_single_model_reference()`(Validation 적합, 원척도 36.0244)로 교정해 
+FN 613(Recall 95.06%, Test 82건/95.54%)로 재산출했다. 퓨전 지표는 불변.
+상세: `reports/hvq_fn_audit/`(계보·원인·수정 전후).

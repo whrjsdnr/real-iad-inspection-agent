@@ -1,0 +1,31 @@
+{
+  "corrected_threshold": 36.02463150024414,
+  "current_reference": {
+    "tp": 0,
+    "fn": 12408,
+    "fp": 0,
+    "tn": 11592
+  },
+  "corrected_reference_all": {
+    "tp": 11795,
+    "fn": 613,
+    "fp": 9195,
+    "tn": 2397
+  },
+  "corrected_reference_test": {
+    "tp": 1756,
+    "fn": 82,
+    "fp": 1427,
+    "tn": 328
+  },
+  "complementarity": {
+    "A_both": 11720,
+    "B_rt_only": 607,
+    "N_none": 2067,
+    "N_hvq_only": 6976,
+    "N_both_fp": 2219,
+    "N_rt_only": 330,
+    "C_hvq_only": 75,
+    "D_neither": 6
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sqlite_views": 120000,
+  "sqlite_products": 24000,
+  "pg_predictions": 48000,
+  "pg_runs": [
+    {
+      "id": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+      "active": false,
+      "status": "COMPLETE"
+    },
+    {
+      "id": "weighted-minmax-heatmap-mean-rt40-v1:e917f9730ddb05d9c486b45d",
+      "active": true,
+      "status": "COMPLETE"
+    }
+  ],
+  "pg_predictions_by_run": {
+    "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f": 24000,
+    "weighted-minmax-heatmap-mean-rt40-v1:e917f9730ddb05d9c486b45d": 24000
+  },
+  "api_single_model_hvq_f1": null,
+  "api_single_model_rtdetr_f1": null,
+  "checks": {
+    "sqlite_products_equals_24000": true,
+    "pg_has_v2_active_run": true,
+    "legacy_run_preserved": true
+  }
+}
