@@ -1,0 +1,189 @@
+{
+  "max16_scores/state.json": {
+    "status": "COMPLETED",
+    "pid": 134889,
+    "timestamp": "2026-11-24T16:33:59.521543+09:00",
+    "expected_products": 24000,
+    "completed_products": 24000,
+    "completed_views": 120000,
+    "remaining_products": 0,
+    "failed_products": 0,
+    "sources": {
+      "hvq_only_inference": 23900,
+      "saved_heatmap": 100
+    },
+    "inferred_this_process": 23900,
+    "recovered_maps_this_process": 0,
+    "seconds_this_process": 16926.522403361996,
+    "inferred_products_per_second": 1.650658663668478,
+    "eta_seconds": 0.0,
+    "model_batch_size": 5,
+    "hvq_threads": 2,
+    "rtdetr_model_executed": false,
+    "original_results_modified": false,
+    "score_variant": "max_avgpool16",
+    "current_operation_infers_missing_hvq": true
+  },
+  "background_pipeline/FINAL_VALIDATION.json": {
+    "status": "COMPLETED_AND_AGENT_VERIFIED",
+    "products": 24000,
+    "views": 120000,
+    "model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+    "agent_tool_equals_independent_sql": true,
+    "deployment_eligible": false,
+    "operating_services_restarted": false
+  },
+  "background_pipeline/pipeline_state.json": {
+    "phase": "COMPLETE",
+    "timestamp": "2026-11-24T16:34:51.840033+09:00",
+    "score_set_id": "max16:5daa5dae7e609c3f50b6c894",
+    "imported_products": 54,
+    "completed_products": 24000,
+    "completed_views": 120000,
+    "schema": "fusion_analysis",
+    "old_data_updated": false
+  },
+  "background_pipeline/supervisor_state.json": {
+    "phase": "COMPLETED_AND_AGENT_VERIFIED",
+    "timestamp": "2026-11-24T16:35:03.415897+09:00",
+    "final_validation": "/home/geonug/MV/outputs/fusion_agent_validation_20261124_v1/background_pipeline/FINAL_VALIDATION.json"
+  },
+  "background_pipeline/metadata.json": {
+    "captured_at": "2026-11-24T16:34:30.391961+09:00",
+    "status": "DIAGNOSTIC_NOT_DEPLOYABLE",
+    "pipeline_phase": "COMPLETE",
+    "fusion_model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+    "source_model_version": "uncalibrated-scores:9ad319cd944e030f",
+    "hvq_score_variant": "max_avgpool16",
+    "rtdetr_confidence_threshold": 0.55,
+    "weights": {
+      "rtdetr": 0.7,
+      "hvq": 0.3
+    },
+    "profile_sha256": "00223be2bcbd92e0c4ad46be456f393a22283aa7dc406946ca52ee24445f2f2c",
+    "validation_products": 3610,
+    "test_products": 3593,
+    "test_expected": 3593,
+    "source_products": 24000,
+    "remaining_products": 0,
+    "training_overlap": "UNKNOWN_ORIGINAL_30000_ID_LIST_MISSING",
+    "deployment_eligible": false,
+    "test_used_for_fitting": false,
+    "postfilter_contract": "score_below_model_threshold_to_zero_before_validation_percentile",
+    "evaluation_unit": "product_C1_C5"
+  },
+  "metrics_overall": {
+    "products": 3593,
+    "configured_products": 3593,
+    "unconfigured_products": 0,
+    "gt_ng": 1838,
+    "gt_ok": 1755,
+    "binary_threshold": {
+      "tp": 1747,
+      "fn": 91,
+      "fp": 121,
+      "tn": 1634,
+      "recall": {
+        "num": 1747,
+        "den": 1838,
+        "rate": 0.9504896626768227
+      },
+      "fpr": {
+        "num": 121,
+        "den": 1755,
+        "rate": 0.06894586894586895
+      },
+      "precision": {
+        "num": 1747,
+        "den": 1868,
+        "rate": 0.9352248394004282
+      },
+      "f1": {
+        "num": 3494,
+        "den": 3706,
+        "rate": 0.9427954668105775
+      },
+      "miss_rate": {
+        "num": 91,
+        "den": 1838,
+        "rate": 0.04951033732317737
+      }
+    },
+    "final_decisions": {
+      "tp": 1737,
+      "fn": 90,
+      "fp": 112,
+      "tn": 1623,
+      "hold_ng": 11,
+      "hold_ok": 20,
+      "coverage": {
+        "num": 3562,
+        "den": 3593,
+        "rate": 0.9913721124408572
+      },
+      "hold_rate": {
+        "num": 31,
+        "den": 3593,
+        "rate": 0.008627887559142778
+      },
+      "miss_rate_over_all_ng": {
+        "num": 90,
+        "den": 1838,
+        "rate": 0.04896626768226333
+      },
+      "false_alarm_rate_over_all_ok": {
+        "num": 112,
+        "den": 1755,
+        "rate": 0.06381766381766382
+      },
+      "decided_only_metrics": {
+        "tp": 1737,
+        "fn": 90,
+        "fp": 112,
+        "tn": 1623,
+        "recall": {
+          "num": 1737,
+          "den": 1827,
+          "rate": 0.9507389162561576
+        },
+        "fpr": {
+          "num": 112,
+          "den": 1735,
+          "rate": 0.06455331412103746
+        },
+        "precision": {
+          "num": 1737,
+          "den": 1849,
+          "rate": 0.9394267171444024
+        },
+        "f1": {
+          "num": 3474,
+          "den": 3676,
+          "rate": 0.9450489662676823
+        },
+        "miss_rate": {
+          "num": 90,
+          "den": 1827,
+          "rate": 0.04926108374384237
+        }
+      }
+    },
+    "evaluation_unit": "product_C1_C5",
+    "hold_policy": "separate_deferred_class_not_a_correct_prediction",
+    "category_macro_binary_f1": 0.9441805415637577,
+    "categories": 30
+  },
+  "agent_independent_sql": {
+    "products": 3593,
+    "ng": 1838,
+    "ok": 1755,
+    "binary_fp": 121,
+    "binary_fn": 91,
+    "final_fp": 112,
+    "final_fn": 90,
+    "hold_ng": 11,
+    "hold_ok": 20
+  },
+  "final_report_exists": false,
+  "live_api_and_db_verified": false
+}

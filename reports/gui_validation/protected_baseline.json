@@ -1,0 +1,12 @@
+{
+  "/home/geonug/MV/inference.py": "b96740e01f14cba7683292c81fdf042e29f22e64ab32cd3b40336c6748c3148f",
+  "/home/geonug/MV/inference_hvq.py": "d367c1693efec4d0f26ffa3ef757ddb211a37469974bf41d0084367dcc1f565a",
+  "/home/geonug/MV/optimize_compare_hvq.py": "b3c2f4a1bd5b49d40f7c580a3ed9132346c2c1d4ae1bebe3dede2c3e90b48ef4",
+  "/home/geonug/MV/optimize_compare.py": "91ae73cdf15e8eaffeff0783e38d3c235a4eb35142109bdec5ee111bf6d014ea",
+  "config/hvq_thresholds.json": "bfda9319bd2bd60d67619001fe76fd5bd23b19ce0e5429e79b6860ce1af11424",
+  "config/parts_roi.json": "b8246a9691e63f3f8131bcd5235ba55f4bbaad79fd0faed0d76ad4839e8802d6",
+  "config/teammate_fusion_reference.json": "82ae5db197a5ca1b7bef51ecbffd677d3a7e403ca06d6af3ce4b165771d7ee38",
+  "config/evidence_roots.json": "ad316eb3018bbf042b6f93595b5eeb4e0f8a4dd36d4a6fa18c8991f97155d370",
+  "config/fusion.json": "09c417600ba3ac99a5dcf91a486396c8a0e27dfd9e089f0768615118dc24fce9",
+  "config/web.json": "2a93b49544b5753e098d85c8a283a244b1adc9ea45b59bb85f5ee2274bd95347"
+}

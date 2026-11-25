@@ -1,0 +1,349 @@
+{
+  "item": "toothbrush",
+  "metric": "part_detection_frequency",
+  "mapping_version": "part-heatmap-native-samples-v1",
+  "mapping_scope": "exact_image_sha256",
+  "mapping_verified": true,
+  "rows": [
+    {
+      "group": {
+        "part_id": "bristle"
+      },
+      "num": 1,
+      "den": 1,
+      "rate": 1.0,
+      "reason": null,
+      "stat_key": "bristle",
+      "detection_count": 6,
+      "hvq_roi_mean": 72.59146347045899
+    }
+  ],
+  "source_scope": "stored_gui_evidence_exact_image_samples",
+  "sample_products": 1,
+  "coverage": {
+    "neck": "not_annotated"
+  },
+  "generated_at": "2026-11-24T08:39:20.408471+00:00",
+  "cases": [
+    {
+      "case_id": "dbd3190bf04a0ea1ecadf0a1",
+      "product_id": "toothbrush/NG/CH/S0001",
+      "item": "toothbrush",
+      "models": {
+        "rtdetr": "RT-DETRv2-15ep-EMA-111classes-ONNX-FP32",
+        "hvq": "HVQ-Trans79ep-ONNX-FP16IO"
+      },
+      "recorded_at": "2026-11-24T04:17:11.402557+00:00",
+      "views": [
+        {
+          "camera": "C1",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  140,
+                  220
+                ],
+                [
+                  400,
+                  220
+                ],
+                [
+                  410,
+                  55
+                ],
+                [
+                  550,
+                  65
+                ],
+                [
+                  650,
+                  180
+                ],
+                [
+                  820,
+                  240
+                ],
+                [
+                  820,
+                  620
+                ],
+                [
+                  145,
+                  620
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "detections": [
+            {
+              "bbox": [
+                418.28,
+                71.86,
+                632.09,
+                328.06
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9145,
+              "region_id": "bristle"
+            },
+            {
+              "bbox": [
+                671.08,
+                538.96,
+                738.54,
+                621.16
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.4918,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 82.60741424560547
+          },
+          "rtdetr_threshold": 0.4,
+          "image_url": "/parts/evidence/dbd3190bf04a0ea1ecadf0a1/C1"
+        },
+        {
+          "camera": "C2",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  150,
+                  180
+                ],
+                [
+                  800,
+                  180
+                ],
+                [
+                  800,
+                  800
+                ],
+                [
+                  150,
+                  800
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "detections": [],
+          "hvq_roi_mean": {
+            "bristle": 61.85893630981445
+          },
+          "rtdetr_threshold": 0.4,
+          "image_url": "/parts/evidence/dbd3190bf04a0ea1ecadf0a1/C2"
+        },
+        {
+          "camera": "C3",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  130,
+                  195
+                ],
+                [
+                  450,
+                  195
+                ],
+                [
+                  515,
+                  560
+                ],
+                [
+                  475,
+                  1024
+                ],
+                [
+                  235,
+                  1024
+                ],
+                [
+                  235,
+                  710
+                ],
+                [
+                  130,
+                  500
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "detections": [
+            {
+              "bbox": [
+                152.41,
+                357.82,
+                313.38,
+                693.56
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9044,
+              "region_id": "bristle"
+            },
+            {
+              "bbox": [
+                441.94,
+                523.81,
+                485.68,
+                797.04
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.4357,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 79.75125885009766
+          },
+          "rtdetr_threshold": 0.4,
+          "image_url": "/parts/evidence/dbd3190bf04a0ea1ecadf0a1/C3"
+        },
+        {
+          "camera": "C4",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  215,
+                  160
+                ],
+                [
+                  775,
+                  160
+                ],
+                [
+                  810,
+                  800
+                ],
+                [
+                  210,
+                  800
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "detections": [
+            {
+              "bbox": [
+                360.71,
+                176.75,
+                535.78,
+                272.58
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.8759,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 62.190330505371094
+          },
+          "rtdetr_threshold": 0.4,
+          "image_url": "/parts/evidence/dbd3190bf04a0ea1ecadf0a1/C4"
+        },
+        {
+          "camera": "C5",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  80,
+                  175
+                ],
+                [
+                  480,
+                  175
+                ],
+                [
+                  505,
+                  530
+                ],
+                [
+                  500,
+                  950
+                ],
+                [
+                  180,
+                  950
+                ],
+                [
+                  165,
+                  650
+                ],
+                [
+                  80,
+                  500
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "detections": [
+            {
+              "bbox": [
+                100.63,
+                234.18,
+                259.67,
+                604.0
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9143,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 76.54937744140625
+          },
+          "rtdetr_threshold": 0.4,
+          "image_url": "/parts/evidence/dbd3190bf04a0ea1ecadf0a1/C5"
+        }
+      ]
+    }
+  ],
+  "definition": "부위에 RT-DETR 검출이 있는 제품 / ROI로 관측한 제품. 확정 불량률이 아님.",
+  "reason": null
+}

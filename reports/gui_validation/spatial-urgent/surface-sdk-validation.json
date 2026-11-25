@@ -1,0 +1,306 @@
+{
+  "status": "VERIFIED_THREE_OBJECTS_NO_BROWSER",
+  "categories": 30,
+  "checks": [
+    {
+      "item": "audiojack",
+      "source": "ground_truth",
+      "overlays": 8,
+      "hotspots": 9,
+      "triangles": 3472,
+      "positive_textures": 8,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "bottle_cap",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 2181,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "button_battery",
+      "source": "ground_truth",
+      "overlays": 5,
+      "hotspots": 3,
+      "triangles": 2243,
+      "positive_textures": 5,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "end_cap",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 2578,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "eraser",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 390,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "fire_hood",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 2856,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "mint",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1021,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "mounts",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 2578,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "pcb",
+      "source": "ground_truth",
+      "overlays": 11,
+      "hotspots": 6,
+      "triangles": 5524,
+      "positive_textures": 11,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "phone_battery",
+      "source": "ground_truth",
+      "overlays": 5,
+      "hotspots": 6,
+      "triangles": 1170,
+      "positive_textures": 5,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "plastic_nut",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 1108,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "plastic_plug",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1021,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "porcelain_doll",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1704,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "regulator",
+      "source": "ground_truth",
+      "overlays": 5,
+      "hotspots": 3,
+      "triangles": 2857,
+      "positive_textures": 5,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "rolled_strip_base",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 2578,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "sim_card_set",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 4,
+      "triangles": 470,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "switch",
+      "source": "ground_truth",
+      "overlays": 8,
+      "hotspots": 9,
+      "triangles": 2234,
+      "positive_textures": 8,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "tape",
+      "source": "ground_truth",
+      "overlays": 5,
+      "hotspots": 3,
+      "triangles": 2717,
+      "positive_textures": 5,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "terminalblock",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1170,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "toothbrush",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 5812,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "toy",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 3565,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "toy_brick",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 596,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "transistor1",
+      "source": "ground_truth",
+      "overlays": 5,
+      "hotspots": 6,
+      "triangles": 4436,
+      "positive_textures": 5,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "u_block",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1020,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "usb",
+      "source": "ground_truth",
+      "overlays": 7,
+      "hotspots": 6,
+      "triangles": 2100,
+      "positive_textures": 7,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "usb_adaptor",
+      "source": "ground_truth",
+      "overlays": 7,
+      "hotspots": 6,
+      "triangles": 2100,
+      "positive_textures": 7,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "vcpill",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 1534,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "wooden_beads",
+      "source": "ground_truth",
+      "overlays": 2,
+      "hotspots": 3,
+      "triangles": 1322,
+      "positive_textures": 2,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "woodstick",
+      "source": "ground_truth",
+      "overlays": 3,
+      "hotspots": 3,
+      "triangles": 2760,
+      "positive_textures": 3,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    },
+    {
+      "item": "zipper",
+      "source": "ground_truth",
+      "overlays": 4,
+      "hotspots": 3,
+      "triangles": 10140,
+      "positive_textures": 4,
+      "rotation_inherits_root": true,
+      "disposed_and_base_preserved": true
+    }
+  ]
+}

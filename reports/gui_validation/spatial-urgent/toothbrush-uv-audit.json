@@ -1,0 +1,59 @@
+{
+  "status": "VERIFIED_GEOMETRY_UV_ATTRIBUTES_ONLY",
+  "physical_roi_uv_registration_verified": false,
+  "reason": "Primitive UVs repeat across distinct filament positions; no packed image-to-surface atlas or camera calibration is registered.",
+  "regions": [
+    {
+      "region_id": "neck",
+      "surfaces": [
+        {
+          "surface": "base",
+          "vertices": 357,
+          "uv_vertices": 357,
+          "max_distinct_positions_sharing_uv": 1
+        },
+        {
+          "surface": "neck-collar",
+          "vertices": 124,
+          "uv_vertices": 124,
+          "max_distinct_positions_sharing_uv": 4
+        },
+        {
+          "surface": "neck-ridge",
+          "vertices": 900,
+          "uv_vertices": 900,
+          "max_distinct_positions_sharing_uv": 5
+        }
+      ]
+    },
+    {
+      "region_id": "bristle",
+      "surfaces": [
+        {
+          "surface": "base",
+          "vertices": 546,
+          "uv_vertices": 546,
+          "max_distinct_positions_sharing_uv": 1
+        },
+        {
+          "surface": "head-inlay",
+          "vertices": 3360,
+          "uv_vertices": 3360,
+          "max_distinct_positions_sharing_uv": 56
+        },
+        {
+          "surface": "bristle-filaments",
+          "vertices": 14112,
+          "uv_vertices": 14112,
+          "max_distinct_positions_sharing_uv": 392
+        },
+        {
+          "surface": "head-back-seam",
+          "vertices": 374,
+          "uv_vertices": 374,
+          "max_distinct_positions_sharing_uv": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "decision": "KEEP_CURRENT_RULE",
+  "reason": "User requested keeping current if higher; fixed stored-policy comparison confirms current F1/Recall are higher.",
+  "same_product_id_category_split_truth": true,
+  "products": 24000,
+  "test_products": 3593,
+  "reports": {
+    "previous": "/home/geonug/MV/outputs/fusion_agent_validation_20261124_v1/final_performance/20261124_165313_094234/performance.json",
+    "current": "reports/final_performance_minmax/performance.json"
+  },
+  "metrics": {
+    "previous": {
+      "overall_f1": 0.9590349934312672,
+      "overall_recall": 0.9707446808510638,
+      "test_f1": 0.9427954668105775,
+      "test_recall": 0.9504896626768227,
+      "overall_fp": 666,
+      "overall_fn": 363,
+      "test_fp": 121,
+      "test_fn": 91
+    },
+    "current": {
+      "overall_f1": 0.9687800192122958,
+      "overall_recall": 0.9753384912959381,
+      "test_f1": 0.9532100108813928,
+      "test_recall": 0.9532100108813928,
+      "overall_fp": 474,
+      "overall_fn": 306,
+      "test_fp": 86,
+      "test_fn": 86
+    }
+  },
+  "active_model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d",
+  "configuration_modified": false,
+  "inference_reexecuted": false,
+  "operational_decisions_modified": false
+}

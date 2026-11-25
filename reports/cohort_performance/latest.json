@@ -1,0 +1,3662 @@
+{
+  "scope": "all_inferred_products_reference",
+  "timestamp": "2026-11-24T08:08:28.327294+00:00",
+  "model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+  "source_report": "/home/geonug/MV/outputs/fusion_agent_validation_20261124_v1/final_performance/20261124_165313_094234/performance.json",
+  "source_report_sha256": "191dbd4d5bb20a8a4b05625530403636a1be5156386b9851fc2038d7551be2fc",
+  "predictions_sha256": "a2b5a1f50074580648e358a5bdf5386b2f3cdcefb1b4d2442e429c32c030067a",
+  "manifest_sha256": "c9b4788d9139b3a08c9a3bc3e2c3d7e5163bca536d2b2b68aeffcb6042557796",
+  "split_counts": {
+    "train": 16797,
+    "test": 3593,
+    "validation": 3610
+  },
+  "overall": {
+    "products": 24000,
+    "binary_threshold": {
+      "tp": 12045,
+      "fn": 363,
+      "fp": 666,
+      "tn": 10926,
+      "recall": {
+        "num": 12045,
+        "den": 12408,
+        "rate": 0.9707446808510638
+      },
+      "fpr": {
+        "num": 666,
+        "den": 11592,
+        "rate": 0.05745341614906832
+      },
+      "f1": {
+        "num": 24090,
+        "den": 25119,
+        "rate": 0.9590349934312672
+      },
+      "precision": {
+        "num": 12045,
+        "den": 12711,
+        "rate": 0.9476044371017229
+      },
+      "auroc": 0.9842759549483647,
+      "average_precision": 0.9884864969903985
+    },
+    "final_with_hold": {
+      "decided_products": 23795,
+      "hold_products": 205,
+      "hold_rate": 0.008541666666666666,
+      "coverage": 0.9914583333333333,
+      "decided_only_metrics": {
+        "tp": 11989,
+        "fn": 346,
+        "fp": 620,
+        "tn": 10840,
+        "recall": {
+          "num": 11989,
+          "den": 12335,
+          "rate": 0.9719497365220916
+        },
+        "fpr": {
+          "num": 620,
+          "den": 11460,
+          "rate": 0.05410122164048865
+        },
+        "f1": {
+          "num": 23978,
+          "den": 24944,
+          "rate": 0.9612732520846696
+        },
+        "precision": {
+          "num": 11989,
+          "den": 12609,
+          "rate": 0.9508287730985804
+        }
+      }
+    },
+    "single_model_hvq": {
+      "tp": 10813,
+      "fn": 1595,
+      "fp": 3879,
+      "tn": 7713,
+      "recall": {
+        "num": 10813,
+        "den": 12408,
+        "rate": 0.8714539007092199
+      },
+      "fpr": {
+        "num": 3879,
+        "den": 11592,
+        "rate": 0.33462732919254656
+      },
+      "f1": {
+        "num": 21626,
+        "den": 27100,
+        "rate": 0.7980073800738008
+      },
+      "precision": {
+        "num": 10813,
+        "den": 14692,
+        "rate": 0.7359787639531717
+      }
+    },
+    "single_model_rtdetr": {
+      "tp": 12164,
+      "fn": 244,
+      "fp": 1118,
+      "tn": 10474,
+      "recall": {
+        "num": 12164,
+        "den": 12408,
+        "rate": 0.9803352675693101
+      },
+      "fpr": {
+        "num": 1118,
+        "den": 11592,
+        "rate": 0.09644582470669427
+      },
+      "f1": {
+        "num": 24328,
+        "den": 25690,
+        "rate": 0.946983261969638
+      },
+      "precision": {
+        "num": 12164,
+        "den": 13282,
+        "rate": 0.9158259298298449
+      }
+    }
+  },
+  "category_macro": {
+    "f1": 0.9598808644107621,
+    "recall": 0.9717604734556721,
+    "auroc": 0.9866853992665189
+  },
+  "by_category": {
+    "audiojack": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 400,
+        "fn": 6,
+        "fp": 31,
+        "tn": 363,
+        "recall": {
+          "num": 400,
+          "den": 406,
+          "rate": 0.9852216748768473
+        },
+        "fpr": {
+          "num": 31,
+          "den": 394,
+          "rate": 0.07868020304568528
+        },
+        "f1": {
+          "num": 800,
+          "den": 837,
+          "rate": 0.955794504181601
+        },
+        "precision": {
+          "num": 400,
+          "den": 431,
+          "rate": 0.9280742459396751
+        },
+        "auroc": 0.9951114000650146,
+        "average_precision": 0.9957150672576525
+      },
+      "final_with_hold": {
+        "decided_products": 794,
+        "hold_products": 6,
+        "hold_rate": 0.0075,
+        "coverage": 0.9925,
+        "decided_only_metrics": {
+          "tp": 398,
+          "fn": 5,
+          "fp": 29,
+          "tn": 362,
+          "recall": {
+            "num": 398,
+            "den": 403,
+            "rate": 0.9875930521091811
+          },
+          "fpr": {
+            "num": 29,
+            "den": 391,
+            "rate": 0.0741687979539642
+          },
+          "f1": {
+            "num": 796,
+            "den": 830,
+            "rate": 0.9590361445783132
+          },
+          "precision": {
+            "num": 398,
+            "den": 427,
+            "rate": 0.9320843091334895
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 359,
+        "fn": 47,
+        "fp": 85,
+        "tn": 309,
+        "recall": {
+          "num": 359,
+          "den": 406,
+          "rate": 0.8842364532019704
+        },
+        "fpr": {
+          "num": 85,
+          "den": 394,
+          "rate": 0.21573604060913706
+        },
+        "f1": {
+          "num": 718,
+          "den": 850,
+          "rate": 0.8447058823529412
+        },
+        "precision": {
+          "num": 359,
+          "den": 444,
+          "rate": 0.8085585585585585
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 392,
+        "fn": 14,
+        "fp": 22,
+        "tn": 372,
+        "recall": {
+          "num": 392,
+          "den": 406,
+          "rate": 0.9655172413793104
+        },
+        "fpr": {
+          "num": 22,
+          "den": 394,
+          "rate": 0.05583756345177665
+        },
+        "f1": {
+          "num": 784,
+          "den": 820,
+          "rate": 0.9560975609756097
+        },
+        "precision": {
+          "num": 392,
+          "den": 414,
+          "rate": 0.9468599033816425
+        }
+      }
+    },
+    "bottle_cap": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 406,
+        "fn": 4,
+        "fp": 23,
+        "tn": 367,
+        "recall": {
+          "num": 406,
+          "den": 410,
+          "rate": 0.9902439024390244
+        },
+        "fpr": {
+          "num": 23,
+          "den": 390,
+          "rate": 0.05897435897435897
+        },
+        "f1": {
+          "num": 812,
+          "den": 839,
+          "rate": 0.9678188319427891
+        },
+        "precision": {
+          "num": 406,
+          "den": 429,
+          "rate": 0.9463869463869464
+        },
+        "auroc": 0.9939086929330831,
+        "average_precision": 0.9946150876594148
+      },
+      "final_with_hold": {
+        "decided_products": 777,
+        "hold_products": 23,
+        "hold_rate": 0.02875,
+        "coverage": 0.97125,
+        "decided_only_metrics": {
+          "tp": 405,
+          "fn": 4,
+          "fp": 13,
+          "tn": 355,
+          "recall": {
+            "num": 405,
+            "den": 409,
+            "rate": 0.9902200488997555
+          },
+          "fpr": {
+            "num": 13,
+            "den": 368,
+            "rate": 0.035326086956521736
+          },
+          "f1": {
+            "num": 810,
+            "den": 827,
+            "rate": 0.9794437726723095
+          },
+          "precision": {
+            "num": 405,
+            "den": 418,
+            "rate": 0.9688995215311005
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 330,
+        "fn": 80,
+        "fp": 23,
+        "tn": 367,
+        "recall": {
+          "num": 330,
+          "den": 410,
+          "rate": 0.8048780487804879
+        },
+        "fpr": {
+          "num": 23,
+          "den": 390,
+          "rate": 0.05897435897435897
+        },
+        "f1": {
+          "num": 660,
+          "den": 763,
+          "rate": 0.8650065530799476
+        },
+        "precision": {
+          "num": 330,
+          "den": 353,
+          "rate": 0.9348441926345609
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 406,
+        "fn": 4,
+        "fp": 23,
+        "tn": 367,
+        "recall": {
+          "num": 406,
+          "den": 410,
+          "rate": 0.9902439024390244
+        },
+        "fpr": {
+          "num": 23,
+          "den": 390,
+          "rate": 0.05897435897435897
+        },
+        "f1": {
+          "num": 812,
+          "den": 839,
+          "rate": 0.9678188319427891
+        },
+        "precision": {
+          "num": 406,
+          "den": 429,
+          "rate": 0.9463869463869464
+        }
+      }
+    },
+    "button_battery": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 416,
+        "fn": 10,
+        "fp": 31,
+        "tn": 343,
+        "recall": {
+          "num": 416,
+          "den": 426,
+          "rate": 0.9765258215962441
+        },
+        "fpr": {
+          "num": 31,
+          "den": 374,
+          "rate": 0.08288770053475936
+        },
+        "f1": {
+          "num": 832,
+          "den": 873,
+          "rate": 0.9530355097365406
+        },
+        "precision": {
+          "num": 416,
+          "den": 447,
+          "rate": 0.930648769574944
+        },
+        "auroc": 0.9875222816399287,
+        "average_precision": 0.9908800423713058
+      },
+      "final_with_hold": {
+        "decided_products": 797,
+        "hold_products": 3,
+        "hold_rate": 0.00375,
+        "coverage": 0.99625,
+        "decided_only_metrics": {
+          "tp": 416,
+          "fn": 10,
+          "fp": 30,
+          "tn": 341,
+          "recall": {
+            "num": 416,
+            "den": 426,
+            "rate": 0.9765258215962441
+          },
+          "fpr": {
+            "num": 30,
+            "den": 371,
+            "rate": 0.08086253369272237
+          },
+          "f1": {
+            "num": 832,
+            "den": 872,
+            "rate": 0.9541284403669725
+          },
+          "precision": {
+            "num": 416,
+            "den": 446,
+            "rate": 0.9327354260089686
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 408,
+        "fn": 18,
+        "fp": 291,
+        "tn": 83,
+        "recall": {
+          "num": 408,
+          "den": 426,
+          "rate": 0.9577464788732394
+        },
+        "fpr": {
+          "num": 291,
+          "den": 374,
+          "rate": 0.7780748663101604
+        },
+        "f1": {
+          "num": 816,
+          "den": 1125,
+          "rate": 0.7253333333333334
+        },
+        "precision": {
+          "num": 408,
+          "den": 699,
+          "rate": 0.5836909871244635
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 423,
+        "fn": 3,
+        "fp": 35,
+        "tn": 339,
+        "recall": {
+          "num": 423,
+          "den": 426,
+          "rate": 0.9929577464788732
+        },
+        "fpr": {
+          "num": 35,
+          "den": 374,
+          "rate": 0.09358288770053476
+        },
+        "f1": {
+          "num": 846,
+          "den": 884,
+          "rate": 0.9570135746606335
+        },
+        "precision": {
+          "num": 423,
+          "den": 458,
+          "rate": 0.9235807860262009
+        }
+      }
+    },
+    "end_cap": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 406,
+        "fn": 9,
+        "fp": 24,
+        "tn": 361,
+        "recall": {
+          "num": 406,
+          "den": 415,
+          "rate": 0.9783132530120482
+        },
+        "fpr": {
+          "num": 24,
+          "den": 385,
+          "rate": 0.06233766233766234
+        },
+        "f1": {
+          "num": 812,
+          "den": 845,
+          "rate": 0.9609467455621302
+        },
+        "precision": {
+          "num": 406,
+          "den": 430,
+          "rate": 0.9441860465116279
+        },
+        "auroc": 0.9893631669535284,
+        "average_precision": 0.9913282967196565
+      },
+      "final_with_hold": {
+        "decided_products": 795,
+        "hold_products": 5,
+        "hold_rate": 0.00625,
+        "coverage": 0.99375,
+        "decided_only_metrics": {
+          "tp": 406,
+          "fn": 9,
+          "fp": 22,
+          "tn": 358,
+          "recall": {
+            "num": 406,
+            "den": 415,
+            "rate": 0.9783132530120482
+          },
+          "fpr": {
+            "num": 22,
+            "den": 380,
+            "rate": 0.05789473684210526
+          },
+          "f1": {
+            "num": 812,
+            "den": 843,
+            "rate": 0.963226571767497
+          },
+          "precision": {
+            "num": 406,
+            "den": 428,
+            "rate": 0.9485981308411215
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 335,
+        "fn": 80,
+        "fp": 85,
+        "tn": 300,
+        "recall": {
+          "num": 335,
+          "den": 415,
+          "rate": 0.8072289156626506
+        },
+        "fpr": {
+          "num": 85,
+          "den": 385,
+          "rate": 0.22077922077922077
+        },
+        "f1": {
+          "num": 670,
+          "den": 835,
+          "rate": 0.8023952095808383
+        },
+        "precision": {
+          "num": 335,
+          "den": 420,
+          "rate": 0.7976190476190477
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 410,
+        "fn": 5,
+        "fp": 58,
+        "tn": 327,
+        "recall": {
+          "num": 410,
+          "den": 415,
+          "rate": 0.9879518072289156
+        },
+        "fpr": {
+          "num": 58,
+          "den": 385,
+          "rate": 0.15064935064935064
+        },
+        "f1": {
+          "num": 820,
+          "den": 883,
+          "rate": 0.928652321630804
+        },
+        "precision": {
+          "num": 410,
+          "den": 468,
+          "rate": 0.8760683760683761
+        }
+      }
+    },
+    "eraser": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 417,
+        "fn": 5,
+        "fp": 29,
+        "tn": 349,
+        "recall": {
+          "num": 417,
+          "den": 422,
+          "rate": 0.9881516587677726
+        },
+        "fpr": {
+          "num": 29,
+          "den": 378,
+          "rate": 0.07671957671957672
+        },
+        "f1": {
+          "num": 834,
+          "den": 868,
+          "rate": 0.9608294930875576
+        },
+        "precision": {
+          "num": 417,
+          "den": 446,
+          "rate": 0.9349775784753364
+        },
+        "auroc": 0.987813134732566,
+        "average_precision": 0.9900828967277043
+      },
+      "final_with_hold": {
+        "decided_products": 792,
+        "hold_products": 8,
+        "hold_rate": 0.01,
+        "coverage": 0.99,
+        "decided_only_metrics": {
+          "tp": 416,
+          "fn": 5,
+          "fp": 24,
+          "tn": 347,
+          "recall": {
+            "num": 416,
+            "den": 421,
+            "rate": 0.9881235154394299
+          },
+          "fpr": {
+            "num": 24,
+            "den": 371,
+            "rate": 0.0646900269541779
+          },
+          "f1": {
+            "num": 832,
+            "den": 861,
+            "rate": 0.9663182346109176
+          },
+          "precision": {
+            "num": 416,
+            "den": 440,
+            "rate": 0.9454545454545454
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 365,
+        "fn": 57,
+        "fp": 109,
+        "tn": 269,
+        "recall": {
+          "num": 365,
+          "den": 422,
+          "rate": 0.8649289099526066
+        },
+        "fpr": {
+          "num": 109,
+          "den": 378,
+          "rate": 0.28835978835978837
+        },
+        "f1": {
+          "num": 730,
+          "den": 896,
+          "rate": 0.8147321428571429
+        },
+        "precision": {
+          "num": 365,
+          "den": 474,
+          "rate": 0.770042194092827
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 418,
+        "fn": 4,
+        "fp": 38,
+        "tn": 340,
+        "recall": {
+          "num": 418,
+          "den": 422,
+          "rate": 0.990521327014218
+        },
+        "fpr": {
+          "num": 38,
+          "den": 378,
+          "rate": 0.10052910052910052
+        },
+        "f1": {
+          "num": 836,
+          "den": 878,
+          "rate": 0.9521640091116174
+        },
+        "precision": {
+          "num": 418,
+          "den": 456,
+          "rate": 0.9166666666666666
+        }
+      }
+    },
+    "fire_hood": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 391,
+        "fn": 7,
+        "fp": 60,
+        "tn": 342,
+        "recall": {
+          "num": 391,
+          "den": 398,
+          "rate": 0.9824120603015075
+        },
+        "fpr": {
+          "num": 60,
+          "den": 402,
+          "rate": 0.14925373134328357
+        },
+        "f1": {
+          "num": 782,
+          "den": 849,
+          "rate": 0.9210836277974087
+        },
+        "precision": {
+          "num": 391,
+          "den": 451,
+          "rate": 0.8669623059866962
+        },
+        "auroc": 0.9785275881897048,
+        "average_precision": 0.9792545488163904
+      },
+      "final_with_hold": {
+        "decided_products": 797,
+        "hold_products": 3,
+        "hold_rate": 0.00375,
+        "coverage": 0.99625,
+        "decided_only_metrics": {
+          "tp": 390,
+          "fn": 7,
+          "fp": 59,
+          "tn": 341,
+          "recall": {
+            "num": 390,
+            "den": 397,
+            "rate": 0.982367758186398
+          },
+          "fpr": {
+            "num": 59,
+            "den": 400,
+            "rate": 0.1475
+          },
+          "f1": {
+            "num": 780,
+            "den": 846,
+            "rate": 0.9219858156028369
+          },
+          "precision": {
+            "num": 390,
+            "den": 449,
+            "rate": 0.8685968819599109
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 374,
+        "fn": 24,
+        "fp": 258,
+        "tn": 144,
+        "recall": {
+          "num": 374,
+          "den": 398,
+          "rate": 0.9396984924623115
+        },
+        "fpr": {
+          "num": 258,
+          "den": 402,
+          "rate": 0.6417910447761194
+        },
+        "f1": {
+          "num": 748,
+          "den": 1030,
+          "rate": 0.7262135922330097
+        },
+        "precision": {
+          "num": 374,
+          "den": 632,
+          "rate": 0.5917721518987342
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 390,
+        "fn": 8,
+        "fp": 60,
+        "tn": 342,
+        "recall": {
+          "num": 390,
+          "den": 398,
+          "rate": 0.9798994974874372
+        },
+        "fpr": {
+          "num": 60,
+          "den": 402,
+          "rate": 0.14925373134328357
+        },
+        "f1": {
+          "num": 780,
+          "den": 848,
+          "rate": 0.9198113207547169
+        },
+        "precision": {
+          "num": 390,
+          "den": 450,
+          "rate": 0.8666666666666667
+        }
+      }
+    },
+    "mint": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 491,
+        "fn": 50,
+        "fp": 63,
+        "tn": 196,
+        "recall": {
+          "num": 491,
+          "den": 541,
+          "rate": 0.9075785582255084
+        },
+        "fpr": {
+          "num": 63,
+          "den": 259,
+          "rate": 0.24324324324324326
+        },
+        "f1": {
+          "num": 982,
+          "den": 1095,
+          "rate": 0.8968036529680365
+        },
+        "precision": {
+          "num": 491,
+          "den": 554,
+          "rate": 0.8862815884476535
+        },
+        "auroc": 0.9270584289068577,
+        "average_precision": 0.963478175272409
+      },
+      "final_with_hold": {
+        "decided_products": 797,
+        "hold_products": 3,
+        "hold_rate": 0.00375,
+        "coverage": 0.99625,
+        "decided_only_metrics": {
+          "tp": 490,
+          "fn": 50,
+          "fp": 62,
+          "tn": 195,
+          "recall": {
+            "num": 490,
+            "den": 540,
+            "rate": 0.9074074074074074
+          },
+          "fpr": {
+            "num": 62,
+            "den": 257,
+            "rate": 0.24124513618677043
+          },
+          "f1": {
+            "num": 980,
+            "den": 1092,
+            "rate": 0.8974358974358975
+          },
+          "precision": {
+            "num": 490,
+            "den": 552,
+            "rate": 0.8876811594202898
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 328,
+        "fn": 213,
+        "fp": 71,
+        "tn": 188,
+        "recall": {
+          "num": 328,
+          "den": 541,
+          "rate": 0.6062846580406654
+        },
+        "fpr": {
+          "num": 71,
+          "den": 259,
+          "rate": 0.27413127413127414
+        },
+        "f1": {
+          "num": 656,
+          "den": 940,
+          "rate": 0.6978723404255319
+        },
+        "precision": {
+          "num": 328,
+          "den": 399,
+          "rate": 0.8220551378446115
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 468,
+        "fn": 73,
+        "fp": 15,
+        "tn": 244,
+        "recall": {
+          "num": 468,
+          "den": 541,
+          "rate": 0.8650646950092421
+        },
+        "fpr": {
+          "num": 15,
+          "den": 259,
+          "rate": 0.05791505791505792
+        },
+        "f1": {
+          "num": 936,
+          "den": 1024,
+          "rate": 0.9140625
+        },
+        "precision": {
+          "num": 468,
+          "den": 483,
+          "rate": 0.968944099378882
+        }
+      }
+    },
+    "mounts": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 396,
+        "fn": 11,
+        "fp": 8,
+        "tn": 385,
+        "recall": {
+          "num": 396,
+          "den": 407,
+          "rate": 0.972972972972973
+        },
+        "fpr": {
+          "num": 8,
+          "den": 393,
+          "rate": 0.020356234096692113
+        },
+        "f1": {
+          "num": 792,
+          "den": 811,
+          "rate": 0.9765721331689272
+        },
+        "precision": {
+          "num": 396,
+          "den": 404,
+          "rate": 0.9801980198019802
+        },
+        "auroc": 0.9913848616138693,
+        "average_precision": 0.9929640527788147
+      },
+      "final_with_hold": {
+        "decided_products": 799,
+        "hold_products": 1,
+        "hold_rate": 0.00125,
+        "coverage": 0.99875,
+        "decided_only_metrics": {
+          "tp": 395,
+          "fn": 11,
+          "fp": 8,
+          "tn": 385,
+          "recall": {
+            "num": 395,
+            "den": 406,
+            "rate": 0.9729064039408867
+          },
+          "fpr": {
+            "num": 8,
+            "den": 393,
+            "rate": 0.020356234096692113
+          },
+          "f1": {
+            "num": 790,
+            "den": 809,
+            "rate": 0.9765142150803461
+          },
+          "precision": {
+            "num": 395,
+            "den": 403,
+            "rate": 0.9801488833746899
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 396,
+        "fn": 11,
+        "fp": 96,
+        "tn": 297,
+        "recall": {
+          "num": 396,
+          "den": 407,
+          "rate": 0.972972972972973
+        },
+        "fpr": {
+          "num": 96,
+          "den": 393,
+          "rate": 0.24427480916030533
+        },
+        "f1": {
+          "num": 792,
+          "den": 899,
+          "rate": 0.8809788654060067
+        },
+        "precision": {
+          "num": 396,
+          "den": 492,
+          "rate": 0.8048780487804879
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 397,
+        "fn": 10,
+        "fp": 14,
+        "tn": 379,
+        "recall": {
+          "num": 397,
+          "den": 407,
+          "rate": 0.9754299754299754
+        },
+        "fpr": {
+          "num": 14,
+          "den": 393,
+          "rate": 0.035623409669211195
+        },
+        "f1": {
+          "num": 794,
+          "den": 818,
+          "rate": 0.9706601466992665
+        },
+        "precision": {
+          "num": 397,
+          "den": 411,
+          "rate": 0.9659367396593674
+        }
+      }
+    },
+    "pcb": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 392,
+        "fn": 9,
+        "fp": 29,
+        "tn": 370,
+        "recall": {
+          "num": 392,
+          "den": 401,
+          "rate": 0.9775561097256857
+        },
+        "fpr": {
+          "num": 29,
+          "den": 399,
+          "rate": 0.07268170426065163
+        },
+        "f1": {
+          "num": 784,
+          "den": 822,
+          "rate": 0.9537712895377128
+        },
+        "precision": {
+          "num": 392,
+          "den": 421,
+          "rate": 0.9311163895486936
+        },
+        "auroc": 0.9820123875774224,
+        "average_precision": 0.9840219395677902
+      },
+      "final_with_hold": {
+        "decided_products": 800,
+        "hold_products": 0,
+        "hold_rate": 0.0,
+        "coverage": 1.0,
+        "decided_only_metrics": {
+          "tp": 392,
+          "fn": 9,
+          "fp": 29,
+          "tn": 370,
+          "recall": {
+            "num": 392,
+            "den": 401,
+            "rate": 0.9775561097256857
+          },
+          "fpr": {
+            "num": 29,
+            "den": 399,
+            "rate": 0.07268170426065163
+          },
+          "f1": {
+            "num": 784,
+            "den": 822,
+            "rate": 0.9537712895377128
+          },
+          "precision": {
+            "num": 392,
+            "den": 421,
+            "rate": 0.9311163895486936
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 288,
+        "fn": 113,
+        "fp": 177,
+        "tn": 222,
+        "recall": {
+          "num": 288,
+          "den": 401,
+          "rate": 0.7182044887780549
+        },
+        "fpr": {
+          "num": 177,
+          "den": 399,
+          "rate": 0.44360902255639095
+        },
+        "f1": {
+          "num": 576,
+          "den": 866,
+          "rate": 0.6651270207852193
+        },
+        "precision": {
+          "num": 288,
+          "den": 465,
+          "rate": 0.6193548387096774
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 393,
+        "fn": 8,
+        "fp": 44,
+        "tn": 355,
+        "recall": {
+          "num": 393,
+          "den": 401,
+          "rate": 0.9800498753117207
+        },
+        "fpr": {
+          "num": 44,
+          "den": 399,
+          "rate": 0.11027568922305764
+        },
+        "f1": {
+          "num": 786,
+          "den": 838,
+          "rate": 0.9379474940334129
+        },
+        "precision": {
+          "num": 393,
+          "den": 437,
+          "rate": 0.8993135011441648
+        }
+      }
+    },
+    "phone_battery": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 382,
+        "fn": 17,
+        "fp": 27,
+        "tn": 374,
+        "recall": {
+          "num": 382,
+          "den": 399,
+          "rate": 0.9573934837092731
+        },
+        "fpr": {
+          "num": 27,
+          "den": 401,
+          "rate": 0.06733167082294264
+        },
+        "f1": {
+          "num": 764,
+          "den": 808,
+          "rate": 0.9455445544554455
+        },
+        "precision": {
+          "num": 382,
+          "den": 409,
+          "rate": 0.9339853300733496
+        },
+        "auroc": 0.9830561441009006,
+        "average_precision": 0.9857892407805001
+      },
+      "final_with_hold": {
+        "decided_products": 791,
+        "hold_products": 9,
+        "hold_rate": 0.01125,
+        "coverage": 0.98875,
+        "decided_only_metrics": {
+          "tp": 378,
+          "fn": 17,
+          "fp": 26,
+          "tn": 370,
+          "recall": {
+            "num": 378,
+            "den": 395,
+            "rate": 0.9569620253164557
+          },
+          "fpr": {
+            "num": 26,
+            "den": 396,
+            "rate": 0.06565656565656566
+          },
+          "f1": {
+            "num": 756,
+            "den": 799,
+            "rate": 0.9461827284105131
+          },
+          "precision": {
+            "num": 378,
+            "den": 404,
+            "rate": 0.9356435643564357
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 344,
+        "fn": 55,
+        "fp": 93,
+        "tn": 308,
+        "recall": {
+          "num": 344,
+          "den": 399,
+          "rate": 0.8621553884711779
+        },
+        "fpr": {
+          "num": 93,
+          "den": 401,
+          "rate": 0.23192019950124687
+        },
+        "f1": {
+          "num": 688,
+          "den": 836,
+          "rate": 0.8229665071770335
+        },
+        "precision": {
+          "num": 344,
+          "den": 437,
+          "rate": 0.7871853546910755
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 386,
+        "fn": 13,
+        "fp": 64,
+        "tn": 337,
+        "recall": {
+          "num": 386,
+          "den": 399,
+          "rate": 0.9674185463659147
+        },
+        "fpr": {
+          "num": 64,
+          "den": 401,
+          "rate": 0.1596009975062344
+        },
+        "f1": {
+          "num": 772,
+          "den": 849,
+          "rate": 0.9093050647820966
+        },
+        "precision": {
+          "num": 386,
+          "den": 450,
+          "rate": 0.8577777777777778
+        }
+      }
+    },
+    "plastic_nut": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 399,
+        "fn": 1,
+        "fp": 22,
+        "tn": 378,
+        "recall": {
+          "num": 399,
+          "den": 400,
+          "rate": 0.9975
+        },
+        "fpr": {
+          "num": 22,
+          "den": 400,
+          "rate": 0.055
+        },
+        "f1": {
+          "num": 798,
+          "den": 821,
+          "rate": 0.9719853836784409
+        },
+        "precision": {
+          "num": 399,
+          "den": 421,
+          "rate": 0.9477434679334917
+        },
+        "auroc": 0.99535,
+        "average_precision": 0.9952106588820772
+      },
+      "final_with_hold": {
+        "decided_products": 783,
+        "hold_products": 17,
+        "hold_rate": 0.02125,
+        "coverage": 0.97875,
+        "decided_only_metrics": {
+          "tp": 390,
+          "fn": 0,
+          "fp": 21,
+          "tn": 372,
+          "recall": {
+            "num": 390,
+            "den": 390,
+            "rate": 1.0
+          },
+          "fpr": {
+            "num": 21,
+            "den": 393,
+            "rate": 0.05343511450381679
+          },
+          "f1": {
+            "num": 780,
+            "den": 801,
+            "rate": 0.9737827715355806
+          },
+          "precision": {
+            "num": 390,
+            "den": 411,
+            "rate": 0.948905109489051
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 339,
+        "fn": 61,
+        "fp": 117,
+        "tn": 283,
+        "recall": {
+          "num": 339,
+          "den": 400,
+          "rate": 0.8475
+        },
+        "fpr": {
+          "num": 117,
+          "den": 400,
+          "rate": 0.2925
+        },
+        "f1": {
+          "num": 678,
+          "den": 856,
+          "rate": 0.7920560747663551
+        },
+        "precision": {
+          "num": 339,
+          "den": 456,
+          "rate": 0.743421052631579
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 400,
+        "fn": 0,
+        "fp": 49,
+        "tn": 351,
+        "recall": {
+          "num": 400,
+          "den": 400,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 49,
+          "den": 400,
+          "rate": 0.1225
+        },
+        "f1": {
+          "num": 800,
+          "den": 849,
+          "rate": 0.9422850412249706
+        },
+        "precision": {
+          "num": 400,
+          "den": 449,
+          "rate": 0.89086859688196
+        }
+      }
+    },
+    "plastic_plug": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 392,
+        "fn": 20,
+        "fp": 34,
+        "tn": 354,
+        "recall": {
+          "num": 392,
+          "den": 412,
+          "rate": 0.9514563106796117
+        },
+        "fpr": {
+          "num": 34,
+          "den": 388,
+          "rate": 0.08762886597938144
+        },
+        "f1": {
+          "num": 784,
+          "den": 838,
+          "rate": 0.9355608591885441
+        },
+        "precision": {
+          "num": 392,
+          "den": 426,
+          "rate": 0.92018779342723
+        },
+        "auroc": 0.975334050645581,
+        "average_precision": 0.9811919125238745
+      },
+      "final_with_hold": {
+        "decided_products": 798,
+        "hold_products": 2,
+        "hold_rate": 0.0025,
+        "coverage": 0.9975,
+        "decided_only_metrics": {
+          "tp": 391,
+          "fn": 20,
+          "fp": 34,
+          "tn": 353,
+          "recall": {
+            "num": 391,
+            "den": 411,
+            "rate": 0.9513381995133819
+          },
+          "fpr": {
+            "num": 34,
+            "den": 387,
+            "rate": 0.08785529715762273
+          },
+          "f1": {
+            "num": 782,
+            "den": 836,
+            "rate": 0.9354066985645934
+          },
+          "precision": {
+            "num": 391,
+            "den": 425,
+            "rate": 0.92
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 364,
+        "fn": 48,
+        "fp": 202,
+        "tn": 186,
+        "recall": {
+          "num": 364,
+          "den": 412,
+          "rate": 0.883495145631068
+        },
+        "fpr": {
+          "num": 202,
+          "den": 388,
+          "rate": 0.520618556701031
+        },
+        "f1": {
+          "num": 728,
+          "den": 978,
+          "rate": 0.7443762781186094
+        },
+        "precision": {
+          "num": 364,
+          "den": 566,
+          "rate": 0.6431095406360424
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 401,
+        "fn": 11,
+        "fp": 72,
+        "tn": 316,
+        "recall": {
+          "num": 401,
+          "den": 412,
+          "rate": 0.9733009708737864
+        },
+        "fpr": {
+          "num": 72,
+          "den": 388,
+          "rate": 0.18556701030927836
+        },
+        "f1": {
+          "num": 802,
+          "den": 885,
+          "rate": 0.9062146892655367
+        },
+        "precision": {
+          "num": 401,
+          "den": 473,
+          "rate": 0.8477801268498943
+        }
+      }
+    },
+    "porcelain_doll": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 399,
+        "fn": 17,
+        "fp": 20,
+        "tn": 364,
+        "recall": {
+          "num": 399,
+          "den": 416,
+          "rate": 0.9591346153846154
+        },
+        "fpr": {
+          "num": 20,
+          "den": 384,
+          "rate": 0.052083333333333336
+        },
+        "f1": {
+          "num": 798,
+          "den": 835,
+          "rate": 0.9556886227544911
+        },
+        "precision": {
+          "num": 399,
+          "den": 419,
+          "rate": 0.9522673031026253
+        },
+        "auroc": 0.9820306239983975,
+        "average_precision": 0.9866879723898229
+      },
+      "final_with_hold": {
+        "decided_products": 779,
+        "hold_products": 21,
+        "hold_rate": 0.02625,
+        "coverage": 0.97375,
+        "decided_only_metrics": {
+          "tp": 394,
+          "fn": 15,
+          "fp": 10,
+          "tn": 360,
+          "recall": {
+            "num": 394,
+            "den": 409,
+            "rate": 0.9633251833740831
+          },
+          "fpr": {
+            "num": 10,
+            "den": 370,
+            "rate": 0.02702702702702703
+          },
+          "f1": {
+            "num": 788,
+            "den": 813,
+            "rate": 0.9692496924969249
+          },
+          "precision": {
+            "num": 394,
+            "den": 404,
+            "rate": 0.9752475247524752
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 396,
+        "fn": 20,
+        "fp": 132,
+        "tn": 252,
+        "recall": {
+          "num": 396,
+          "den": 416,
+          "rate": 0.9519230769230769
+        },
+        "fpr": {
+          "num": 132,
+          "den": 384,
+          "rate": 0.34375
+        },
+        "f1": {
+          "num": 792,
+          "den": 944,
+          "rate": 0.8389830508474576
+        },
+        "precision": {
+          "num": 396,
+          "den": 528,
+          "rate": 0.75
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 404,
+        "fn": 12,
+        "fp": 38,
+        "tn": 346,
+        "recall": {
+          "num": 404,
+          "den": 416,
+          "rate": 0.9711538461538461
+        },
+        "fpr": {
+          "num": 38,
+          "den": 384,
+          "rate": 0.09895833333333333
+        },
+        "f1": {
+          "num": 808,
+          "den": 858,
+          "rate": 0.9417249417249417
+        },
+        "precision": {
+          "num": 404,
+          "den": 442,
+          "rate": 0.9140271493212669
+        }
+      }
+    },
+    "regulator": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 390,
+        "fn": 24,
+        "fp": 14,
+        "tn": 372,
+        "recall": {
+          "num": 390,
+          "den": 414,
+          "rate": 0.9420289855072463
+        },
+        "fpr": {
+          "num": 14,
+          "den": 386,
+          "rate": 0.03626943005181347
+        },
+        "f1": {
+          "num": 780,
+          "den": 818,
+          "rate": 0.9535452322738386
+        },
+        "precision": {
+          "num": 390,
+          "den": 404,
+          "rate": 0.9653465346534653
+        },
+        "auroc": 0.9850035042927586,
+        "average_precision": 0.9876196764872321
+      },
+      "final_with_hold": {
+        "decided_products": 789,
+        "hold_products": 11,
+        "hold_rate": 0.01375,
+        "coverage": 0.98625,
+        "decided_only_metrics": {
+          "tp": 385,
+          "fn": 21,
+          "fp": 14,
+          "tn": 369,
+          "recall": {
+            "num": 385,
+            "den": 406,
+            "rate": 0.9482758620689655
+          },
+          "fpr": {
+            "num": 14,
+            "den": 383,
+            "rate": 0.03655352480417755
+          },
+          "f1": {
+            "num": 770,
+            "den": 805,
+            "rate": 0.9565217391304348
+          },
+          "precision": {
+            "num": 385,
+            "den": 399,
+            "rate": 0.9649122807017544
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 376,
+        "fn": 38,
+        "fp": 314,
+        "tn": 72,
+        "recall": {
+          "num": 376,
+          "den": 414,
+          "rate": 0.9082125603864735
+        },
+        "fpr": {
+          "num": 314,
+          "den": 386,
+          "rate": 0.8134715025906736
+        },
+        "f1": {
+          "num": 752,
+          "den": 1104,
+          "rate": 0.6811594202898551
+        },
+        "precision": {
+          "num": 376,
+          "den": 690,
+          "rate": 0.5449275362318841
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 410,
+        "fn": 4,
+        "fp": 30,
+        "tn": 356,
+        "recall": {
+          "num": 410,
+          "den": 414,
+          "rate": 0.9903381642512077
+        },
+        "fpr": {
+          "num": 30,
+          "den": 386,
+          "rate": 0.07772020725388601
+        },
+        "f1": {
+          "num": 820,
+          "den": 854,
+          "rate": 0.9601873536299765
+        },
+        "precision": {
+          "num": 410,
+          "den": 440,
+          "rate": 0.9318181818181818
+        }
+      }
+    },
+    "rolled_strip_base": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 407,
+        "fn": 4,
+        "fp": 2,
+        "tn": 387,
+        "recall": {
+          "num": 407,
+          "den": 411,
+          "rate": 0.9902676399026764
+        },
+        "fpr": {
+          "num": 2,
+          "den": 389,
+          "rate": 0.005141388174807198
+        },
+        "f1": {
+          "num": 814,
+          "den": 820,
+          "rate": 0.9926829268292683
+        },
+        "precision": {
+          "num": 407,
+          "den": 409,
+          "rate": 0.9951100244498777
+        },
+        "auroc": 0.997229154548127,
+        "average_precision": 0.9974431659720457
+      },
+      "final_with_hold": {
+        "decided_products": 793,
+        "hold_products": 7,
+        "hold_rate": 0.00875,
+        "coverage": 0.99125,
+        "decided_only_metrics": {
+          "tp": 404,
+          "fn": 3,
+          "fp": 1,
+          "tn": 385,
+          "recall": {
+            "num": 404,
+            "den": 407,
+            "rate": 0.9926289926289926
+          },
+          "fpr": {
+            "num": 1,
+            "den": 386,
+            "rate": 0.0025906735751295338
+          },
+          "f1": {
+            "num": 808,
+            "den": 812,
+            "rate": 0.9950738916256158
+          },
+          "precision": {
+            "num": 404,
+            "den": 405,
+            "rate": 0.9975308641975309
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 389,
+        "fn": 22,
+        "fp": 10,
+        "tn": 379,
+        "recall": {
+          "num": 389,
+          "den": 411,
+          "rate": 0.9464720194647201
+        },
+        "fpr": {
+          "num": 10,
+          "den": 389,
+          "rate": 0.02570694087403599
+        },
+        "f1": {
+          "num": 778,
+          "den": 810,
+          "rate": 0.9604938271604938
+        },
+        "precision": {
+          "num": 389,
+          "den": 399,
+          "rate": 0.974937343358396
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 409,
+        "fn": 2,
+        "fp": 14,
+        "tn": 375,
+        "recall": {
+          "num": 409,
+          "den": 411,
+          "rate": 0.9951338199513382
+        },
+        "fpr": {
+          "num": 14,
+          "den": 389,
+          "rate": 0.03598971722365039
+        },
+        "f1": {
+          "num": 818,
+          "den": 834,
+          "rate": 0.9808153477218226
+        },
+        "precision": {
+          "num": 409,
+          "den": 423,
+          "rate": 0.966903073286052
+        }
+      }
+    },
+    "sim_card_set": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 400,
+        "fn": 4,
+        "fp": 19,
+        "tn": 377,
+        "recall": {
+          "num": 400,
+          "den": 404,
+          "rate": 0.9900990099009901
+        },
+        "fpr": {
+          "num": 19,
+          "den": 396,
+          "rate": 0.047979797979797977
+        },
+        "f1": {
+          "num": 800,
+          "den": 823,
+          "rate": 0.9720534629404617
+        },
+        "precision": {
+          "num": 400,
+          "den": 419,
+          "rate": 0.954653937947494
+        },
+        "auroc": 0.9962996299629963,
+        "average_precision": 0.9965605576875343
+      },
+      "final_with_hold": {
+        "decided_products": 794,
+        "hold_products": 6,
+        "hold_rate": 0.0075,
+        "coverage": 0.9925,
+        "decided_only_metrics": {
+          "tp": 398,
+          "fn": 4,
+          "fp": 17,
+          "tn": 375,
+          "recall": {
+            "num": 398,
+            "den": 402,
+            "rate": 0.9900497512437811
+          },
+          "fpr": {
+            "num": 17,
+            "den": 392,
+            "rate": 0.04336734693877551
+          },
+          "f1": {
+            "num": 796,
+            "den": 817,
+            "rate": 0.9742962056303549
+          },
+          "precision": {
+            "num": 398,
+            "den": 415,
+            "rate": 0.9590361445783132
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 383,
+        "fn": 21,
+        "fp": 55,
+        "tn": 341,
+        "recall": {
+          "num": 383,
+          "den": 404,
+          "rate": 0.948019801980198
+        },
+        "fpr": {
+          "num": 55,
+          "den": 396,
+          "rate": 0.1388888888888889
+        },
+        "f1": {
+          "num": 766,
+          "den": 842,
+          "rate": 0.9097387173396675
+        },
+        "precision": {
+          "num": 383,
+          "den": 438,
+          "rate": 0.8744292237442922
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 401,
+        "fn": 3,
+        "fp": 46,
+        "tn": 350,
+        "recall": {
+          "num": 401,
+          "den": 404,
+          "rate": 0.9925742574257426
+        },
+        "fpr": {
+          "num": 46,
+          "den": 396,
+          "rate": 0.11616161616161616
+        },
+        "f1": {
+          "num": 802,
+          "den": 851,
+          "rate": 0.9424206815511164
+        },
+        "precision": {
+          "num": 401,
+          "den": 447,
+          "rate": 0.8970917225950783
+        }
+      }
+    },
+    "switch": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 405,
+        "fn": 1,
+        "fp": 12,
+        "tn": 382,
+        "recall": {
+          "num": 405,
+          "den": 406,
+          "rate": 0.9975369458128078
+        },
+        "fpr": {
+          "num": 12,
+          "den": 394,
+          "rate": 0.030456852791878174
+        },
+        "f1": {
+          "num": 810,
+          "den": 823,
+          "rate": 0.9842041312272175
+        },
+        "precision": {
+          "num": 405,
+          "den": 417,
+          "rate": 0.9712230215827338
+        },
+        "auroc": 0.9991560601135255,
+        "average_precision": 0.9991780700784466
+      },
+      "final_with_hold": {
+        "decided_products": 796,
+        "hold_products": 4,
+        "hold_rate": 0.005,
+        "coverage": 0.995,
+        "decided_only_metrics": {
+          "tp": 405,
+          "fn": 1,
+          "fp": 11,
+          "tn": 379,
+          "recall": {
+            "num": 405,
+            "den": 406,
+            "rate": 0.9975369458128078
+          },
+          "fpr": {
+            "num": 11,
+            "den": 390,
+            "rate": 0.028205128205128206
+          },
+          "f1": {
+            "num": 810,
+            "den": 822,
+            "rate": 0.9854014598540146
+          },
+          "precision": {
+            "num": 405,
+            "den": 416,
+            "rate": 0.9735576923076923
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 345,
+        "fn": 61,
+        "fp": 105,
+        "tn": 289,
+        "recall": {
+          "num": 345,
+          "den": 406,
+          "rate": 0.8497536945812808
+        },
+        "fpr": {
+          "num": 105,
+          "den": 394,
+          "rate": 0.26649746192893403
+        },
+        "f1": {
+          "num": 690,
+          "den": 856,
+          "rate": 0.8060747663551402
+        },
+        "precision": {
+          "num": 345,
+          "den": 450,
+          "rate": 0.7666666666666667
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 406,
+        "fn": 0,
+        "fp": 25,
+        "tn": 369,
+        "recall": {
+          "num": 406,
+          "den": 406,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 25,
+          "den": 394,
+          "rate": 0.06345177664974619
+        },
+        "f1": {
+          "num": 812,
+          "den": 837,
+          "rate": 0.970131421744325
+        },
+        "precision": {
+          "num": 406,
+          "den": 431,
+          "rate": 0.9419953596287703
+        }
+      }
+    },
+    "tape": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 411,
+        "fn": 0,
+        "fp": 8,
+        "tn": 381,
+        "recall": {
+          "num": 411,
+          "den": 411,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 8,
+          "den": 389,
+          "rate": 0.02056555269922879
+        },
+        "f1": {
+          "num": 822,
+          "den": 830,
+          "rate": 0.9903614457831326
+        },
+        "precision": {
+          "num": 411,
+          "den": 419,
+          "rate": 0.9809069212410502
+        },
+        "auroc": 0.9998123580958099,
+        "average_precision": 0.9998222055619795
+      },
+      "final_with_hold": {
+        "decided_products": 797,
+        "hold_products": 3,
+        "hold_rate": 0.00375,
+        "coverage": 0.99625,
+        "decided_only_metrics": {
+          "tp": 411,
+          "fn": 0,
+          "fp": 7,
+          "tn": 379,
+          "recall": {
+            "num": 411,
+            "den": 411,
+            "rate": 1.0
+          },
+          "fpr": {
+            "num": 7,
+            "den": 386,
+            "rate": 0.018134715025906734
+          },
+          "f1": {
+            "num": 822,
+            "den": 829,
+            "rate": 0.991556091676719
+          },
+          "precision": {
+            "num": 411,
+            "den": 418,
+            "rate": 0.9832535885167464
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 402,
+        "fn": 9,
+        "fp": 40,
+        "tn": 349,
+        "recall": {
+          "num": 402,
+          "den": 411,
+          "rate": 0.9781021897810219
+        },
+        "fpr": {
+          "num": 40,
+          "den": 389,
+          "rate": 0.10282776349614396
+        },
+        "f1": {
+          "num": 804,
+          "den": 853,
+          "rate": 0.9425556858147714
+        },
+        "precision": {
+          "num": 402,
+          "den": 442,
+          "rate": 0.9095022624434389
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 411,
+        "fn": 0,
+        "fp": 21,
+        "tn": 368,
+        "recall": {
+          "num": 411,
+          "den": 411,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 21,
+          "den": 389,
+          "rate": 0.05398457583547558
+        },
+        "f1": {
+          "num": 822,
+          "den": 843,
+          "rate": 0.9750889679715302
+        },
+        "precision": {
+          "num": 411,
+          "den": 432,
+          "rate": 0.9513888888888888
+        }
+      }
+    },
+    "terminalblock": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 408,
+        "fn": 10,
+        "fp": 1,
+        "tn": 381,
+        "recall": {
+          "num": 408,
+          "den": 418,
+          "rate": 0.9760765550239234
+        },
+        "fpr": {
+          "num": 1,
+          "den": 382,
+          "rate": 0.002617801047120419
+        },
+        "f1": {
+          "num": 816,
+          "den": 827,
+          "rate": 0.9866989117291415
+        },
+        "precision": {
+          "num": 408,
+          "den": 409,
+          "rate": 0.9975550122249389
+        },
+        "auroc": 0.9884265637916781,
+        "average_precision": 0.9906601283884378
+      },
+      "final_with_hold": {
+        "decided_products": 764,
+        "hold_products": 36,
+        "hold_rate": 0.045,
+        "coverage": 0.955,
+        "decided_only_metrics": {
+          "tp": 399,
+          "fn": 8,
+          "fp": 0,
+          "tn": 357,
+          "recall": {
+            "num": 399,
+            "den": 407,
+            "rate": 0.9803439803439803
+          },
+          "fpr": {
+            "num": 0,
+            "den": 357,
+            "rate": 0.0
+          },
+          "f1": {
+            "num": 798,
+            "den": 806,
+            "rate": 0.9900744416873449
+          },
+          "precision": {
+            "num": 399,
+            "den": 399,
+            "rate": 1.0
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 358,
+        "fn": 60,
+        "fp": 61,
+        "tn": 321,
+        "recall": {
+          "num": 358,
+          "den": 418,
+          "rate": 0.8564593301435407
+        },
+        "fpr": {
+          "num": 61,
+          "den": 382,
+          "rate": 0.15968586387434555
+        },
+        "f1": {
+          "num": 716,
+          "den": 837,
+          "rate": 0.8554360812425329
+        },
+        "precision": {
+          "num": 358,
+          "den": 419,
+          "rate": 0.8544152744630071
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 409,
+        "fn": 9,
+        "fp": 10,
+        "tn": 372,
+        "recall": {
+          "num": 409,
+          "den": 418,
+          "rate": 0.9784688995215312
+        },
+        "fpr": {
+          "num": 10,
+          "den": 382,
+          "rate": 0.02617801047120419
+        },
+        "f1": {
+          "num": 818,
+          "den": 837,
+          "rate": 0.977299880525687
+        },
+        "precision": {
+          "num": 409,
+          "den": 419,
+          "rate": 0.9761336515513126
+        }
+      }
+    },
+    "toothbrush": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 412,
+        "fn": 10,
+        "fp": 24,
+        "tn": 354,
+        "recall": {
+          "num": 412,
+          "den": 422,
+          "rate": 0.976303317535545
+        },
+        "fpr": {
+          "num": 24,
+          "den": 378,
+          "rate": 0.06349206349206349
+        },
+        "f1": {
+          "num": 824,
+          "den": 858,
+          "rate": 0.9603729603729604
+        },
+        "precision": {
+          "num": 412,
+          "den": 436,
+          "rate": 0.944954128440367
+        },
+        "auroc": 0.9890293136738635,
+        "average_precision": 0.9896793447798438
+      },
+      "final_with_hold": {
+        "decided_products": 798,
+        "hold_products": 2,
+        "hold_rate": 0.0025,
+        "coverage": 0.9975,
+        "decided_only_metrics": {
+          "tp": 411,
+          "fn": 9,
+          "fp": 24,
+          "tn": 354,
+          "recall": {
+            "num": 411,
+            "den": 420,
+            "rate": 0.9785714285714285
+          },
+          "fpr": {
+            "num": 24,
+            "den": 378,
+            "rate": 0.06349206349206349
+          },
+          "f1": {
+            "num": 822,
+            "den": 855,
+            "rate": 0.9614035087719298
+          },
+          "precision": {
+            "num": 411,
+            "den": 435,
+            "rate": 0.9448275862068966
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 404,
+        "fn": 18,
+        "fp": 179,
+        "tn": 199,
+        "recall": {
+          "num": 404,
+          "den": 422,
+          "rate": 0.957345971563981
+        },
+        "fpr": {
+          "num": 179,
+          "den": 378,
+          "rate": 0.47354497354497355
+        },
+        "f1": {
+          "num": 808,
+          "den": 1005,
+          "rate": 0.8039800995024876
+        },
+        "precision": {
+          "num": 404,
+          "den": 583,
+          "rate": 0.692967409948542
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 421,
+        "fn": 1,
+        "fp": 92,
+        "tn": 286,
+        "recall": {
+          "num": 421,
+          "den": 422,
+          "rate": 0.9976303317535545
+        },
+        "fpr": {
+          "num": 92,
+          "den": 378,
+          "rate": 0.24338624338624337
+        },
+        "f1": {
+          "num": 842,
+          "den": 935,
+          "rate": 0.9005347593582887
+        },
+        "precision": {
+          "num": 421,
+          "den": 513,
+          "rate": 0.8206627680311891
+        }
+      }
+    },
+    "toy": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 380,
+        "fn": 16,
+        "fp": 21,
+        "tn": 383,
+        "recall": {
+          "num": 380,
+          "den": 396,
+          "rate": 0.9595959595959596
+        },
+        "fpr": {
+          "num": 21,
+          "den": 404,
+          "rate": 0.05198019801980198
+        },
+        "f1": {
+          "num": 760,
+          "den": 797,
+          "rate": 0.9535759096612296
+        },
+        "precision": {
+          "num": 380,
+          "den": 401,
+          "rate": 0.9476309226932669
+        },
+        "auroc": 0.9907709520952095,
+        "average_precision": 0.9901839452563046
+      },
+      "final_with_hold": {
+        "decided_products": 798,
+        "hold_products": 2,
+        "hold_rate": 0.0025,
+        "coverage": 0.9975,
+        "decided_only_metrics": {
+          "tp": 379,
+          "fn": 16,
+          "fp": 20,
+          "tn": 383,
+          "recall": {
+            "num": 379,
+            "den": 395,
+            "rate": 0.959493670886076
+          },
+          "fpr": {
+            "num": 20,
+            "den": 403,
+            "rate": 0.04962779156327544
+          },
+          "f1": {
+            "num": 758,
+            "den": 794,
+            "rate": 0.9546599496221663
+          },
+          "precision": {
+            "num": 379,
+            "den": 399,
+            "rate": 0.949874686716792
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 375,
+        "fn": 21,
+        "fp": 338,
+        "tn": 66,
+        "recall": {
+          "num": 375,
+          "den": 396,
+          "rate": 0.946969696969697
+        },
+        "fpr": {
+          "num": 338,
+          "den": 404,
+          "rate": 0.8366336633663366
+        },
+        "f1": {
+          "num": 750,
+          "den": 1109,
+          "rate": 0.6762849413886384
+        },
+        "precision": {
+          "num": 375,
+          "den": 713,
+          "rate": 0.5259467040673211
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 395,
+        "fn": 1,
+        "fp": 76,
+        "tn": 328,
+        "recall": {
+          "num": 395,
+          "den": 396,
+          "rate": 0.9974747474747475
+        },
+        "fpr": {
+          "num": 76,
+          "den": 404,
+          "rate": 0.18811881188118812
+        },
+        "f1": {
+          "num": 790,
+          "den": 867,
+          "rate": 0.9111880046136102
+        },
+        "precision": {
+          "num": 395,
+          "den": 471,
+          "rate": 0.8386411889596603
+        }
+      }
+    },
+    "toy_brick": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 391,
+        "fn": 10,
+        "fp": 42,
+        "tn": 357,
+        "recall": {
+          "num": 391,
+          "den": 401,
+          "rate": 0.9750623441396509
+        },
+        "fpr": {
+          "num": 42,
+          "den": 399,
+          "rate": 0.10526315789473684
+        },
+        "f1": {
+          "num": 782,
+          "den": 834,
+          "rate": 0.9376498800959233
+        },
+        "precision": {
+          "num": 391,
+          "den": 433,
+          "rate": 0.9030023094688222
+        },
+        "auroc": 0.9851905324408278,
+        "average_precision": 0.9865326138513496
+      },
+      "final_with_hold": {
+        "decided_products": 795,
+        "hold_products": 5,
+        "hold_rate": 0.00625,
+        "coverage": 0.99375,
+        "decided_only_metrics": {
+          "tp": 391,
+          "fn": 9,
+          "fp": 41,
+          "tn": 354,
+          "recall": {
+            "num": 391,
+            "den": 400,
+            "rate": 0.9775
+          },
+          "fpr": {
+            "num": 41,
+            "den": 395,
+            "rate": 0.10379746835443038
+          },
+          "f1": {
+            "num": 782,
+            "den": 832,
+            "rate": 0.9399038461538461
+          },
+          "precision": {
+            "num": 391,
+            "den": 432,
+            "rate": 0.9050925925925926
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 313,
+        "fn": 88,
+        "fp": 135,
+        "tn": 264,
+        "recall": {
+          "num": 313,
+          "den": 401,
+          "rate": 0.7805486284289277
+        },
+        "fpr": {
+          "num": 135,
+          "den": 399,
+          "rate": 0.3383458646616541
+        },
+        "f1": {
+          "num": 626,
+          "den": 849,
+          "rate": 0.7373380447585395
+        },
+        "precision": {
+          "num": 313,
+          "den": 448,
+          "rate": 0.6986607142857143
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 396,
+        "fn": 5,
+        "fp": 58,
+        "tn": 341,
+        "recall": {
+          "num": 396,
+          "den": 401,
+          "rate": 0.9875311720698254
+        },
+        "fpr": {
+          "num": 58,
+          "den": 399,
+          "rate": 0.14536340852130325
+        },
+        "f1": {
+          "num": 792,
+          "den": 855,
+          "rate": 0.9263157894736842
+        },
+        "precision": {
+          "num": 396,
+          "den": 454,
+          "rate": 0.8722466960352423
+        }
+      }
+    },
+    "transistor1": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 395,
+        "fn": 2,
+        "fp": 4,
+        "tn": 399,
+        "recall": {
+          "num": 395,
+          "den": 397,
+          "rate": 0.9949622166246851
+        },
+        "fpr": {
+          "num": 4,
+          "den": 403,
+          "rate": 0.009925558312655087
+        },
+        "f1": {
+          "num": 790,
+          "den": 796,
+          "rate": 0.992462311557789
+        },
+        "precision": {
+          "num": 395,
+          "den": 399,
+          "rate": 0.9899749373433584
+        },
+        "auroc": 0.9995874767955697,
+        "average_precision": 0.9995778865251271
+      },
+      "final_with_hold": {
+        "decided_products": 800,
+        "hold_products": 0,
+        "hold_rate": 0.0,
+        "coverage": 1.0,
+        "decided_only_metrics": {
+          "tp": 395,
+          "fn": 2,
+          "fp": 4,
+          "tn": 399,
+          "recall": {
+            "num": 395,
+            "den": 397,
+            "rate": 0.9949622166246851
+          },
+          "fpr": {
+            "num": 4,
+            "den": 403,
+            "rate": 0.009925558312655087
+          },
+          "f1": {
+            "num": 790,
+            "den": 796,
+            "rate": 0.992462311557789
+          },
+          "precision": {
+            "num": 395,
+            "den": 399,
+            "rate": 0.9899749373433584
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 374,
+        "fn": 23,
+        "fp": 33,
+        "tn": 370,
+        "recall": {
+          "num": 374,
+          "den": 397,
+          "rate": 0.9420654911838791
+        },
+        "fpr": {
+          "num": 33,
+          "den": 403,
+          "rate": 0.08188585607940446
+        },
+        "f1": {
+          "num": 748,
+          "den": 804,
+          "rate": 0.9303482587064676
+        },
+        "precision": {
+          "num": 374,
+          "den": 407,
+          "rate": 0.918918918918919
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 397,
+        "fn": 0,
+        "fp": 12,
+        "tn": 391,
+        "recall": {
+          "num": 397,
+          "den": 397,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 12,
+          "den": 403,
+          "rate": 0.02977667493796526
+        },
+        "f1": {
+          "num": 794,
+          "den": 806,
+          "rate": 0.9851116625310173
+        },
+        "precision": {
+          "num": 397,
+          "den": 409,
+          "rate": 0.9706601466992665
+        }
+      }
+    },
+    "u_block": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 396,
+        "fn": 7,
+        "fp": 16,
+        "tn": 381,
+        "recall": {
+          "num": 396,
+          "den": 403,
+          "rate": 0.9826302729528535
+        },
+        "fpr": {
+          "num": 16,
+          "den": 397,
+          "rate": 0.04030226700251889
+        },
+        "f1": {
+          "num": 792,
+          "den": 815,
+          "rate": 0.9717791411042945
+        },
+        "precision": {
+          "num": 396,
+          "den": 412,
+          "rate": 0.9611650485436893
+        },
+        "auroc": 0.9962404135232606,
+        "average_precision": 0.9961327674275233
+      },
+      "final_with_hold": {
+        "decided_products": 799,
+        "hold_products": 1,
+        "hold_rate": 0.00125,
+        "coverage": 0.99875,
+        "decided_only_metrics": {
+          "tp": 396,
+          "fn": 7,
+          "fp": 16,
+          "tn": 380,
+          "recall": {
+            "num": 396,
+            "den": 403,
+            "rate": 0.9826302729528535
+          },
+          "fpr": {
+            "num": 16,
+            "den": 396,
+            "rate": 0.04040404040404041
+          },
+          "f1": {
+            "num": 792,
+            "den": 815,
+            "rate": 0.9717791411042945
+          },
+          "precision": {
+            "num": 396,
+            "den": 412,
+            "rate": 0.9611650485436893
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 342,
+        "fn": 61,
+        "fp": 16,
+        "tn": 381,
+        "recall": {
+          "num": 342,
+          "den": 403,
+          "rate": 0.8486352357320099
+        },
+        "fpr": {
+          "num": 16,
+          "den": 397,
+          "rate": 0.04030226700251889
+        },
+        "f1": {
+          "num": 684,
+          "den": 761,
+          "rate": 0.8988173455978975
+        },
+        "precision": {
+          "num": 342,
+          "den": 358,
+          "rate": 0.9553072625698324
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 402,
+        "fn": 1,
+        "fp": 47,
+        "tn": 350,
+        "recall": {
+          "num": 402,
+          "den": 403,
+          "rate": 0.9975186104218362
+        },
+        "fpr": {
+          "num": 47,
+          "den": 397,
+          "rate": 0.11838790931989925
+        },
+        "f1": {
+          "num": 804,
+          "den": 852,
+          "rate": 0.9436619718309859
+        },
+        "precision": {
+          "num": 402,
+          "den": 449,
+          "rate": 0.8953229398663697
+        }
+      }
+    },
+    "usb": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 403,
+        "fn": 3,
+        "fp": 28,
+        "tn": 366,
+        "recall": {
+          "num": 403,
+          "den": 406,
+          "rate": 0.9926108374384236
+        },
+        "fpr": {
+          "num": 28,
+          "den": 394,
+          "rate": 0.07106598984771574
+        },
+        "f1": {
+          "num": 806,
+          "den": 837,
+          "rate": 0.9629629629629629
+        },
+        "precision": {
+          "num": 403,
+          "den": 431,
+          "rate": 0.9350348027842227
+        },
+        "auroc": 0.9916418694206196,
+        "average_precision": 0.9910864779335401
+      },
+      "final_with_hold": {
+        "decided_products": 791,
+        "hold_products": 9,
+        "hold_rate": 0.01125,
+        "coverage": 0.98875,
+        "decided_only_metrics": {
+          "tp": 400,
+          "fn": 3,
+          "fp": 25,
+          "tn": 363,
+          "recall": {
+            "num": 400,
+            "den": 403,
+            "rate": 0.9925558312655087
+          },
+          "fpr": {
+            "num": 25,
+            "den": 388,
+            "rate": 0.06443298969072164
+          },
+          "f1": {
+            "num": 800,
+            "den": 828,
+            "rate": 0.966183574879227
+          },
+          "precision": {
+            "num": 400,
+            "den": 425,
+            "rate": 0.9411764705882353
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 319,
+        "fn": 87,
+        "fp": 139,
+        "tn": 255,
+        "recall": {
+          "num": 319,
+          "den": 406,
+          "rate": 0.7857142857142857
+        },
+        "fpr": {
+          "num": 139,
+          "den": 394,
+          "rate": 0.35279187817258884
+        },
+        "f1": {
+          "num": 638,
+          "den": 864,
+          "rate": 0.7384259259259259
+        },
+        "precision": {
+          "num": 319,
+          "den": 458,
+          "rate": 0.6965065502183406
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 404,
+        "fn": 2,
+        "fp": 28,
+        "tn": 366,
+        "recall": {
+          "num": 404,
+          "den": 406,
+          "rate": 0.9950738916256158
+        },
+        "fpr": {
+          "num": 28,
+          "den": 394,
+          "rate": 0.07106598984771574
+        },
+        "f1": {
+          "num": 808,
+          "den": 838,
+          "rate": 0.964200477326969
+        },
+        "precision": {
+          "num": 404,
+          "den": 432,
+          "rate": 0.9351851851851852
+        }
+      }
+    },
+    "usb_adaptor": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 388,
+        "fn": 38,
+        "fp": 20,
+        "tn": 354,
+        "recall": {
+          "num": 388,
+          "den": 426,
+          "rate": 0.9107981220657277
+        },
+        "fpr": {
+          "num": 20,
+          "den": 374,
+          "rate": 0.053475935828877004
+        },
+        "f1": {
+          "num": 776,
+          "den": 834,
+          "rate": 0.9304556354916067
+        },
+        "precision": {
+          "num": 388,
+          "den": 408,
+          "rate": 0.9509803921568627
+        },
+        "auroc": 0.9776116592603751,
+        "average_precision": 0.983352087498748
+      },
+      "final_with_hold": {
+        "decided_products": 799,
+        "hold_products": 1,
+        "hold_rate": 0.00125,
+        "coverage": 0.99875,
+        "decided_only_metrics": {
+          "tp": 387,
+          "fn": 38,
+          "fp": 20,
+          "tn": 354,
+          "recall": {
+            "num": 387,
+            "den": 425,
+            "rate": 0.9105882352941177
+          },
+          "fpr": {
+            "num": 20,
+            "den": 374,
+            "rate": 0.053475935828877004
+          },
+          "f1": {
+            "num": 774,
+            "den": 832,
+            "rate": 0.9302884615384616
+          },
+          "precision": {
+            "num": 387,
+            "den": 407,
+            "rate": 0.9508599508599509
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 370,
+        "fn": 56,
+        "fp": 154,
+        "tn": 220,
+        "recall": {
+          "num": 370,
+          "den": 426,
+          "rate": 0.8685446009389671
+        },
+        "fpr": {
+          "num": 154,
+          "den": 374,
+          "rate": 0.4117647058823529
+        },
+        "f1": {
+          "num": 740,
+          "den": 950,
+          "rate": 0.7789473684210526
+        },
+        "precision": {
+          "num": 370,
+          "den": 524,
+          "rate": 0.7061068702290076
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 415,
+        "fn": 11,
+        "fp": 33,
+        "tn": 341,
+        "recall": {
+          "num": 415,
+          "den": 426,
+          "rate": 0.9741784037558685
+        },
+        "fpr": {
+          "num": 33,
+          "den": 374,
+          "rate": 0.08823529411764706
+        },
+        "f1": {
+          "num": 830,
+          "den": 874,
+          "rate": 0.9496567505720824
+        },
+        "precision": {
+          "num": 415,
+          "den": 448,
+          "rate": 0.9263392857142857
+        }
+      }
+    },
+    "vcpill": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 388,
+        "fn": 8,
+        "fp": 15,
+        "tn": 389,
+        "recall": {
+          "num": 388,
+          "den": 396,
+          "rate": 0.9797979797979798
+        },
+        "fpr": {
+          "num": 15,
+          "den": 404,
+          "rate": 0.03712871287128713
+        },
+        "f1": {
+          "num": 776,
+          "den": 799,
+          "rate": 0.9712140175219024
+        },
+        "precision": {
+          "num": 388,
+          "den": 403,
+          "rate": 0.9627791563275434
+        },
+        "auroc": 0.991802305230523,
+        "average_precision": 0.9927081261307964
+      },
+      "final_with_hold": {
+        "decided_products": 800,
+        "hold_products": 0,
+        "hold_rate": 0.0,
+        "coverage": 1.0,
+        "decided_only_metrics": {
+          "tp": 388,
+          "fn": 8,
+          "fp": 15,
+          "tn": 389,
+          "recall": {
+            "num": 388,
+            "den": 396,
+            "rate": 0.9797979797979798
+          },
+          "fpr": {
+            "num": 15,
+            "den": 404,
+            "rate": 0.03712871287128713
+          },
+          "f1": {
+            "num": 776,
+            "den": 799,
+            "rate": 0.9712140175219024
+          },
+          "precision": {
+            "num": 388,
+            "den": 403,
+            "rate": 0.9627791563275434
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 364,
+        "fn": 32,
+        "fp": 215,
+        "tn": 189,
+        "recall": {
+          "num": 364,
+          "den": 396,
+          "rate": 0.9191919191919192
+        },
+        "fpr": {
+          "num": 215,
+          "den": 404,
+          "rate": 0.5321782178217822
+        },
+        "f1": {
+          "num": 728,
+          "den": 975,
+          "rate": 0.7466666666666667
+        },
+        "precision": {
+          "num": 364,
+          "den": 579,
+          "rate": 0.6286701208981001
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 393,
+        "fn": 3,
+        "fp": 26,
+        "tn": 378,
+        "recall": {
+          "num": 393,
+          "den": 396,
+          "rate": 0.9924242424242424
+        },
+        "fpr": {
+          "num": 26,
+          "den": 404,
+          "rate": 0.06435643564356436
+        },
+        "f1": {
+          "num": 786,
+          "den": 815,
+          "rate": 0.9644171779141104
+        },
+        "precision": {
+          "num": 393,
+          "den": 419,
+          "rate": 0.9379474940334129
+        }
+      }
+    },
+    "wooden_beads": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 419,
+        "fn": 39,
+        "fp": 12,
+        "tn": 330,
+        "recall": {
+          "num": 419,
+          "den": 458,
+          "rate": 0.9148471615720524
+        },
+        "fpr": {
+          "num": 12,
+          "den": 342,
+          "rate": 0.03508771929824561
+        },
+        "f1": {
+          "num": 838,
+          "den": 889,
+          "rate": 0.9426321709786277
+        },
+        "precision": {
+          "num": 419,
+          "den": 431,
+          "rate": 0.9721577726218097
+        },
+        "auroc": 0.9661635894685768,
+        "average_precision": 0.9778500533076566
+      },
+      "final_with_hold": {
+        "decided_products": 791,
+        "hold_products": 9,
+        "hold_rate": 0.01125,
+        "coverage": 0.98875,
+        "decided_only_metrics": {
+          "tp": 415,
+          "fn": 36,
+          "fp": 12,
+          "tn": 328,
+          "recall": {
+            "num": 415,
+            "den": 451,
+            "rate": 0.9201773835920177
+          },
+          "fpr": {
+            "num": 12,
+            "den": 340,
+            "rate": 0.03529411764705882
+          },
+          "f1": {
+            "num": 830,
+            "den": 878,
+            "rate": 0.9453302961275627
+          },
+          "precision": {
+            "num": 415,
+            "den": 427,
+            "rate": 0.9718969555035128
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 382,
+        "fn": 76,
+        "fp": 116,
+        "tn": 226,
+        "recall": {
+          "num": 382,
+          "den": 458,
+          "rate": 0.834061135371179
+        },
+        "fpr": {
+          "num": 116,
+          "den": 342,
+          "rate": 0.3391812865497076
+        },
+        "f1": {
+          "num": 764,
+          "den": 956,
+          "rate": 0.799163179916318
+        },
+        "precision": {
+          "num": 382,
+          "den": 498,
+          "rate": 0.7670682730923695
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 432,
+        "fn": 26,
+        "fp": 26,
+        "tn": 316,
+        "recall": {
+          "num": 432,
+          "den": 458,
+          "rate": 0.9432314410480349
+        },
+        "fpr": {
+          "num": 26,
+          "den": 342,
+          "rate": 0.07602339181286549
+        },
+        "f1": {
+          "num": 864,
+          "den": 916,
+          "rate": 0.9432314410480349
+        },
+        "precision": {
+          "num": 432,
+          "den": 458,
+          "rate": 0.9432314410480349
+        }
+      }
+    },
+    "woodstick": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 366,
+        "fn": 21,
+        "fp": 24,
+        "tn": 389,
+        "recall": {
+          "num": 366,
+          "den": 387,
+          "rate": 0.9457364341085271
+        },
+        "fpr": {
+          "num": 24,
+          "den": 413,
+          "rate": 0.05811138014527845
+        },
+        "f1": {
+          "num": 732,
+          "den": 777,
+          "rate": 0.9420849420849421
+        },
+        "precision": {
+          "num": 366,
+          "den": 390,
+          "rate": 0.9384615384615385
+        },
+        "auroc": 0.9781863343156209,
+        "average_precision": 0.9810074444684782
+      },
+      "final_with_hold": {
+        "decided_products": 798,
+        "hold_products": 2,
+        "hold_rate": 0.0025,
+        "coverage": 0.9975,
+        "decided_only_metrics": {
+          "tp": 366,
+          "fn": 19,
+          "fp": 24,
+          "tn": 389,
+          "recall": {
+            "num": 366,
+            "den": 385,
+            "rate": 0.9506493506493506
+          },
+          "fpr": {
+            "num": 24,
+            "den": 413,
+            "rate": 0.05811138014527845
+          },
+          "f1": {
+            "num": 732,
+            "den": 775,
+            "rate": 0.944516129032258
+          },
+          "precision": {
+            "num": 366,
+            "den": 390,
+            "rate": 0.9384615384615385
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 331,
+        "fn": 56,
+        "fp": 220,
+        "tn": 193,
+        "recall": {
+          "num": 331,
+          "den": 387,
+          "rate": 0.8552971576227391
+        },
+        "fpr": {
+          "num": 220,
+          "den": 413,
+          "rate": 0.5326876513317191
+        },
+        "f1": {
+          "num": 662,
+          "den": 938,
+          "rate": 0.7057569296375267
+        },
+        "precision": {
+          "num": 331,
+          "den": 551,
+          "rate": 0.6007259528130672
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 376,
+        "fn": 11,
+        "fp": 40,
+        "tn": 373,
+        "recall": {
+          "num": 376,
+          "den": 387,
+          "rate": 0.9715762273901809
+        },
+        "fpr": {
+          "num": 40,
+          "den": 413,
+          "rate": 0.09685230024213075
+        },
+        "f1": {
+          "num": 752,
+          "den": 803,
+          "rate": 0.9364881693648817
+        },
+        "precision": {
+          "num": 376,
+          "den": 416,
+          "rate": 0.9038461538461539
+        }
+      }
+    },
+    "zipper": {
+      "products": 800,
+      "binary_threshold": {
+        "tp": 399,
+        "fn": 0,
+        "fp": 3,
+        "tn": 398,
+        "recall": {
+          "num": 399,
+          "den": 399,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 3,
+          "den": 401,
+          "rate": 0.007481296758104738
+        },
+        "f1": {
+          "num": 798,
+          "den": 801,
+          "rate": 0.9962546816479401
+        },
+        "precision": {
+          "num": 399,
+          "den": 402,
+          "rate": 0.9925373134328358
+        },
+        "auroc": 0.9999374996093725,
+        "average_precision": 0.9999371376285051
+      },
+      "final_with_hold": {
+        "decided_products": 794,
+        "hold_products": 6,
+        "hold_rate": 0.0075,
+        "coverage": 0.9925,
+        "decided_only_metrics": {
+          "tp": 398,
+          "fn": 0,
+          "fp": 2,
+          "tn": 394,
+          "recall": {
+            "num": 398,
+            "den": 398,
+            "rate": 1.0
+          },
+          "fpr": {
+            "num": 2,
+            "den": 396,
+            "rate": 0.005050505050505051
+          },
+          "f1": {
+            "num": 796,
+            "den": 798,
+            "rate": 0.9974937343358395
+          },
+          "precision": {
+            "num": 398,
+            "den": 400,
+            "rate": 0.995
+          }
+        }
+      },
+      "single_model_hvq": {
+        "tp": 360,
+        "fn": 39,
+        "fp": 10,
+        "tn": 391,
+        "recall": {
+          "num": 360,
+          "den": 399,
+          "rate": 0.9022556390977443
+        },
+        "fpr": {
+          "num": 10,
+          "den": 401,
+          "rate": 0.02493765586034913
+        },
+        "f1": {
+          "num": 720,
+          "den": 769,
+          "rate": 0.9362808842652796
+        },
+        "precision": {
+          "num": 360,
+          "den": 370,
+          "rate": 0.972972972972973
+        }
+      },
+      "single_model_rtdetr": {
+        "tp": 399,
+        "fn": 0,
+        "fp": 2,
+        "tn": 399,
+        "recall": {
+          "num": 399,
+          "den": 399,
+          "rate": 1.0
+        },
+        "fpr": {
+          "num": 2,
+          "den": 401,
+          "rate": 0.004987531172069825
+        },
+        "f1": {
+          "num": 798,
+          "den": 800,
+          "rate": 0.9975
+        },
+        "precision": {
+          "num": 399,
+          "den": 401,
+          "rate": 0.9950124688279302
+        }
+      }
+    }
+  },
+  "test_reference": {
+    "products": 3593,
+    "binary_threshold": {
+      "tp": 1747,
+      "fn": 91,
+      "fp": 121,
+      "tn": 1634,
+      "ng": 1838,
+      "ok": 1755,
+      "recall": 0.9504896626768227,
+      "miss_rate": 0.04951033732317737,
+      "false_alarm_rate": 0.06894586894586895,
+      "precision": 0.9352248394004282,
+      "f1": 0.9427954668105775,
+      "accuracy": 0.9409963818536042,
+      "auroc": 0.9730806432112199,
+      "average_precision": 0.9804379850640194
+    },
+    "final_with_hold": {
+      "decided_products": 3562,
+      "hold_products": 31,
+      "hold_ng": 11,
+      "hold_ok": 20,
+      "coverage": 0.9913721124408572,
+      "hold_rate": 0.008627887559142778,
+      "decided_only_metrics": {
+        "tp": 1737,
+        "fn": 90,
+        "fp": 112,
+        "tn": 1623,
+        "ng": 1827,
+        "ok": 1735,
+        "recall": 0.9507389162561576,
+        "miss_rate": 0.04926108374384237,
+        "false_alarm_rate": 0.06455331412103746,
+        "precision": 0.9394267171444024,
+        "f1": 0.9450489662676823,
+        "accuracy": 0.9432902863559798
+      },
+      "miss_rate_over_all_ng": 0.04896626768226333,
+      "false_alarm_rate_over_all_ok": 0.06381766381766382
+    },
+    "single_model_rtdetr": {
+      "tp": 1768,
+      "fn": 70,
+      "fp": 186,
+      "tn": 1569,
+      "ng": 1838,
+      "ok": 1755,
+      "recall": 0.9619151251360174,
+      "miss_rate": 0.03808487486398259,
+      "false_alarm_rate": 0.10598290598290598,
+      "precision": 0.9048106448311156,
+      "f1": 0.9324894514767933,
+      "accuracy": 0.9287503478986919
+    },
+    "single_model_hvq": {
+      "tp": 1602,
+      "fn": 236,
+      "fp": 626,
+      "tn": 1129,
+      "ng": 1838,
+      "ok": 1755,
+      "recall": 0.8715995647442872,
+      "miss_rate": 0.12840043525571274,
+      "false_alarm_rate": 0.35669515669515667,
+      "precision": 0.7190305206463196,
+      "f1": 0.7879980324643384,
+      "accuracy": 0.7600890620651266
+    }
+  },
+  "csv_consistency_verified": true,
+  "independent_sql_verified": false,
+  "training_overlap": "UNKNOWN_ORIGINAL_30000_ID_LIST_MISSING",
+  "contains_calibration_products": true,
+  "deployment_eligible": false
+}

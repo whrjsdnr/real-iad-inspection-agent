@@ -1,0 +1,3461 @@
+{
+  "status": "VERIFIED_ASGI_NO_NETWORK",
+  "categories": 30,
+  "GT_item_views": 150,
+  "checks": [
+    {
+      "item": "audiojack",
+      "view": "C1",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 6.60546199651435,
+      "positive_cells": 1006
+    },
+    {
+      "item": "audiojack",
+      "view": "C2",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.903470009798184,
+      "positive_cells": 1023
+    },
+    {
+      "item": "audiojack",
+      "view": "C3",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.657237998093478,
+      "positive_cells": 995
+    },
+    {
+      "item": "audiojack",
+      "view": "C4",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.56656600383576,
+      "positive_cells": 1036
+    },
+    {
+      "item": "audiojack",
+      "view": "C5",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.355660992790945,
+      "positive_cells": 992
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.266653999569826,
+      "positive_cells": 752
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 4.578829000820406,
+      "positive_cells": 677
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C3",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 4.749589003040455,
+      "positive_cells": 735
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 9.349036001367494,
+      "positive_cells": 834
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.731210003839806,
+      "positive_cells": 791
+    },
+    {
+      "item": "button_battery",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.601514003705233,
+      "positive_cells": 1364
+    },
+    {
+      "item": "button_battery",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.651077997754328,
+      "positive_cells": 1299
+    },
+    {
+      "item": "button_battery",
+      "view": "C3",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.669972990290262,
+      "positive_cells": 1142
+    },
+    {
+      "item": "button_battery",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.036390005145222,
+      "positive_cells": 1524
+    },
+    {
+      "item": "button_battery",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.064145004027523,
+      "positive_cells": 1304
+    },
+    {
+      "item": "end_cap",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.896568007301539,
+      "positive_cells": 1150
+    },
+    {
+      "item": "end_cap",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 7.0739539951318875,
+      "positive_cells": 1202
+    },
+    {
+      "item": "end_cap",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.897929004277103,
+      "positive_cells": 1245
+    },
+    {
+      "item": "end_cap",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.628275008755736,
+      "positive_cells": 1404
+    },
+    {
+      "item": "end_cap",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.478685001842678,
+      "positive_cells": 1411
+    },
+    {
+      "item": "eraser",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.755198988481425,
+      "positive_cells": 1035
+    },
+    {
+      "item": "eraser",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.724289007252082,
+      "positive_cells": 938
+    },
+    {
+      "item": "eraser",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 4.202903000987135,
+      "positive_cells": 862
+    },
+    {
+      "item": "eraser",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.552854993264191,
+      "positive_cells": 1132
+    },
+    {
+      "item": "eraser",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 6.879795997519977,
+      "positive_cells": 914
+    },
+    {
+      "item": "fire_hood",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.057811013306491,
+      "positive_cells": 1344
+    },
+    {
+      "item": "fire_hood",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.838629993377253,
+      "positive_cells": 1179
+    },
+    {
+      "item": "fire_hood",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.12319700687658,
+      "positive_cells": 1184
+    },
+    {
+      "item": "fire_hood",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.312917994568124,
+      "positive_cells": 1214
+    },
+    {
+      "item": "fire_hood",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.706933000008576,
+      "positive_cells": 1143
+    },
+    {
+      "item": "mint",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.961908991797827,
+      "positive_cells": 1548
+    },
+    {
+      "item": "mint",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.382560997735709,
+      "positive_cells": 1306
+    },
+    {
+      "item": "mint",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.111514995107427,
+      "positive_cells": 1346
+    },
+    {
+      "item": "mint",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.55720300367102,
+      "positive_cells": 1257
+    },
+    {
+      "item": "mint",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.305762992473319,
+      "positive_cells": 1315
+    },
+    {
+      "item": "mounts",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.014195005060174,
+      "positive_cells": 1070
+    },
+    {
+      "item": "mounts",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.727754003601149,
+      "positive_cells": 534
+    },
+    {
+      "item": "mounts",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.038369003566913,
+      "positive_cells": 997
+    },
+    {
+      "item": "mounts",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.008864999283105,
+      "positive_cells": 1014
+    },
+    {
+      "item": "mounts",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.206463007605635,
+      "positive_cells": 1026
+    },
+    {
+      "item": "pcb",
+      "view": "C1",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 7.015203998889774,
+      "positive_cells": 1322
+    },
+    {
+      "item": "pcb",
+      "view": "C2",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.89514899183996,
+      "positive_cells": 1147
+    },
+    {
+      "item": "pcb",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.250029000919312,
+      "positive_cells": 1159
+    },
+    {
+      "item": "pcb",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.598021999001503,
+      "positive_cells": 1142
+    },
+    {
+      "item": "pcb",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.536140998126939,
+      "positive_cells": 1236
+    },
+    {
+      "item": "phone_battery",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.956730008823797,
+      "positive_cells": 1336
+    },
+    {
+      "item": "phone_battery",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.492893993505277,
+      "positive_cells": 1187
+    },
+    {
+      "item": "phone_battery",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.292174996109679,
+      "positive_cells": 1299
+    },
+    {
+      "item": "phone_battery",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.008443997823633,
+      "positive_cells": 1397
+    },
+    {
+      "item": "phone_battery",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 9.11053099844139,
+      "positive_cells": 4096
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.2588099972344935,
+      "positive_cells": 609
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 7.284121005795896,
+      "positive_cells": 1112
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.747427996946499,
+      "positive_cells": 1295
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.278571996721439,
+      "positive_cells": 1194
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.2859060019254684,
+      "positive_cells": 1327
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 9.232923010131344,
+      "positive_cells": 1046
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.317265000892803,
+      "positive_cells": 1087
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.295040006283671,
+      "positive_cells": 1127
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.901980003225617,
+      "positive_cells": 1280
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.457898012944497,
+      "positive_cells": 1058
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.996867999783717,
+      "positive_cells": 396
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 4.959044003044255,
+      "positive_cells": 594
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.800519000738859,
+      "positive_cells": 919
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.201889995485544,
+      "positive_cells": 893
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.053684996208176,
+      "positive_cells": 760
+    },
+    {
+      "item": "regulator",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.528424001066014,
+      "positive_cells": 500
+    },
+    {
+      "item": "regulator",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.148379994556308,
+      "positive_cells": 724
+    },
+    {
+      "item": "regulator",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.202348995837383,
+      "positive_cells": 893
+    },
+    {
+      "item": "regulator",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.043013003771193,
+      "positive_cells": 1062
+    },
+    {
+      "item": "regulator",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.074270997894928,
+      "positive_cells": 1079
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.5227359989658,
+      "positive_cells": 1295
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.912325999815948,
+      "positive_cells": 1222
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.952762000262737,
+      "positive_cells": 1241
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.6133419934194535,
+      "positive_cells": 1270
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.986575001268648,
+      "positive_cells": 1220
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.110146001446992,
+      "positive_cells": 1055
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 7.350182000664063,
+      "positive_cells": 803
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.816025012289174,
+      "positive_cells": 1086
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 11.637782998150215,
+      "positive_cells": 955
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 10.009862991864793,
+      "positive_cells": 1099
+    },
+    {
+      "item": "switch",
+      "view": "C1",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 5.982802991638891,
+      "positive_cells": 1254
+    },
+    {
+      "item": "switch",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.379729995387606,
+      "positive_cells": 1092
+    },
+    {
+      "item": "switch",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.672302996274084,
+      "positive_cells": 1260
+    },
+    {
+      "item": "switch",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.370680003077723,
+      "positive_cells": 1124
+    },
+    {
+      "item": "switch",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.696158005273901,
+      "positive_cells": 1063
+    },
+    {
+      "item": "tape",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.660723011009395,
+      "positive_cells": 268
+    },
+    {
+      "item": "tape",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 10.369071998866275,
+      "positive_cells": 1030
+    },
+    {
+      "item": "tape",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.371441010036506,
+      "positive_cells": 1264
+    },
+    {
+      "item": "tape",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.920713003841229,
+      "positive_cells": 1312
+    },
+    {
+      "item": "tape",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.335757011082023,
+      "positive_cells": 1224
+    },
+    {
+      "item": "terminalblock",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 4.835924992221408,
+      "positive_cells": 880
+    },
+    {
+      "item": "terminalblock",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 4.364929991425015,
+      "positive_cells": 701
+    },
+    {
+      "item": "terminalblock",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 9.125926997512579,
+      "positive_cells": 879
+    },
+    {
+      "item": "terminalblock",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.241952000185847,
+      "positive_cells": 834
+    },
+    {
+      "item": "terminalblock",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.418576002237387,
+      "positive_cells": 534
+    },
+    {
+      "item": "toothbrush",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 7.577469004900195,
+      "positive_cells": 1664
+    },
+    {
+      "item": "toothbrush",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.786429992644116,
+      "positive_cells": 1527
+    },
+    {
+      "item": "toothbrush",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 4.998232005164027,
+      "positive_cells": 885
+    },
+    {
+      "item": "toothbrush",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.35808400309179,
+      "positive_cells": 1239
+    },
+    {
+      "item": "toothbrush",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.059508999693207,
+      "positive_cells": 1049
+    },
+    {
+      "item": "toy",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.057125996449031,
+      "positive_cells": 976
+    },
+    {
+      "item": "toy",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.8528679985320196,
+      "positive_cells": 844
+    },
+    {
+      "item": "toy",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.5882370001636446,
+      "positive_cells": 1414
+    },
+    {
+      "item": "toy",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.548176992917433,
+      "positive_cells": 1351
+    },
+    {
+      "item": "toy",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.094677003100514,
+      "positive_cells": 1446
+    },
+    {
+      "item": "toy_brick",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 8.236504989326932,
+      "positive_cells": 1868
+    },
+    {
+      "item": "toy_brick",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.522523995954543,
+      "positive_cells": 1582
+    },
+    {
+      "item": "toy_brick",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 10.989061003783718,
+      "positive_cells": 1500
+    },
+    {
+      "item": "toy_brick",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.688601999892853,
+      "positive_cells": 1889
+    },
+    {
+      "item": "toy_brick",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.779701991239563,
+      "positive_cells": 1870
+    },
+    {
+      "item": "transistor1",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.283759998041205,
+      "positive_cells": 1044
+    },
+    {
+      "item": "transistor1",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.002767011523247,
+      "positive_cells": 1112
+    },
+    {
+      "item": "transistor1",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.934390003560111,
+      "positive_cells": 1143
+    },
+    {
+      "item": "transistor1",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.9147680080495775,
+      "positive_cells": 1342
+    },
+    {
+      "item": "transistor1",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.8883360110921785,
+      "positive_cells": 1152
+    },
+    {
+      "item": "u_block",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.076645000372082,
+      "positive_cells": 349
+    },
+    {
+      "item": "u_block",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.933333992492408,
+      "positive_cells": 1144
+    },
+    {
+      "item": "u_block",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.613950001541525,
+      "positive_cells": 1436
+    },
+    {
+      "item": "u_block",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.007432988961227,
+      "positive_cells": 1223
+    },
+    {
+      "item": "u_block",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.035166989429854,
+      "positive_cells": 1218
+    },
+    {
+      "item": "usb",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.927901991526596,
+      "positive_cells": 1245
+    },
+    {
+      "item": "usb",
+      "view": "C2",
+      "status": 200,
+      "regions": 3,
+      "domain": "roi_regions",
+      "asgi_ms": 7.404720003250986,
+      "positive_cells": 1151
+    },
+    {
+      "item": "usb",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.216374990297481,
+      "positive_cells": 1144
+    },
+    {
+      "item": "usb",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.97162699745968,
+      "positive_cells": 1155
+    },
+    {
+      "item": "usb",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.048812000197358,
+      "positive_cells": 1055
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 6.153370995889418,
+      "positive_cells": 833
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 5.40998499491252,
+      "positive_cells": 639
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.859939010813832,
+      "positive_cells": 798
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.5475589983398095,
+      "positive_cells": 794
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 23.983469989616424,
+      "positive_cells": 908
+    },
+    {
+      "item": "vcpill",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.712289992719889,
+      "positive_cells": 1283
+    },
+    {
+      "item": "vcpill",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.697097996948287,
+      "positive_cells": 1073
+    },
+    {
+      "item": "vcpill",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.15036399581004,
+      "positive_cells": 1334
+    },
+    {
+      "item": "vcpill",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.536707998951897,
+      "positive_cells": 1368
+    },
+    {
+      "item": "vcpill",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.840024001779966,
+      "positive_cells": 1029
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.973608000203967,
+      "positive_cells": 1049
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 5.602317993179895,
+      "positive_cells": 1250
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.461673991405405,
+      "positive_cells": 1460
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.74264100275468,
+      "positive_cells": 1296
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.733484992058948,
+      "positive_cells": 1227
+    },
+    {
+      "item": "woodstick",
+      "view": "C1",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 7.774464989779517,
+      "positive_cells": 1093
+    },
+    {
+      "item": "woodstick",
+      "view": "C2",
+      "status": 200,
+      "regions": 1,
+      "domain": "roi_regions",
+      "asgi_ms": 6.766908001736738,
+      "positive_cells": 1065
+    },
+    {
+      "item": "woodstick",
+      "view": "C3",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.805632998701185,
+      "positive_cells": 1712
+    },
+    {
+      "item": "woodstick",
+      "view": "C4",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 8.850391997839324,
+      "positive_cells": 1905
+    },
+    {
+      "item": "woodstick",
+      "view": "C5",
+      "status": 200,
+      "regions": 1,
+      "domain": "whole_template",
+      "asgi_ms": 7.5484950066311285,
+      "positive_cells": 1332
+    },
+    {
+      "item": "zipper",
+      "view": "C1",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 11.202900001080707,
+      "positive_cells": 1022
+    },
+    {
+      "item": "zipper",
+      "view": "C2",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 8.718290002434514,
+      "positive_cells": 928
+    },
+    {
+      "item": "zipper",
+      "view": "C3",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 9.954401000868529,
+      "positive_cells": 1307
+    },
+    {
+      "item": "zipper",
+      "view": "C4",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 8.856132000801153,
+      "positive_cells": 921
+    },
+    {
+      "item": "zipper",
+      "view": "C5",
+      "status": 200,
+      "regions": 2,
+      "domain": "roi_regions",
+      "asgi_ms": 9.78884199867025,
+      "positive_cells": 1374
+    }
+  ],
+  "model_checks": [
+    {
+      "item": "audiojack",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "audiojack",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "audiojack/NG/HS/S0093"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "bottle_cap",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "bottle_cap/NG/AK/S0022"
+    },
+    {
+      "item": "button_battery",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "button_battery",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "button_battery/NG/HS/S0062"
+    },
+    {
+      "item": "end_cap",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "end_cap",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "end_cap/NG/HS/S0064"
+    },
+    {
+      "item": "eraser",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "eraser",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "eraser/NG/AK/S0009"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "fire_hood",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "fire_hood/NG/HS/S0053"
+    },
+    {
+      "item": "mint",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mint",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mint/NG/QS/S0010"
+    },
+    {
+      "item": "mounts",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "mounts",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "mounts/OK/NORMAL/S0031"
+    },
+    {
+      "item": "pcb",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "pcb",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "pcb/NG/QS/S0029"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "phone_battery",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "phone_battery/NG/AK/S0058"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_nut",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_nut/NG/QS/S0090"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "plastic_plug",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "plastic_plug/NG/AK/S0020"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "porcelain_doll",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "porcelain_doll/NG/HS/S0131"
+    },
+    {
+      "item": "regulator",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "regulator",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "regulator/NG/AK/S0027"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "rolled_strip_base",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "rolled_strip_base/OK/NORMAL/S0062"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "sim_card_set",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "sim_card_set/NG/CH/S0126"
+    },
+    {
+      "item": "switch",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "switch",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "switch/OK/NORMAL/S0257"
+    },
+    {
+      "item": "tape",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "tape",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "tape/OK/NORMAL/S0038"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "terminalblock",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "terminalblock/NG/ZW/S0035"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toothbrush",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toothbrush/NG/CH/S0091"
+    },
+    {
+      "item": "toy",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy/NG/HS/S0124"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "toy_brick",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "toy_brick/NG/AK/S0029"
+    },
+    {
+      "item": "transistor1",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "transistor1",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "transistor1/NG/BX/S0160"
+    },
+    {
+      "item": "u_block",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "u_block",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "u_block/NG/CH/S0002"
+    },
+    {
+      "item": "usb",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb/NG/ZW/S1188"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "usb_adaptor",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "usb_adaptor/NG/HS/S0045"
+    },
+    {
+      "item": "vcpill",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "vcpill",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "vcpill/NG/AK/S0023"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "wooden_beads",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "wooden_beads/NG/HS/S1062"
+    },
+    {
+      "item": "woodstick",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "woodstick",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "woodstick/NG/AK/S0106"
+    },
+    {
+      "item": "zipper",
+      "view": "C1",
+      "source": "rt",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C1",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C2",
+      "source": "rt",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C2",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C3",
+      "source": "rt",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C3",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C4",
+      "source": "rt",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C4",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C5",
+      "source": "rt",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    },
+    {
+      "item": "zipper",
+      "view": "C5",
+      "source": "hvq",
+      "status": 200,
+      "product_id": "zipper/NG/BX/S0050"
+    }
+  ],
+  "inference_executed": false,
+  "physical_alignment_verified": false
+}

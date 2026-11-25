@@ -1,0 +1,51 @@
+{
+  "transport": "direct_handlers_no_socket",
+  "health": {
+    "status": "ok",
+    "service": "inspection-tools",
+    "definition_version": "metrics-v1",
+    "model_version": null,
+    "mapping_version": null,
+    "llm": {
+      "mode": "mock",
+      "model": null
+    }
+  },
+  "tools": [
+    "compute_inspection_metrics",
+    "extract_abnormal_locations",
+    "get_case_evidence",
+    "get_training_status",
+    "query_error_stats",
+    "request_review",
+    "submit_review"
+  ],
+  "stats_rows": 4,
+  "agent_direct_tool": {
+    "approved_samples": {
+      "num": 61,
+      "note": "검수 확정(confirmed) 표본"
+    },
+    "pending_candidates": {
+      "num": 12,
+      "note": "검수 대기(pending)"
+    },
+    "hold_candidates": {
+      "num": 0,
+      "note": "퓨전 보류(엇갈림) 제품 — 검수 우선 후보"
+    },
+    "confirmed_fp_fn": {
+      "FP": 1,
+      "FN": 0,
+      "denominator": 1
+    },
+    "model_baselines": {
+      "mock-anomaly-v1": 23
+    },
+    "fusion_processed_products": 0,
+    "item": "toothbrush",
+    "definition_version": "metrics-v1"
+  },
+  "live_uvicorn": "blocked: socket PermissionError",
+  "live_ollama": "not verified: sockets blocked"
+}

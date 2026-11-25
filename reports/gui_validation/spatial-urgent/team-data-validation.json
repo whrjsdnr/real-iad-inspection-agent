@@ -1,0 +1,237 @@
+{
+  "status": "VERIFIED_AUTHENTICATED_ASGI_NO_NETWORK",
+  "checks": [
+    {
+      "sample": "manifest",
+      "path": "/api/sharing/manifest",
+      "query": {},
+      "status": 200,
+      "asgi_ms": 57.83850999432616,
+      "bytes": 1662
+    },
+    {
+      "sample": "items",
+      "path": "/api/sharing/manifest",
+      "query": {},
+      "status": 200,
+      "asgi_ms": 8.045348004088737,
+      "bytes": 1662
+    },
+    {
+      "sample": "parts",
+      "path": "/api/catalog/parts",
+      "query": {
+        "item": "toothbrush"
+      },
+      "status": 200,
+      "asgi_ms": 2.2096750035416335,
+      "bytes": 1329
+    },
+    {
+      "sample": "roi",
+      "path": "/api/roi/templates",
+      "query": {
+        "item": "toothbrush",
+        "view": "C1"
+      },
+      "status": 200,
+      "asgi_ms": 2.6000189973274246,
+      "bytes": 917
+    },
+    {
+      "sample": "products",
+      "path": "/api/products",
+      "query": {
+        "item": "toothbrush",
+        "limit": 2
+      },
+      "status": 200,
+      "asgi_ms": 4.420671000843868,
+      "bytes": 634
+    },
+    {
+      "sample": "views",
+      "path": "/api/products/views",
+      "query": {
+        "product_id": "toothbrush/NG/CH/S0001"
+      },
+      "status": 200,
+      "asgi_ms": 9.622352008591406,
+      "bytes": 4245
+    },
+    {
+      "sample": "findings",
+      "path": "/api/products/findings",
+      "query": {
+        "product_id": "toothbrush/NG/CH/S0001",
+        "view": "C1",
+        "min_confidence": 0.4
+      },
+      "status": 200,
+      "asgi_ms": 2.1663139923475683,
+      "bytes": 863
+    },
+    {
+      "sample": "map",
+      "path": "/api/products/anomaly-map",
+      "query": {
+        "product_id": "toothbrush/NG/CH/S0001",
+        "view": "C1",
+        "format": "metadata"
+      },
+      "status": 200,
+      "asgi_ms": 1.7523729911772534,
+      "bytes": 273
+    },
+    {
+      "sample": "map_array",
+      "path": "/api/products/anomaly-map",
+      "query": {
+        "product_id": "toothbrush/NG/CH/S0001",
+        "view": "C1",
+        "format": "array"
+      },
+      "status": 200,
+      "asgi_ms": 26.8042320094537,
+      "bytes": 396045
+    },
+    {
+      "sample": "map_unsupported",
+      "path": "/api/products/anomaly-map",
+      "query": {
+        "product_id": "zipper/NG/BX/S0002",
+        "view": "C1"
+      },
+      "status": 200,
+      "asgi_ms": 1.582795986905694,
+      "bytes": 111
+    },
+    {
+      "sample": "spatial32",
+      "path": "/api/parts/spatial-heatmap",
+      "query": {
+        "item": "toothbrush",
+        "view": "C1",
+        "region_id": "bristle",
+        "resolution": 32,
+        "model": "rt"
+      },
+      "status": 200,
+      "asgi_ms": 34.72132699971553,
+      "bytes": 52432
+    },
+    {
+      "sample": "region_heatmap",
+      "path": "/api/parts/heatmap",
+      "query": {
+        "item": "toothbrush"
+      },
+      "status": 200,
+      "asgi_ms": 2.9458289936883375,
+      "bytes": 3858
+    },
+    {
+      "sample": "fusion",
+      "path": "/api/products/fusion",
+      "query": {
+        "product_id": "toothbrush/NG/CH/S0001"
+      },
+      "status": 200,
+      "asgi_ms": 88.55285099707544,
+      "bytes": 562
+    },
+    {
+      "sample": "performance",
+      "path": "/api/performance/final",
+      "query": {},
+      "status": 200,
+      "asgi_ms": 17.44232499913778,
+      "bytes": 147370
+    },
+    {
+      "sample": "tools",
+      "path": "/api/tools",
+      "query": {},
+      "status": 200,
+      "asgi_ms": 0.7786829955875874,
+      "bytes": 4185
+    },
+    {
+      "sample": "gt_catalog",
+      "path": "/api/heatmaps/catalog",
+      "query": {},
+      "status": 200,
+      "asgi_ms": 16.632125989417545,
+      "bytes": 31269
+    },
+    {
+      "sample": "gt_toothbrush",
+      "path": "/api/heatmaps/ground-truth",
+      "query": {
+        "item": "toothbrush",
+        "view": "C1",
+        "split": "train"
+      },
+      "status": 200,
+      "asgi_ms": 34.23306500189938,
+      "bytes": 296206
+    },
+    {
+      "sample": "gt_zipper",
+      "path": "/api/heatmaps/ground-truth",
+      "query": {
+        "item": "zipper",
+        "view": "C1",
+        "split": "train"
+      },
+      "status": 200,
+      "asgi_ms": 21.974096991471015,
+      "bytes": 192405
+    },
+    {
+      "sample": "gt_toothbrush_product",
+      "path": "/api/heatmaps/ground-truth",
+      "query": {
+        "item": "toothbrush",
+        "view": "C1",
+        "split": "train",
+        "product_id": "toothbrush/NG/CH/S0001"
+      },
+      "status": 200,
+      "asgi_ms": 16.2840629927814,
+      "bytes": 108885
+    },
+    {
+      "sample": "gt_zipper_missing_mask",
+      "path": "/api/heatmaps/ground-truth",
+      "query": {
+        "item": "zipper",
+        "view": "C2",
+        "split": "train",
+        "product_id": "zipper/NG/BX/S0002"
+      },
+      "status": 200,
+      "asgi_ms": 13.938868010882288,
+      "bytes": 124605
+    },
+    {
+      "sample": "gt_roi",
+      "path": "/api/heatmaps/ground-truth",
+      "query": {
+        "item": "toothbrush",
+        "view": "C1",
+        "split": "train",
+        "region_id": "bristle"
+      },
+      "status": 200,
+      "asgi_ms": 20.516210002824664,
+      "bytes": 237525
+    }
+  ],
+  "unauthenticated_status": 401,
+  "inference_unavailable": true,
+  "cors_preflight": "passed",
+  "lifespan_executed": false,
+  "network_verification": "BLOCKED_socket_EPERM",
+  "operational_PG_reads": "not_verified_in_sandbox"
+}

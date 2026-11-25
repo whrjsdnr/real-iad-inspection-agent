@@ -1,0 +1,70 @@
+{
+  "status": "PASSED_CURRENT_MAX16_CONTRACT",
+  "products_checked": 24000,
+  "view_scores_checked": 120000,
+  "validation_products_checked": 3610,
+  "categories_checked": 30,
+  "contract": {
+    "rtdetr_conf_threshold": 0.55,
+    "hvq_score_variant": "max_avgpool16",
+    "hvq_unit": "product",
+    "hvq_policy": "f1",
+    "hvq_csv_sha256": "eff516a329f6aec9f3b0d71e855e589195a14fe0d9131c2cc2775d9de2639f4a",
+    "hvq_thresholds": {
+      "audiojack": 94.5981216430664,
+      "bottle_cap": 73.77168273925781,
+      "button_battery": 88.87788391113281,
+      "end_cap": 77.12549591064453,
+      "eraser": 72.74237060546875,
+      "fire_hood": 70.67147827148438,
+      "mint": 80.80779266357422,
+      "mounts": 72.32420349121094,
+      "pcb": 94.6036148071289,
+      "phone_battery": 82.79594421386719,
+      "plastic_nut": 76.70967102050781,
+      "plastic_plug": 76.03072357177734,
+      "porcelain_doll": 67.89087677001953,
+      "regulator": 87.87549591064453,
+      "rolled_strip_base": 82.94518280029297,
+      "sim_card_set": 83.90796661376953,
+      "switch": 88.33636474609375,
+      "tape": 68.14665985107422,
+      "terminalblock": 79.4052734375,
+      "toothbrush": 100.54854583740234,
+      "toy": 84.26813507080078,
+      "toy_brick": 96.68077087402344,
+      "transistor1": 89.68093872070312,
+      "u_block": 87.83708953857422,
+      "usb": 88.33406066894531,
+      "usb_adaptor": 77.97721862792969,
+      "vcpill": 77.83863830566406,
+      "wooden_beads": 87.24388885498047,
+      "woodstick": 80.71835327148438,
+      "zipper": 102.01424407958984
+    },
+    "weights": {
+      "rtdetr": 0.7,
+      "hvq": 0.3
+    },
+    "product_aggregation": "max_C1_C5",
+    "postfilter": "score_below_model_threshold_to_zero_before_validation_percentile",
+    "normalization": "validation_category_empirical_midrank",
+    "fusion_threshold_fit": "validation_only_F1_highest_optimal_interval_midpoint",
+    "margin": "validation_F1_drop_tolerance_0.005"
+  },
+  "original_minmax_contract_matches": false,
+  "root_config_differences": {
+    "rtdetr_conf_threshold": [
+      0.4,
+      0.55
+    ],
+    "hvq_score_variant": [
+      "heatmap_mean",
+      "max_avgpool16"
+    ]
+  },
+  "notes": [
+    "No inference or stored verdict/parameter writes.",
+    "All-product reference includes calibration products; training overlap remains unknown."
+  ]
+}

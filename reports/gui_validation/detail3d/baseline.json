@@ -1,0 +1,7 @@
+{
+  "inspection-gui/src/three/parts.ts": "e38558771897cf0539e2e725e3876c6556e19904a2f1d6ef015a9162ee2fd055",
+  "inspection-gui/src/three/catalog.ts": "3df06b12be20e3495334b116b3f52a6c119d869440344ac2a6ebbaeea1de81f1",
+  "inspection-gui/src/three/Scene.tsx": "78b4d691cab4a5c0a65621e66c611bcf9f8f405501b66770e9717889a37f9b26",
+  "inspection-gui/src/components/CenterPanel.tsx": "6f11e38e7078f7b4c0e51576daf17078f5e7ffe70d400fac5f05128cc7733ea0",
+  "inspection-gui/src/styles/tokens.css": "642970c84b94484d0e8c8b1e33fc829d3d75a28496c312eedf3f12f79573f7ba"
+}

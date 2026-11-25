@@ -1,0 +1,37 @@
+{
+  "available": true,
+  "is_fixture": false,
+  "state": "complete",
+  "report_path": "/home/geonug/MV/outputs/fusion_agent_validation_20261124_v1/final_performance/20261124_165313_094234/performance.json",
+  "model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+  "baseline_v1": {
+    "label": "기준선 v1 (Test NG600+OK600)",
+    "recall": 0.938,
+    "f1": 0.9314,
+    "miss": 37,
+    "false_alarm": 46,
+    "source": "config/teammate_fusion_reference.json"
+  },
+  "metrics": {
+    "cohort_products": 24000,
+    "test_products": 3593,
+    "fp": 121,
+    "fn": 91,
+    "recall": 0.9504896626768227,
+    "f1_micro": 0.9427954668105775,
+    "auroc": 0.9730806432112199,
+    "ap": 0.9804379850640194,
+    "f1_category_macro": 0.9441805415637577,
+    "auroc_category_macro": 0.9753307779782542,
+    "hold_products": 31,
+    "hold_rate": 0.008627887559142778,
+    "coverage": 0.9913721124408572,
+    "final_fp": 112,
+    "final_fn": 90,
+    "decided_f1": 0.9450489662676823,
+    "single_model_hvq_f1": 0.7879980324643384,
+    "single_model_rtdetr_f1": 0.9324894514767933,
+    "verified": true,
+    "timestamp": "2026-11-24T16:53:13.090123+09:00"
+  }
+}

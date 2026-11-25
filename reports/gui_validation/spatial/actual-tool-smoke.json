@@ -1,0 +1,116 @@
+{
+  "toothbrush": {
+    "item": "toothbrush",
+    "product_id": "toothbrush/NG/CH/S0001",
+    "view_id": "C1",
+    "region_id": "bristle",
+    "parent_region_id": null,
+    "status": "supported",
+    "reason": null,
+    "stats": {
+      "detection_count": 2,
+      "detected_products": 1,
+      "observed_products": 1,
+      "spatial_occupancy": 0.15380859375
+    },
+    "mapping_status": "image_roi_only_physical_surface_unverified",
+    "sample_status": "insufficient_sample",
+    "model": "rt",
+    "method": "gaussian",
+    "available_products": [
+      "toothbrush/NG/CH/S0001",
+      "toothbrush/OK/NORMAL/S0001"
+    ],
+    "note": "Individual product/single camera. Ranked model signals, not confirmed defects or official fusion.",
+    "evidence_link": "spatial://3d0494668f6689bd43f0ee10/rt/gaussian",
+    "hotspots": [
+      {
+        "value": 0.8971263528871878,
+        "column": 35,
+        "row": 14,
+        "native_pixel_center": [
+          519.9609375,
+          201.1328125
+        ],
+        "valid_observations": 1
+      },
+      {
+        "value": 0.8955017811404983,
+        "column": 36,
+        "row": 14,
+        "native_pixel_center": [
+          530.6640625,
+          201.1328125
+        ],
+        "valid_observations": 1
+      },
+      {
+        "value": 0.8461044151322529,
+        "column": 35,
+        "row": 13,
+        "native_pixel_center": [
+          519.9609375,
+          191.0546875
+        ],
+        "valid_observations": 1
+      }
+    ]
+  },
+  "zipper": {
+    "item": "zipper",
+    "product_id": "zipper/NG/BX/S0002",
+    "view_id": "C1",
+    "region_id": "teeth",
+    "parent_region_id": null,
+    "status": "supported",
+    "reason": null,
+    "stats": {
+      "detection_count": 1,
+      "detected_products": 1,
+      "observed_products": 1,
+      "spatial_occupancy": 0.12451171875
+    },
+    "mapping_status": "image_roi_only_physical_surface_unverified",
+    "sample_status": "insufficient_sample",
+    "model": "rt",
+    "method": "gaussian",
+    "available_products": [
+      "zipper/NG/BX/S0002",
+      "zipper/OK/NORMAL/S0001"
+    ],
+    "note": "Individual product/single camera. Ranked model signals, not confirmed defects or official fusion.",
+    "evidence_link": "spatial://66155b00743938e5228643b7/rt/gaussian",
+    "hotspots": [
+      {
+        "value": 0.7459761017829277,
+        "column": 42,
+        "row": 16,
+        "native_pixel_center": [
+          680.0,
+          445.4296875
+        ],
+        "valid_observations": 1
+      },
+      {
+        "value": 0.7435195662198624,
+        "column": 43,
+        "row": 16,
+        "native_pixel_center": [
+          696.0,
+          445.4296875
+        ],
+        "valid_observations": 1
+      },
+      {
+        "value": 0.7070769387928517,
+        "column": 42,
+        "row": 17,
+        "native_pixel_center": [
+          680.0,
+          448.7890625
+        ],
+        "valid_observations": 1
+      }
+    ]
+  }
+}

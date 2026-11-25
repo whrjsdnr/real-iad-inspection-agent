@@ -1,0 +1,11 @@
+{
+  "fusion_run_id": "weighted-minmax-heatmap-mean-rt40-v1:e917f9730ddb05d9c486b45d",
+  "previous_run": "weighted-minmax-heatmap-mean-rt40-v1:e917f9730ddb05d9c486b45d",
+  "activated_at": "2026-11-24T09:07:36.998176+00:00",
+  "predictions": 24000,
+  "report_verified": true,
+  "discrepancy": 0,
+  "snapshots": 20,
+  "test_f1": 0.9532100108813928,
+  "test_recall": 0.9532100108813928
+}

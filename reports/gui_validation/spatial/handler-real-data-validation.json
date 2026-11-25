@@ -1,0 +1,134 @@
+{
+  "status": "VERIFIED_DIRECT_HANDLER_ONLY",
+  "note": "Not a network/ASGI/browser timing. ASGI worker timeout is recorded separately.",
+  "checks": [
+    {
+      "item": "toothbrush",
+      "resolution": 16,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 0.9166430027107708,
+      "response_bytes": 4580
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 16,
+      "model": "hvq",
+      "status": "supported",
+      "handler_ms": 0.6952129988349043,
+      "response_bytes": 8788
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 32,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 1.3198059968999587,
+      "response_bytes": 14148
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 32,
+      "model": "hvq",
+      "status": "supported",
+      "handler_ms": 1.4847379934508353,
+      "response_bytes": 28625
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 64,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 4.123143997276202,
+      "response_bytes": 52382
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 64,
+      "model": "hvq",
+      "status": "supported",
+      "handler_ms": 4.7362059995066375,
+      "response_bytes": 91094
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 128,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 16.368775002774782,
+      "response_bytes": 205339
+    },
+    {
+      "item": "toothbrush",
+      "resolution": 128,
+      "model": "hvq",
+      "status": "supported",
+      "handler_ms": 17.402153003786225,
+      "response_bytes": 291761
+    },
+    {
+      "item": "zipper",
+      "resolution": 16,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 0.9045769984368235,
+      "response_bytes": 4398
+    },
+    {
+      "item": "zipper",
+      "resolution": 16,
+      "model": "hvq",
+      "status": "unsupported",
+      "handler_ms": 0.9793860008358024,
+      "response_bytes": 2859
+    },
+    {
+      "item": "zipper",
+      "resolution": 32,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 0.817391999589745,
+      "response_bytes": 13374
+    },
+    {
+      "item": "zipper",
+      "resolution": 32,
+      "model": "hvq",
+      "status": "unsupported",
+      "handler_ms": 0.7338579962379299,
+      "response_bytes": 7474
+    },
+    {
+      "item": "zipper",
+      "resolution": 64,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 2.1361260005505756,
+      "response_bytes": 49411
+    },
+    {
+      "item": "zipper",
+      "resolution": 64,
+      "model": "hvq",
+      "status": "unsupported",
+      "handler_ms": 1.8790969988913275,
+      "response_bytes": 25907
+    },
+    {
+      "item": "zipper",
+      "resolution": 128,
+      "model": "rt",
+      "status": "supported",
+      "handler_ms": 7.891610999649856,
+      "response_bytes": 193436
+    },
+    {
+      "item": "zipper",
+      "resolution": 128,
+      "model": "hvq",
+      "status": "unsupported",
+      "handler_ms": 11.936401002458297,
+      "response_bytes": 99639
+    }
+  ]
+}

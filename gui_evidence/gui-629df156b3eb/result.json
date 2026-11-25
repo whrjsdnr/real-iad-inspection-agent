@@ -1,0 +1,1157 @@
+{
+  "ok": true,
+  "item": "toothbrush",
+  "product_id": "gui_toothbrush_e3aed640",
+  "views": {
+    "C1": {
+      "camera_id": "C1",
+      "width": 1024,
+      "height": 1024,
+      "image_path": "/home/geonug/agent/gui_evidence/uploads/213036aac0ad/C1.jpg",
+      "rtdetr_raw": 0.9145,
+      "hvq_mean": 56.185024,
+      "hvq_max16": 138.825439,
+      "detections": [
+        {
+          "bbox": [
+            418.28,
+            71.86,
+            632.09,
+            328.06
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.9145
+        },
+        {
+          "bbox": [
+            671.08,
+            538.96,
+            738.54,
+            621.16
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.4918
+        },
+        {
+          "bbox": [
+            328.11,
+            538.09,
+            446.65,
+            619.35
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.275
+        },
+        {
+          "bbox": [
+            416.88,
+            72.93,
+            451.87,
+            305.06
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1396
+        },
+        {
+          "bbox": [
+            393.22,
+            590.52,
+            443.91,
+            619.03
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1323
+        },
+        {
+          "bbox": [
+            418.28,
+            71.86,
+            632.09,
+            328.06
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0967
+        },
+        {
+          "bbox": [
+            389.11,
+            560.59,
+            445.57,
+            621.29
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.092
+        },
+        {
+          "bbox": [
+            418.28,
+            71.86,
+            632.09,
+            328.06
+          ],
+          "class_id": 9,
+          "class_name": "button_battery/CH",
+          "score": 0.0892
+        },
+        {
+          "bbox": [
+            412.19,
+            82.52,
+            539.85,
+            289.55
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0855
+        },
+        {
+          "bbox": [
+            555.57,
+            168.4,
+            632.01,
+            301.44
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.081
+        },
+        {
+          "bbox": [
+            545.69,
+            108.64,
+            554.32,
+            199.04
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.077
+        },
+        {
+          "bbox": [
+            540.44,
+            104.63,
+            555.7,
+            252.49
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0709
+        },
+        {
+          "bbox": [
+            418.28,
+            71.86,
+            632.09,
+            328.06
+          ],
+          "class_id": 71,
+          "class_name": "toothbrush/ZW",
+          "score": 0.0674
+        },
+        {
+          "bbox": [
+            252.82,
+            541.92,
+            405.98,
+            608.09
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0621
+        },
+        {
+          "bbox": [
+            669.46,
+            552.91,
+            705.3,
+            612.05
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0617
+        },
+        {
+          "bbox": [
+            352.89,
+            539.33,
+            407.88,
+            612.55
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0608
+        },
+        {
+          "bbox": [
+            671.08,
+            538.96,
+            738.54,
+            621.16
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0603
+        },
+        {
+          "bbox": [
+            726.94,
+            541.45,
+            740.43,
+            617.31
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0597
+        },
+        {
+          "bbox": [
+            608.21,
+            568.53,
+            628.5,
+            597.09
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0581
+        },
+        {
+          "bbox": [
+            422.01,
+            92.72,
+            491.34,
+            313.52
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0571
+        },
+        {
+          "bbox": [
+            331.33,
+            581.19,
+            345.1,
+            605.84
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0567
+        },
+        {
+          "bbox": [
+            490.45,
+            548.23,
+            538.69,
+            595.08
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0566
+        },
+        {
+          "bbox": [
+            462.04,
+            548.37,
+            579.7,
+            596.81
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0555
+        },
+        {
+          "bbox": [
+            418.28,
+            71.86,
+            632.09,
+            328.06
+          ],
+          "class_id": 107,
+          "class_name": "zipper/BX",
+          "score": 0.0554
+        },
+        {
+          "bbox": [
+            423.62,
+            151.87,
+            583.91,
+            318.71
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0533
+        }
+      ],
+      "heatmap_png": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C1_hvqmap.png",
+      "map_npy": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C1_map.npy"
+    },
+    "C2": {
+      "camera_id": "C2",
+      "width": 1024,
+      "height": 1024,
+      "image_path": "/home/geonug/agent/gui_evidence/uploads/213036aac0ad/C2.jpg",
+      "rtdetr_raw": 0.255,
+      "hvq_mean": 44.591507,
+      "hvq_max16": 88.732666,
+      "detections": [
+        {
+          "bbox": [
+            474.14,
+            380.22,
+            586.05,
+            657.09
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.255
+        },
+        {
+          "bbox": [
+            386.6,
+            364.53,
+            413.05,
+            490.08
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.2145
+        },
+        {
+          "bbox": [
+            452.83,
+            312.76,
+            535.45,
+            653.24
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1628
+        },
+        {
+          "bbox": [
+            478.76,
+            471.78,
+            542.69,
+            655.08
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.152
+        },
+        {
+          "bbox": [
+            468.95,
+            423.37,
+            507.65,
+            652.56
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1471
+        },
+        {
+          "bbox": [
+            394.72,
+            427.02,
+            556.16,
+            655.19
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1413
+        },
+        {
+          "bbox": [
+            540.29,
+            366.16,
+            594.82,
+            652.58
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1347
+        },
+        {
+          "bbox": [
+            475.41,
+            322.12,
+            547.56,
+            659.09
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.133
+        },
+        {
+          "bbox": [
+            479.06,
+            290.36,
+            654.59,
+            658.09
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.118
+        },
+        {
+          "bbox": [
+            388.63,
+            348.03,
+            466.25,
+            649.17
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1161
+        },
+        {
+          "bbox": [
+            455.58,
+            290.69,
+            479.52,
+            648.01
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1152
+        },
+        {
+          "bbox": [
+            425.85,
+            316.33,
+            485.83,
+            645.31
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1111
+        },
+        {
+          "bbox": [
+            543.12,
+            541.26,
+            577.52,
+            651.39
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1006
+        },
+        {
+          "bbox": [
+            323.7,
+            494.18,
+            577.62,
+            648.34
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0943
+        },
+        {
+          "bbox": [
+            575.13,
+            280.14,
+            606.8,
+            650.61
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.086
+        },
+        {
+          "bbox": [
+            478.76,
+            471.78,
+            542.69,
+            655.08
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0855
+        },
+        {
+          "bbox": [
+            319.95,
+            274.22,
+            343.98,
+            404.13
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0834
+        },
+        {
+          "bbox": [
+            477.95,
+            524.86,
+            510.83,
+            652.42
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0815
+        },
+        {
+          "bbox": [
+            544.44,
+            492.45,
+            590.82,
+            650.66
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0808
+        },
+        {
+          "bbox": [
+            401.14,
+            320.3,
+            432.48,
+            650.37
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0748
+        },
+        {
+          "bbox": [
+            824.01,
+            650.14,
+            837.87,
+            668.04
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.072
+        },
+        {
+          "bbox": [
+            305.28,
+            265.4,
+            553.84,
+            608.01
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0695
+        },
+        {
+          "bbox": [
+            700.25,
+            210.33,
+            761.47,
+            268.98
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.067
+        },
+        {
+          "bbox": [
+            535.55,
+            336.4,
+            597.72,
+            655.03
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0624
+        },
+        {
+          "bbox": [
+            601.32,
+            423.87,
+            617.55,
+            493.52
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0599
+        },
+        {
+          "bbox": [
+            522.36,
+            498.7,
+            579.57,
+            650.46
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0592
+        },
+        {
+          "bbox": [
+            457.32,
+            287.31,
+            472.99,
+            536.13
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0592
+        },
+        {
+          "bbox": [
+            382.71,
+            284.16,
+            412.75,
+            504.39
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0589
+        },
+        {
+          "bbox": [
+            597.35,
+            373.61,
+            645.51,
+            637.72
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0583
+        },
+        {
+          "bbox": [
+            478.0,
+            575.61,
+            504.9,
+            649.62
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0561
+        },
+        {
+          "bbox": [
+            741.84,
+            226.62,
+            766.91,
+            264.53
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0555
+        },
+        {
+          "bbox": [
+            486.2,
+            299.26,
+            598.08,
+            658.27
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0554
+        },
+        {
+          "bbox": [
+            725.41,
+            214.04,
+            772.91,
+            272.2
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0552
+        },
+        {
+          "bbox": [
+            552.0,
+            317.43,
+            600.5,
+            806.15
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0531
+        },
+        {
+          "bbox": [
+            479.2,
+            619.02,
+            565.53,
+            651.86
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0521
+        }
+      ],
+      "heatmap_png": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C2_hvqmap.png",
+      "map_npy": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C2_map.npy"
+    },
+    "C3": {
+      "camera_id": "C3",
+      "width": 1024,
+      "height": 1024,
+      "image_path": "/home/geonug/agent/gui_evidence/uploads/213036aac0ad/C3.jpg",
+      "rtdetr_raw": 0.9044,
+      "hvq_mean": 46.844227,
+      "hvq_max16": 127.903809,
+      "detections": [
+        {
+          "bbox": [
+            152.41,
+            357.82,
+            313.38,
+            693.56
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.9044
+        },
+        {
+          "bbox": [
+            441.94,
+            523.81,
+            485.68,
+            797.04
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.4357
+        },
+        {
+          "bbox": [
+            283.18,
+            381.57,
+            315.49,
+            670.89
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1274
+        },
+        {
+          "bbox": [
+            152.52,
+            376.07,
+            250.73,
+            621.4
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0798
+        },
+        {
+          "bbox": [
+            286.04,
+            469.65,
+            305.04,
+            532.42
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0644
+        },
+        {
+          "bbox": [
+            288.05,
+            370.78,
+            316.37,
+            508.61
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0552
+        },
+        {
+          "bbox": [
+            331.67,
+            588.07,
+            369.2,
+            850.45
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0548
+        },
+        {
+          "bbox": [
+            236.19,
+            360.85,
+            302.15,
+            432.59
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0533
+        },
+        {
+          "bbox": [
+            152.41,
+            357.82,
+            313.38,
+            693.56
+          ],
+          "class_id": 84,
+          "class_name": "u_block/HS",
+          "score": 0.0525
+        },
+        {
+          "bbox": [
+            152.41,
+            357.82,
+            313.38,
+            693.56
+          ],
+          "class_id": 9,
+          "class_name": "button_battery/CH",
+          "score": 0.0518
+        }
+      ],
+      "heatmap_png": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C3_hvqmap.png",
+      "map_npy": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C3_map.npy"
+    },
+    "C4": {
+      "camera_id": "C4",
+      "width": 1024,
+      "height": 1024,
+      "image_path": "/home/geonug/agent/gui_evidence/uploads/213036aac0ad/C4.jpg",
+      "rtdetr_raw": 0.8759,
+      "hvq_mean": 47.312389,
+      "hvq_max16": 92.598633,
+      "detections": [
+        {
+          "bbox": [
+            360.71,
+            176.75,
+            535.78,
+            272.58
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.8759
+        },
+        {
+          "bbox": [
+            361.67,
+            188.32,
+            394.34,
+            264.9
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.2269
+        },
+        {
+          "bbox": [
+            509.12,
+            369.16,
+            555.28,
+            624.91
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1762
+        },
+        {
+          "bbox": [
+            362.15,
+            186.82,
+            425.75,
+            265.6
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.1634
+        },
+        {
+          "bbox": [
+            360.85,
+            185.35,
+            377.22,
+            258.88
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0786
+        },
+        {
+          "bbox": [
+            360.71,
+            176.75,
+            535.78,
+            272.58
+          ],
+          "class_id": 80,
+          "class_name": "transistor1/BX",
+          "score": 0.0731
+        },
+        {
+          "bbox": [
+            491.46,
+            177.12,
+            534.82,
+            274.99
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0658
+        },
+        {
+          "bbox": [
+            373.99,
+            252.8,
+            526.71,
+            290.98
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0637
+        },
+        {
+          "bbox": [
+            455.62,
+            353.28,
+            493.25,
+            625.78
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0609
+        },
+        {
+          "bbox": [
+            520.59,
+            180.25,
+            536.46,
+            282.28
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0606
+        },
+        {
+          "bbox": [
+            360.71,
+            176.75,
+            535.78,
+            272.58
+          ],
+          "class_id": 25,
+          "class_name": "mint/YW",
+          "score": 0.0588
+        },
+        {
+          "bbox": [
+            262.07,
+            362.57,
+            327.06,
+            614.78
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0585
+        },
+        {
+          "bbox": [
+            362.5,
+            194.0,
+            420.22,
+            264.5
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0547
+        },
+        {
+          "bbox": [
+            506.29,
+            417.22,
+            535.63,
+            629.68
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0537
+        },
+        {
+          "bbox": [
+            360.71,
+            176.75,
+            535.78,
+            272.58
+          ],
+          "class_id": 70,
+          "class_name": "toothbrush/QS",
+          "score": 0.0525
+        }
+      ],
+      "heatmap_png": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C4_hvqmap.png",
+      "map_npy": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C4_map.npy"
+    },
+    "C5": {
+      "camera_id": "C5",
+      "width": 1024,
+      "height": 1024,
+      "image_path": "/home/geonug/agent/gui_evidence/uploads/213036aac0ad/C5.jpg",
+      "rtdetr_raw": 0.9143,
+      "hvq_mean": 45.897038,
+      "hvq_max16": 129.393066,
+      "detections": [
+        {
+          "bbox": [
+            100.63,
+            234.18,
+            259.67,
+            604.0
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.9143
+        },
+        {
+          "bbox": [
+            425.63,
+            436.3,
+            447.7,
+            603.67
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.2349
+        },
+        {
+          "bbox": [
+            423.75,
+            195.44,
+            448.54,
+            262.93
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0904
+        },
+        {
+          "bbox": [
+            100.63,
+            234.18,
+            259.67,
+            604.0
+          ],
+          "class_id": 9,
+          "class_name": "button_battery/CH",
+          "score": 0.076
+        },
+        {
+          "bbox": [
+            332.53,
+            138.65,
+            449.59,
+            256.02
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0698
+        },
+        {
+          "bbox": [
+            100.63,
+            234.18,
+            259.67,
+            604.0
+          ],
+          "class_id": 97,
+          "class_name": "vcpill/QS",
+          "score": 0.0691
+        },
+        {
+          "bbox": [
+            97.61,
+            190.46,
+            382.64,
+            605.71
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0662
+        },
+        {
+          "bbox": [
+            85.28,
+            276.25,
+            200.45,
+            558.76
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0632
+        },
+        {
+          "bbox": [
+            238.59,
+            252.2,
+            268.52,
+            483.09
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0586
+        },
+        {
+          "bbox": [
+            262.26,
+            277.15,
+            276.79,
+            346.9
+          ],
+          "class_id": 69,
+          "class_name": "toothbrush/CH",
+          "score": 0.0531
+        },
+        {
+          "bbox": [
+            100.63,
+            234.18,
+            259.67,
+            604.0
+          ],
+          "class_id": 77,
+          "class_name": "toy_brick/HS",
+          "score": 0.0512
+        }
+      ],
+      "heatmap_png": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C5_hvqmap.png",
+      "map_npy": "/home/geonug/agent/gui_evidence/gui-629df156b3eb/C5_map.npy"
+    }
+  },
+  "product": {
+    "item": "toothbrush",
+    "rtdetr_raw": 0.9145,
+    "hvq_max16": 138.825439453125,
+    "rtdetr_conf_threshold": 0.55,
+    "hvq_threshold": 100.54854583740234,
+    "rtdetr_positive": true,
+    "hvq_positive": true,
+    "rt": 0.9145,
+    "hvq": 138.825439453125,
+    "weights": {
+      "rtdetr": 0.7,
+      "hvq": 0.3
+    },
+    "status": "CONFIGURED",
+    "fusion_score": 0.867766,
+    "threshold": 0.47347826086956524,
+    "margin": 0.007391304347826089,
+    "rt_percentile": 0.850198,
+    "hvq_percentile": 0.908758,
+    "binary_verdict": "defect",
+    "verdict": "defect"
+  },
+  "models": {
+    "rtdetr": "RT-DETRv2-15ep-EMA-111classes-ONNX-FP32",
+    "hvq": "HVQ-Trans79ep-ONNX-FP16IO"
+  },
+  "config_version": "fusion-reconstruction-v1",
+  "elapsed_ms": 116641.9
+}

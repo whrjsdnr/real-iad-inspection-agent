@@ -1,0 +1,32 @@
+{
+  "product_id": "toothbrush/NG/CH/S0001",
+  "camera": "C1",
+  "width": 1024,
+  "height": 1024,
+  "map_path": "",
+  "source": "/home/geonug/MV/outputs/agent_integration_20261123_v1/score_run_batch5_v1/scores.sqlite",
+  "raw_saved_boxes": 25,
+  "selection_threshold": 0.4,
+  "selected_boxes": [
+    {
+      "bbox": [
+        418.28057861328125,
+        71.85848999023438,
+        632.0901489257812,
+        328.0637512207031
+      ],
+      "class_id": 69,
+      "confidence": 0.9145260453224182
+    },
+    {
+      "bbox": [
+        671.0838623046875,
+        538.9610595703125,
+        738.5416259765625,
+        621.155029296875
+      ],
+      "class_id": 69,
+      "confidence": 0.49177342653274536
+    }
+  ]
+}

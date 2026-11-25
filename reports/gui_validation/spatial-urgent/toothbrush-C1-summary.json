@@ -1,0 +1,56 @@
+{
+  "status": "VERIFIED_ASGI_NO_NETWORK",
+  "product_id": "toothbrush/NG/CH/S0001",
+  "grid": [
+    32,
+    32
+  ],
+  "distinct_values": 19,
+  "nonzero_cells": 174,
+  "stats": {
+    "detection_count": 2,
+    "detected_products": 1,
+    "observed_products": 1,
+    "occupied_cell_count": 174,
+    "observed_cell_count": 1024,
+    "spatial_occupancy": 0.169921875
+  },
+  "verified_box_center_cells": [
+    {
+      "native_center": [
+        525.1853637695312,
+        199.96112060546875
+      ],
+      "column": 17,
+      "row": 7,
+      "score": 0.9145260453224182
+    },
+    {
+      "native_center": [
+        704.812744140625,
+        580.0580444335938
+      ],
+      "column": 26,
+      "row": 26,
+      "score": 0.49177342653274536
+    }
+  ],
+  "asgi_ms": 15.07809100439772,
+  "physical_surface_uv": "unverified",
+  "browser": "blocked_socket_EPERM",
+  "response_bytes": 52432,
+  "mounted_route_checks": [
+    {
+      "application": "preview",
+      "path": "/api/parts/spatial-heatmap",
+      "status": 200,
+      "asgi_ms": 9.797952996450476
+    },
+    {
+      "application": "central_no_lifespan",
+      "path": "/parts/spatial-heatmap",
+      "status": 200,
+      "asgi_ms": 10.915092992945574
+    }
+  ]
+}

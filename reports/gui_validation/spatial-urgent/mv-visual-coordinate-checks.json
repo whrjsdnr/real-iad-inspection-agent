@@ -1,0 +1,24 @@
+[
+  {
+    "item": "toothbrush",
+    "product_id": "toothbrush/NG/CH/S0001",
+    "view": "C1",
+    "split": "train",
+    "foreground_pixels": 20358,
+    "positive_cells": 136,
+    "native_mask_and_API_cells_equal": true,
+    "comparison": "verified_same_product_view_split_source_image",
+    "selected_RT_boxes": 2
+  },
+  {
+    "item": "zipper",
+    "product_id": "zipper/NG/BX/S0002",
+    "view": "C1",
+    "split": "train",
+    "foreground_pixels": 17320,
+    "positive_cells": 96,
+    "native_mask_and_API_cells_equal": true,
+    "comparison": "verified_same_product_view_split_source_image",
+    "selected_RT_boxes": 1
+  }
+]

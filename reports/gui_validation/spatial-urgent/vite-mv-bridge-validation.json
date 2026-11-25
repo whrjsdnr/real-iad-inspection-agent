@@ -1,0 +1,33 @@
+{
+  "status": "VERIFIED_VITE_MIDDLEWARE_AND_REAL_PYTHON_READER_NO_TCP",
+  "checks": [
+    {
+      "image_stream_bytes": 348330,
+      "url": "/api/heatmaps/ground-truth?item=toothbrush&view=C1&split=train",
+      "status": 200,
+      "transport": "vite-local-existing-asgi-routes",
+      "known_products": 335,
+      "unknown_products": 37,
+      "grid": [
+        64,
+        64
+      ],
+      "distinct_values": 35
+    },
+    {
+      "image_stream_bytes": 562978,
+      "url": "/api/heatmaps/ground-truth?item=zipper&view=C1&split=train",
+      "status": 200,
+      "transport": "vite-local-existing-asgi-routes",
+      "known_products": 367,
+      "unknown_products": 0,
+      "grid": [
+        64,
+        64
+      ],
+      "distinct_values": 112
+    }
+  ],
+  "existing_proxy_untouched": true,
+  "writes_rejected": true
+}

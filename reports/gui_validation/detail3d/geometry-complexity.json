@@ -1,0 +1,215 @@
+{
+  "scope": "display meshes only; not measured GPU calls or FPS",
+  "categories": [
+    {
+      "category": "audiojack",
+      "regions": 3,
+      "detail_surfaces": 5,
+      "total_surfaces": 8,
+      "triangles": 8436
+    },
+    {
+      "category": "bottle_cap",
+      "regions": 3,
+      "detail_surfaces": 3,
+      "total_surfaces": 6,
+      "triangles": 16560
+    },
+    {
+      "category": "button_battery",
+      "regions": 2,
+      "detail_surfaces": 4,
+      "total_surfaces": 6,
+      "triangles": 6744
+    },
+    {
+      "category": "end_cap",
+      "regions": 1,
+      "detail_surfaces": 3,
+      "total_surfaces": 4,
+      "triangles": 6724
+    },
+    {
+      "category": "eraser",
+      "regions": 1,
+      "detail_surfaces": 2,
+      "total_surfaces": 3,
+      "triangles": 900
+    },
+    {
+      "category": "fire_hood",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 8400
+    },
+    {
+      "category": "mint",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 7536
+    },
+    {
+      "category": "mounts",
+      "regions": 2,
+      "detail_surfaces": 4,
+      "total_surfaces": 6,
+      "triangles": 8524
+    },
+    {
+      "category": "pcb",
+      "regions": 3,
+      "detail_surfaces": 8,
+      "total_surfaces": 11,
+      "triangles": 13328
+    },
+    {
+      "category": "phone_battery",
+      "regions": 2,
+      "detail_surfaces": 3,
+      "total_surfaces": 5,
+      "triangles": 2700
+    },
+    {
+      "category": "plastic_nut",
+      "regions": 2,
+      "detail_surfaces": 3,
+      "total_surfaces": 5,
+      "triangles": 4776
+    },
+    {
+      "category": "plastic_plug",
+      "regions": 2,
+      "detail_surfaces": 3,
+      "total_surfaces": 5,
+      "triangles": 7248
+    },
+    {
+      "category": "porcelain_doll",
+      "regions": 1,
+      "detail_surfaces": 2,
+      "total_surfaces": 3,
+      "triangles": 3872
+    },
+    {
+      "category": "regulator",
+      "regions": 4,
+      "detail_surfaces": 1,
+      "total_surfaces": 5,
+      "triangles": 7248
+    },
+    {
+      "category": "rolled_strip_base",
+      "regions": 2,
+      "detail_surfaces": 3,
+      "total_surfaces": 5,
+      "triangles": 7324
+    },
+    {
+      "category": "sim_card_set",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 1092
+    },
+    {
+      "category": "switch",
+      "regions": 3,
+      "detail_surfaces": 5,
+      "total_surfaces": 8,
+      "triangles": 5368
+    },
+    {
+      "category": "tape",
+      "regions": 1,
+      "detail_surfaces": 4,
+      "total_surfaces": 5,
+      "triangles": 7296
+    },
+    {
+      "category": "terminalblock",
+      "regions": 3,
+      "detail_surfaces": 6,
+      "total_surfaces": 9,
+      "triangles": 12168
+    },
+    {
+      "category": "toothbrush",
+      "regions": 3,
+      "detail_surfaces": 7,
+      "total_surfaces": 10,
+      "triangles": 10356
+    },
+    {
+      "category": "toy",
+      "regions": 3,
+      "detail_surfaces": 3,
+      "total_surfaces": 6,
+      "triangles": 12864
+    },
+    {
+      "category": "toy_brick",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 2640
+    },
+    {
+      "category": "transistor1",
+      "regions": 2,
+      "detail_surfaces": 3,
+      "total_surfaces": 5,
+      "triangles": 10264
+    },
+    {
+      "category": "u_block",
+      "regions": 1,
+      "detail_surfaces": 2,
+      "total_surfaces": 3,
+      "triangles": 2736
+    },
+    {
+      "category": "usb",
+      "regions": 3,
+      "detail_surfaces": 6,
+      "total_surfaces": 9,
+      "triangles": 7296
+    },
+    {
+      "category": "usb_adaptor",
+      "regions": 3,
+      "detail_surfaces": 6,
+      "total_surfaces": 9,
+      "triangles": 7296
+    },
+    {
+      "category": "vcpill",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 5052
+    },
+    {
+      "category": "wooden_beads",
+      "regions": 1,
+      "detail_surfaces": 1,
+      "total_surfaces": 2,
+      "triangles": 3264
+    },
+    {
+      "category": "woodstick",
+      "regions": 2,
+      "detail_surfaces": 2,
+      "total_surfaces": 4,
+      "triangles": 8400
+    },
+    {
+      "category": "zipper",
+      "regions": 3,
+      "detail_surfaces": 4,
+      "total_surfaces": 7,
+      "triangles": 23892
+    }
+  ]
+}

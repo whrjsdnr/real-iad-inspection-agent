@@ -1,0 +1,5 @@
+{
+  "report": "/home/geonug/agent/reports/final_performance_minmax/performance.json",
+  "directory": "/home/geonug/agent/reports/final_performance_minmax",
+  "model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d"
+}

@@ -1,0 +1,13 @@
+{
+  "heatmap_schema.json": true,
+  "heatmap_validation.json": true,
+  "heatmap_groups.json": true,
+  "heatmap_summary.csv": true,
+  "mask_policy.json": true,
+  "run.json": true,
+  "presence_count.npy": true,
+  "occupancy_known.npy": true,
+  "occupancy_positive.npy": true,
+  "observation_count.npy": true,
+  "area_fraction_sum.npy": true
+}

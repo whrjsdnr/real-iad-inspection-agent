@@ -1,0 +1,31 @@
+{
+  "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C1_20230912143447.jpg",
+  "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+  "item": "toothbrush",
+  "product_id": "toothbrush/NG/CH/S0001",
+  "camera": "C1",
+  "detections": [
+    {
+      "bbox": [
+        418.28057861328125,
+        71.85848999023438,
+        632.0901489257812,
+        328.0637512207031
+      ],
+      "score": 0.9145260453224182
+    },
+    {
+      "bbox": [
+        671.0838623046875,
+        538.9610595703125,
+        738.5416259765625,
+        621.155029296875
+      ],
+      "score": 0.49177342653274536
+    }
+  ],
+  "original_size": [
+    1024,
+    1024
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "socket_probe": "PermissionError: [Errno 1] Operation not permitted",
+  "host_PIDs": "not visible in tool PID namespace",
+  "browser": "not retried after known sandbox socket restriction",
+  "operating_ports_8000_8080": "not verified",
+  "reported_GUI": "http://127.0.0.1:15173/#/dashboard",
+  "browser_Network_response_body": "not received",
+  "GUI_screenshot_current": "not captured"
+}

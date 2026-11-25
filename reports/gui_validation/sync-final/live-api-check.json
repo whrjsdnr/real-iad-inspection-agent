@@ -1,0 +1,117 @@
+{
+  "state": "VERIFIED",
+  "checks": [
+    "state",
+    "available",
+    "is_fixture",
+    "model_version",
+    "report_path",
+    "metrics",
+    "active_model_run"
+  ],
+  "errors": [],
+  "note": "No inference, report generation, DB writes or server restarts.",
+  "states": [
+    "complete",
+    "complete",
+    "complete"
+  ],
+  "loaded": {
+    "products": 24002,
+    "views": 120010,
+    "scope": "all_inspection_records",
+    "product_count_unit": "inspection_attempt",
+    "target_products": 24000,
+    "target_views": 120000,
+    "product_progress": 1.0000833333333334,
+    "view_progress": 1.0000833333333334
+  },
+  "score_backfill": {
+    "status": "COMPLETE",
+    "expected_products": 24000,
+    "completed_products": 24000,
+    "completed_views": 120000,
+    "score_variant": "max_avgpool16",
+    "progress": 1.0
+  },
+  "metrics": {
+    "cohort_products": 24000,
+    "test_products": 3593,
+    "source_model_version": "fusion-max16-rt55-w70-30:9005f281afb0fd480fee239f",
+    "database_run_activated": false,
+    "fusion_policy": {
+      "version": "weighted-minmax-heatmap-mean-rt40-v1",
+      "base_config": "config/fusion.json",
+      "weights": {
+        "rtdetr": 0.7,
+        "hvq": 0.3
+      },
+      "hvq_score_variant": "heatmap_mean",
+      "rtdetr_conf_threshold": 0.4,
+      "product_aggregation": "max_C1_C5",
+      "normalization": "validation_category_minmax",
+      "clip_outside_validation_range": false,
+      "constant_validation_range": "reject",
+      "hvq_prefilter": "none_continuous_mean_score",
+      "threshold": "validation_F1_highest_optimal_interval_midpoint",
+      "margin_f1_drop_tolerance": 0.005,
+      "decision": "hold_if_abs_score_minus_threshold_le_margin_else_binary",
+      "report_scope": "all_products_with_separate_test",
+      "activation": "report_only_no_operating_db_updates"
+    },
+    "evaluation_products": 24000,
+    "evaluation_scope": "all_inferred_products_reference",
+    "contains_calibration_products": true,
+    "training_overlap": "UNKNOWN_ORIGINAL_30000_ID_LIST_MISSING",
+    "csv_consistency_verified": true,
+    "test_reference": {
+      "tp": 1752,
+      "fn": 86,
+      "fp": 86,
+      "tn": 1669,
+      "recall": {
+        "num": 1752,
+        "den": 1838,
+        "rate": 0.9532100108813928
+      },
+      "fpr": {
+        "num": 86,
+        "den": 1755,
+        "rate": 0.049002849002849
+      },
+      "f1": {
+        "num": 3504,
+        "den": 3676,
+        "rate": 0.9532100108813928
+      },
+      "precision": {
+        "num": 1752,
+        "den": 1838,
+        "rate": 0.9532100108813928
+      },
+      "auroc": 0.9863461770969932,
+      "average_precision": 0.9893525888721745
+    },
+    "test_f1_micro": 0.9532100108813928,
+    "test_recall": 0.9532100108813928,
+    "fp": 474,
+    "fn": 306,
+    "recall": 0.9753384912959381,
+    "f1_micro": 0.9687800192122958,
+    "auroc": 0.9928950644723078,
+    "ap": 0.9940144851394278,
+    "f1_category_macro": 0.9694301139881876,
+    "auroc_category_macro": 0.9933952508144728,
+    "hold_products": 194,
+    "hold_rate": 0.008083333333333333,
+    "coverage": 0.9919166666666667,
+    "final_fp": 432,
+    "final_fn": 291,
+    "decided_f1": 0.9708784790752004,
+    "single_model_hvq_f1": 0.0,
+    "single_model_rtdetr_f1": 0.9036065093094854,
+    "verified": false,
+    "timestamp": "2026-11-24T08:38:53.347383+00:00"
+  },
+  "model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d"
+}

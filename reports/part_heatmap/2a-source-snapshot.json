@@ -1,0 +1,13 @@
+{
+  "scope": "read-only investigation; no deployment or model execution",
+  "source_hashes": {
+    "app/part_heatmap.py": "43e2baeb4d7922a2f6013e3067495062aafdbe6b3843e1863c91cecd7739043c",
+    "app/part_api.py": "0cbd8a141eb7c8043114fc899098bc848da59a35b35b2cb1023e8d1b902c2ef5",
+    "inspection-gui/src/three/heatAppearance.ts": "5431295c24b66bc9f6a4026813a327f0394c5c8eaff7685f128251b709e5ee8b",
+    "inspection-gui/src/three/Scene.tsx": "4be062ac3c3970b24d5481ff4940bc2d56ec735072bc54f7120ce9f6320fde4f",
+    "inspection-gui/src/three/geometry.ts": "c3453fb6cb1b51c4e80c37b09b29a26a631c364c3b92de29c185d62210af45b8",
+    "config/part_heatmap_regions.json": "e41b87aacb72663eba07b295067e3c98c6658c811e763a7fb8cd8b0cac676322",
+    "config/fusion.json": "09c417600ba3ac99a5dcf91a486396c8a0e27dfd9e089f0768615118dc24fce9",
+    "config/fusion_evaluation.json": "02932852a59e45e775ddfe98a31870c44f890fb817662d3dc4a7bd21e06c854c"
+  }
+}

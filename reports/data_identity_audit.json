@@ -1,0 +1,67 @@
+{
+  "existing_parser_products": 19378,
+  "manifest_products": 30210,
+  "colliding_product_ids": 4197,
+  "examples": {
+    "audiojack_defect_0001": [
+      "audiojack/NG/BX/S0001",
+      "audiojack/NG/HS/S0001",
+      "audiojack/NG/QS/S0001",
+      "audiojack/NG/ZW/S0001"
+    ],
+    "audiojack_defect_0002": [
+      "audiojack/NG/BX/S0002",
+      "audiojack/NG/HS/S0002",
+      "audiojack/NG/QS/S0002",
+      "audiojack/NG/ZW/S0002"
+    ],
+    "audiojack_defect_0003": [
+      "audiojack/NG/BX/S0003",
+      "audiojack/NG/HS/S0003",
+      "audiojack/NG/QS/S0003",
+      "audiojack/NG/ZW/S0003"
+    ],
+    "audiojack_defect_0004": [
+      "audiojack/NG/BX/S0004",
+      "audiojack/NG/HS/S0004",
+      "audiojack/NG/QS/S0004",
+      "audiojack/NG/ZW/S0004"
+    ],
+    "audiojack_defect_0005": [
+      "audiojack/NG/BX/S0005",
+      "audiojack/NG/HS/S0005",
+      "audiojack/NG/QS/S0005",
+      "audiojack/NG/ZW/S0005"
+    ],
+    "audiojack_defect_0006": [
+      "audiojack/NG/BX/S0006",
+      "audiojack/NG/HS/S0006",
+      "audiojack/NG/QS/S0006",
+      "audiojack/NG/ZW/S0006"
+    ],
+    "audiojack_defect_0007": [
+      "audiojack/NG/BX/S0007",
+      "audiojack/NG/HS/S0007",
+      "audiojack/NG/QS/S0007",
+      "audiojack/NG/ZW/S0007"
+    ],
+    "audiojack_defect_0008": [
+      "audiojack/NG/BX/S0008",
+      "audiojack/NG/HS/S0008",
+      "audiojack/NG/QS/S0008",
+      "audiojack/NG/ZW/S0008"
+    ],
+    "audiojack_defect_0009": [
+      "audiojack/NG/BX/S0009",
+      "audiojack/NG/HS/S0009",
+      "audiojack/NG/QS/S0009",
+      "audiojack/NG/ZW/S0009"
+    ],
+    "audiojack_defect_0010": [
+      "audiojack/NG/BX/S0010",
+      "audiojack/NG/HS/S0010",
+      "audiojack/NG/QS/S0010",
+      "audiojack/NG/ZW/S0010"
+    ]
+  }
+}

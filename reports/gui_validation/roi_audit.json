@@ -1,0 +1,1388 @@
+{
+  "source": "stored gui_evidence/*/result.json; no inference rerun; no DB writes",
+  "unique_images": 5,
+  "detections": 96,
+  "categories": [
+    "toothbrush"
+  ],
+  "groups": {
+    "toothbrush/C1": {
+      "detections": 25,
+      "before_unknown": 25,
+      "after_unknown": 25,
+      "unverified": 25
+    },
+    "toothbrush/C2": {
+      "detections": 35,
+      "before_unknown": 32,
+      "after_unknown": 35,
+      "unverified": 35
+    },
+    "toothbrush/C3": {
+      "detections": 10,
+      "before_unknown": 9,
+      "after_unknown": 10,
+      "unverified": 10
+    },
+    "toothbrush/C4": {
+      "detections": 15,
+      "before_unknown": 15,
+      "after_unknown": 15,
+      "unverified": 15
+    },
+    "toothbrush/C5": {
+      "detections": 11,
+      "before_unknown": 6,
+      "after_unknown": 11,
+      "unverified": 11
+    }
+  },
+  "rows": [
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        418.28,
+        71.86,
+        632.09,
+        328.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        671.08,
+        538.96,
+        738.54,
+        621.16
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        328.11,
+        538.09,
+        446.65,
+        619.35
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        416.88,
+        72.93,
+        451.87,
+        305.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        393.22,
+        590.52,
+        443.91,
+        619.03
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        418.28,
+        71.86,
+        632.09,
+        328.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        389.11,
+        560.59,
+        445.57,
+        621.29
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        418.28,
+        71.86,
+        632.09,
+        328.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        412.19,
+        82.52,
+        539.85,
+        289.55
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        555.57,
+        168.4,
+        632.01,
+        301.44
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        545.69,
+        108.64,
+        554.32,
+        199.04
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        540.44,
+        104.63,
+        555.7,
+        252.49
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        418.28,
+        71.86,
+        632.09,
+        328.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        252.82,
+        541.92,
+        405.98,
+        608.09
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        669.46,
+        552.91,
+        705.3,
+        612.05
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        352.89,
+        539.33,
+        407.88,
+        612.55
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        671.08,
+        538.96,
+        738.54,
+        621.16
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        726.94,
+        541.45,
+        740.43,
+        617.31
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        608.21,
+        568.53,
+        628.5,
+        597.09
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        422.01,
+        92.72,
+        491.34,
+        313.52
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        331.33,
+        581.19,
+        345.1,
+        605.84
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        490.45,
+        548.23,
+        538.69,
+        595.08
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        462.04,
+        548.37,
+        579.7,
+        596.81
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        418.28,
+        71.86,
+        632.09,
+        328.06
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+      "bbox": [
+        423.62,
+        151.87,
+        583.91,
+        318.71
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        474.14,
+        380.22,
+        586.05,
+        657.09
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        386.6,
+        364.53,
+        413.05,
+        490.08
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        452.83,
+        312.76,
+        535.45,
+        653.24
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        478.76,
+        471.78,
+        542.69,
+        655.08
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        468.95,
+        423.37,
+        507.65,
+        652.56
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        394.72,
+        427.02,
+        556.16,
+        655.19
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        540.29,
+        366.16,
+        594.82,
+        652.58
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        475.41,
+        322.12,
+        547.56,
+        659.09
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        479.06,
+        290.36,
+        654.59,
+        658.09
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        388.63,
+        348.03,
+        466.25,
+        649.17
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        455.58,
+        290.69,
+        479.52,
+        648.01
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        425.85,
+        316.33,
+        485.83,
+        645.31
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        543.12,
+        541.26,
+        577.52,
+        651.39
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        323.7,
+        494.18,
+        577.62,
+        648.34
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        575.13,
+        280.14,
+        606.8,
+        650.61
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        478.76,
+        471.78,
+        542.69,
+        655.08
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        319.95,
+        274.22,
+        343.98,
+        404.13
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        477.95,
+        524.86,
+        510.83,
+        652.42
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        544.44,
+        492.45,
+        590.82,
+        650.66
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        401.14,
+        320.3,
+        432.48,
+        650.37
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        824.01,
+        650.14,
+        837.87,
+        668.04
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        305.28,
+        265.4,
+        553.84,
+        608.01
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        700.25,
+        210.33,
+        761.47,
+        268.98
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        535.55,
+        336.4,
+        597.72,
+        655.03
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        601.32,
+        423.87,
+        617.55,
+        493.52
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        522.36,
+        498.7,
+        579.57,
+        650.46
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        457.32,
+        287.31,
+        472.99,
+        536.13
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        382.71,
+        284.16,
+        412.75,
+        504.39
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        597.35,
+        373.61,
+        645.51,
+        637.72
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        478.0,
+        575.61,
+        504.9,
+        649.62
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        741.84,
+        226.62,
+        766.91,
+        264.53
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        486.2,
+        299.26,
+        598.08,
+        658.27
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        725.41,
+        214.04,
+        772.91,
+        272.2
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        552.0,
+        317.43,
+        600.5,
+        806.15
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+      "bbox": [
+        479.2,
+        619.02,
+        565.53,
+        651.86
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        152.41,
+        357.82,
+        313.38,
+        693.56
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        441.94,
+        523.81,
+        485.68,
+        797.04
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        283.18,
+        381.57,
+        315.49,
+        670.89
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        152.52,
+        376.07,
+        250.73,
+        621.4
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        286.04,
+        469.65,
+        305.04,
+        532.42
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        288.05,
+        370.78,
+        316.37,
+        508.61
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        331.67,
+        588.07,
+        369.2,
+        850.45
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        236.19,
+        360.85,
+        302.15,
+        432.59
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        152.41,
+        357.82,
+        313.38,
+        693.56
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+      "bbox": [
+        152.41,
+        357.82,
+        313.38,
+        693.56
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        360.71,
+        176.75,
+        535.78,
+        272.58
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        361.67,
+        188.32,
+        394.34,
+        264.9
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        509.12,
+        369.16,
+        555.28,
+        624.91
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        362.15,
+        186.82,
+        425.75,
+        265.6
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        360.85,
+        185.35,
+        377.22,
+        258.88
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        360.71,
+        176.75,
+        535.78,
+        272.58
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        491.46,
+        177.12,
+        534.82,
+        274.99
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        373.99,
+        252.8,
+        526.71,
+        290.98
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        455.62,
+        353.28,
+        493.25,
+        625.78
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        520.59,
+        180.25,
+        536.46,
+        282.28
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        360.71,
+        176.75,
+        535.78,
+        272.58
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        262.07,
+        362.57,
+        327.06,
+        614.78
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        362.5,
+        194.0,
+        420.22,
+        264.5
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        506.29,
+        417.22,
+        535.63,
+        629.68
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+      "bbox": [
+        360.71,
+        176.75,
+        535.78,
+        272.58
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        100.63,
+        234.18,
+        259.67,
+        604.0
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        425.63,
+        436.3,
+        447.7,
+        603.67
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        423.75,
+        195.44,
+        448.54,
+        262.93
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        100.63,
+        234.18,
+        259.67,
+        604.0
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        332.53,
+        138.65,
+        449.59,
+        256.02
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        100.63,
+        234.18,
+        259.67,
+        604.0
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        97.61,
+        190.46,
+        382.64,
+        605.71
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        85.28,
+        276.25,
+        200.45,
+        558.76
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        238.59,
+        252.2,
+        268.52,
+        483.09
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        262.26,
+        277.15,
+        276.79,
+        346.9
+      ],
+      "before_recorded_rule": "handle",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+      "bbox": [
+        100.63,
+        234.18,
+        259.67,
+        604.0
+      ],
+      "before_recorded_rule": "unknown",
+      "after": "unknown",
+      "reason": "lut_registration_missing"
+    }
+  ],
+  "registration_verified": false,
+  "note": "Before uses legacy rule with no registration. After rejects unsupported registration; higher unknown is intentional, not improved detection performance."
+}

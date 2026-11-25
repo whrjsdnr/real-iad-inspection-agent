@@ -1,0 +1,4595 @@
+{
+  "version": "part-heatmap-native-samples-v2",
+  "mapping_scope": "exact_image_sha256",
+  "template_scope": "item_camera_size_framing_checked",
+  "root_config_sha256": "09c417600ba3ac99a5dcf91a486396c8a0e27dfd9e089f0768615118dc24fce9",
+  "config_sha256": "e41b87aacb72663eba07b295067e3c98c6658c811e763a7fb8cd8b0cac676322",
+  "generated_at": "2026-11-24T09:41:50.227145+00:00",
+  "source_scope": "stored_gui_evidence_exact_image_samples + operational_findings_templates",
+  "cases": [
+    {
+      "case_id": "dbd3190bf04a0ea1ecadf0a1",
+      "product_id": "toothbrush/NG/CH/S0001",
+      "item": "toothbrush",
+      "models": {
+        "rtdetr": "RT-DETRv2-15ep-EMA-111classes-ONNX-FP32",
+        "hvq": "HVQ-Trans79ep-ONNX-FP16IO"
+      },
+      "source_report": "/home/geonug/agent/gui_evidence/gui-a7b441dfce9a/result.json",
+      "recorded_at": "2026-11-24T04:17:11.402557+00:00",
+      "views": [
+        {
+          "camera": "C1",
+          "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C1_20230912143447.jpg",
+          "image_sha256": "d57c715a1f5d631438511a290a8b52066e0f7f49ac6c8958376ff994b6f1687c",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  140,
+                  220
+                ],
+                [
+                  400,
+                  220
+                ],
+                [
+                  410,
+                  55
+                ],
+                [
+                  550,
+                  65
+                ],
+                [
+                  650,
+                  180
+                ],
+                [
+                  820,
+                  240
+                ],
+                [
+                  820,
+                  620
+                ],
+                [
+                  145,
+                  620
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "template": false,
+          "detections": [
+            {
+              "bbox": [
+                418.28,
+                71.86,
+                632.09,
+                328.06
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9145,
+              "region_id": "bristle"
+            },
+            {
+              "bbox": [
+                671.08,
+                538.96,
+                738.54,
+                621.16
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.4918,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 82.60741424560547
+          },
+          "rtdetr_threshold": 0.4
+        },
+        {
+          "camera": "C2",
+          "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C2_20230912143447.jpg",
+          "image_sha256": "7d30d7598550eac05c48579784a52230086d401327aae3c986f3bbfaeda69d63",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  150,
+                  180
+                ],
+                [
+                  800,
+                  180
+                ],
+                [
+                  800,
+                  800
+                ],
+                [
+                  150,
+                  800
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "template": false,
+          "detections": [],
+          "hvq_roi_mean": {
+            "bristle": 61.85893630981445
+          },
+          "rtdetr_threshold": 0.4
+        },
+        {
+          "camera": "C3",
+          "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C3_20230912143447.jpg",
+          "image_sha256": "3fcae3267961c5da0e88cd957b686e5c3ec79cef226399bc97c06d1fea7e5c4d",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  130,
+                  195
+                ],
+                [
+                  450,
+                  195
+                ],
+                [
+                  515,
+                  560
+                ],
+                [
+                  475,
+                  1024
+                ],
+                [
+                  235,
+                  1024
+                ],
+                [
+                  235,
+                  710
+                ],
+                [
+                  130,
+                  500
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "template": false,
+          "detections": [
+            {
+              "bbox": [
+                152.41,
+                357.82,
+                313.38,
+                693.56
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9044,
+              "region_id": "bristle"
+            },
+            {
+              "bbox": [
+                441.94,
+                523.81,
+                485.68,
+                797.04
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.4357,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 79.75125885009766
+          },
+          "rtdetr_threshold": 0.4
+        },
+        {
+          "camera": "C4",
+          "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C4_20230912143447.jpg",
+          "image_sha256": "3bd5d15b78c6ab7f4e6dfe4fbd9c69bbdb29fd9becacd87e66fdbd5e38f9a887",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  215,
+                  160
+                ],
+                [
+                  775,
+                  160
+                ],
+                [
+                  810,
+                  800
+                ],
+                [
+                  210,
+                  800
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "template": false,
+          "detections": [
+            {
+              "bbox": [
+                360.71,
+                176.75,
+                535.78,
+                272.58
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.8759,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 62.190330505371094
+          },
+          "rtdetr_threshold": 0.4
+        },
+        {
+          "camera": "C5",
+          "image_path": "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C5_20230912143447.jpg",
+          "image_sha256": "63306796ffb614ff4cc954a2f21fb4cc65faaae7affe2ae500b0a416b72741c8",
+          "width": 1024,
+          "height": 1024,
+          "regions": [
+            {
+              "region_id": "bristle",
+              "label": "헤드 / 칫솔모",
+              "polygon": [
+                [
+                  80,
+                  175
+                ],
+                [
+                  480,
+                  175
+                ],
+                [
+                  505,
+                  530
+                ],
+                [
+                  500,
+                  950
+                ],
+                [
+                  180,
+                  950
+                ],
+                [
+                  165,
+                  650
+                ],
+                [
+                  80,
+                  500
+                ]
+              ]
+            }
+          ],
+          "coverage": {
+            "neck": "not_annotated"
+          },
+          "template": false,
+          "detections": [
+            {
+              "bbox": [
+                100.63,
+                234.18,
+                259.67,
+                604.0
+              ],
+              "class_id": 69,
+              "class_name": "toothbrush/CH",
+              "score": 0.9143,
+              "region_id": "bristle"
+            }
+          ],
+          "hvq_roi_mean": {
+            "bristle": 76.54937744140625
+          },
+          "rtdetr_threshold": 0.4
+        }
+      ]
+    }
+  ],
+  "operational": {
+    "threshold": 0.4,
+    "source": "public.findings read-only (batch evidence layer; HVQ spatial maps not stored operationally)",
+    "items": {
+      "audiojack": {
+        "products_observed": 800,
+        "regions": {
+          "housing": {
+            "num": 304,
+            "den": 800,
+            "rate": 0.38,
+            "detection_count": 529,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5"
+            ]
+          },
+          "interface": {
+            "num": 48,
+            "den": 800,
+            "rate": 0.06,
+            "detection_count": 59,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5"
+            ]
+          },
+          "pins": {
+            "num": 0,
+            "den": 800,
+            "rate": 0.0,
+            "detection_count": 0,
+            "cameras": []
+          }
+        }
+      },
+      "bottle_cap": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 256,
+            "den": 800,
+            "rate": 0.32,
+            "detection_count": 514,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3"
+            ]
+          },
+          "ribs": {
+            "num": 186,
+            "den": 800,
+            "rate": 0.2325,
+            "detection_count": 230,
+            "cameras": [
+              "C2",
+              "C3"
+            ]
+          }
+        }
+      },
+      "button_battery": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 436,
+            "den": 800,
+            "rate": 0.545,
+            "detection_count": 1317,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3"
+            ]
+          },
+          "rim": {
+            "num": 83,
+            "den": 800,
+            "rate": 0.10375,
+            "detection_count": 111,
+            "cameras": [
+              "C2",
+              "C3"
+            ]
+          }
+        }
+      },
+      "end_cap": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 436,
+            "den": 800,
+            "rate": 0.545,
+            "detection_count": 1134,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3"
+            ]
+          }
+        }
+      },
+      "eraser": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 412,
+            "den": 800,
+            "rate": 0.515,
+            "detection_count": 933,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3"
+            ]
+          }
+        }
+      },
+      "fire_hood": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 266,
+            "den": 800,
+            "rate": 0.3325,
+            "detection_count": 430,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "rim": {
+            "num": 113,
+            "den": 800,
+            "rate": 0.14125,
+            "detection_count": 122,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "mint": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 354,
+            "den": 800,
+            "rate": 0.4425,
+            "detection_count": 1156,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "rim": {
+            "num": 264,
+            "den": 800,
+            "rate": 0.33,
+            "detection_count": 583,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "mounts": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 260,
+            "den": 800,
+            "rate": 0.325,
+            "detection_count": 282,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "rails": {
+            "num": 290,
+            "den": 800,
+            "rate": 0.3625,
+            "detection_count": 295,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "pcb": {
+        "products_observed": 800,
+        "regions": {
+          "contacts": {
+            "num": 52,
+            "den": 800,
+            "rate": 0.065,
+            "detection_count": 92,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "components": {
+            "num": 0,
+            "den": 800,
+            "rate": 0.0,
+            "detection_count": 0,
+            "cameras": []
+          },
+          "substrate": {
+            "num": 211,
+            "den": 800,
+            "rate": 0.26375,
+            "detection_count": 345,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "phone_battery": {
+        "products_observed": 800,
+        "regions": {
+          "contacts": {
+            "num": 0,
+            "den": 800,
+            "rate": 0.0,
+            "detection_count": 0,
+            "cameras": []
+          },
+          "body": {
+            "num": 327,
+            "den": 800,
+            "rate": 0.40875,
+            "detection_count": 562,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "plastic_nut": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 295,
+            "den": 800,
+            "rate": 0.36875,
+            "detection_count": 448,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "plastic_plug": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 243,
+            "den": 800,
+            "rate": 0.30375,
+            "detection_count": 274,
+            "cameras": [
+              "C1"
+            ]
+          }
+        }
+      },
+      "porcelain_doll": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 287,
+            "den": 800,
+            "rate": 0.35875,
+            "detection_count": 616,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "regulator": {
+        "products_observed": 800,
+        "regions": {
+          "hub": {
+            "num": 2,
+            "den": 800,
+            "rate": 0.0025,
+            "detection_count": 2,
+            "cameras": [
+              "C1"
+            ]
+          },
+          "ribs": {
+            "num": 163,
+            "den": 800,
+            "rate": 0.20375,
+            "detection_count": 166,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "rolled_strip_base": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 430,
+            "den": 800,
+            "rate": 0.5375,
+            "detection_count": 853,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "sim_card_set": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 344,
+            "den": 800,
+            "rate": 0.43,
+            "detection_count": 693,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "tab": {
+            "num": 3,
+            "den": 800,
+            "rate": 0.00375,
+            "detection_count": 4,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "switch": {
+        "products_observed": 800,
+        "regions": {
+          "housing": {
+            "num": 266,
+            "den": 800,
+            "rate": 0.3325,
+            "detection_count": 579,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "interface": {
+            "num": 99,
+            "den": 800,
+            "rate": 0.12375,
+            "detection_count": 111,
+            "cameras": [
+              "C1"
+            ]
+          },
+          "pins": {
+            "num": 55,
+            "den": 800,
+            "rate": 0.06875,
+            "detection_count": 60,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "tape": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 199,
+            "den": 800,
+            "rate": 0.24875,
+            "detection_count": 241,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "terminalblock": {
+        "products_observed": 800,
+        "regions": {
+          "housing": {
+            "num": 357,
+            "den": 800,
+            "rate": 0.44625,
+            "detection_count": 654,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "toothbrush": {
+        "products_observed": 801,
+        "regions": {
+          "bristle": {
+            "num": 580,
+            "den": 801,
+            "rate": 0.7240948813982522,
+            "detection_count": 3480,
+            "cameras": [
+              "C1",
+              "C2",
+              "C3",
+              "C4",
+              "C5"
+            ]
+          }
+        }
+      },
+      "toy": {
+        "products_observed": 800,
+        "regions": {
+          "surface": {
+            "num": 360,
+            "den": 800,
+            "rate": 0.45,
+            "detection_count": 489,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "edge": {
+            "num": 5,
+            "den": 800,
+            "rate": 0.00625,
+            "detection_count": 5,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "toy_brick": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 356,
+            "den": 800,
+            "rate": 0.445,
+            "detection_count": 777,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "transistor1": {
+        "products_observed": 800,
+        "regions": {
+          "contacts": {
+            "num": 246,
+            "den": 800,
+            "rate": 0.3075,
+            "detection_count": 499,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "substrate": {
+            "num": 88,
+            "den": 800,
+            "rate": 0.11,
+            "detection_count": 165,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "u_block": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 261,
+            "den": 800,
+            "rate": 0.32625,
+            "detection_count": 343,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "usb": {
+        "products_observed": 800,
+        "regions": {
+          "housing": {
+            "num": 286,
+            "den": 800,
+            "rate": 0.3575,
+            "detection_count": 499,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "interface": {
+            "num": 0,
+            "den": 800,
+            "rate": 0.0,
+            "detection_count": 0,
+            "cameras": []
+          },
+          "pins": {
+            "num": 8,
+            "den": 800,
+            "rate": 0.01,
+            "detection_count": 8,
+            "cameras": [
+              "C2"
+            ]
+          }
+        }
+      },
+      "usb_adaptor": {
+        "products_observed": 800,
+        "regions": {
+          "housing": {
+            "num": 282,
+            "den": 800,
+            "rate": 0.3525,
+            "detection_count": 536,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "interface": {
+            "num": 114,
+            "den": 800,
+            "rate": 0.1425,
+            "detection_count": 189,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "vcpill": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 245,
+            "den": 800,
+            "rate": 0.30625,
+            "detection_count": 488,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "wooden_beads": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 320,
+            "den": 800,
+            "rate": 0.4,
+            "detection_count": 585,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "woodstick": {
+        "products_observed": 800,
+        "regions": {
+          "body": {
+            "num": 166,
+            "den": 800,
+            "rate": 0.2075,
+            "detection_count": 219,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "zipper": {
+        "products_observed": 800,
+        "regions": {
+          "teeth": {
+            "num": 299,
+            "den": 800,
+            "rate": 0.37375,
+            "detection_count": 448,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          },
+          "tape": {
+            "num": 190,
+            "den": 800,
+            "rate": 0.2375,
+            "detection_count": 237,
+            "cameras": [
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "templates": [
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/toothbrush/OK/S0001/toothbrush_0001_OK_C1_20230911162901.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toothbrush/OK/S0002/toothbrush_0002_OK_C1_20230911162955.jpg",
+        "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C1_20230912143447.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              140,
+              55
+            ],
+            [
+              825,
+              55
+            ],
+            [
+              825,
+              700
+            ],
+            [
+              140,
+              700
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      }
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/toothbrush/OK/S0001/toothbrush_0001_OK_C2_20230911162901.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C2_20230912143447.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              150,
+              170
+            ],
+            [
+              810,
+              170
+            ],
+            [
+              810,
+              810
+            ],
+            [
+              150,
+              810
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      }
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/toothbrush/OK/S0001/toothbrush_0001_OK_C3_20230911162901.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C3_20230912143447.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              130,
+              195
+            ],
+            [
+              450,
+              195
+            ],
+            [
+              515,
+              560
+            ],
+            [
+              475,
+              1024
+            ],
+            [
+              235,
+              1024
+            ],
+            [
+              235,
+              710
+            ],
+            [
+              130,
+              500
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      }
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C4",
+      "reference_image": "/home/geonug/MV/dataset/toothbrush/OK/S0001/toothbrush_0001_OK_C4_20230911162901.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C4_20230912143447.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              215,
+              160
+            ],
+            [
+              775,
+              160
+            ],
+            [
+              810,
+              800
+            ],
+            [
+              210,
+              800
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      }
+    },
+    {
+      "item": "toothbrush",
+      "camera": "C5",
+      "reference_image": "/home/geonug/MV/dataset/toothbrush/OK/S0001/toothbrush_0001_OK_C5_20230911162901.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C5_20230912143447.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              80,
+              110
+            ],
+            [
+              480,
+              110
+            ],
+            [
+              505,
+              530
+            ],
+            [
+              500,
+              950
+            ],
+            [
+              180,
+              950
+            ],
+            [
+              165,
+              650
+            ],
+            [
+              80,
+              500
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      }
+    },
+    {
+      "item": "audiojack",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/audiojack/OK/S0001/audiojack_0001_OK_C1_20231021130235.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/audiojack/NG/BX/S0001/audiojack__0001_NG_BX_C1_20231023111538.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "커넥터 하우징",
+          "polygon": [
+            [
+              290,
+              335
+            ],
+            [
+              855,
+              335
+            ],
+            [
+              855,
+              775
+            ],
+            [
+              290,
+              775
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 원통부",
+          "polygon": [
+            [
+              182,
+              425
+            ],
+            [
+              298,
+              425
+            ],
+            [
+              298,
+              645
+            ],
+            [
+              182,
+              645
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "전기 접점",
+          "polygon": [
+            [
+              330,
+              345
+            ],
+            [
+              630,
+              345
+            ],
+            [
+              630,
+              740
+            ],
+            [
+              330,
+              740
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "audiojack",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/audiojack/OK/S0001/audiojack_0001_OK_C2_20231021130235.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/audiojack/NG/BX/S0001/audiojack__0001_NG_BX_C2_20231023111538.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "커넥터 하우징",
+          "polygon": [
+            [
+              305,
+              205
+            ],
+            [
+              850,
+              205
+            ],
+            [
+              850,
+              795
+            ],
+            [
+              305,
+              795
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 원통부",
+          "polygon": [
+            [
+              212,
+              448
+            ],
+            [
+              313,
+              448
+            ],
+            [
+              313,
+              642
+            ],
+            [
+              212,
+              642
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "전기 접점",
+          "polygon": [
+            [
+              335,
+              210
+            ],
+            [
+              700,
+              210
+            ],
+            [
+              700,
+              605
+            ],
+            [
+              335,
+              605
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "audiojack",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/audiojack/OK/S0001/audiojack_0001_OK_C3_20231021130235.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/audiojack/NG/BX/S0001/audiojack__0001_NG_BX_C3_20231023111538.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "커넥터 하우징",
+          "polygon": [
+            [
+              295,
+              235
+            ],
+            [
+              685,
+              235
+            ],
+            [
+              685,
+              845
+            ],
+            [
+              295,
+              845
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 원통부",
+          "polygon": [
+            [
+              408,
+              178
+            ],
+            [
+              597,
+              178
+            ],
+            [
+              597,
+              252
+            ],
+            [
+              408,
+              252
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "전기 접점",
+          "polygon": [
+            [
+              308,
+              245
+            ],
+            [
+              668,
+              245
+            ],
+            [
+              668,
+              535
+            ],
+            [
+              308,
+              535
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "audiojack",
+      "camera": "C4",
+      "reference_image": "/home/geonug/MV/dataset/audiojack/OK/S0001/audiojack_0001_OK_C4_20231021130235.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/audiojack/NG/BX/S0001/audiojack__0001_NG_BX_C4_20231023111538.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "커넥터 하우징",
+          "polygon": [
+            [
+              320,
+              275
+            ],
+            [
+              848,
+              275
+            ],
+            [
+              848,
+              848
+            ],
+            [
+              320,
+              848
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 원통부",
+          "polygon": [
+            [
+              218,
+              505
+            ],
+            [
+              318,
+              505
+            ],
+            [
+              318,
+              702
+            ],
+            [
+              218,
+              702
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "전기 접점",
+          "polygon": [
+            [
+              350,
+              285
+            ],
+            [
+              640,
+              285
+            ],
+            [
+              640,
+              620
+            ],
+            [
+              350,
+              620
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "audiojack",
+      "camera": "C5",
+      "reference_image": "/home/geonug/MV/dataset/audiojack/OK/S0001/audiojack_0001_OK_C5_20231021130235.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/audiojack/NG/BX/S0001/audiojack__0001_NG_BX_C5_20231023111538.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "커넥터 하우징",
+          "polygon": [
+            [
+              358,
+              178
+            ],
+            [
+              708,
+              178
+            ],
+            [
+              708,
+              795
+            ],
+            [
+              358,
+              795
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 원통부",
+          "polygon": [
+            [
+              425,
+              668
+            ],
+            [
+              632,
+              668
+            ],
+            [
+              632,
+              862
+            ],
+            [
+              425,
+              862
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "전기 접점",
+          "polygon": [
+            [
+              370,
+              185
+            ],
+            [
+              672,
+              185
+            ],
+            [
+              672,
+              520
+            ],
+            [
+              370,
+              520
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "bottle_cap",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/bottle_cap/OK/S0001/bottle_cap_0001_OK_C1_20230925164816.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/bottle_cap/NG/AK/S0001/bottle_cap_0001_NG_AK_C1_20230926102621.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              842,
+              462
+            ],
+            [
+              746,
+              695
+            ],
+            [
+              512,
+              792
+            ],
+            [
+              278,
+              695
+            ],
+            [
+              182,
+              462
+            ],
+            [
+              278,
+              229
+            ],
+            [
+              512,
+              132
+            ],
+            [
+              746,
+              229
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "ribs": "side_view_only"
+      }
+    },
+    {
+      "item": "bottle_cap",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/bottle_cap/OK/S0001/bottle_cap_0001_OK_C2_20230925164816.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/bottle_cap/NG/AK/S0001/bottle_cap_0001_NG_AK_C2_20230926102621.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              200,
+              240
+            ],
+            [
+              800,
+              240
+            ],
+            [
+              800,
+              460
+            ],
+            [
+              200,
+              460
+            ]
+          ]
+        },
+        {
+          "region_id": "ribs",
+          "label": "겉니 리브",
+          "polygon": [
+            [
+              205,
+              460
+            ],
+            [
+              795,
+              460
+            ],
+            [
+              795,
+              725
+            ],
+            [
+              205,
+              725
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "bottle_cap",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/bottle_cap/OK/S0001/bottle_cap_0001_OK_C3_20230925164816.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/bottle_cap/NG/AK/S0001/bottle_cap_0001_NG_AK_C3_20230926102621.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              190,
+              245
+            ],
+            [
+              805,
+              245
+            ],
+            [
+              805,
+              465
+            ],
+            [
+              190,
+              465
+            ]
+          ]
+        },
+        {
+          "region_id": "ribs",
+          "label": "겉니 리브",
+          "polygon": [
+            [
+              195,
+              470
+            ],
+            [
+              800,
+              470
+            ],
+            [
+              800,
+              740
+            ],
+            [
+              195,
+              740
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "button_battery",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/button_battery/OK/S0001/button_battery_0001_OK_C1_20230920162602.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/button_battery/NG/AK/S0001/button_battery_0001_NG_AK_C1_20230922102047.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              825,
+              462
+            ],
+            [
+              730,
+              760
+            ],
+            [
+              525,
+              882
+            ],
+            [
+              320,
+              760
+            ],
+            [
+              225,
+              462
+            ],
+            [
+              320,
+              164
+            ],
+            [
+              525,
+              42
+            ],
+            [
+              730,
+              164
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "side_view_only"
+      }
+    },
+    {
+      "item": "button_battery",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/button_battery/OK/S0001/button_battery_0001_OK_C2_20230920162602.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/button_battery/NG/AK/S0001/button_battery_0001_NG_AK_C2_20230922102047.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              168,
+              158
+            ],
+            [
+              892,
+              158
+            ],
+            [
+              892,
+              505
+            ],
+            [
+              168,
+              505
+            ]
+          ]
+        },
+        {
+          "region_id": "rim",
+          "label": "측면 테두리",
+          "polygon": [
+            [
+              172,
+              505
+            ],
+            [
+              888,
+              505
+            ],
+            [
+              888,
+              700
+            ],
+            [
+              172,
+              700
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "button_battery",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/button_battery/OK/S0001/button_battery_0001_OK_C3_20230920162602.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/button_battery/NG/AK/S0001/button_battery_0001_NG_AK_C3_20230922102047.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              152,
+              252
+            ],
+            [
+              868,
+              252
+            ],
+            [
+              868,
+              608
+            ],
+            [
+              152,
+              608
+            ]
+          ]
+        },
+        {
+          "region_id": "rim",
+          "label": "측면 테두리",
+          "polygon": [
+            [
+              158,
+              608
+            ],
+            [
+              862,
+              608
+            ],
+            [
+              862,
+              762
+            ],
+            [
+              158,
+              762
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "end_cap",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/end_cap/OK/S0001/end_cap_0001_OK_C1_20231009173002.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/end_cap/NG/HS/S0001/end_cap_0001_NG_HS_C1_20231011091647.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "후면 커버",
+          "polygon": [
+            [
+              135,
+              205
+            ],
+            [
+              830,
+              205
+            ],
+            [
+              830,
+              900
+            ],
+            [
+              135,
+              900
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "end_cap",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/end_cap/OK/S0001/end_cap_0001_OK_C2_20231009173002.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/end_cap/NG/HS/S0001/end_cap_0001_NG_HS_C2_20231011091647.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체(보스 면)",
+          "polygon": [
+            [
+              85,
+              175
+            ],
+            [
+              890,
+              175
+            ],
+            [
+              890,
+              780
+            ],
+            [
+              85,
+              780
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "end_cap",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/end_cap/OK/S0001/end_cap_0001_OK_C3_20231009173002.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/end_cap/NG/HS/S0001/end_cap_0001_NG_HS_C3_20231011091647.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체(보스 면)",
+          "polygon": [
+            [
+              130,
+              175
+            ],
+            [
+              950,
+              175
+            ],
+            [
+              950,
+              785
+            ],
+            [
+              130,
+              785
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "eraser",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/eraser/OK/S0001/eraser_0001_OK_C1_20231005101953.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/eraser/NG/AK/S0001/eraser_0001_NG_AK_C1_20231005142556.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체",
+          "polygon": [
+            [
+              190,
+              295
+            ],
+            [
+              825,
+              295
+            ],
+            [
+              825,
+              745
+            ],
+            [
+              190,
+              745
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "eraser",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/eraser/OK/S0001/eraser_0001_OK_C2_20231005101953.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/eraser/NG/AK/S0001/eraser_0001_NG_AK_C2_20231005142556.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체",
+          "polygon": [
+            [
+              320,
+              210
+            ],
+            [
+              780,
+              210
+            ],
+            [
+              780,
+              800
+            ],
+            [
+              320,
+              800
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "fire_hood",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/fire_hood/OK/S0001/fire_hood_0001_OK_C1_20230927151421.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/fire_hood/NG/AK/S0001/fire_hood_0001_NG_AK_C1_20230928170842.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              900,
+              480
+            ],
+            [
+              785,
+              755
+            ],
+            [
+              510,
+              870
+            ],
+            [
+              235,
+              755
+            ],
+            [
+              120,
+              480
+            ],
+            [
+              235,
+              205
+            ],
+            [
+              510,
+              90
+            ],
+            [
+              785,
+              205
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "side_view_only"
+      }
+    },
+    {
+      "item": "fire_hood",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/fire_hood/OK/S0001/fire_hood_0001_OK_C2_20230927151421.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/fire_hood/NG/AK/S0001/fire_hood_0001_NG_AK_C2_20230928170842.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              262,
+              142
+            ],
+            [
+              793,
+              142
+            ],
+            [
+              793,
+              505
+            ],
+            [
+              262,
+              505
+            ]
+          ]
+        },
+        {
+          "region_id": "rim",
+          "label": "측면 벽",
+          "polygon": [
+            [
+              270,
+              500
+            ],
+            [
+              785,
+              500
+            ],
+            [
+              785,
+              895
+            ],
+            [
+              270,
+              895
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "mint",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/mint/OK/S0002/mint_0002_OK_C1_20230908131600.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/mint/NG/QS/S0001/mint_0001_NG_QS_C1_20230908175027.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면(문양)",
+          "polygon": [
+            [
+              960,
+              478
+            ],
+            [
+              835,
+              779
+            ],
+            [
+              535,
+              903
+            ],
+            [
+              235,
+              779
+            ],
+            [
+              110,
+              478
+            ],
+            [
+              235,
+              177
+            ],
+            [
+              535,
+              53
+            ],
+            [
+              835,
+              177
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "side_view_only"
+      }
+    },
+    {
+      "item": "mint",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/mint/OK/S0002/mint_0002_OK_C2_20230908131600.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/mint/NG/QS/S0001/mint_0001_NG_QS_C2_20230908175027.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "상단 면",
+          "polygon": [
+            [
+              120,
+              290
+            ],
+            [
+              935,
+              290
+            ],
+            [
+              935,
+              600
+            ],
+            [
+              120,
+              600
+            ]
+          ]
+        },
+        {
+          "region_id": "rim",
+          "label": "측면 벽",
+          "polygon": [
+            [
+              125,
+              600
+            ],
+            [
+              930,
+              600
+            ],
+            [
+              930,
+              880
+            ],
+            [
+              125,
+              880
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "mounts",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/mounts/OK/S0001/mounts_0001_OK_C1_20231009090955.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/mounts/NG/AK/S0001/mounts_0001_NG_AK_C1_20231009134637.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체(보스 면)",
+          "polygon": [
+            [
+              158,
+              268
+            ],
+            [
+              868,
+              268
+            ],
+            [
+              868,
+              782
+            ],
+            [
+              158,
+              782
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rails": "side_view_only"
+      }
+    },
+    {
+      "item": "mounts",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/mounts/OK/S0001/mounts_0001_OK_C2_20231009090955.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/mounts/NG/AK/S0001/mounts_0001_NG_AK_C2_20231009134637.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "rails",
+          "label": "측면 레일",
+          "polygons": [
+            [
+              [
+                215,
+                165
+              ],
+              [
+                330,
+                165
+              ],
+              [
+                330,
+                862
+              ],
+              [
+                215,
+                862
+              ]
+            ],
+            [
+              [
+                648,
+                165
+              ],
+              [
+                760,
+                165
+              ],
+              [
+                760,
+                862
+              ],
+              [
+                648,
+                862
+              ]
+            ]
+          ]
+        },
+        {
+          "region_id": "body",
+          "label": "가로 보스",
+          "polygon": [
+            [
+              332,
+              540
+            ],
+            [
+              648,
+              540
+            ],
+            [
+              648,
+              755
+            ],
+            [
+              332,
+              755
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "pcb",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/pcb/OK/S0001/pcb_0001_OK_C1_20231027155851.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/pcb/NG/HS/S0001/pcb_0001_NG_HS_C1_20231028093757.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "contacts",
+          "label": "USB 커넥터/접점",
+          "polygon": [
+            [
+              183,
+              408
+            ],
+            [
+              392,
+              408
+            ],
+            [
+              392,
+              668
+            ],
+            [
+              183,
+              668
+            ]
+          ]
+        },
+        {
+          "region_id": "components",
+          "label": "실장 부품",
+          "polygon": [
+            [
+              520,
+              330
+            ],
+            [
+              750,
+              330
+            ],
+            [
+              750,
+              625
+            ],
+            [
+              520,
+              625
+            ]
+          ]
+        },
+        {
+          "region_id": "substrate",
+          "label": "기판",
+          "polygon": [
+            [
+              392,
+              212
+            ],
+            [
+              838,
+              212
+            ],
+            [
+              838,
+              823
+            ],
+            [
+              232,
+              823
+            ],
+            [
+              232,
+              668
+            ],
+            [
+              392,
+              668
+            ],
+            [
+              392,
+              625
+            ],
+            [
+              520,
+              625
+            ],
+            [
+              520,
+              330
+            ],
+            [
+              392,
+              330
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "pcb",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/pcb/OK/S0001/pcb_0001_OK_C2_20231027155851.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/pcb/NG/HS/S0001/pcb_0001_NG_HS_C2_20231028093757.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "contacts",
+          "label": "USB 커넥터/접점",
+          "polygon": [
+            [
+              200,
+              332
+            ],
+            [
+              402,
+              332
+            ],
+            [
+              402,
+              585
+            ],
+            [
+              200,
+              585
+            ]
+          ]
+        },
+        {
+          "region_id": "components",
+          "label": "실장 부품",
+          "polygon": [
+            [
+              560,
+              350
+            ],
+            [
+              775,
+              350
+            ],
+            [
+              775,
+              625
+            ],
+            [
+              560,
+              625
+            ]
+          ]
+        },
+        {
+          "region_id": "substrate",
+          "label": "기판",
+          "polygon": [
+            [
+              402,
+              240
+            ],
+            [
+              845,
+              240
+            ],
+            [
+              845,
+              780
+            ],
+            [
+              245,
+              780
+            ],
+            [
+              245,
+              585
+            ],
+            [
+              402,
+              585
+            ],
+            [
+              402,
+              625
+            ],
+            [
+              560,
+              625
+            ],
+            [
+              560,
+              350
+            ],
+            [
+              402,
+              350
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "phone_battery",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/phone_battery/OK/S0001/phone_battery_0001_OK_C1_20230918094757.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/phone_battery/NG/AK/S0001/phone_battery_0001_NG_AK_C1_20230919093604.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "contacts",
+          "label": "전극 패드",
+          "polygon": [
+            [
+              778,
+              478
+            ],
+            [
+              858,
+              478
+            ],
+            [
+              858,
+              774
+            ],
+            [
+              778,
+              774
+            ]
+          ]
+        },
+        {
+          "region_id": "body",
+          "label": "본체(라벨)",
+          "polygon": [
+            [
+              162,
+              140
+            ],
+            [
+              780,
+              140
+            ],
+            [
+              780,
+              478
+            ],
+            [
+              862,
+              478
+            ],
+            [
+              862,
+              774
+            ],
+            [
+              780,
+              774
+            ],
+            [
+              780,
+              888
+            ],
+            [
+              162,
+              888
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "phone_battery",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/phone_battery/OK/S0001/phone_battery_0001_OK_C2_20230918094757.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/phone_battery/NG/AK/S0001/phone_battery_0001_NG_AK_C2_20230919093604.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체",
+          "polygon": [
+            [
+              158,
+              312
+            ],
+            [
+              862,
+              312
+            ],
+            [
+              862,
+              882
+            ],
+            [
+              158,
+              882
+            ]
+          ]
+        },
+        {
+          "region_id": "contacts",
+          "label": "전극 패드",
+          "polygon": [
+            [
+              768,
+              398
+            ],
+            [
+              852,
+              398
+            ],
+            [
+              852,
+              582
+            ],
+            [
+              768,
+              582
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "eraser",
+      "camera": "C3",
+      "reference_image": "/home/geonug/MV/dataset/eraser/OK/S0001/eraser_0001_OK_C3_20231005101953.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/eraser/NG/AK/S0001/eraser_0001_NG_AK_C3_20231005142556.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체",
+          "polygon": [
+            [
+              220,
+              320
+            ],
+            [
+              805,
+              320
+            ],
+            [
+              805,
+              740
+            ],
+            [
+              220,
+              740
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "plastic_nut",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/plastic_nut/OK/S0001/plastic_nut_0001_OK_C1_20230930121449.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/plastic_nut/NG/AK/S0001/plastic_nut_0001_NG_AK_C1_20231004132101.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "플랜지 본체",
+          "polygon": [
+            [
+              890,
+              505
+            ],
+            [
+              775,
+              772
+            ],
+            [
+              500,
+              895
+            ],
+            [
+              225,
+              772
+            ],
+            [
+              110,
+              505
+            ],
+            [
+              225,
+              238
+            ],
+            [
+              500,
+              115
+            ],
+            [
+              775,
+              238
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "not_separated_in_top_view"
+      }
+    },
+    {
+      "item": "plastic_nut",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/plastic_nut/OK/S0001/plastic_nut_0001_OK_C2_20230930121449.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/plastic_nut/NG/AK/S0001/plastic_nut_0001_NG_AK_C2_20231004132101.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "본체",
+          "polygon": [
+            [
+              85,
+              100
+            ],
+            [
+              885,
+              100
+            ],
+            [
+              885,
+              900
+            ],
+            [
+              85,
+              900
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "plastic_plug",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/plastic_plug/OK/S0001/plastic_plug_0001_OK_C1_20230913130816.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/plastic_plug/NG/AK/S0001/plastic_plug_0001_NG_AK_C1_20230915171859.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "플랜지 상단",
+          "polygon": [
+            [
+              855,
+              480
+            ],
+            [
+              774,
+              724
+            ],
+            [
+              485,
+              850
+            ],
+            [
+              196,
+              724
+            ],
+            [
+              115,
+              480
+            ],
+            [
+              196,
+              236
+            ],
+            [
+              485,
+              110
+            ],
+            [
+              774,
+              236
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "collar": "side_view_only"
+      }
+    },
+    {
+      "item": "porcelain_doll",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/porcelain_doll/OK/S0001/porcelain_doll_0001_OK_C1_20230915093055.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/porcelain_doll/NG/CH/S0001/porcelain_doll_0001_NG_CH_C1_20230915180544.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "링 본체",
+          "polygon": [
+            [
+              800,
+              480
+            ],
+            [
+              709,
+              696
+            ],
+            [
+              495,
+              785
+            ],
+            [
+              281,
+              696
+            ],
+            [
+              190,
+              480
+            ],
+            [
+              281,
+              264
+            ],
+            [
+              495,
+              175
+            ],
+            [
+              709,
+              264
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "porcelain_doll",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/porcelain_doll/OK/S0001/porcelain_doll_0001_OK_C2_20230915093055.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/porcelain_doll/NG/CH/S0001/porcelain_doll_0001_NG_CH_C2_20230915180544.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "링 본체",
+          "polygon": [
+            [
+              250,
+              215
+            ],
+            [
+              820,
+              215
+            ],
+            [
+              820,
+              830
+            ],
+            [
+              250,
+              830
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "regulator",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/regulator/OK/S0001/regulator_0001_OK_C1_20231010141423.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/regulator/NG/AK/S0001/regulator_0001_NG_AK_C1_20231011142137.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "hub",
+          "label": "중심 허브",
+          "polygon": [
+            [
+              627,
+              505
+            ],
+            [
+              594,
+              589
+            ],
+            [
+              512,
+              620
+            ],
+            [
+              430,
+              589
+            ],
+            [
+              397,
+              505
+            ],
+            [
+              430,
+              421
+            ],
+            [
+              512,
+              390
+            ],
+            [
+              594,
+              421
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "body": "top_view_hub_only",
+        "rim": "side_view_only",
+        "ribs": "side_view_only"
+      }
+    },
+    {
+      "item": "regulator",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/regulator/OK/S0001/regulator_0001_OK_C2_20231010141423.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/regulator/NG/AK/S0001/regulator_0001_NG_AK_C2_20231011142137.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "ribs",
+          "label": "리브 벽(상하)",
+          "polygons": [
+            [
+              [
+                218,
+                352
+              ],
+              [
+                786,
+                352
+              ],
+              [
+                786,
+                622
+              ],
+              [
+                218,
+                622
+              ]
+            ],
+            [
+              [
+                224,
+                628
+              ],
+              [
+                782,
+                628
+              ],
+              [
+                782,
+                878
+              ],
+              [
+                224,
+                878
+              ]
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "body": "label_band_not_separated",
+        "rim": "not_separated"
+      }
+    },
+    {
+      "item": "rolled_strip_base",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/rolled_strip_base/OK/S0001/rolled_strip_base_0001_OK_C1_20231012171250.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/rolled_strip_base/NG/AK/S0001/rolled_strip_base_0001_NG_AK_C1_20231013155806.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "베이스 상단",
+          "polygon": [
+            [
+              208,
+              208
+            ],
+            [
+              838,
+              208
+            ],
+            [
+              838,
+              835
+            ],
+            [
+              208,
+              835
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "ribs": "not_separated_in_top_view"
+      }
+    },
+    {
+      "item": "rolled_strip_base",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/rolled_strip_base/OK/S0001/rolled_strip_base_0001_OK_C2_20231012171250.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/rolled_strip_base/NG/AK/S0001/rolled_strip_base_0001_NG_AK_C2_20231013155806.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "베이스 본체",
+          "polygon": [
+            [
+              142,
+              232
+            ],
+            [
+              848,
+              232
+            ],
+            [
+              848,
+              768
+            ],
+            [
+              142,
+              768
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "sim_card_set",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/sim_card_set/OK/S0001/sim_card_set_0001_OK_C1_20230922140928.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/sim_card_set/NG/CH/S0001/sim_card_set_0001_NG_CH_C1_20230923104439.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "트레이 본체",
+          "polygon": [
+            [
+              170,
+              168
+            ],
+            [
+              885,
+              168
+            ],
+            [
+              885,
+              738
+            ],
+            [
+              170,
+              738
+            ]
+          ]
+        },
+        {
+          "region_id": "tab",
+          "label": "연결 탭",
+          "polygon": [
+            [
+              886,
+              150
+            ],
+            [
+              922,
+              150
+            ],
+            [
+              922,
+              812
+            ],
+            [
+              886,
+              812
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "sim_card_set",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/sim_card_set/OK/S0001/sim_card_set_0001_OK_C2_20230922140928.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/sim_card_set/NG/CH/S0001/sim_card_set_0001_NG_CH_C2_20230923104439.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "트레이 본체",
+          "polygon": [
+            [
+              150,
+              290
+            ],
+            [
+              848,
+              290
+            ],
+            [
+              848,
+              700
+            ],
+            [
+              150,
+              700
+            ]
+          ]
+        },
+        {
+          "region_id": "tab",
+          "label": "연결 탭",
+          "polygon": [
+            [
+              848,
+              200
+            ],
+            [
+              880,
+              200
+            ],
+            [
+              880,
+              748
+            ],
+            [
+              848,
+              748
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "switch",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/switch/OK/S0001/switch_0001_OK_C1_20231021104641.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/switch/NG/HS/S0001/switch_0001_NG_HS_C1_20231023091047.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "스위치 하우징",
+          "polygon": [
+            [
+              300,
+              200
+            ],
+            [
+              720,
+              200
+            ],
+            [
+              720,
+              795
+            ],
+            [
+              300,
+              795
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "로커 버튼",
+          "polygon": [
+            [
+              742,
+              290
+            ],
+            [
+              927,
+              290
+            ],
+            [
+              927,
+              725
+            ],
+            [
+              742,
+              725
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "단자 핀",
+          "polygon": [
+            [
+              80,
+              438
+            ],
+            [
+              302,
+              438
+            ],
+            [
+              302,
+              577
+            ],
+            [
+              80,
+              577
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "switch",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/switch/OK/S0001/switch_0001_OK_C2_20231021104641.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/switch/NG/HS/S0001/switch_0001_NG_HS_C2_20231023091047.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "스위치 하우징",
+          "polygon": [
+            [
+              250,
+              235
+            ],
+            [
+              798,
+              235
+            ],
+            [
+              798,
+              815
+            ],
+            [
+              250,
+              815
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "단자 핀",
+          "polygon": [
+            [
+              463,
+              595
+            ],
+            [
+              602,
+              595
+            ],
+            [
+              602,
+              890
+            ],
+            [
+              463,
+              890
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "interface": "not_visible"
+      }
+    },
+    {
+      "item": "tape",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/tape/OK/S0001/tape_0001_OK_C1_20231016105232.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/tape/NG/HS/S0001/tape_0001_NG_HS_C1_20231017161110.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "테이프 링",
+          "polygon": [
+            [
+              882,
+              470
+            ],
+            [
+              772,
+              735
+            ],
+            [
+              507,
+              845
+            ],
+            [
+              242,
+              735
+            ],
+            [
+              132,
+              470
+            ],
+            [
+              242,
+              205
+            ],
+            [
+              507,
+              95
+            ],
+            [
+              772,
+              205
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "tape",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/tape/OK/S0001/tape_0001_OK_C2_20231016105232.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/tape/NG/HS/S0001/tape_0001_NG_HS_C2_20231017161110.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "테이프 롤",
+          "polygon": [
+            [
+              83,
+              145
+            ],
+            [
+              928,
+              145
+            ],
+            [
+              928,
+              870
+            ],
+            [
+              83,
+              870
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "terminalblock",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/terminalblock/OK/S0001/terminalblock_0001_OK_C1_20231019134717.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/terminalblock/NG/AK/S0001/terminalblock_0001_NG_AK_C1_20231020130101.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "단자대 본체",
+          "polygon": [
+            [
+              205,
+              320
+            ],
+            [
+              845,
+              320
+            ],
+            [
+              845,
+              720
+            ],
+            [
+              205,
+              720
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "interface": "not_separated",
+        "pins": "not_separated"
+      }
+    },
+    {
+      "item": "terminalblock",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/terminalblock/OK/S0001/terminalblock_0001_OK_C2_20231019134717.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/terminalblock/NG/AK/S0001/terminalblock_0001_NG_AK_C2_20231020130101.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "단자대 본체",
+          "polygon": [
+            [
+              343,
+              205
+            ],
+            [
+              742,
+              205
+            ],
+            [
+              742,
+              785
+            ],
+            [
+              343,
+              785
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "toy",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/toy/OK/S0001/toy_0001_OK_C1_20230927102059.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toy/NG/AK/S0001/toy_0001_NG_AK_C1_20230928100108.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "surface",
+          "label": "장난감 하단 면",
+          "polygon": [
+            [
+              825,
+              540
+            ],
+            [
+              718,
+              773
+            ],
+            [
+              495,
+              870
+            ],
+            [
+              272,
+              773
+            ],
+            [
+              165,
+              540
+            ],
+            [
+              272,
+              307
+            ],
+            [
+              495,
+              210
+            ],
+            [
+              718,
+              307
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "edge": "side_view_only",
+        "joint": "not_separated"
+      }
+    },
+    {
+      "item": "toy",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/toy/OK/S0001/toy_0001_OK_C2_20230927102059.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toy/NG/AK/S0001/toy_0001_NG_AK_C2_20230928100108.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "surface",
+          "label": "번 윗면",
+          "polygon": [
+            [
+              70,
+              380
+            ],
+            [
+              850,
+              380
+            ],
+            [
+              850,
+              760
+            ],
+            [
+              70,
+              760
+            ]
+          ]
+        },
+        {
+          "region_id": "edge",
+          "label": "채소 가장자리",
+          "polygon": [
+            [
+              72,
+              760
+            ],
+            [
+              848,
+              760
+            ],
+            [
+              848,
+              872
+            ],
+            [
+              72,
+              872
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "joint": "not_separated"
+      }
+    },
+    {
+      "item": "toy_brick",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/toy_brick/OK/S0001/toy_brick_0001_OK_C1_20230917091117.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toy_brick/NG/AK/S0001/toy_brick_0001_NG_AK_C1_20230917114449.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "블록 상단",
+          "polygon": [
+            [
+              75,
+              145
+            ],
+            [
+              800,
+              145
+            ],
+            [
+              800,
+              970
+            ],
+            [
+              75,
+              970
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "grooves": "not_separated"
+      }
+    },
+    {
+      "item": "toy_brick",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/toy_brick/OK/S0001/toy_brick_0001_OK_C2_20230917091117.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/toy_brick/NG/AK/S0001/toy_brick_0001_NG_AK_C2_20230917114449.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "블록 본체",
+          "polygon": [
+            [
+              152,
+              102
+            ],
+            [
+              758,
+              102
+            ],
+            [
+              758,
+              940
+            ],
+            [
+              152,
+              940
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "transistor1",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/transistor1/OK/S0001/transistor1_0001_OK_C1_20230923145832.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/transistor1/NG/BX/S0001/transistor1_0001_NG_BX_C1_20230923194347.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "contacts",
+          "label": "리드 핀(상하)",
+          "polygons": [
+            [
+              [
+                225,
+                232
+              ],
+              [
+                762,
+                232
+              ],
+              [
+                762,
+                318
+              ],
+              [
+                225,
+                318
+              ]
+            ],
+            [
+              [
+                228,
+                678
+              ],
+              [
+                768,
+                678
+              ],
+              [
+                768,
+                768
+              ],
+              [
+                228,
+                768
+              ]
+            ]
+          ]
+        },
+        {
+          "region_id": "substrate",
+          "label": "IC 패키지",
+          "polygon": [
+            [
+              212,
+              310
+            ],
+            [
+              774,
+              310
+            ],
+            [
+              774,
+              682
+            ],
+            [
+              212,
+              682
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "transistor1",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/transistor1/OK/S0001/transistor1_0001_OK_C2_20230923145832.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/transistor1/NG/BX/S0001/transistor1_0001_NG_BX_C2_20230923194347.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "substrate",
+          "label": "IC 패키지",
+          "polygon": [
+            [
+              282,
+              288
+            ],
+            [
+              768,
+              288
+            ],
+            [
+              768,
+              735
+            ],
+            [
+              282,
+              735
+            ]
+          ]
+        },
+        {
+          "region_id": "contacts",
+          "label": "리드 핀(좌우)",
+          "polygons": [
+            [
+              [
+                168,
+                345
+              ],
+              [
+                285,
+                345
+              ],
+              [
+                285,
+                745
+              ],
+              [
+                168,
+                745
+              ]
+            ],
+            [
+              [
+                742,
+                345
+              ],
+              [
+                860,
+                345
+              ],
+              [
+                860,
+                750
+              ],
+              [
+                742,
+                750
+              ]
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "u_block",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/u_block/OK/S0001/u_block_0001_OK_C1_20231005092626.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/u_block/NG/CH/S0001/u_block_0001_NG_CH_C1_20231005140533.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "링 본체",
+          "polygon": [
+            [
+              805,
+              505
+            ],
+            [
+              711,
+              732
+            ],
+            [
+              485,
+              825
+            ],
+            [
+              259,
+              732
+            ],
+            [
+              165,
+              505
+            ],
+            [
+              259,
+              278
+            ],
+            [
+              485,
+              185
+            ],
+            [
+              711,
+              278
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "u_block",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/u_block/OK/S0001/u_block_0001_OK_C2_20231005092626.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/u_block/NG/CH/S0001/u_block_0001_NG_CH_C2_20231005140533.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "컵 본체",
+          "polygon": [
+            [
+              148,
+              160
+            ],
+            [
+              832,
+              160
+            ],
+            [
+              832,
+              945
+            ],
+            [
+              148,
+              945
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "usb",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/usb/OK/S0001/usb_0001_OK_C1_20231019140537.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/usb/NG/BX/S0001/usb_0001_NG_BX_C1_20231020105442.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "USB 쉴드 하우징",
+          "polygon": [
+            [
+              192,
+              288
+            ],
+            [
+              818,
+              288
+            ],
+            [
+              818,
+              782
+            ],
+            [
+              192,
+              782
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "플러그 혀/접촉",
+          "polygon": [
+            [
+              238,
+              338
+            ],
+            [
+              500,
+              338
+            ],
+            [
+              500,
+              680
+            ],
+            [
+              238,
+              680
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "pins": "not_separated"
+      }
+    },
+    {
+      "item": "usb",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/usb/OK/S0001/usb_0001_OK_C2_20231019140537.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/usb/NG/BX/S0001/usb_0001_NG_BX_C2_20231020105442.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "USB 쉴드 하우징",
+          "polygon": [
+            [
+              242,
+              300
+            ],
+            [
+              812,
+              300
+            ],
+            [
+              812,
+              772
+            ],
+            [
+              242,
+              772
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "날부 개구",
+          "polygon": [
+            [
+              258,
+              352
+            ],
+            [
+              530,
+              352
+            ],
+            [
+              530,
+              650
+            ],
+            [
+              258,
+              650
+            ]
+          ]
+        },
+        {
+          "region_id": "pins",
+          "label": "상단 단자",
+          "polygon": [
+            [
+              605,
+              215
+            ],
+            [
+              668,
+              215
+            ],
+            [
+              668,
+              315
+            ],
+            [
+              605,
+              315
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "usb_adaptor",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/usb_adaptor/OK/S0001/usb_adaptor_0001_OK_C1_20230923183216.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/usb_adaptor/NG/AK/S0001/usb_adaptor_0001_NG_AK_C1_20230925100402.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "어댑터 본체",
+          "polygon": [
+            [
+              335,
+              237
+            ],
+            [
+              903,
+              237
+            ],
+            [
+              903,
+              768
+            ],
+            [
+              335,
+              768
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "USB-C 플러그",
+          "polygon": [
+            [
+              70,
+              377
+            ],
+            [
+              337,
+              377
+            ],
+            [
+              337,
+              643
+            ],
+            [
+              70,
+              643
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "pins": "not_visible"
+      }
+    },
+    {
+      "item": "usb_adaptor",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/usb_adaptor/OK/S0001/usb_adaptor_0001_OK_C2_20230923183216.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/usb_adaptor/NG/AK/S0001/usb_adaptor_0001_NG_AK_C2_20230925100402.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "housing",
+          "label": "어댑터 본체",
+          "polygon": [
+            [
+              378,
+              352
+            ],
+            [
+              872,
+              352
+            ],
+            [
+              872,
+              792
+            ],
+            [
+              378,
+              792
+            ]
+          ]
+        },
+        {
+          "region_id": "interface",
+          "label": "USB-C 플러그",
+          "polygon": [
+            [
+              115,
+              465
+            ],
+            [
+              380,
+              465
+            ],
+            [
+              380,
+              665
+            ],
+            [
+              115,
+              665
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "pins": "not_visible"
+      }
+    },
+    {
+      "item": "vcpill",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/vcpill/OK/S0001/vcpill_0001_OK_C1_20230921111545.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/vcpill/NG/AK/S0001/vcpill_0001_NG_AK_C1_20230921183148.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "정제 상단",
+          "polygon": [
+            [
+              762,
+              475
+            ],
+            [
+              660,
+              726
+            ],
+            [
+              407,
+              830
+            ],
+            [
+              154,
+              726
+            ],
+            [
+              52,
+              475
+            ],
+            [
+              154,
+              224
+            ],
+            [
+              407,
+              120
+            ],
+            [
+              660,
+              224
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "side_view_only"
+      }
+    },
+    {
+      "item": "vcpill",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/vcpill/OK/S0001/vcpill_0001_OK_C2_20230921111545.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/vcpill/NG/AK/S0001/vcpill_0001_NG_AK_C2_20230921183148.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "정제 본체",
+          "polygon": [
+            [
+              47,
+              368
+            ],
+            [
+              688,
+              368
+            ],
+            [
+              688,
+              812
+            ],
+            [
+              47,
+              812
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "wooden_beads",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/wooden_beads/OK/S0001/wooden_beads_0001_OK_C1_20231013091008.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/wooden_beads/NG/AK/S0001/wooden_beads_0001_NG_AK_C1_20231013145843.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "구슬 본체",
+          "polygon": [
+            [
+              830,
+              500
+            ],
+            [
+              732,
+              737
+            ],
+            [
+              495,
+              835
+            ],
+            [
+              258,
+              737
+            ],
+            [
+              160,
+              500
+            ],
+            [
+              258,
+              263
+            ],
+            [
+              495,
+              165
+            ],
+            [
+              732,
+              263
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "wooden_beads",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/wooden_beads/OK/S0001/wooden_beads_0001_OK_C2_20231013091008.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/wooden_beads/NG/AK/S0001/wooden_beads_0001_NG_AK_C2_20231013145843.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "구슬 본체",
+          "polygon": [
+            [
+              168,
+              210
+            ],
+            [
+              838,
+              210
+            ],
+            [
+              838,
+              860
+            ],
+            [
+              168,
+              860
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "woodstick",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/woodstick/OK/S0001/woodstick_0001_OK_C1_20230925153625.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/woodstick/NG/AK/S0001/woodstick_0001_NG_AK_C1_20230926112105.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "원기둥 상단",
+          "polygon": [
+            [
+              950,
+              480
+            ],
+            [
+              821,
+              789
+            ],
+            [
+              510,
+              920
+            ],
+            [
+              199,
+              789
+            ],
+            [
+              70,
+              480
+            ],
+            [
+              199,
+              171
+            ],
+            [
+              510,
+              40
+            ],
+            [
+              821,
+              171
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "rim": "side_view_only"
+      }
+    },
+    {
+      "item": "woodstick",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/woodstick/OK/S0001/woodstick_0001_OK_C2_20230925153625.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/woodstick/NG/AK/S0001/woodstick_0001_NG_AK_C2_20230926112105.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "body",
+          "label": "원기둥 본체",
+          "polygon": [
+            [
+              142,
+              60
+            ],
+            [
+              928,
+              60
+            ],
+            [
+              928,
+              915
+            ],
+            [
+              142,
+              915
+            ]
+          ]
+        }
+      ],
+      "coverage": {}
+    },
+    {
+      "item": "zipper",
+      "camera": "C1",
+      "reference_image": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C1_20231007161245.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/zipper/NG/BX/S0001/zipper_0001_NG_BX_C1_20231008164957.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "teeth",
+          "label": "코일 체인",
+          "polygon": [
+            [
+              0,
+              445
+            ],
+            [
+              1024,
+              445
+            ],
+            [
+              1024,
+              545
+            ],
+            [
+              0,
+              545
+            ]
+          ]
+        },
+        {
+          "region_id": "tape",
+          "label": "양측 테이프",
+          "polygons": [
+            [
+              [
+                0,
+                398
+              ],
+              [
+                1024,
+                398
+              ],
+              [
+                1024,
+                448
+              ],
+              [
+                0,
+                448
+              ]
+            ],
+            [
+              [
+                0,
+                542
+              ],
+              [
+                1024,
+                542
+              ],
+              [
+                1024,
+                592
+              ],
+              [
+                0,
+                592
+              ]
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "slider": "not_in_frame"
+      }
+    },
+    {
+      "item": "zipper",
+      "camera": "C2",
+      "reference_image": "/home/geonug/MV/dataset/zipper/OK/S0001/zipper_0001_OK_C2_20231007161245.jpg",
+      "framing_checks": [
+        "/home/geonug/MV/dataset/zipper/NG/BX/S0001/zipper_0001_NG_BX_C2_20231008164957.jpg"
+      ],
+      "regions": [
+        {
+          "region_id": "teeth",
+          "label": "코일 체인",
+          "polygon": [
+            [
+              0,
+              505
+            ],
+            [
+              1024,
+              505
+            ],
+            [
+              1024,
+              625
+            ],
+            [
+              0,
+              625
+            ]
+          ]
+        },
+        {
+          "region_id": "tape",
+          "label": "양측 테이프",
+          "polygons": [
+            [
+              [
+                0,
+                458
+              ],
+              [
+                1024,
+                458
+              ],
+              [
+                1024,
+                508
+              ],
+              [
+                0,
+                508
+              ]
+            ],
+            [
+              [
+                0,
+                628
+              ],
+              [
+                1024,
+                628
+              ],
+              [
+                1024,
+                682
+              ],
+              [
+                0,
+                682
+              ]
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "slider": "not_in_frame"
+      }
+    }
+  ]
+}

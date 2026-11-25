@@ -1,0 +1,1472 @@
+{
+  "status": "VERIFIED_GEOMETRY_ATTRIBUTES_ONLY",
+  "physical_roi_uv_registration_verified": false,
+  "note": "Primitive UV existence does not prove image correspondence or a packed atlas.",
+  "models": [
+    {
+      "item": "audiojack",
+      "regions": [
+        {
+          "region_id": "housing",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "housing-parting-line",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-grip-ribs",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "interface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "socket-retention-ring",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "socket-inner-sleeve",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "pins",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 4500,
+              "uv_vertices": 4500,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-solder-shoulders",
+              "vertices": 4500,
+              "uv_vertices": 4500,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "bottle_cap",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 343,
+              "uv_vertices": 343,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "inner-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "upper-concentric-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "ribs",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 28800,
+              "uv_vertices": 28800,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "button_battery",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 294,
+              "uv_vertices": 294,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "positive-terminal",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "terminal-isolator",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "positive-engraving",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "end_cap",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 828,
+              "uv_vertices": 828,
+              "uv_finite": true
+            },
+            {
+              "surface": "aperture-collar",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-heads",
+              "vertices": 9408,
+              "uv_vertices": 9408,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-slots",
+              "vertices": 7200,
+              "uv_vertices": 7200,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "eraser",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-edge-seam",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "eraser-mould-strip",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "fire_hood",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "wood-growth-rings",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "mint",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 14400,
+              "uv_vertices": 14400,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "mounts",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 828,
+              "uv_vertices": 828,
+              "uv_finite": true
+            },
+            {
+              "surface": "aperture-collar",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-heads",
+              "vertices": 9408,
+              "uv_vertices": 9408,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-slots",
+              "vertices": 7200,
+              "uv_vertices": 7200,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rails",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "rail-end-stops",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "pcb",
+      "regions": [
+        {
+          "region_id": "substrate",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "board-edge-laminate",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "mounting-eyelets",
+              "vertices": 8256,
+              "uv_vertices": 8256,
+              "uv_finite": true
+            },
+            {
+              "surface": "copper-traces",
+              "vertices": 2160,
+              "uv_vertices": 2160,
+              "uv_finite": true
+            },
+            {
+              "surface": "smd-passives",
+              "vertices": 7200,
+              "uv_vertices": 7200,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "contacts",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-knees",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "components",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1992,
+              "uv_vertices": 1992,
+              "uv_finite": true
+            },
+            {
+              "surface": "chip-contact-legs",
+              "vertices": 10800,
+              "uv_vertices": 10800,
+              "uv_finite": true
+            },
+            {
+              "surface": "capacitor-cap",
+              "vertices": 148,
+              "uv_vertices": 148,
+              "uv_finite": true
+            },
+            {
+              "surface": "port-socket",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "phone_battery",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-edge-seam",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "battery-pouch-seal",
+              "vertices": 2700,
+              "uv_vertices": 2700,
+              "uv_finite": true
+            },
+            {
+              "surface": "battery-contact-recess",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "contacts",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2700,
+              "uv_vertices": 2700,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "plastic_nut",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1728,
+              "uv_vertices": 1728,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "nut-face-inset",
+              "vertices": 1728,
+              "uv_vertices": 1728,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "plastic_plug",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "collar",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "collar-ribbing",
+              "vertices": 10800,
+              "uv_vertices": 10800,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "porcelain_doll",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1105,
+              "uv_vertices": 1105,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "regulator",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "ribs",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 7200,
+              "uv_vertices": 7200,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "hub",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 148,
+              "uv_vertices": 148,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "rolled_strip_base",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 828,
+              "uv_vertices": 828,
+              "uv_finite": true
+            },
+            {
+              "surface": "aperture-collar",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-heads",
+              "vertices": 9408,
+              "uv_vertices": 9408,
+              "uv_finite": true
+            },
+            {
+              "surface": "fastener-slots",
+              "vertices": 7200,
+              "uv_vertices": 7200,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "ribs",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "sim_card_set",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            },
+            {
+              "surface": "tray-edge-lip",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            },
+            {
+              "surface": "sim-stamped-relief",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "tab",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "switch",
+      "regions": [
+        {
+          "region_id": "housing",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 196,
+              "uv_vertices": 196,
+              "uv_finite": true
+            },
+            {
+              "surface": "housing-parting-line",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-grip-ribs",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "interface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 196,
+              "uv_vertices": 196,
+              "uv_finite": true
+            },
+            {
+              "surface": "rocker-face",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "power-marking",
+              "vertices": 3636,
+              "uv_vertices": 3636,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "pins",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-solder-shoulders",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "tape",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "paper-core",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "winding-layers",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "terminalblock",
+      "regions": [
+        {
+          "region_id": "housing",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "housing-parting-line",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-grip-ribs",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "interface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1152,
+              "uv_vertices": 1152,
+              "uv_finite": true
+            },
+            {
+              "surface": "cross-screw-slots",
+              "vertices": 10800,
+              "uv_vertices": 10800,
+              "uv_finite": true
+            },
+            {
+              "surface": "wire-entry-bores",
+              "vertices": 1152,
+              "uv_vertices": 1152,
+              "uv_finite": true
+            },
+            {
+              "surface": "terminal-separators",
+              "vertices": 4500,
+              "uv_vertices": 4500,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "pins",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-solder-shoulders",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "toothbrush",
+      "regions": [
+        {
+          "region_id": "neck",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 357,
+              "uv_vertices": 357,
+              "uv_finite": true
+            },
+            {
+              "surface": "neck-collar",
+              "vertices": 124,
+              "uv_vertices": 124,
+              "uv_finite": true
+            },
+            {
+              "surface": "neck-ridge",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "bristle",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 546,
+              "uv_vertices": 546,
+              "uv_finite": true
+            },
+            {
+              "surface": "head-inlay",
+              "vertices": 442,
+              "uv_vertices": 442,
+              "uv_finite": true
+            },
+            {
+              "surface": "bristle-filaments",
+              "vertices": 10080,
+              "uv_vertices": 10080,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "toy",
+      "regions": [
+        {
+          "region_id": "surface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "bun-seam",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "top-seed-relief",
+              "vertices": 12600,
+              "uv_vertices": 12600,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "edge",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "joint",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 9000,
+              "uv_vertices": 9000,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "toy_brick",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-edge-seam",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "wood-grain",
+              "vertices": 2520,
+              "uv_vertices": 2520,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "grooves",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "transistor1",
+      "regions": [
+        {
+          "region_id": "substrate",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "board-edge-laminate",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-one-dimple",
+              "vertices": 100,
+              "uv_vertices": 100,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "contacts",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 14400,
+              "uv_vertices": 14400,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-knees",
+              "vertices": 14400,
+              "uv_vertices": 14400,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "u_block",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-lip",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            },
+            {
+              "surface": "outer-rim-relief",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "usb",
+      "regions": [
+        {
+          "region_id": "housing",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "housing-parting-line",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-grip-ribs",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "interface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            },
+            {
+              "surface": "connector-tongue",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "gold-contact-fingers",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            },
+            {
+              "surface": "shell-retention-slots",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "pins",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-solder-shoulders",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "usb_adaptor",
+      "regions": [
+        {
+          "region_id": "housing",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "housing-parting-line",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "mould-grip-ribs",
+              "vertices": 5400,
+              "uv_vertices": 5400,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "interface",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            },
+            {
+              "surface": "connector-tongue",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "gold-contact-fingers",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            },
+            {
+              "surface": "shell-retention-slots",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "pins",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            },
+            {
+              "surface": "pin-solder-shoulders",
+              "vertices": 3600,
+              "uv_vertices": 3600,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "vcpill",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "pill-score-line",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "wooden_beads",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 779,
+              "uv_vertices": 779,
+              "uv_finite": true
+            },
+            {
+              "surface": "bore-rims",
+              "vertices": 5472,
+              "uv_vertices": 5472,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "woodstick",
+      "regions": [
+        {
+          "region_id": "body",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 292,
+              "uv_vertices": 292,
+              "uv_finite": true
+            },
+            {
+              "surface": "sidewall-turning-grooves",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            },
+            {
+              "surface": "wood-growth-rings",
+              "vertices": 10944,
+              "uv_vertices": 10944,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "rim",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 2736,
+              "uv_vertices": 2736,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "zipper",
+      "regions": [
+        {
+          "region_id": "tape",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 1800,
+              "uv_vertices": 1800,
+              "uv_finite": true
+            },
+            {
+              "surface": "tape-edge-stitching",
+              "vertices": 36000,
+              "uv_vertices": 36000,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "teeth",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 16200,
+              "uv_vertices": 16200,
+              "uv_finite": true
+            },
+            {
+              "surface": "interlocking-tooth-crowns",
+              "vertices": 16200,
+              "uv_vertices": 16200,
+              "uv_finite": true
+            }
+          ]
+        },
+        {
+          "region_id": "slider",
+          "surfaces": [
+            {
+              "surface": "base",
+              "vertices": 900,
+              "uv_vertices": 900,
+              "uv_finite": true
+            },
+            {
+              "surface": "slider-top-yoke",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            },
+            {
+              "surface": "zipper-pull-tab",
+              "vertices": 288,
+              "uv_vertices": 288,
+              "uv_finite": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "max16_scores/state.json": {
+    "status": "RUNNING",
+    "pid": 134889,
+    "timestamp": "2026-11-24T14:59:48.404759+09:00",
+    "expected_products": 24000,
+    "completed_products": 16050,
+    "completed_views": 80250,
+    "remaining_products": 7950,
+    "failed_products": 0,
+    "sources": {
+      "hvq_only_inference": 15950,
+      "saved_heatmap": 100
+    },
+    "inferred_this_process": 15950,
+    "recovered_maps_this_process": 0,
+    "seconds_this_process": 11275.411007369,
+    "inferred_products_per_second": 1.656955519430563,
+    "eta_seconds": 4797.956195427704,
+    "model_batch_size": 5,
+    "hvq_threads": 2,
+    "rtdetr_model_executed": false,
+    "original_results_modified": false,
+    "score_variant": "max_avgpool16",
+    "current_operation_infers_missing_hvq": true
+  },
+  "background_pipeline/pipeline_state.json": {
+    "phase": "TEST_EVALUATED_PENDING_TRAIN",
+    "timestamp": "2026-11-24T14:59:08.330574+09:00",
+    "score_set_id": "max16:5daa5dae7e609c3f50b6c894",
+    "imported_products": 79,
+    "completed_products": 15998,
+    "completed_views": 79990,
+    "schema": "fusion_analysis",
+    "old_data_updated": false
+  },
+  "background_pipeline/supervisor_state.json": {
+    "phase": "RUNNING",
+    "timestamp": "2026-11-24T14:59:29.187469+09:00",
+    "pid": 164544,
+    "inference_pid": 134889,
+    "database_sync_pid": 164546,
+    "db_interval_seconds": 60,
+    "inference_completed_products": 16025,
+    "expected_products": 24000,
+    "restarts": {
+      "inference": 0,
+      "database_sync": 1
+    },
+    "original_services_restarted": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "model_version": "fusion-minmax-mean-rt40-w70-30:e917f9730ddb05d9c486b45d",
+  "products_audited": 24000,
+  "weights": {
+    "rtdetr": 0.7,
+    "hvq": 0.3
+  },
+  "maximum_weighted_score_error": 0.0,
+  "validation_categories_refit": 30,
+  "independent_count_check": "separate SQLite in-memory SQL; not production PG verification",
+  "sql_counts": {
+    "all": {
+      "products": 24000,
+      "tp": 12102,
+      "fn": 306,
+      "fp": 474,
+      "tn": 11118
+    },
+    "test": {
+      "products": 3593,
+      "tp": 1752,
+      "fn": 86,
+      "fp": 86,
+      "tn": 1669
+    }
+  },
+  "test_fitting_overlap": 0
+}
