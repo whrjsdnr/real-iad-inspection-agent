@@ -1,8 +1,13 @@
 # Real-IAD 5시점 제조 외관검사 AI 시스템 (agent)
 
 Real-IAD 공개 데이터셋을 활용해 **제품 1개를 C1~C5 5개 시점으로 촬영·검사**하는 제조 외관검사 시스템의
-백엔드·GUI·공유 SDK 저장소입니다. 데이터 분석·모델 학습·추론·퓨전 평가는 자매 저장소 **~/MV**에서 수행하고,
+백엔드·GUI·공유 SDK 저장소입니다. 데이터 분석·모델 학습·추론·퓨전 평가는 자매 저장소에서 수행하고,
 본 저장소는 데이터베이스·FastAPI·AI 에이전트·3D GUI·공간 히트맵·팀 공유를 담당합니다.
+
+| 저장소 | 역할 | GitHub |
+|---|---|---|
+| **real-iad-inspection-agent**(본 저장소) | DB·API·에이전트·3D GUI·공간 히트맵·팀 공유 SDK | `github.com/whrjsdnr/real-iad-inspection-agent`(Private 생성 예정) |
+| **MV** | 데이터 분석·전처리·모델 학습·5시점 추론·퓨전 평가 | [github.com/whrjsdnr/MV](https://github.com/whrjsdnr/MV) |
 
 ## 1. 프로젝트 소개
 
