@@ -1,4 +1,42 @@
-# 최신 상태 — 2026-11-25(2차): 배포·공유 준비 완료(승인 4건 대기)
+# 최신 상태 — 2026-11-25(최종): 배포·GitHub·Release 완료
+
+이 절이 아래 모든 기록보다 우선한다. 사용자 승인(A→B→C→D)을 받아 실제 배포를 완료했다.
+
+## A. Git 보안(완료)
+- `git filter-branch`로 config/team-share.env의 실제 값(토큰 43자·DB 읽기 비밀번호 13자)을 전체 18개 커밋에서 `REMOVED_ROTATED_20261125`로 교체. 커밋 메시지·작성자·개수(18) 보존. 초기 3커밋 제외 해시 변경.
+- refs/original·reflog 정리 + `gc --prune=now` → 전체 이력·객체 재검사 **히트 0, unreachable 0**. `scripts/scan_secrets.py --all-history` 통과. pre-commit 훅 유지.
+- 인증정보 교체: DB 읽기 역할(app_read) 비밀번호 ALTER ROLE + TEAM_ACCESS_TOKEN 재발급(43자). .env·config/team-share.env 갱신. 신구 검증(신규 OK·구 거부). 18080 게이트웨이 새 자격증명으로 재기동 확인.
+- 백업 ~/backups(700/600)에 구 이력·env 사본 보관. 노출 경로 없음 확인(로컬 전용이었음).
+
+## B. 운영 배포(완료)
+- :8000 구 프로세스(PID 35145) 정상 종료 → 신코드 기동(작업 PID 기록 /tmp/inspection-api-8000.pid, 로그 /tmp/inspection-api-8000.log). migrate() 가산·멱등, 스키마 변경 없음.
+- 검증: 16개 엔드포인트 전부 200(/health·/docs·/openapi.json·/tools·/fusion/runs·/sharing/manifest·/catalog/parts·/roi/templates·/products·/products/findings·/parts/heatmap·/heatmaps 4종·/sharing/kit).
+- 실데이터: 칫솔 마스크 64²(4096)·HVQ/RT 표면 32²(19종/5종 값)·지퍼 맵 지원 3제품·에이전트 도구 실호출(query_error_stats rows)·ZIP 다운로드(3.8MB·무결성 OK)·활성 run 계약 v2 유지 확인.
+
+## C. 팀 공유 서비스(서비스 완료, Windows 노출은 사용자 액션)
+- :18081 0.0.0.0 가동(PID 1788050, 로그 reports/gui_validation/team-host-18081.log). 인증 200/미인증 401 확인, DB role=read.
+- **Windows 관리자 PowerShell(사용자 실행 필요)**:
+  `netsh interface portproxy add v4tov4 listenaddress=192.168.20.164 listenport=18081 connectaddress=172.24.157.10 connectport=18081`
+  `New-NetFirewallRule -DisplayName "Inspection Share 18081 - Team" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 18081 -RemoteAddress 192.168.20.170,192.168.20.209,192.168.20.168 -Profile Any`
+- 기존 정책: 8000번 방화벽이 팀원 IP 3개로 제한(portproxy 164:8000→WSL 이미 존재). 5432 비공개 유지.
+
+## D. GitHub·Release(완료)
+- MV: github.com/whrjsdnr/MV push 완료(8d01cc9..75966b0). 미푸시 10커밋 secret scan 클린.
+- agent: **github.com/whrjsdnr/real-iad-inspection-agent(Private)** 생성·push. 최신 커밋 확인은 git log origin/main.
+- Release **v1.0.0**: https://github.com/whrjsdnr/real-iad-inspection-agent/releases/tag/v1.0.0 — team_integration_kit.zip + .sha256 에셋, Release Notes(성능·범위·제한·데이터 권한 명시).
+- README: 양 저장소 교차 링크 확정·push. GitHub 렌더링 확인(아키텍처·간트 mermaid 2블록, 이미지 6종 임베드·경로 무결).
+- TEAM_QUICKSTART.md 작성·push(팀원 10개 작업 절차·오류표·토큰 별도 전달 원칙).
+
+## 다음 에이전트가 할 일
+1. 사용자가 Windows 관리자 명령 실행 후, 팀원 PC(또는 동일 네트워크 PC)에서 :18081 외부 접속 검증(TEAM_QUICKSTART 1~4절).
+2. 공유 토큰을 3명 팀원에게 안전 경로로 전달(재발급된 최신 값 — config/team-share.env).
+3. GUI 추론 v2 E2E(신코드 운영 기준), 팀원 피드백 수렴.
+4. Private→Public 전환 검토 시 Real-IAD 라이선스·재배포 조건 별도 확인(Release Notes에 명시).
+
+---
+이하 이전 기록
+
+# 2026-11-25(2차): 배포·공유 준비 완료(승인 4건 대기)
 
 이 절이 아래 모든 기록보다 우선한다. 목표: 실제 팀 사용 가능 상태 + GitHub 안전 업로드 준비.
 
