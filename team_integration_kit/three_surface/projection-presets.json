@@ -1,0 +1,62 @@
+{
+  "version": "display-template-uv-v2-hvq500",
+  "scope": "visualization_only_approximate",
+  "user_authorized_approximate_projection": true,
+  "default_opacity": 0.88,
+  "front_facing_cos_min": 0.04,
+  "zero_signal_opacity": 0.12,
+  "hotspot_limit": 3,
+  "hotspot_candidate_limit": 48,
+  "default": {
+    "axes": [
+      "x",
+      "z"
+    ],
+    "normal_sign": 1,
+    "quarter_turns": 0
+  },
+  "items": {
+    "toothbrush": {
+      "axes": [
+        "x",
+        "y"
+      ],
+      "normal_sign": 1,
+      "views": {
+        "C1": 1,
+        "C2": 1,
+        "C3": 0,
+        "C4": 1,
+        "C5": 0
+      }
+    },
+    "zipper": {
+      "axes": [
+        "x",
+        "z"
+      ],
+      "normal_sign": 1,
+      "views": {
+        "C1": 1,
+        "C2": 1,
+        "C3": 0,
+        "C4": 1,
+        "C5": 0
+      }
+    }
+  },
+  "render": {
+    "contour_levels": [
+      0.35,
+      0.6,
+      0.85
+    ],
+    "contour_width": 0.014,
+    "fade_start": 0.02,
+    "fade_end": 0.65,
+    "low_signal_alpha": 0.04,
+    "high_signal_alpha": 0.95,
+    "shape_shading": 0.16,
+    "bristle_min_alpha": 0.9
+  }
+}

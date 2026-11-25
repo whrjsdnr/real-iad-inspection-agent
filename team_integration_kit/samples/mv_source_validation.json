@@ -1,0 +1,70 @@
+{
+  "version": "mv-presence-v2-adapter-v1",
+  "source_files_sha256": {
+    "heatmap_schema.json": "e9f9046167fc1d24c491f7952f8ec47541ee87db26e56b3c8aeb011f507be200",
+    "heatmap_validation.json": "7168715f630fe71777f908170c8fda9888c8090cbb3361c4abe5ad513fecaae5",
+    "heatmap_groups.json": "56f6b2816a60bbb036ef1a3e2124d8aea345c6260bd265ff4b2b46c2320f1026",
+    "heatmap_summary.csv": "7a4c8bec0dfe2012fa24203786ffbd9fa2b6be36c009f94f4358c66b35311d0d",
+    "mask_policy.json": "38a85195d1a0920b72874fda4008660285ca191300fc5cd8122dc07222f9ab70",
+    "run.json": "2e3b7a0cc3d2237d02709c71f86353007b5918477e6f81a3acd5a231ee2f92d1",
+    "presence_count.npy": "db6777f5f37692a9af5b0872c449f537a064530eaa41a4f5e2f3d58cf51f384e",
+    "occupancy_known.npy": "ad8974f02dc65a8ef595985456af9bdaeb73b7d4c83bb5ad75d2e7d582f85fd2",
+    "occupancy_positive.npy": "5881700c75adab2a469e05e5b833e40f5f86a01ea1a7709cd30f83761a42ea39",
+    "observation_count.npy": "a85bcea688c30277e9e0d938462de2f7ea5a3fe78a092d2db60fd0e2c346c8d0",
+    "area_fraction_sum.npy": "6d22baea57b7beeb4cd60a2dbf57fc3d7704f479662b97d479de0e48e006e43c"
+  },
+  "schema": {
+    "schema": "presence-v2",
+    "grid": 64,
+    "occupancy_known": "cell presence count / n_known provided masks; confirmed empty masks included",
+    "occupancy_positive": "cell presence count / n_positive nonempty masks",
+    "missing_groups": "NaN, not normal",
+    "presence_rule": "original coursework.coarse_occupancy: any foreground source pixel, no interpolated mask sampling",
+    "area_fraction_sum": "additional area-weighted diagnostic; not a presence frequency"
+  },
+  "source_validation": {
+    "train_ng_images": 54805,
+    "provided_masks": 36173,
+    "success": 36173,
+    "errors": 0,
+    "groups": 560,
+    "groups_no_known": 6,
+    "groups_no_positive": 6,
+    "split_policy": "source metadata split, preserved in run.json"
+  },
+  "source_run_created_at": "2026-11-11T06:00:13.494434+00:00",
+  "imported_at": "2026-11-25T00:37:26.086713+00:00",
+  "metadata_audit": {
+    "train_NG_rows": 54805,
+    "duplicate_product_view_rows": 0,
+    "original_dimensions": [
+      [
+        1024,
+        1024
+      ]
+    ],
+    "declared_product_identity_only": true
+  },
+  "representative_group_mask_audits": [
+    {
+      "group": [
+        "toothbrush",
+        "CH",
+        "C1"
+      ],
+      "masks_rechecked": 132,
+      "exact_presence_count_equal": true
+    },
+    {
+      "group": [
+        "zipper",
+        "BX",
+        "C1"
+      ],
+      "masks_rechecked": 98,
+      "exact_presence_count_equal": true
+    }
+  ],
+  "config_sha256": "cdb3cb2ed7156135c8422fbc00312b4541b0c0377c52d571ae2a310ab20a4d08",
+  "legacy_coarse_source_sha256": "f21af369e3c2aed5672771b4ab24635d7c57ed41219533be8b9e559f89f0c94f"
+}

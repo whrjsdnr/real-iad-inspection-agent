@@ -1,0 +1,141 @@
+{
+  "source": "saved_batch5_score_cache",
+  "product_id": "toothbrush/NG/CH/S0001",
+  "views": [
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C1",
+      "width": 1024,
+      "height": 1024,
+      "hvq_score": 56.18502426147461,
+      "hvq_score_semantics": "source views.hvq; matched toothbrush GUI sample agrees with heatmap_mean, cohort provenance not independently verified",
+      "rtdetr_score": 0.9145260453224182,
+      "bbox_coordinate_space": "original_pixels_xyxy",
+      "image_supported": true,
+      "anomaly_map_status": "supported_exact_image_sha",
+      "coordinate_transform": {
+        "original_size": [
+          1024,
+          1024
+        ],
+        "bbox_output": "original pixel xyxy restored by orig_sizes in batch_fusion/inference postprocess",
+        "model_preprocess_reference": "direct_resize_in_inference_code",
+        "per_record_transform_metadata": null,
+        "crop": null,
+        "letterbox": null,
+        "anomaly_map_transform": "full_frame_direct_resize_224",
+        "camera_extrinsics": null,
+        "product_alignment": "unverified",
+        "physical_uv_mapping": "unverified"
+      }
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C2",
+      "width": 1024,
+      "height": 1024,
+      "hvq_score": 44.59150695800781,
+      "hvq_score_semantics": "source views.hvq; matched toothbrush GUI sample agrees with heatmap_mean, cohort provenance not independently verified",
+      "rtdetr_score": 0.25504910945892334,
+      "bbox_coordinate_space": "original_pixels_xyxy",
+      "image_supported": true,
+      "anomaly_map_status": "supported_exact_image_sha",
+      "coordinate_transform": {
+        "original_size": [
+          1024,
+          1024
+        ],
+        "bbox_output": "original pixel xyxy restored by orig_sizes in batch_fusion/inference postprocess",
+        "model_preprocess_reference": "direct_resize_in_inference_code",
+        "per_record_transform_metadata": null,
+        "crop": null,
+        "letterbox": null,
+        "anomaly_map_transform": "full_frame_direct_resize_224",
+        "camera_extrinsics": null,
+        "product_alignment": "unverified",
+        "physical_uv_mapping": "unverified"
+      }
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C3",
+      "width": 1024,
+      "height": 1024,
+      "hvq_score": 46.8442268371582,
+      "hvq_score_semantics": "source views.hvq; matched toothbrush GUI sample agrees with heatmap_mean, cohort provenance not independently verified",
+      "rtdetr_score": 0.9043949842453003,
+      "bbox_coordinate_space": "original_pixels_xyxy",
+      "image_supported": true,
+      "anomaly_map_status": "supported_exact_image_sha",
+      "coordinate_transform": {
+        "original_size": [
+          1024,
+          1024
+        ],
+        "bbox_output": "original pixel xyxy restored by orig_sizes in batch_fusion/inference postprocess",
+        "model_preprocess_reference": "direct_resize_in_inference_code",
+        "per_record_transform_metadata": null,
+        "crop": null,
+        "letterbox": null,
+        "anomaly_map_transform": "full_frame_direct_resize_224",
+        "camera_extrinsics": null,
+        "product_alignment": "unverified",
+        "physical_uv_mapping": "unverified"
+      }
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C4",
+      "width": 1024,
+      "height": 1024,
+      "hvq_score": 47.3123893737793,
+      "hvq_score_semantics": "source views.hvq; matched toothbrush GUI sample agrees with heatmap_mean, cohort provenance not independently verified",
+      "rtdetr_score": 0.8758665919303894,
+      "bbox_coordinate_space": "original_pixels_xyxy",
+      "image_supported": true,
+      "anomaly_map_status": "supported_exact_image_sha",
+      "coordinate_transform": {
+        "original_size": [
+          1024,
+          1024
+        ],
+        "bbox_output": "original pixel xyxy restored by orig_sizes in batch_fusion/inference postprocess",
+        "model_preprocess_reference": "direct_resize_in_inference_code",
+        "per_record_transform_metadata": null,
+        "crop": null,
+        "letterbox": null,
+        "anomaly_map_transform": "full_frame_direct_resize_224",
+        "camera_extrinsics": null,
+        "product_alignment": "unverified",
+        "physical_uv_mapping": "unverified"
+      }
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C5",
+      "width": 1024,
+      "height": 1024,
+      "hvq_score": 45.897037506103516,
+      "hvq_score_semantics": "source views.hvq; matched toothbrush GUI sample agrees with heatmap_mean, cohort provenance not independently verified",
+      "rtdetr_score": 0.9143301844596863,
+      "bbox_coordinate_space": "original_pixels_xyxy",
+      "image_supported": true,
+      "anomaly_map_status": "supported_exact_image_sha",
+      "coordinate_transform": {
+        "original_size": [
+          1024,
+          1024
+        ],
+        "bbox_output": "original pixel xyxy restored by orig_sizes in batch_fusion/inference postprocess",
+        "model_preprocess_reference": "direct_resize_in_inference_code",
+        "per_record_transform_metadata": null,
+        "crop": null,
+        "letterbox": null,
+        "anomaly_map_transform": "full_frame_direct_resize_224",
+        "camera_extrinsics": null,
+        "product_alignment": "unverified",
+        "physical_uv_mapping": "unverified"
+      }
+    }
+  ]
+}

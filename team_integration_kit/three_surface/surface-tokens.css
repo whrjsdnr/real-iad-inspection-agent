@@ -1,0 +1,229 @@
+/**
+ * 디자인 토큰 — mission control (다크 관제실).
+ * 전 화면은 이 변수(또는 tailwind 팔레트가 이 변수를 참조)만 사용한다.
+ * RGB 트리플릿은 tailwind의 <alpha-value> 치환용이다.
+ */
+
+:root {
+  /* 색상 */
+  --bg: #0a0b0d;
+  --panel: #121316;
+  --panel-raised: #17191d;
+  --line: #262a31;
+  --signal: #ff9e40;
+  --ok: #5fa8c7;
+  --warn: #d9a24a;
+  --fail: #d85c46;
+  --text: #fbfbfb;
+  --muted: #b8bcc4;
+  --faint: #9299a4;
+
+  /* 파생 머티리얼 — 글래스(떠 있는 오버레이 전용), --bg 72% */
+  --glass-bg: rgba(10, 11, 13, 0.72);
+  --hairline: rgba(255, 255, 255, 0.06);
+
+  /* --signal 글로우 레이어 (0.1~0.36) */
+  --glow-signal-10: rgba(255, 158, 64, 0.1);
+  --glow-signal-18: rgba(255, 158, 64, 0.18);
+  --glow-signal-28: rgba(255, 158, 64, 0.28);
+  --glow-signal-36: rgba(255, 158, 64, 0.36);
+
+  /* 히트맵 앵커 — heat.ts가 이 값에서 사다리를 파생한다. */
+  --heat-ok: #16c9ff;
+  --heat-warn: #ffe066;
+  --heat-fail: #ff3848;
+
+  --scroll-thumb: rgba(146, 153, 164, 0.45);
+  --material-plastic: #c5ccd3;
+  --material-metal: #a3b4c2;
+  --material-rubber: #404951;
+  --material-board: #477a77;
+  --material-wood: #c2a77b;
+  --material-ceramic: #dfd5d0;
+  --material-contact: #bba67c;
+
+  /* 타이포 */
+  --font-ui:
+    'Inter', 'Pretendard', system-ui, -apple-system, 'Segoe UI', 'Malgun Gothic',
+    sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', 'Malgun Gothic',
+    monospace;
+
+  /* 그리드/형태 */
+  --radius: 6px;
+  --radius-lg: 8px;
+
+  /* 모션 */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 0.56s;
+  --stagger: 70ms;
+  --hover-dur: 0.15s;
+  --pulse-dur: 1.4s;
+  --cta-dur: 3.4s;
+  --grid-pan-dur: 38s;
+
+  /* RGB 트리플릿 (tailwind <alpha-value> 연동) */
+  --c-bg: 10 11 13;
+  --c-panel: 18 19 22;
+  --c-panel-raised: 23 25 29;
+  --c-line: 38 42 49;
+  --c-signal: 255 158 64;
+  --c-ok: 95 168 199;
+  --c-warn: 217 162 74;
+  --c-fail: 216 92 70;
+  --c-text: 251 251 251;
+  --c-muted: 184 188 196;
+  --c-faint: 146 153 164;
+  --c-white: 255 255 255;
+
+  /* --signal 위의 전경색 (CTA 텍스트) */
+  --on-signal: #14100a;
+}
+
+/* Team precision intro palette — source inspect_ai_v6_precision.html. */
+:root {
+  --precision-color-000: #000;
+  --precision-color-001: #0002;
+  --precision-color-002: #0004;
+  --precision-color-003: #0005;
+  --precision-color-004: #0006;
+  --precision-color-005: #0008;
+  --precision-color-006: #03080dbd;
+  --precision-color-007: #03080dc9;
+  --precision-color-008: #040a12de;
+  --precision-color-009: #050a1240;
+  --precision-color-010: #050a12e8;
+  --precision-color-011: #060b12;
+  --precision-color-012: #071019;
+  --precision-color-013: #080f17;
+  --precision-color-014: #08121c;
+  --precision-color-015: #08121de8;
+  --precision-color-016: #081522eb;
+  --precision-color-017: #09121a;
+  --precision-color-018: #091520;
+  --precision-color-019: #0a131c;
+  --precision-color-020: #0a1520;
+  --precision-color-021: #0b1622;
+  --precision-color-022: #0b1723;
+  --precision-color-023: #0b1c27db;
+  --precision-color-024: #0b1c28d9;
+  --precision-color-025: #0c1722;
+  --precision-color-026: #0c1823;
+  --precision-color-027: #0c202bdc;
+  --precision-color-028: #0e1b27;
+  --precision-color-029: #10202e;
+  --precision-color-030: #103646;
+  --precision-color-031: #122331;
+  --precision-color-032: #1232c7;
+  --precision-color-033: #123849;
+  --precision-color-034: #132431;
+  --precision-color-035: #142331;
+  --precision-color-036: #153745;
+  --precision-color-037: #16a3f4;
+  --precision-color-038: #173b4b;
+  --precision-color-039: #1a242d;
+  --precision-color-040: #1b3545;
+  --precision-color-041: #1ce9ab;
+  --precision-color-042: #201c16;
+  --precision-color-043: #20daf326;
+  --precision-color-044: #20daf366;
+  --precision-color-045: #223442;
+  --precision-color-046: #243d4b;
+  --precision-color-047: #253b4b;
+  --precision-color-048: #263c4c;
+  --precision-color-049: #263d4d;
+  --precision-color-050: #283d4e;
+  --precision-color-051: #2a4151;
+  --precision-color-052: #2b4555;
+  --precision-color-053: #2b4557;
+  --precision-color-054: #311a22df;
+  --precision-color-055: #345064;
+  --precision-color-056: #36576a;
+  --precision-color-057: #385365;
+  --precision-color-058: #386477;
+  --precision-color-059: #3b687b;
+  --precision-color-060: #3d7286;
+  --precision-color-061: #426071;
+  --precision-color-062: #45dbe7;
+  --precision-color-063: #48e5f8;
+  --precision-color-064: #49e6fa;
+  --precision-color-065: #4fe6ff;
+  --precision-color-066: #50e6f5;
+  --precision-color-067: #5292a9;
+  --precision-color-068: #554a35;
+  --precision-color-069: #55e4f4;
+  --precision-color-070: #5ae8f4;
+  --precision-color-071: #60f3ff;
+  --precision-color-072: #79dcf0;
+  --precision-color-073: #82e8f1;
+  --precision-color-074: #849aac;
+  --precision-color-075: #8598a4;
+  --precision-color-076: #8ca6b9;
+  --precision-color-077: #8eacbf;
+  --precision-color-078: #8fa5b6;
+  --precision-color-079: #91a7b9;
+  --precision-color-080: #93b2c4;
+  --precision-color-081: #982a43;
+  --precision-color-082: #9ab2c4;
+  --precision-color-083: #9bf6ff;
+  --precision-color-084: #9db5c5;
+  --precision-color-085: #9eb1c1;
+  --precision-color-086: #9eb7c7;
+  --precision-color-087: #a14c5d;
+  --precision-color-088: #a1b8c9;
+  --precision-color-089: #a4faff;
+  --precision-color-090: #a6bfce;
+  --precision-color-091: #a7f4ff;
+  --precision-color-092: #a9e6ff13;
+  --precision-color-093: #afd5e5;
+  --precision-color-094: #b7c9d5;
+  --precision-color-095: #b7faff;
+  --precision-color-096: #c58b58;
+  --precision-color-097: #d1beab;
+  --precision-color-098: #d5e8f3;
+  --precision-color-099: #dfaa68;
+  --precision-color-100: #e0f4f8;
+  --precision-color-101: #e7eff6;
+  --precision-color-102: #e8c38f;
+  --precision-color-103: #e8f5fa;
+  --precision-color-104: #ed4148;
+  --precision-color-105: #f2be7f;
+  --precision-color-106: #f6516d44;
+  --precision-color-107: #fce044;
+  --precision-color-108: #ff596766;
+  --precision-color-109: #ff6a7a;
+  --precision-color-110: #ff7489;
+  --precision-color-111: #ff9ca8;
+  --precision-color-112: #ff9eab;
+  --precision-color-113: #ffb3ab;
+  --precision-color-114: #ffc184;
+  --precision-color-115: #fff;
+}
+
+/* Scoped Precision dashboard theme — palette shared with the team intro. */
+.precision-shell {
+  --bg: var(--precision-color-011);
+  --c-bg: 6 11 18;
+  --panel: var(--precision-color-025);
+  --c-panel: 12 23 34;
+  --panel-raised: var(--precision-color-029);
+  --c-panel-raised: 16 32 46;
+  --line: var(--precision-color-048);
+  --c-line: 38 60 76;
+  --signal: var(--precision-color-064);
+  --c-signal: 73 230 250;
+  --text: var(--precision-color-101);
+  --c-text: 231 239 246;
+  --muted: var(--precision-color-085);
+  --c-muted: 158 177 193;
+  --faint: var(--precision-color-078);
+  --c-faint: 143 165 182;
+  --on-signal: var(--precision-color-011);
+  --radius: 10px;
+  --radius-lg: 14px;
+  --precision-shadow: 0 14px 42px rgba(0, 0, 0, 0.24);
+  --precision-rule: color-mix(in srgb, var(--signal) 20%, var(--line));
+}
+
+/* Detailed inspection viewport materials. */
+:root { --material-stage: #253744; --material-muted: #747f8b; }

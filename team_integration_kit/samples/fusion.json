@@ -1,0 +1,23 @@
+{
+  "product_id": "toothbrush/NG/CH/S0001",
+  "source": "saved_report_only_predictions",
+  "database_run_activated": false,
+  "contract_version": "weighted-minmax-heatmap-mean-rt40-v1",
+  "weights": {
+    "rtdetr": 0.7,
+    "hvq": 0.3
+  },
+  "result": {
+    "category": "toothbrush",
+    "split": "train",
+    "truth": "defect",
+    "rt_normalized": 0.9708792559174578,
+    "hvq_normalized": 0.8268355740365225,
+    "fusion_score": 0.9276661513531772,
+    "threshold": 0.6068809073547802,
+    "margin": 0.007287158043386976,
+    "binary_verdict": "defect",
+    "verdict": "defect"
+  },
+  "operational_verdict_status": "not_replaced_or_verified_against_current_DB_run"
+}

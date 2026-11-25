@@ -1,0 +1,60 @@
+{
+  "version": "part-heatmap-native-samples-v2",
+  "coordinate_space": "original_pixels",
+  "total": 1,
+  "offset": 0,
+  "limit": 100,
+  "templates": [
+    {
+      "item": "toothbrush",
+      "camera": "C1",
+      "image_size": [
+        1024,
+        1024
+      ],
+      "reference_image": "toothbrush/OK/S0001/toothbrush_0001_OK_C1_20230911162901.jpg",
+      "reference_sha256": null,
+      "coordinate_space": "original_pixels",
+      "review": "assistant_visual_checked_template",
+      "framing_checks": [
+        {
+          "image": "toothbrush/OK/S0002/toothbrush_0002_OK_C1_20230911162955.jpg",
+          "note": "same_fixture_framing"
+        },
+        {
+          "image": "toothbrush/NG/CH/S0001/toothbrush_0001_NG_CH_C1_20230912143447.jpg",
+          "note": "same_fixture_framing"
+        }
+      ],
+      "regions": [
+        {
+          "region_id": "bristle",
+          "label": "헤드 / 칫솔모",
+          "polygon": [
+            [
+              140,
+              55
+            ],
+            [
+              825,
+              55
+            ],
+            [
+              825,
+              700
+            ],
+            [
+              140,
+              700
+            ]
+          ]
+        }
+      ],
+      "coverage": {
+        "neck": "not_annotated"
+      },
+      "note": "헤드 상단 확대; C1은 정면에서 헤드가 가로로 배치(손잡이 우측). 2026-11-24 육안 확인."
+    }
+  ],
+  "physical_surface_uv_verified": false
+}

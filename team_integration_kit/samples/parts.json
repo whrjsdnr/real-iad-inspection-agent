@@ -1,0 +1,76 @@
+{
+  "mapping_version": "hierarchical-native-roi-v1",
+  "parts": [
+    {
+      "item": "toothbrush",
+      "region_id": "neck",
+      "part_id": "neck",
+      "display_name": "목",
+      "material": "plastic",
+      "detail_ids": [
+        "neck-collar",
+        "neck-ridge"
+      ],
+      "parent_region_id": null,
+      "supported_views": [],
+      "mapping_status": "mesh_region_roi_not_registered"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "bristle",
+      "part_id": "bristle",
+      "display_name": "헤드 / 칫솔모",
+      "material": "plastic",
+      "detail_ids": [
+        "head-inlay",
+        "bristle-filaments",
+        "head-back-seam"
+      ],
+      "parent_region_id": null,
+      "supported_views": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "mapping_status": "image_roi_template_physical_uv_unverified",
+      "mesh_part_id": "bristle"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "bristle_tip",
+      "parent_region_id": "bristle",
+      "display_name": "헤드 끝",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "mesh_part_id": "bristle"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "bristle_center",
+      "parent_region_id": "bristle",
+      "display_name": "칫솔모 중앙",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "mesh_part_id": "bristle"
+    },
+    {
+      "item": "toothbrush",
+      "region_id": "bristle_base",
+      "parent_region_id": "bristle",
+      "display_name": "헤드 연결부 쪽",
+      "supported_views": [
+        "C1"
+      ],
+      "mapping_status": "image_roi_only",
+      "mesh_part_id": "bristle"
+    }
+  ],
+  "physical_surface_uv_verified": false,
+  "note": "ROI envelope is not a calibrated visibility/occlusion mask."
+}

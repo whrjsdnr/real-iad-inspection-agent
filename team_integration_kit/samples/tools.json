@@ -1,0 +1,245 @@
+{
+  "tools": [
+    "compute_inspection_metrics",
+    "get_case_evidence",
+    "get_final_performance",
+    "get_training_status",
+    "query_error_stats",
+    "query_spatial_evidence"
+  ],
+  "schemas": [
+    {
+      "type": "function",
+      "function": {
+        "name": "compute_inspection_metrics",
+        "description": "4개 지표를 계산한다. confirmed_defect_rate=불량 확인 제품/부위 검수 제품, part_miss_rate=놓친 불량 제품/부위 불량 확인 제품, part_false_alarm_rate=잘못 경보한 정상 제품/부위 정상 제품, capture_process_failure_rate=누락·흐림·추론 오류/시도 건수. pending과 confirmed를 섞지 않으며 분모 0이면 rate=null, reason=denominator_zero다.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string"
+            },
+            "part_id": {
+              "type": "string"
+            },
+            "camera_id": {
+              "type": "string"
+            },
+            "date_from": {
+              "type": "string",
+              "description": "ISO8601"
+            },
+            "date_to": {
+              "type": "string",
+              "description": "ISO8601"
+            },
+            "model_version": {
+              "type": "string"
+            },
+            "review_state": {
+              "type": "string",
+              "enum": [
+                "pending",
+                "confirmed"
+              ],
+              "default": "confirmed"
+            }
+          },
+          "required": [
+            "item",
+            "date_from",
+            "date_to",
+            "model_version"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "query_error_stats",
+        "description": "지표를 group_by로 집계해 히트맵 등에 쓴다. 각 행에는 num/den/rate와 필터를 모두 포함한 stable한 stat_key가 붙는다.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string"
+            },
+            "metric": {
+              "type": "string",
+              "enum": [
+                "confirmed_defect_rate",
+                "part_miss_rate",
+                "part_false_alarm_rate",
+                "capture_process_failure_rate"
+              ]
+            },
+            "group_by": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "part_id",
+                  "camera_id",
+                  "model_version"
+                ]
+              }
+            },
+            "date_from": {
+              "type": "string"
+            },
+            "date_to": {
+              "type": "string"
+            },
+            "model_version": {
+              "type": "string"
+            },
+            "min_denominator": {
+              "type": "integer",
+              "default": 1
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "desc",
+                "asc"
+              ],
+              "default": "desc"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 10
+            }
+          },
+          "required": [
+            "item",
+            "metric",
+            "group_by"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_case_evidence",
+        "description": "stat_key(또는 product_id/part_id/camera_id)가 가리키는 사례 집합과 2D 근거(원본/오차맵/크롭/전체 C1~C5 뷰, 검수 정보)를 반환한다.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "stat_key": {
+              "type": "string"
+            },
+            "product_id": {
+              "type": "string"
+            },
+            "part_id": {
+              "type": "string"
+            },
+            "camera_id": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 20
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "query_spatial_evidence",
+        "description": "저장된 개별 제품/단일 카메라의 공간 모델 신호와 실제 픽셀 위치를 조회한다. 주요부위/세부부위별 상위 셀과 표본 부족을 반환한다. 확정 불량/FP/FN/공식 퓨전이 아니며 카메라를 합산하지 않는다. 실제 맵이 없으면 unsupported다. evidence_link는 등록된 GUI 공간 근거 링크다.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string"
+            },
+            "product_id": {
+              "type": "string"
+            },
+            "camera": {
+              "type": "string",
+              "enum": [
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+              ]
+            },
+            "region_id": {
+              "type": "string"
+            },
+            "model": {
+              "type": "string",
+              "enum": [
+                "rt",
+                "hvq"
+              ]
+            },
+            "method": {
+              "type": "string"
+            },
+            "resolution": {
+              "type": "integer",
+              "enum": [
+                16,
+                32,
+                64,
+                128
+              ]
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20
+            }
+          },
+          "required": [
+            "item"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_training_status",
+        "description": "학습 상태를 조회한다: 승인(확정) 표본 수, 검수 대기 후보 수, 퓨전 보류 후보 수, FP/FN 확정(분자/분모), 모델 기준별 처리 제품 수.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string",
+              "description": "품목 필터(미지정이면 전체)"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_final_performance",
+        "description": "저장된 퓨전 성능을 조회한다. metrics.evaluation_scope가 all_inferred_products_reference이면 전체 추론 제품의 참고 집계이며 Validation 포함/학습 중복 미확인을 설명한다. test_products와 test_f1_micro는 별도 Test 평가다. 부위 검수 통계와 혼동하지 않는다. 보고서가 없으면 산출 상태를 반환한다.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string",
+              "description": "품목 필터(리포트 전체 요약에는 영향 없음)"
+            }
+          },
+          "required": []
+        }
+      }
+    }
+  ],
+  "read_only": true
+}

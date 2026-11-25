@@ -1,0 +1,14 @@
+{
+  "status": "supported",
+  "product_id": "toothbrush/NG/CH/S0001",
+  "view": "C1",
+  "grid_width": 224,
+  "grid_height": 224,
+  "source": "saved_gui_map_exact_source_image_sha256",
+  "original_size": [
+    1024,
+    1024
+  ],
+  "coordinate_transform": "full_frame_direct_resize",
+  "physical_surface_uv_verified": false
+}

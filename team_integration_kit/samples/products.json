@@ -1,0 +1,29 @@
+{
+  "source": "saved_batch5_score_cache",
+  "total": 800,
+  "offset": 0,
+  "limit": 2,
+  "products": [
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "category": "toothbrush",
+      "split": "train",
+      "truth": "defect",
+      "status": "COMPLETED",
+      "hvq_max": 56.18502426147461,
+      "rtdetr_max": 0.9145260453224182,
+      "completed_at": "2026-11-24T05:01:53+0900"
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0002",
+      "category": "toothbrush",
+      "split": "train",
+      "truth": "defect",
+      "status": "COMPLETED",
+      "hvq_max": 52.04775619506836,
+      "rtdetr_max": 0.9061756134033203,
+      "completed_at": "2026-11-23T21:28:47+0900"
+    }
+  ],
+  "score_semantics": "Raw saved columns, not normalized fusion scores. Does not replace operational DB verdicts."
+}

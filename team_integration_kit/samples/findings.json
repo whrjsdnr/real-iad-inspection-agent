@@ -1,0 +1,43 @@
+{
+  "source": "saved_batch5_box_cache",
+  "product_id": "toothbrush/NG/CH/S0001",
+  "model": "rt",
+  "total": 2,
+  "offset": 0,
+  "limit": 100,
+  "findings": [
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C1",
+      "detection_index": 0,
+      "bbox": [
+        418.28057861328125,
+        71.85848999023438,
+        632.0901489257812,
+        328.0637512207031
+      ],
+      "confidence": 0.9145260453224182,
+      "class_id": 69,
+      "region_id": "bristle",
+      "mapping_status": "center_in_unique_image_roi",
+      "coordinate_space": "original_pixels_xyxy"
+    },
+    {
+      "product_id": "toothbrush/NG/CH/S0001",
+      "view": "C1",
+      "detection_index": 1,
+      "bbox": [
+        671.0838623046875,
+        538.9610595703125,
+        738.5416259765625,
+        621.155029296875
+      ],
+      "confidence": 0.49177342653274536,
+      "class_id": 69,
+      "region_id": "bristle",
+      "mapping_status": "center_in_unique_image_roi",
+      "coordinate_space": "original_pixels_xyxy"
+    }
+  ],
+  "note": "Stored detections, not confirmed defects. ROI-center assignment differs from spatial box-area overlap."
+}
