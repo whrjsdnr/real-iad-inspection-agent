@@ -9,7 +9,6 @@ import {
 import { CenterPanel } from '../components/CenterPanel'
 import { FilterPanel } from '../components/FilterPanel'
 import { LeftPanel } from '../components/LeftPanel'
-import { RightPanel } from '../components/RightPanel'
 import { TopBar } from '../components/TopBar'
 import { USE_FIXTURE } from '../config'
 import { useCountUp } from '../hooks/useCountUp'
@@ -231,13 +230,12 @@ export function DashboardPage() {
           </span>
         )}
       </div>
-      <main className="motion-rise grid flex-1 grid-cols-1 items-start gap-3 xl:grid-cols-[248px_minmax(0,1fr)_340px]" style={{ ['--i' as string]: 3 }}>
+      <main className="motion-rise grid flex-1 grid-cols-1 items-start gap-3 xl:grid-cols-[248px_minmax(0,1fr)]" style={{ ['--i' as string]: 3 }}>
         <div className="flex flex-col gap-3">
           <FilterPanel />
           <LeftPanel />
         </div>
         <CenterPanel />
-        <RightPanel />
       </main>
     </div>
   )
