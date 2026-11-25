@@ -925,7 +925,7 @@ TOOL_SCHEMAS.append({
     "type": "function",
     "function": {
         "name": "get_final_performance",
-        "description": "저장된 퓨전 성능을 조회한다. metrics.evaluation_scope가 all_inferred_products_reference이면 전체 추론 제품의 참고 집계이며 Validation 포함/학습 중복 미확인을 설명한다. test_products와 test_f1_micro는 별도 Test 평가다. 부위 검수 통계와 혼동하지 않는다. 보고서가 없으면 산출 상태를 반환한다.",
+        "description": "저장된 퓨전 성능을 조회한다. metrics.evaluation_scope가 all_inferred_products_reference이면 전체 추론 제품 집계이며, 모델 학습 미사용(훈련 담당자 확인)이나 Validation 포함 규칙 보정 데이터임을 설명한다. test_products와 test_f1_micro는 별도 Test 평가다. 부위 검수 통계와 혼동하지 않는다. 보고서가 없으면 산출 상태를 반환한다.",
         "parameters": {
             "type": "object",
             "properties": {

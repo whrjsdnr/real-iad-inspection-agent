@@ -177,7 +177,7 @@ function StatusWidget() {
                     {fp.metrics.auroc?.toFixed(4) ?? '—'}
                   </span>
                 </div>
-                <p className="text-[9px] leading-relaxed text-faint">{(fp.metrics.evaluation_products??fp.metrics.test_products)?.toLocaleString()} 제품 집계{fp.metrics.evaluation_scope==='all_inferred_products_reference'?' · Validation 포함 참고 성능 · 학습 중복 미확인':''}</p>
+                <p className="text-[9px] leading-relaxed text-faint">{(fp.metrics.evaluation_products??fp.metrics.test_products)?.toLocaleString()} 제품 집계{fp.metrics.evaluation_scope==='all_inferred_products_reference'?' · 학습 미사용 데이터 · Val 보정 포함':''}</p>
               </>
             ) : (
               <p className="font-mono text-[9px] leading-relaxed text-faint">

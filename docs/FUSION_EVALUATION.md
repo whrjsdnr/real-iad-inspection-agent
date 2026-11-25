@@ -28,5 +28,5 @@
 
 ## 주의
 - 평가 산출물(`reports/final_performance_minmax/performance.json`)의 `activation` 필드는 `report_only`로 기록돼 있다(평가 시점 기준). DB 활성화는 별도 배치로 이행됐다.
-- 전체 24,000 집계는 Validation 포함이며 실제 학습 목록과의 중복은 UNKNOWN — 참고 지표로만 사용.
+- 전체 24,000은 두 비전 모델의 학습에 사용되지 않은 데이터(훈련 담당자 확인). 단 Validation이 포함돼 있어, 퓨전 규칙(정규화·TH·margin) 보정에 사용된 데이터가 전체 지표에 섞여 있다 — Test 대비 다소 낙관적일 수 있다.
 - 상세: `FINAL_FUSION_CONTRACT_REPORT.md`, `FUSION_POLICY_COMPARISON.md`, `FUSION_RECOVERY_REPORT.md`.

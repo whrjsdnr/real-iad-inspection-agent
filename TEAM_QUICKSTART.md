@@ -73,5 +73,5 @@ curl -s -X POST http://192.168.20.164:8000/tools/query_error_stats \
 - HVQ 원시 Anomaly Map은 **100제품·500시점만** 저장. 나머지는 스칼라 점수만 → `unsupported` 응답은 정상.
 - 마스크 64² 150개는 **Train NG 기반** 집계(정상/Test 미포함).
 - 3D 표면 투영은 **시각화용 근사**이며 물리 좌표 실측이 아님.
-- 전체 24,000 성능은 참고 지표 — 대표 지표는 Test 3,593(F1 0.9532).
+- 전체 24,000은 두 모델 학습 미사용 데이터(훈련 담당자 확인)이나 퓨전 규칙 보정(Val 3,610)이 포함된 집계 — 대표 지표는 규칙 보정에도 쓰이지 않은 Test 3,593(F1 0.9532).
 상세: 킷의 `DATA_DICTIONARY.md`, `FUSION_CONTRACT.md`, `DATA_AVAILABILITY.md`.

@@ -1,4 +1,19 @@
-# 최신 상태 — 2026-11-25(최종): 배포·GitHub·Release 완료
+# 최신 상태 — 2026-11-25(정정): 데이터 분할 해석 정정 — 통합 추론 코호트는 두 모델 학습 미사용
+
+이 절이 아래 모든 기록보다 우선한다. 성능 수치는 일절 변경 없이 해석만 정정했다.
+
+## 정정 요지
+- 기존 문서의 "전체 24,000 학습 중복 가능성(UNKNOWN)" 표현은 **근거가 없었다**. 사실 관계는:
+  - 통합 추론 코호트 24,000제품·120,000장은 **RT-DETRv2·HVQ-Trans 모델 학습에 사용되지 않았다**(훈련 담당자 확인).
+  - 유일한 주의점: 퓨전 규칙(가중치·품목별 min-max·TH·margin)은 이 코호트의 **Validation 3,610으로만 보정**했으므로 전체 지표에는 규칙 보정 데이터가 포함된다.
+  - **Test 3,593은 모델 학습은 물론 규칙 보정에도 사용되지 않은 완전 홀드아웃 — 대표 지표**(F1 0.953210, Recall 95.3210%).
+- 근거 상태: 추론 코호트 manifest(`~/MV/outputs/agent_integration_20261123_v1/inference_cohort_120000/manifest.csv`, seed 20261123 신규 표본)는 로컬에 있으나, 두 모델의 학습 ID manifest는 원격 학습 서버에 있어 로컬 직접 대조는 불가. `selection.json`의 `UNKNOWN_ORIGINAL_30000_ID_LIST_MISSING`은 당시 원본 퓨전 실험 학습 목록 미복구를 뜻한다. 정정은 훈련 담당자(사용자) 확인에 근거.
+- 수정 범위: 양 저장소 README·docs·FINAL_FUSION_CONTRACT_REPORT·INFERENCE_DB_SHARING_GUIDE·TEAM_QUICKSTART·app/tools.py 설명·IntroPage 표시문구·team kit(FUSION_CONTRACT·DATA_AVAILABILITY, ZIP 재생성 649파일)·이력 보고서 5종 상단 정정 배너. 성능 수치·계약·판정·임계값 변경 없음.
+
+---
+이하 2026-11-25 배포 완료 기록
+
+# 2026-11-25(최종): 배포·GitHub·Release 완료
 
 이 절이 아래 모든 기록보다 우선한다. 사용자 승인(A→B→C→D)을 받아 실제 배포를 완료했다.
 

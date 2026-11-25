@@ -2,7 +2,7 @@
 
 | 데이터 | 범위 | 제공 방식 | 비고 |
 |---|---|---|---|
-| 제품/시점 코호트 | 24,000제품·120,000시점(C1–C5) | API /products·/sharing/manifest | split train 16,797/val 3,610/test 3,593. 학습 중복 UNKNOWN |
+| 제품/시점 코호트 | 24,000제품·120,000시점(C1–C5) | API /products·/sharing/manifest | split train 16,797/val 3,610/test 3,593. 두 비전 모델 학습 미사용(훈련 담당자 확인) |
 | RT-DETR 박스·신뢰도 | 전체 저장 시점 | API /products/findings | 원본 픽셀 XYXY |
 | HVQ 이상 점수 | 전체 저장 시점(스칼라) | API /products/views | heatmap_mean 출처 일치는 칫솔 표본에서 확인, 전 코호트는 미재검증 |
 | HVQ 원시 Anomaly Map | 500개 시점·100제품·30품목뿐 | API /products/anomaly-map | 224×224 NPY. 전체 제품에 맵이 있는 것은 아님. 없으면 unsupported |

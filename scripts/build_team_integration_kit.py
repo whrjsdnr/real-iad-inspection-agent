@@ -159,7 +159,7 @@ write('FUSION_CONTRACT.md','''# 퓨전 계약(확정 v2)
 | 전체 참고(Val 포함) | 24,000 | 12,102/12,408 = 97.5338% | 0.968780 | 474/306 | 0.992895 | 194 |
 | Test(학습·검증 제외) | 3,593 | 1,752/1,838 = 95.3210% | 0.953210 | 86/86 | 0.986346 | 37 |
 
-전체 집계는 Validation을 포함하고 원본 train 분할(16,797제품)의 실제 학습 목록과 중복 여부는 UNKNOWN이므로 참고 지표로만 쓴다. 대표 지표는 Test 값이다.
+전체 집계는 Validation을 포함한다. 전체 24,000제품은 두 비전 모델(RT-DETRv2·HVQ-Trans)의 학습에 사용되지 않았다(훈련 담당자 확인). 단, 정규화/TH/margin 보정은 이 데이터의 Validation 3,610에서만 이뤄졌으므로 전체 지표에는 규칙 보정 데이터가 포함된다. 완전 홀드아웃인 별도 Test가 대표 지표다.
 
 ## 이전 계약과의 비교(동일 평가 범위)
 
@@ -180,7 +180,7 @@ write('DATA_AVAILABILITY.md','''# 데이터 가용성 — 무엇이 어디에 �
 
 | 데이터 | 범위 | 제공 방식 | 비고 |
 |---|---|---|---|
-| 제품/시점 코호트 | 24,000제품·120,000시점(C1–C5) | API /products·/sharing/manifest | split train 16,797/val 3,610/test 3,593. 학습 중복 UNKNOWN |
+| 제품/시점 코호트 | 24,000제품·120,000시점(C1–C5) | API /products·/sharing/manifest | split train 16,797/val 3,610/test 3,593. 두 비전 모델 학습 미사용(훈련 담당자 확인) |
 | RT-DETR 박스·신뢰도 | 전체 저장 시점 | API /products/findings | 원본 픽셀 XYXY |
 | HVQ 이상 점수 | 전체 저장 시점(스칼라) | API /products/views | heatmap_mean 출처 일치는 칫솔 표본에서 확인, 전 코호트는 미재검증 |
 | HVQ 원시 Anomaly Map | 500개 시점·100제품·30품목뿐 | API /products/anomaly-map | 224×224 NPY. 전체 제품에 맵이 있는 것은 아님. 없으면 unsupported |
