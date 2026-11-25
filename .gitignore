@@ -1,0 +1,42 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Node / GUI build
+node_modules/
+inspection-gui/dist/
+
+# Databases and operational state
+*.db
+*.db-shm
+*.db-wal
+batch_failures.jsonl
+logs/
+
+# Model weights
+*.pt
+*.onnx
+
+# OS artifacts
+*Zone.Identifier
+.DS_Store
+
+# Large regenerable verification artifacts (keep small evidence images)
+reports/**/*.html
+reports/**/*.log
+reports/inspection_before_recovery.db
+
+# Temporary
+tmp/
+temp/
+*.tmp
