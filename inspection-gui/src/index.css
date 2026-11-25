@@ -1,0 +1,290 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  body {
+    @apply bg-bg text-tx antialiased;
+    font-family: var(--font-ui);
+    font-feature-settings: 'tnum';
+    font-variant-numeric: tabular-nums;
+    /* 미세 그리드 오버레이 — 기술적 정밀함 표현 */
+    background-image:
+      linear-gradient(var(--hairline) 1px, transparent 1px),
+      linear-gradient(90deg, var(--hairline) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  *,
+  *::before,
+  *::after {
+    scrollbar-width: thin;
+    scrollbar-color: var(--faint) transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--glow-signal-36);
+  }
+}
+
+@layer components {
+  /* 패널 — 카드 중첩 금지, 구분은 여백·헤어라인·웨이트로 */
+  .glass {
+    @apply rounded-lg border border-line bg-panel;
+  }
+  .glass-inset {
+    @apply rounded-md border border-line/70 bg-panel-raised/60;
+  }
+  .control {
+    @apply rounded-md border border-line bg-panel-raised px-2 py-1.5 font-mono text-xs text-tx
+      transition-colors duration-150
+      hover:border-faint/70
+      focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-line bg-panel-raised px-2.5 py-1.5
+      font-mono text-xs text-muted transition-all duration-150
+      hover:border-faint hover:text-tx
+      focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-active {
+    @apply border-signal/60 bg-signal/10 text-signal;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border px-2 py-0.5 font-mono text-[11px] font-medium;
+  }
+  .label {
+    @apply mb-1 block font-mono text-[10px] font-medium uppercase tracking-label text-faint;
+  }
+}
+
+.input {
+  @apply rounded-md border border-line bg-panel-raised px-3 py-1.5 font-mono text-xs text-tx
+    placeholder:text-faint transition-colors duration-150
+    hover:border-faint/70
+    focus-visible:outline-none;
+}
+
+/* ---------------- 모션 ---------------- */
+
+/* 진입 스태거 — 자식당 70ms, var(--stagger) 딜레이 계승 */
+.motion-rise {
+  opacity: 0;
+  animation: rise-in var(--dur) var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * var(--stagger));
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 라이브 상태 점 1.4s 펄스 */
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+  background: var(--ok);
+  animation: pulse-soft var(--pulse-dur) ease-in-out infinite;
+}
+.live-dot--signal {
+  background: var(--signal);
+}
+.live-dot--warn {
+  background: var(--warn);
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft var(--pulse-dur) ease-in-out infinite;
+}
+
+/* CTA breathing glow 3.4s */
+.cta-glow {
+  position: relative;
+  background: var(--signal);
+  color: var(--on-signal);
+  border: none;
+  animation: cta-breathe var(--cta-dur) ease-in-out infinite;
+}
+
+@keyframes cta-breathe {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 var(--glow-signal-10),
+      0 0 14px 0 var(--glow-signal-18);
+  }
+  50% {
+    box-shadow:
+      0 0 0 3px var(--glow-signal-10),
+      0 0 30px 2px var(--glow-signal-28);
+  }
+}
+
+/* 인트로 배경 그리드 38s 패닝 */
+.grid-pan {
+  animation: grid-pan var(--grid-pan-dur) linear infinite;
+}
+
+@keyframes grid-pan {
+  from {
+    background-position:
+      0 0,
+      0 0;
+  }
+  to {
+    background-position:
+      96px 48px,
+      96px 48px;
+  }
+}
+
+/* 흐름 연결선(인트로 플로우) */
+.flow-line {
+  stroke-dasharray: 5 9;
+  animation: flow-dash 1.1s linear infinite;
+}
+
+@keyframes flow-dash {
+  to {
+    stroke-dashoffset: -14;
+  }
+}
+
+/* 스켈레톤 로딩 */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--panel-raised);
+}
+
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  animation: skeleton-sweep 1.6s infinite;
+}
+
+@keyframes skeleton-sweep {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* 빈 상태 — 점선 컨테이너 */
+.empty-dashed {
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+}
+
+/* ---------------- 접근성: 모션 감소 시 전부 즉시 정적 ---------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    animation-duration: 0s !important;
+    transition: none !important;
+  }
+  .motion-rise {
+    opacity: 1;
+  }
+  .skeleton::after {
+    display: none;
+  }
+}
+
+/* Precision Studio: scoped visual treatment, shared token palette with the intro. */
+.precision-shell {
+  background-image: radial-gradient(ellipse at 48% 0, var(--panel-raised), var(--bg) 68%);
+}
+.precision-shell .glass {
+  border-radius: var(--radius-lg);
+  background: linear-gradient(140deg, color-mix(in srgb, var(--panel-raised) 65%, var(--panel)), var(--panel));
+  box-shadow: var(--precision-shadow);
+}
+.precision-shell .glass .glass {
+  box-shadow: none;
+  background: color-mix(in srgb, var(--panel-raised) 55%, var(--panel));
+  border-radius: var(--radius);
+}
+.precision-nav { border-bottom-color: var(--precision-rule); }
+.precision-hero {
+  background: radial-gradient(ellipse at 85% 20%, color-mix(in srgb, var(--signal) 10%, transparent), transparent 65%), var(--panel);
+  box-shadow: var(--precision-shadow);
+}
+.precision-shell .control, .precision-shell .input {
+  min-height: 36px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+.precision-shell .label { font-size: 11px; letter-spacing: .04em; }
+.precision-shell .btn { min-height: 34px; border-radius: 7px; }
+.precision-shell .btn-active {
+  border-color: color-mix(in srgb, var(--signal) 60%, var(--line));
+  background: color-mix(in srgb, var(--signal) 12%, var(--panel));
+}
+.precision-dashboard .grid > .glass { min-width: 0; }
+.precision-dashboard .precision-historical {
+  border-left: 2px solid var(--warn);
+  padding: 3px 12px;
+}
+.precision-model-viewport::after {
+  content: '';
+  position: absolute;
+  inset: 12px;
+  pointer-events: none;
+  border: 1px solid color-mix(in srgb, var(--signal) 12%, transparent);
+  border-radius: 9px;
+}
+.precision-shell .empty-dashed {
+  background: color-mix(in srgb, var(--panel-raised) 45%, var(--panel));
+  border-radius: var(--radius);
+}
+@media (max-width: 600px) {
+  .precision-nav { padding: 12px; gap: 10px; }
+  .precision-nav nav { margin-left: 0; width: 100%; }
+  .precision-nav nav .btn { flex: 1; justify-content: center; }
+  .precision-hero { padding: 18px 16px; }
+}

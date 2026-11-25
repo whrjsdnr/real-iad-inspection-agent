@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "part_miss_rate": {
+      "rows": [
+        { "group": { "part_id": "surface" }, "num": 4, "den": 30, "rate": 0.133333, "reason": null },
+        { "group": { "part_id": "edge" }, "num": 0, "den": 0, "rate": null, "reason": "denominator_zero" },
+        { "group": { "part_id": "joint" }, "num": 2, "den": 30, "rate": 0.066667, "reason": null }
+      ]
+    },
+    "confirmed_defect_rate": {
+      "rows": [
+        { "group": { "part_id": "surface" }, "num": 9, "den": 30, "rate": 0.3, "reason": null },
+        { "group": { "part_id": "edge" }, "num": 6, "den": 30, "rate": 0.2, "reason": null },
+        { "group": { "part_id": "joint" }, "num": 5, "den": 30, "rate": 0.166667, "reason": null }
+      ]
+    },
+    "part_false_alarm_rate": {
+      "rows": [
+        { "group": { "part_id": "surface" }, "num": 1, "den": 21, "rate": 0.047619, "reason": null },
+        { "group": { "part_id": "edge" }, "num": 2, "den": 24, "rate": 0.083333, "reason": null },
+        { "group": { "part_id": "joint" }, "num": 1, "den": 25, "rate": 0.04, "reason": null }
+      ]
+    },
+    "capture_process_failure_rate": {
+      "rows": [
+        { "group": { "model_version": "mock-anomaly-v1" }, "num": 3, "den": 30, "rate": 0.1, "reason": null }
+      ]
+    }
+  },
+  "metrics": {
+    "surface": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 9, "den": 30, "rate": 0.3, "reason": null },
+        "part_miss_rate": { "num": 4, "den": 30, "rate": 0.133333, "reason": null },
+        "part_false_alarm_rate": { "num": 1, "den": 21, "rate": 0.047619, "reason": null },
+        "capture_process_failure_rate": { "num": 3, "den": 30, "rate": 0.1, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 1, "den": 4, "rate": 0.25, "reason": null },
+        "part_miss_rate": { "num": 1, "den": 1, "rate": 1.0, "reason": null },
+        "part_false_alarm_rate": { "num": 0, "den": 3, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null }
+      }
+    },
+    "edge": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 6, "den": 30, "rate": 0.2, "reason": null },
+        "part_miss_rate": { "num": 0, "den": 0, "rate": null, "reason": "denominator_zero" },
+        "part_false_alarm_rate": { "num": 2, "den": 24, "rate": 0.083333, "reason": null },
+        "capture_process_failure_rate": { "num": 3, "den": 30, "rate": 0.1, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null },
+        "part_miss_rate": { "num": 0, "den": 0, "rate": null, "reason": "denominator_zero" },
+        "part_false_alarm_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null }
+      }
+    },
+    "joint": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 5, "den": 30, "rate": 0.166667, "reason": null },
+        "part_miss_rate": { "num": 2, "den": 30, "rate": 0.066667, "reason": null },
+        "part_false_alarm_rate": { "num": 1, "den": 25, "rate": 0.04, "reason": null },
+        "capture_process_failure_rate": { "num": 3, "den": 30, "rate": 0.1, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 1, "den": 4, "rate": 0.25, "reason": null },
+        "part_miss_rate": { "num": 0, "den": 1, "rate": 0.0, "reason": null },
+        "part_false_alarm_rate": { "num": 0, "den": 3, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null }
+      }
+    },
+    "*": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 15, "den": 30, "rate": 0.5, "reason": null },
+        "part_miss_rate": { "num": 5, "den": 15, "rate": 0.333333, "reason": null },
+        "part_false_alarm_rate": { "num": 3, "den": 15, "rate": 0.2, "reason": null },
+        "capture_process_failure_rate": { "num": 3, "den": 30, "rate": 0.1, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 1, "den": 4, "rate": 0.25, "reason": null },
+        "part_miss_rate": { "num": 1, "den": 1, "rate": 1.0, "reason": null },
+        "part_false_alarm_rate": { "num": 0, "den": 3, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null }
+      }
+    }
+  },
+  "evidence": {
+    "part_miss_rate": {
+      "surface": [
+        { "product_id": "TY-1001", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-1002", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-1003", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-1004", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-1005", "camera_id": "C1", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TY-1005-surface"] },
+        { "product_id": "TY-1006", "camera_id": "C1", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TY-1006-surface"] }
+      ],
+      "joint": [
+        { "product_id": "TY-3001", "camera_id": "C3", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-3002", "camera_id": "C3", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TY-3003", "camera_id": "C3", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TY-3003-joint"] },
+        { "product_id": "TY-3004", "camera_id": "C3", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TY-3004-joint"] }
+      ],
+      "edge": []
+    },
+    "part_false_alarm_rate": {
+      "surface": [
+        { "product_id": "TY-1101", "camera_id": "C1", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TY-1101-surface"] }
+      ],
+      "edge": [
+        { "product_id": "TY-2101", "camera_id": "C2", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TY-2101-edge"] },
+        { "product_id": "TY-2102", "camera_id": "C2", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TY-2102-edge"] }
+      ],
+      "joint": [
+        { "product_id": "TY-3101", "camera_id": "C3", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TY-3101-joint"] }
+      ]
+    },
+    "capture_process_failure_rate": {
+      "*": [
+        { "product_id": "AC-6001", "camera_id": null, "truth_label": null, "prediction": null, "box_ids": [], "attempt_status": "capture_blurred", "blurred_views": ["C4"] },
+        { "product_id": "AC-6002", "camera_id": null, "truth_label": null, "prediction": null, "box_ids": [], "attempt_status": "capture_missing", "missing_views": ["C1"] },
+        { "product_id": "AC-6003", "camera_id": null, "truth_label": null, "prediction": null, "box_ids": [], "attempt_status": "inference_error", "blurred_views": [] }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "part_miss_rate": {
+      "rows": [
+        { "group": { "part_id": "bristle" }, "num": 6, "den": 40, "rate": 0.15, "reason": null },
+        { "group": { "part_id": "neck" }, "num": 3, "den": 40, "rate": 0.075, "reason": null },
+        { "group": { "part_id": "handle" }, "num": 1, "den": 40, "rate": 0.025, "reason": null }
+      ]
+    },
+    "confirmed_defect_rate": {
+      "rows": [
+        { "group": { "part_id": "bristle" }, "num": 14, "den": 40, "rate": 0.35, "reason": null },
+        { "group": { "part_id": "neck" }, "num": 10, "den": 40, "rate": 0.25, "reason": null },
+        { "group": { "part_id": "handle" }, "num": 8, "den": 40, "rate": 0.2, "reason": null }
+      ]
+    },
+    "part_false_alarm_rate": {
+      "rows": [
+        { "group": { "part_id": "bristle" }, "num": 2, "den": 26, "rate": 0.076923, "reason": null },
+        { "group": { "part_id": "neck" }, "num": 3, "den": 30, "rate": 0.1, "reason": null },
+        { "group": { "part_id": "handle" }, "num": 1, "den": 32, "rate": 0.03125, "reason": null }
+      ]
+    },
+    "capture_process_failure_rate": {
+      "rows": [
+        { "group": { "model_version": "mock-anomaly-v1" }, "num": 2, "den": 40, "rate": 0.05, "reason": null }
+      ]
+    }
+  },
+  "metrics": {
+    "bristle": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 14, "den": 40, "rate": 0.35, "reason": null },
+        "part_miss_rate": { "num": 6, "den": 40, "rate": 0.15, "reason": null },
+        "part_false_alarm_rate": { "num": 2, "den": 26, "rate": 0.076923, "reason": null },
+        "capture_process_failure_rate": { "num": 2, "den": 40, "rate": 0.05, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 2, "den": 6, "rate": 0.333333, "reason": null },
+        "part_miss_rate": { "num": 1, "den": 2, "rate": 0.5, "reason": null },
+        "part_false_alarm_rate": { "num": 0, "den": 4, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null }
+      }
+    },
+    "neck": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 10, "den": 40, "rate": 0.25, "reason": null },
+        "part_miss_rate": { "num": 3, "den": 40, "rate": 0.075, "reason": null },
+        "part_false_alarm_rate": { "num": 3, "den": 30, "rate": 0.1, "reason": null },
+        "capture_process_failure_rate": { "num": 2, "den": 40, "rate": 0.05, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 1, "den": 6, "rate": 0.166667, "reason": null },
+        "part_miss_rate": { "num": 0, "den": 1, "rate": 0.0, "reason": null },
+        "part_false_alarm_rate": { "num": 1, "den": 5, "rate": 0.2, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null }
+      }
+    },
+    "handle": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 8, "den": 40, "rate": 0.2, "reason": null },
+        "part_miss_rate": { "num": 1, "den": 40, "rate": 0.025, "reason": null },
+        "part_false_alarm_rate": { "num": 1, "den": 32, "rate": 0.03125, "reason": null },
+        "capture_process_failure_rate": { "num": 2, "den": 40, "rate": 0.05, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null },
+        "part_miss_rate": { "num": 0, "den": 0, "rate": null, "reason": "denominator_zero" },
+        "part_false_alarm_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null }
+      }
+    },
+    "*": {
+      "confirmed": {
+        "confirmed_defect_rate": { "num": 24, "den": 40, "rate": 0.6, "reason": null },
+        "part_miss_rate": { "num": 9, "den": 24, "rate": 0.375, "reason": null },
+        "part_false_alarm_rate": { "num": 5, "den": 16, "rate": 0.3125, "reason": null },
+        "capture_process_failure_rate": { "num": 2, "den": 40, "rate": 0.05, "reason": null }
+      },
+      "pending": {
+        "confirmed_defect_rate": { "num": 3, "den": 6, "rate": 0.5, "reason": null },
+        "part_miss_rate": { "num": 1, "den": 3, "rate": 0.333333, "reason": null },
+        "part_false_alarm_rate": { "num": 1, "den": 3, "rate": 0.333333, "reason": null },
+        "capture_process_failure_rate": { "num": 0, "den": 6, "rate": 0.0, "reason": null }
+      }
+    }
+  },
+  "evidence": {
+    "part_miss_rate": {
+      "bristle": [
+        { "product_id": "TB-1001", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1002", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1003", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1004", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1005", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1006", "camera_id": "C1", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-1007", "camera_id": "C1", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-1007-bristle"] },
+        { "product_id": "TB-1008", "camera_id": "C1", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-1008-bristle"] }
+      ],
+      "neck": [
+        { "product_id": "TB-2001", "camera_id": "C2", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-2002", "camera_id": "C2", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-2003", "camera_id": "C2", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-2004", "camera_id": "C2", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-2004-neck"] }
+      ],
+      "handle": [
+        { "product_id": "TB-3001", "camera_id": "C3", "truth_label": "defect", "prediction": "normal", "box_ids": [] },
+        { "product_id": "TB-3002", "camera_id": "C3", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-3002-handle"] },
+        { "product_id": "TB-3003", "camera_id": "C3", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-3003-handle"] },
+        { "product_id": "TB-3004", "camera_id": "C3", "truth_label": "defect", "prediction": "defect", "box_ids": ["F-TB-3004-handle"] }
+      ]
+    },
+    "part_false_alarm_rate": {
+      "bristle": [
+        { "product_id": "TB-1101", "camera_id": "C1", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-1101-bristle"] },
+        { "product_id": "TB-1102", "camera_id": "C1", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-1102-bristle"] }
+      ],
+      "neck": [
+        { "product_id": "TB-2101", "camera_id": "C2", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-2101-neck"] },
+        { "product_id": "TB-2102", "camera_id": "C2", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-2102-neck"] },
+        { "product_id": "TB-2103", "camera_id": "C2", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-2103-neck"] }
+      ],
+      "handle": [
+        { "product_id": "TB-3101", "camera_id": "C3", "truth_label": "normal", "prediction": "defect", "box_ids": ["F-TB-3101-handle"] }
+      ]
+    },
+    "capture_process_failure_rate": {
+      "*": [
+        { "product_id": "AC-5001", "camera_id": null, "truth_label": null, "prediction": null, "box_ids": [], "attempt_status": "capture_missing", "missing_views": ["C3"] },
+        { "product_id": "AC-5002", "camera_id": null, "truth_label": null, "prediction": null, "box_ids": [], "attempt_status": "inference_error", "blurred_views": ["C2"] }
+      ]
+    }
+  }
+}
