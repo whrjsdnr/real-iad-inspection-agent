@@ -1,0 +1,116 @@
+{
+  "phase1": {
+    "hvq_binary_f1_all": 0.7063297203425355,
+    "hvq_fp_total": 9195,
+    "note": "F1 0.7063은 FP 9,195 기준 binary F1. 6,976은 RT 미동반 정상 오탐 subset."
+  },
+  "phase2": {
+    "all": {
+      "A_both": 11720,
+      "B_rt_only": 607,
+      "C_hvq_only": 75,
+      "D_neither": 6,
+      "N_both_fp": 2219,
+      "N_rt_fp_only": 330,
+      "N_hvq_fp_only": 6976,
+      "N_none": 2067,
+      "defect_total": 12408,
+      "normal_total": 11592,
+      "rt_fn": 81,
+      "hvq_fn": 613,
+      "rt_fp": 2549,
+      "hvq_fp": 9195
+    },
+    "test": {
+      "A_both": 1728,
+      "B_rt_only": 80,
+      "C_hvq_only": 28,
+      "D_neither": 2,
+      "N_both_fp": 393,
+      "N_rt_fp_only": 49,
+      "N_hvq_fp_only": 1034,
+      "N_none": 279,
+      "defect_total": 1838,
+      "normal_total": 1755,
+      "rt_fn": 30,
+      "hvq_fn": 82,
+      "rt_fp": 442,
+      "hvq_fp": 1427
+    }
+  },
+  "phase4_best_val_combo": "hvq_combo_mean0.50",
+  "tradeoff": [
+    {
+      "candidate": "rt_only",
+      "test_fpr": 0.04161849710982659,
+      "test_recall": 0.9472527472527472,
+      "test_f1": 0.9535398230088495
+    },
+    {
+      "candidate": "hvq_mean_only",
+      "test_fpr": 0.3788748564867968,
+      "test_recall": 0.9202185792349726,
+      "test_f1": 0.8068998562529948
+    },
+    {
+      "candidate": "hvq_max16_only",
+      "test_fpr": 0.3701149425287356,
+      "test_recall": 0.9038251366120219,
+      "test_f1": 0.8013565891472868
+    },
+    {
+      "candidate": "hvq_mean_max16_5050",
+      "test_fpr": 0.30605187319884725,
+      "test_recall": 0.9106849315068493,
+      "test_f1": 0.8272772523643603
+    },
+    {
+      "candidate": "fusion_current",
+      "test_fpr": 0.04726224783861672,
+      "test_recall": 0.9555189456342669,
+      "test_f1": 0.9552566566017019
+    },
+    {
+      "candidate": "fusion_rt_max16_7030",
+      "test_fpr": 0.05054566341183228,
+      "test_recall": 0.9571899012074643,
+      "test_f1": 0.9545703338806787
+    },
+    {
+      "candidate": "fusion_rt_mean_max16_701515",
+      "test_fpr": 0.04770114942528736,
+      "test_recall": 0.9533991228070176,
+      "test_f1": 0.9539221064179924
+    },
+    {
+      "candidate": "hvq_combo_mean0.00",
+      "test_fpr": 0.3701149425287356,
+      "test_recall": 0.9038251366120219,
+      "test_f1": 0.8013565891472868
+    },
+    {
+      "candidate": "hvq_combo_mean0.25",
+      "test_fpr": 0.30675909878682844,
+      "test_recall": 0.9003285870755751,
+      "test_f1": 0.8217945513621595
+    },
+    {
+      "candidate": "hvq_combo_mean0.50",
+      "test_fpr": 0.30605187319884725,
+      "test_recall": 0.9106849315068493,
+      "test_f1": 0.8272772523643603
+    },
+    {
+      "candidate": "hvq_combo_mean0.75",
+      "test_fpr": 0.3095921883974727,
+      "test_recall": 0.9069003285870756,
+      "test_f1": 0.8236757025615519
+    },
+    {
+      "candidate": "hvq_combo_mean1.00",
+      "test_fpr": 0.3788748564867968,
+      "test_recall": 0.9202185792349726,
+      "test_f1": 0.8068998562529948
+    }
+  ]
+}

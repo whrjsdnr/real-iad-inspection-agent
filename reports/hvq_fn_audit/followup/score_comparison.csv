@@ -1,0 +1,8 @@
+variant,definition,fit_split,n_pos,n_neg,auroc,ap,best_f1,best_threshold,recall_at_best,fn_at_best,fp_at_best
+mean_max,제품=max(5시점 heatmap_mean). 현행 퓨전 입력,validation,1887,1723,0.671331,0.678769,0.710136,36.02463150024414,0.952305,90,1377
+mean_max,제품=max(5시점 heatmap_mean). 현행 퓨전 입력,test,1838,1755,0.668878,0.655309,0.701272,36.4173698425293,0.944505,102,1377
+max16_max,제품=max(5시점 hvq_max16). 저장 max16 척도,validation,1887,1723,0.811487,0.835377,0.757603,79.081298828125,0.897721,193,891
+max16_max,제품=max(5시점 hvq_max16). 저장 max16 척도,test,1838,1755,0.816433,0.829157,0.752844,82.598388671875,0.846028,283,738
+combo_50_50_catnorm,품목별 Val minmax 정규화 후 0.5*mean+0.5*max16,validation,1887,1723,0.875876,0.88034,0.817652,0.2527324418118737,0.854266,275,444
+combo_50_50_catnorm,품목별 Val minmax 정규화 후 0.5*mean+0.5*max16,test,1838,1755,0.884079,0.881434,0.820632,0.25741044819217684,0.861262,255,437
+percentile_series,"percentile 계열 점수는 저장 캐시에 없음(views: hvq_mean, hvq_max16, rtdetr_raw만 저장)",-,,,,,,,,,

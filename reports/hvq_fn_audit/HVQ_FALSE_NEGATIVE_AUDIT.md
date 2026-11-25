@@ -59,7 +59,7 @@
 
 불량 12,408제품 기준(교정 참고 양성 사용):
 - A(둘 다 검출) 11,720(94.5%) / B(RT만) 607(4.9%) / **C(HVQ만) 75(0.6%)** / D(둘 다 미탐) 6(0.05%).
-- 정상 11,592: HVQ 단독 오탐 6,976건 — HVQ는 단독 게이트로 부적합(퓨전에서 RT가 오탐을 억제).
+- 정상 11,592: HVQ 총 FP 9,195건(N_both_fp 2,219 + N_hvq_fp_only 6,976 — 6,976은 RT 미동반 subset. 초기 본문이 이를 총 FP처럼 표기한 오류는 followup/METRIC_CONSISTENCY_REPORT.md에서 정정) — HVQ는 단독 게이트로 부적합(퓨전에서 RT가 오탐을 억제).
 - 결론: HVQ 단독 Recall은 높으나 정밀도가 낮고, RT가 놓친 결함을 HVQ가 크게 보완하지는 못한다(75건). 퓨전 개선(구 0.9428→신 0.9532)은 주로 HVQ 연속 점수의 순위 보정 기여.
 
 ## 9. Phase 9 — 실제 미탐 사례(fn_mapped_analysis.json, figures/fn_cases_grid.png)

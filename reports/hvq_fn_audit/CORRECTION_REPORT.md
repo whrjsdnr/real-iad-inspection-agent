@@ -37,3 +37,8 @@
 - 운영 퓨전 계약(max16 계열 변경 검토 등): 별도 사용자 승인 전까지 유지.
 - 결함 면적 구간별 미탐률: Real-IAD Train NG 미주석 마스크(unknown 18,632)로 분모 불완전 — 미산출(가짜 데이터 생성 금지 원칙).
 - 모델 재학습/추가 추론: 승인 없음 — 미실행.
+
+## 정정 이력(2026-11-25 후속 검증)
+- HVQ_FALSE_NEGATIVE_AUDIT.md Phase 8의 "정상 HVQ 단독 오탐 6,976건"은 RT 미동반 subset이며 총 FP는 9,195다.
+  F1 0.7063은 FP 9,195 기준 binary F1로 수학적으로 정확(독립 재계산 일치). 문서 표기만 본 보고서와
+  followup/METRIC_CONSISTENCY_REPORT.md에서 정정. 성능 수치·코드 추가 변경 없음.

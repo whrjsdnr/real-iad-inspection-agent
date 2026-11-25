@@ -1,0 +1,18 @@
+group,definition,products
+A_both,불량 · RT 검출 ∧ HVQ 검출,11720
+B_rt_only,불량 · RT만 검출 (HVQ 미탐),607
+C_hvq_only,불량 · HVQ만 검출 (RT 미탐),75
+D_neither,불량 · 둘 다 미탐,6
+defect_total,합계(실제 불량),12408
+
+N_both_fp,정상 · RT 오탐 ∧ HVQ 오탐,2219
+N_rt_fp_only,정상 · RT만 오탐,330
+N_hvq_fp_only,정상 · HVQ만 오탐,6976
+N_none,정상 · 둘 다 정상,2067
+normal_total,합계(실제 정상),11592
+
+derived,formula,value,crosscheck
+rt_fn,C+D,81,single_model_rtdetr.fn과 일치해야 함
+hvq_fn,B+D,613,single_model_hvq.fn과 일치해야 함
+rt_fp,N_both_fp+N_rt_fp_only,2549,single_model_rtdetr.fp와 일치해야 함
+hvq_fp_total,N_both_fp+N_hvq_fp_only,9195,"단, N_hvq_fp_only는 RT 미동반 subset"
