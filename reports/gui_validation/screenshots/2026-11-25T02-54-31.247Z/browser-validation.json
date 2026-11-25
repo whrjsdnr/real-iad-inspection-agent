@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-25T02:54:31.260Z",
+  "base": "http://127.0.0.1:15173",
+  "screenshots": [
+    "intro-reduced.png",
+    "precision-five-camera-scene.png",
+    "precision-model-evidence.png",
+    "five-camera-scene.png",
+    "dashboard.png"
+  ],
+  "errors": [
+    "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('group', { name: '3D 표시 모드' }).getByRole('button', { name: '재질', exact: true })\u001b[22m\n"
+  ],
+  "measurements": [
+    {
+      "name": "intro_dom_ready_ms",
+      "value": 1970.6115689999988
+    },
+    {
+      "name": "intro-desktop",
+      "viewport": 1600,
+      "content": 1600,
+      "overflow": false,
+      "heap_bytes": 33100000
+    }
+  ],
+  "skipped": [],
+  "state": "BLOCKED",
+  "finished_at": "2026-11-25T02:55:23.834Z"
+}

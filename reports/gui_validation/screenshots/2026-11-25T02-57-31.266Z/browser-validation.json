@@ -1,0 +1,105 @@
+{
+  "started_at": "2026-11-25T02:57:31.279Z",
+  "base": "http://127.0.0.1:15173",
+  "screenshots": [
+    "intro-reduced.png",
+    "precision-five-camera-scene.png",
+    "precision-model-evidence.png",
+    "five-camera-scene.png",
+    "dashboard.png",
+    "template-toothbrush.png",
+    "template-usb.png",
+    "template-bottle_cap.png",
+    "template-pcb.png",
+    "template-button_battery.png",
+    "template-zipper.png",
+    "template-wooden_beads.png",
+    "individual-product.png",
+    "chat-context-controls.png",
+    "inference-idle.png",
+    "intro-mobile.png",
+    "dashboard-mobile.png",
+    "api-connection-failure.png"
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "name": "intro_dom_ready_ms",
+      "value": 610.1304210000001
+    },
+    {
+      "name": "intro-desktop",
+      "viewport": 1600,
+      "content": 1600,
+      "overflow": false,
+      "heap_bytes": 35100000
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "toothbrush",
+      "value": 936.9243589999987
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "usb",
+      "value": 3084.570744999999
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "bottle_cap",
+      "value": 2878.193743
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "pcb",
+      "value": 2866.9605520000005
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "button_battery",
+      "value": 2867.881744999999
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "zipper",
+      "value": 2253.9119170000013
+    },
+    {
+      "name": "category_ui_settle_ms",
+      "category": "wooden_beads",
+      "value": 1999.2222389999988
+    },
+    {
+      "name": "dashboard-desktop",
+      "viewport": 1600,
+      "content": 1600,
+      "overflow": false,
+      "heap_bytes": 35100000
+    },
+    {
+      "name": "category_switch_heap_bytes",
+      "before": 35100000,
+      "after": 35100000,
+      "note": "No forced GC; not a leak proof or WebGL frame-time measurement"
+    },
+    {
+      "name": "intro-mobile",
+      "viewport": 390,
+      "content": 390,
+      "overflow": false,
+      "heap_bytes": 35100000
+    },
+    {
+      "name": "dashboard-mobile",
+      "viewport": 390,
+      "content": 390,
+      "overflow": false,
+      "heap_bytes": 35100000
+    }
+  ],
+  "skipped": [
+    "Actual inference-progress screen: no model job was submitted; use an existing isolated lightweight test job"
+  ],
+  "state": "CAPTURED_REQUIRES_HUMAN_REVIEW",
+  "finished_at": "2026-11-25T02:58:32.280Z"
+}
