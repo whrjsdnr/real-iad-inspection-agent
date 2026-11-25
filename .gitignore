@@ -40,3 +40,6 @@ reports/inspection_before_recovery.db
 tmp/
 temp/
 *.tmp
+
+# Team share credentials (real token/DB URL)
+config/team-share.env
